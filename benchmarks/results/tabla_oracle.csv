@@ -1,0 +1,169 @@
+case,variant,method,ARI_default,ARI_oracle
+anidado,base,CD + fase Szegő (mejora 2),1.0,
+anidado,base,CD global (inicial),0.0036134025802541797,0.00404361967563676
+anidado,base,CD local-espectral (mejora 1),1.0,1.0
+anidado,base,DBSCAN,0.5626823764394617,1.0
+anidado,base,K-Means,0.0019221275506967398,
+anidado,base,OPTICS,0.24225693450072355,0.33327727644982835
+anidado,base,Spectral (kNN),1.0,1.0
+anidado,densidad_variable,CD + fase Szegő (mejora 2),0.8624460919290007,
+anidado,densidad_variable,CD global (inicial),0.058033300388234475,0.07515973850900022
+anidado,densidad_variable,CD local-espectral (mejora 1),0.8624460919290007,0.9227426481720364
+anidado,densidad_variable,DBSCAN,0.6813756349260327,0.9679377250016927
+anidado,densidad_variable,K-Means,0.058123601476400076,
+anidado,densidad_variable,OPTICS,0.14470857542341958,0.3715872928320587
+anidado,densidad_variable,Spectral (kNN),0.8935541740439324,0.9100681384691811
+anidado,oclusion,CD + fase Szegő (mejora 2),1.0,
+anidado,oclusion,CD global (inicial),0.007580104852798759,0.00804552352477294
+anidado,oclusion,CD local-espectral (mejora 1),1.0,1.0
+anidado,oclusion,DBSCAN,0.7588875254910613,1.0
+anidado,oclusion,K-Means,0.0067118456632654,
+anidado,oclusion,OPTICS,0.1984643915963964,0.3120421586033772
+anidado,oclusion,Spectral (kNN),1.0,1.0
+anidado,ruido,CD + fase Szegő (mejora 2),1.0,
+anidado,ruido,CD global (inicial),0.00560085870738676,0.00603574962934358
+anidado,ruido,CD local-espectral (mejora 1),1.0,1.0
+anidado,ruido,DBSCAN,0.5578471493828923,1.0
+anidado,ruido,K-Means,0.00430093715923926,
+anidado,ruido,OPTICS,0.28036554183754636,0.43990002504227765
+anidado,ruido,Spectral (kNN),1.0,1.0
+compacto,base,CD + fase Szegő (mejora 2),0.9503866047156272,
+compacto,base,CD global (inicial),0.9580555775934059,0.9631422683447719
+compacto,base,CD local-espectral (mejora 1),0.9503866047156272,0.9604761981925783
+compacto,base,DBSCAN,0.7935800647392249,0.8552393869738728
+compacto,base,K-Means,0.93238278138273,
+compacto,base,OPTICS,0.6130058993291344,0.8269955505115656
+compacto,base,Spectral (kNN),0.9478032220801309,0.9567344068440221
+compacto,densidad_variable,CD + fase Szegő (mejora 2),0.9621561845624772,
+compacto,densidad_variable,CD global (inicial),0.959668136255315,0.9664354110870951
+compacto,densidad_variable,CD local-espectral (mejora 1),0.9621561845624772,0.9759752959922071
+compacto,densidad_variable,DBSCAN,0.797586515327376,0.8960434187289954
+compacto,densidad_variable,K-Means,0.9409219463671379,
+compacto,densidad_variable,OPTICS,0.253749817616545,0.8766721577588242
+compacto,densidad_variable,Spectral (kNN),0.9626313000367585,0.9689123365277392
+compacto,oclusion,CD + fase Szegő (mejora 2),0.876086566377993,
+compacto,oclusion,CD global (inicial),0.9326356776908555,0.9559625022203158
+compacto,oclusion,CD local-espectral (mejora 1),0.876086566377993,0.9542845565411872
+compacto,oclusion,DBSCAN,0.8257317799478876,0.861550080938142
+compacto,oclusion,K-Means,0.8992044843850688,
+compacto,oclusion,OPTICS,0.5898153399692289,0.8678576487738006
+compacto,oclusion,Spectral (kNN),0.9071763478076441,0.955139968657867
+compacto,ruido,CD + fase Szegő (mejora 2),0.9423885508902717,
+compacto,ruido,CD global (inicial),0.9513313544543825,0.9630827356050485
+compacto,ruido,CD local-espectral (mejora 1),0.9423885508902717,0.9565531309780869
+compacto,ruido,DBSCAN,0.5691639010899501,0.7672756172859592
+compacto,ruido,K-Means,0.9221104745969736,
+compacto,ruido,OPTICS,0.5327518056963793,0.765341719889745
+compacto,ruido,Spectral (kNN),0.9361245185069265,0.9488468743224147
+entrelazado,base,CD + fase Szegő (mejora 2),1.0,
+entrelazado,base,CD global (inicial),0.0569419786465456,0.0587248762989319
+entrelazado,base,CD local-espectral (mejora 1),0.1731503973737028,0.636567191049543
+entrelazado,base,DBSCAN,0.16148622866907708,0.9444407386514342
+entrelazado,base,K-Means,0.05676585428715251,
+entrelazado,base,OPTICS,0.21506054908757383,0.2383512038156587
+entrelazado,base,Spectral (kNN),0.21227116493789713,0.25597165843006536
+entrelazado,densidad_variable,CD + fase Szegő (mejora 2),0.13707669907169018,
+entrelazado,densidad_variable,CD global (inicial),0.052504108564868666,0.05559813392752696
+entrelazado,densidad_variable,CD local-espectral (mejora 1),0.13707669907169018,0.1966308458822395
+entrelazado,densidad_variable,DBSCAN,0.22087956822881685,0.45851496717747564
+entrelazado,densidad_variable,K-Means,0.05297218850755152,
+entrelazado,densidad_variable,OPTICS,0.19961689834156027,0.19999946977891436
+entrelazado,densidad_variable,Spectral (kNN),0.07864301161802224,0.2339272370224311
+entrelazado,oclusion,CD + fase Szegő (mejora 2),0.15621696698138804,
+entrelazado,oclusion,CD global (inicial),0.044291395192605144,0.05073650188582838
+entrelazado,oclusion,CD local-espectral (mejora 1),0.15621696698138804,0.34002621369128444
+entrelazado,oclusion,DBSCAN,0.20917169664271337,0.6576323070964667
+entrelazado,oclusion,K-Means,0.0486115629259203,
+entrelazado,oclusion,OPTICS,0.16060303443678592,0.20905766565121403
+entrelazado,oclusion,Spectral (kNN),0.1885307092051813,0.192755667076228
+entrelazado,ruido,CD + fase Szegő (mejora 2),0.4235719873374532,
+entrelazado,ruido,CD global (inicial),0.04896544082277146,0.05185814443465414
+entrelazado,ruido,CD local-espectral (mejora 1),0.04848601046615282,0.08274285447380658
+entrelazado,ruido,DBSCAN,0.12544641697574443,0.14193843102830658
+entrelazado,ruido,K-Means,0.04930824239102306,
+entrelazado,ruido,OPTICS,0.10898195897642216,0.17318196329356866
+entrelazado,ruido,Spectral (kNN),0.0357621199752596,0.0992147081170244
+espiral_3brazos,base,CD + fase Szegő (mejora 2),1.0,
+espiral_3brazos,base,CD global (inicial),0.03214589866537444,0.03563414894132302
+espiral_3brazos,base,CD local-espectral (mejora 1),0.4042733993326488,0.7109347502728454
+espiral_3brazos,base,DBSCAN,0.24186196486917771,0.8165252846319644
+espiral_3brazos,base,K-Means,0.032095935752514744,
+espiral_3brazos,base,OPTICS,0.40083300126888866,0.4206869682914206
+espiral_3brazos,base,Spectral (kNN),0.20421804337163088,0.40176835734362826
+espiral_3brazos,densidad_variable,CD + fase Szegő (mejora 2),0.14406163717858217,
+espiral_3brazos,densidad_variable,CD global (inicial),0.03278927747199644,0.0468096879171006
+espiral_3brazos,densidad_variable,CD local-espectral (mejora 1),0.14406163717858217,0.2519682003990895
+espiral_3brazos,densidad_variable,DBSCAN,0.3048767897715169,0.621774230446442
+espiral_3brazos,densidad_variable,K-Means,0.033797757231813344,
+espiral_3brazos,densidad_variable,OPTICS,0.19624877347811004,0.22476404260445562
+espiral_3brazos,densidad_variable,Spectral (kNN),0.14581832319860197,0.2846863518887378
+espiral_3brazos,oclusion,CD + fase Szegő (mejora 2),0.25834029766917205,
+espiral_3brazos,oclusion,CD global (inicial),0.02258038904665868,0.02752229439445178
+espiral_3brazos,oclusion,CD local-espectral (mejora 1),0.25834029766917205,0.4934615055306451
+espiral_3brazos,oclusion,DBSCAN,0.2732238492063553,0.6593064047060442
+espiral_3brazos,oclusion,K-Means,0.02131830097780248,
+espiral_3brazos,oclusion,OPTICS,0.30998088739251134,0.3636650286972637
+espiral_3brazos,oclusion,Spectral (kNN),0.18507095221494524,0.25516259109776007
+espiral_3brazos,ruido,CD + fase Szegő (mejora 2),0.07431789404309998,
+espiral_3brazos,ruido,CD global (inicial),0.03313454071149186,0.03702706331560018
+espiral_3brazos,ruido,CD local-espectral (mejora 1),0.07431789404309998,0.10996487719605905
+espiral_3brazos,ruido,DBSCAN,0.14022527298582926,0.12855599613668653
+espiral_3brazos,ruido,K-Means,0.033285670001963016,
+espiral_3brazos,ruido,OPTICS,0.05407674787160197,0.08289896922872367
+espiral_3brazos,ruido,Spectral (kNN),0.061007929935366745,0.07484298462242046
+espiral_log,base,CD + fase Szegő (mejora 2),0.9199195750186473,
+espiral_log,base,CD global (inicial),0.05553661022116994,0.06737809980052853
+espiral_log,base,CD local-espectral (mejora 1),0.5494440943145501,0.5494440943145501
+espiral_log,base,DBSCAN,0.1142934103951295,0.3821416154993126
+espiral_log,base,K-Means,0.04712360281199126,
+espiral_log,base,OPTICS,0.1470914309375642,0.17420792222555365
+espiral_log,base,Spectral (kNN),0.5235731921326869,0.5497119752487861
+espiral_log,densidad_variable,CD + fase Szegő (mejora 2),0.2839472300827381,
+espiral_log,densidad_variable,CD global (inicial),0.08399203608648013,0.08411670117021945
+espiral_log,densidad_variable,CD local-espectral (mejora 1),0.2839472300827381,0.32873512225709306
+espiral_log,densidad_variable,DBSCAN,0.2304928048991736,0.3097175209112494
+espiral_log,densidad_variable,K-Means,0.03089184428924512,
+espiral_log,densidad_variable,OPTICS,0.09590445882695012,0.13167086555415156
+espiral_log,densidad_variable,Spectral (kNN),0.2075748674384851,0.24354896811528426
+espiral_log,oclusion,CD + fase Szegő (mejora 2),0.2427350787017919,
+espiral_log,oclusion,CD global (inicial),0.0436958350649342,0.05165254084261288
+espiral_log,oclusion,CD local-espectral (mejora 1),0.2427350787017919,0.32522964141601146
+espiral_log,oclusion,DBSCAN,0.13737198942585865,0.3565509109890246
+espiral_log,oclusion,K-Means,0.03856615422677392,
+espiral_log,oclusion,OPTICS,0.12956298674638891,0.2600680016925784
+espiral_log,oclusion,Spectral (kNN),0.27729368455172754,0.278717973769176
+espiral_log,ruido,CD + fase Szegő (mejora 2),0.622093909743857,
+espiral_log,ruido,CD global (inicial),0.047491058210945,0.0812241309231428
+espiral_log,ruido,CD local-espectral (mejora 1),0.3420215236346678,0.44211769536511003
+espiral_log,ruido,DBSCAN,0.1804193916321306,0.21906832318091812
+espiral_log,ruido,K-Means,0.04944941418758838,
+espiral_log,ruido,OPTICS,0.1643156673269916,0.17794642178457468
+espiral_log,ruido,Spectral (kNN),0.2779955823846569,0.302409945469995
+no_convexo,base,CD + fase Szegő (mejora 2),1.0,
+no_convexo,base,CD global (inicial),0.33093000757440816,0.5197321113317763
+no_convexo,base,CD local-espectral (mejora 1),1.0,1.0
+no_convexo,base,DBSCAN,0.4386575543039277,1.0
+no_convexo,base,K-Means,0.26508391370474893,
+no_convexo,base,OPTICS,0.2586478815181134,0.3022434298318667
+no_convexo,base,Spectral (kNN),1.0,1.0
+no_convexo,densidad_variable,CD + fase Szegő (mejora 2),1.0,
+no_convexo,densidad_variable,CD global (inicial),0.2758565145625933,0.3996427136486022
+no_convexo,densidad_variable,CD local-espectral (mejora 1),1.0,1.0
+no_convexo,densidad_variable,DBSCAN,0.6842427546276177,1.0
+no_convexo,densidad_variable,K-Means,0.2969054693578546,
+no_convexo,densidad_variable,OPTICS,0.1283982987945182,0.29038426195034356
+no_convexo,densidad_variable,Spectral (kNN),0.9863654470603744,1.0
+no_convexo,oclusion,CD + fase Szegő (mejora 2),0.6624846334000678,
+no_convexo,oclusion,CD global (inicial),0.1611719841059923,0.25664449894663666
+no_convexo,oclusion,CD local-espectral (mejora 1),0.6624846334000678,0.920415607383663
+no_convexo,oclusion,DBSCAN,0.5070631774990424,0.9337094014494853
+no_convexo,oclusion,K-Means,0.14791351668715086,
+no_convexo,oclusion,OPTICS,0.17025565718689356,0.27732258036232366
+no_convexo,oclusion,Spectral (kNN),0.5641111325855684,0.7572085411789878
+no_convexo,ruido,CD + fase Szegő (mejora 2),0.9414325181550256,
+no_convexo,ruido,CD global (inicial),0.27246605394599366,0.5019612307598178
+no_convexo,ruido,CD local-espectral (mejora 1),0.9973333039025647,1.0
+no_convexo,ruido,DBSCAN,0.7141944526976751,1.0
+no_convexo,ruido,K-Means,0.26601413284546477,
+no_convexo,ruido,OPTICS,0.2814152837201042,0.4407743876456626
+no_convexo,ruido,Spectral (kNN),0.981600770922876,0.9973333039025647

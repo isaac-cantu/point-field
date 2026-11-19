@@ -1,0 +1,601 @@
+case,variant,seed,method,ARI_oracle,best_params
+compacto,base,100,DBSCAN,0.8614200359673314,"{'eps': np.float64(0.18), 'min_samples': 5}"
+compacto,base,100,OPTICS,0.8028955617063738,{'min_samples': 20}
+compacto,base,100,Spectral (kNN),0.9219799089706623,{'n_neighbors': 20}
+compacto,base,100,CD global (inicial),0.9346738464198171,{'degree': 1}
+compacto,base,100,CD local-espectral (mejora 1),0.9344447572404473,{'n_neighbors': 20}
+compacto,base,101,DBSCAN,0.8378941358846174,"{'eps': np.float64(0.15), 'min_samples': 5}"
+compacto,base,101,OPTICS,0.9205100831004126,{'min_samples': 15}
+compacto,base,101,Spectral (kNN),0.9540950475308232,{'n_neighbors': 5}
+compacto,base,101,CD global (inicial),0.9670817432969949,{'degree': 2}
+compacto,base,101,CD local-espectral (mejora 1),0.9733057106662825,{'n_neighbors': 5}
+compacto,base,102,DBSCAN,0.8088734900706084,"{'eps': np.float64(0.15), 'min_samples': 5}"
+compacto,base,102,OPTICS,0.853124234887163,{'min_samples': 20}
+compacto,base,102,Spectral (kNN),0.954044206374491,{'n_neighbors': 20}
+compacto,base,102,CD global (inicial),0.9604704341412434,{'degree': 2}
+compacto,base,102,CD local-espectral (mejora 1),0.947663979991024,{'n_neighbors': 10}
+compacto,base,103,DBSCAN,0.8250434781157978,"{'eps': np.float64(0.15), 'min_samples': 5}"
+compacto,base,103,OPTICS,0.610822548288882,{'min_samples': 20}
+compacto,base,103,Spectral (kNN),0.9799785315780324,{'n_neighbors': 30}
+compacto,base,103,CD global (inicial),0.9799785315780324,{'degree': 1}
+compacto,base,103,CD local-espectral (mejora 1),0.9734597567773665,{'n_neighbors': 10}
+compacto,base,104,DBSCAN,0.9429657948310086,"{'eps': np.float64(0.18), 'min_samples': 5}"
+compacto,base,104,OPTICS,0.9476253245749959,{'min_samples': 15}
+compacto,base,104,Spectral (kNN),0.9735743397661012,{'n_neighbors': 30}
+compacto,base,104,CD global (inicial),0.9735067862877712,{'degree': 2}
+compacto,base,104,CD local-espectral (mejora 1),0.9735067862877712,{'n_neighbors': 7}
+compacto,ruido,100,DBSCAN,0.8934165554335696,"{'eps': np.float64(0.21), 'min_samples': 5}"
+compacto,ruido,100,OPTICS,0.8710561852277653,{'min_samples': 20}
+compacto,ruido,100,Spectral (kNN),0.928247204977033,{'n_neighbors': 15}
+compacto,ruido,100,CD global (inicial),0.9475042069290104,{'degree': 1}
+compacto,ruido,100,CD local-espectral (mejora 1),0.9345607805694329,{'n_neighbors': 30}
+compacto,ruido,101,DBSCAN,0.6997078847361587,"{'eps': np.float64(0.12), 'min_samples': 5}"
+compacto,ruido,101,OPTICS,0.778101729114026,{'min_samples': 20}
+compacto,ruido,101,Spectral (kNN),0.9605192241382181,{'n_neighbors': 5}
+compacto,ruido,101,CD global (inicial),0.9605192241382181,{'degree': 1}
+compacto,ruido,101,CD local-espectral (mejora 1),0.9733728694535054,{'n_neighbors': 5}
+compacto,ruido,102,DBSCAN,0.767470496621121,"{'eps': np.float64(0.15), 'min_samples': 5}"
+compacto,ruido,102,OPTICS,0.7106930826338892,{'min_samples': 15}
+compacto,ruido,102,Spectral (kNN),0.954044206374491,{'n_neighbors': 10}
+compacto,ruido,102,CD global (inicial),0.9604704341412434,{'degree': 1}
+compacto,ruido,102,CD local-espectral (mejora 1),0.9475042069290104,{'n_neighbors': 7}
+compacto,ruido,103,DBSCAN,0.6403678137118805,"{'eps': np.float64(0.12), 'min_samples': 5}"
+compacto,ruido,103,OPTICS,0.588735513154468,{'min_samples': 15}
+compacto,ruido,103,Spectral (kNN),0.9602722337699832,{'n_neighbors': 30}
+compacto,ruido,103,CD global (inicial),0.98006721499138,{'degree': 1}
+compacto,ruido,103,CD local-espectral (mejora 1),0.9733728694535054,{'n_neighbors': 20}
+compacto,ruido,104,DBSCAN,0.8354153359270657,"{'eps': np.float64(0.15), 'min_samples': 5}"
+compacto,ruido,104,OPTICS,0.8781220893185763,{'min_samples': 15}
+compacto,ruido,104,Spectral (kNN),0.9411515023523485,{'n_neighbors': 30}
+compacto,ruido,104,CD global (inicial),0.9668525978253905,{'degree': 1}
+compacto,ruido,104,CD local-espectral (mejora 1),0.9539549284849805,{'n_neighbors': 30}
+compacto,oclusion,100,DBSCAN,0.8745695943722707,"{'eps': np.float64(0.18), 'min_samples': 5}"
+compacto,oclusion,100,OPTICS,0.9247331107212731,{'min_samples': 20}
+compacto,oclusion,100,Spectral (kNN),0.9483934135153265,{'n_neighbors': 20}
+compacto,oclusion,100,CD global (inicial),0.955996161525354,{'degree': 1}
+compacto,oclusion,100,CD local-espectral (mejora 1),0.9483934135153265,{'n_neighbors': 7}
+compacto,oclusion,101,DBSCAN,0.8478694479620256,"{'eps': np.float64(0.18), 'min_samples': 5}"
+compacto,oclusion,101,OPTICS,0.914798381147794,{'min_samples': 15}
+compacto,oclusion,101,Spectral (kNN),0.9354447353298001,{'n_neighbors': 20}
+compacto,oclusion,101,CD global (inicial),0.9432184688969505,{'degree': 1}
+compacto,oclusion,101,CD local-espectral (mejora 1),0.9354447353298001,{'n_neighbors': 20}
+compacto,oclusion,102,DBSCAN,0.759023055121644,"{'eps': np.float64(0.18), 'min_samples': 5}"
+compacto,oclusion,102,OPTICS,0.8013384973041758,{'min_samples': 20}
+compacto,oclusion,102,Spectral (kNN),0.9429033262510074,{'n_neighbors': 10}
+compacto,oclusion,102,CD global (inicial),0.9386133375865514,{'degree': 1}
+compacto,oclusion,102,CD local-espectral (mejora 1),0.9429033262510074,{'n_neighbors': 15}
+compacto,oclusion,103,DBSCAN,0.8683838452291236,"{'eps': np.float64(0.18), 'min_samples': 5}"
+compacto,oclusion,103,OPTICS,0.7375634160890513,{'min_samples': 15}
+compacto,oclusion,103,Spectral (kNN),0.9626690648570791,{'n_neighbors': 7}
+compacto,oclusion,103,CD global (inicial),0.9624572750375658,{'degree': 2}
+compacto,oclusion,103,CD local-espectral (mejora 1),0.971846665565644,{'n_neighbors': 7}
+compacto,oclusion,104,DBSCAN,0.9579044620056463,"{'eps': np.float64(0.21), 'min_samples': 5}"
+compacto,oclusion,104,OPTICS,0.9608548386067083,{'min_samples': 15}
+compacto,oclusion,104,Spectral (kNN),0.9862893033361215,{'n_neighbors': 7}
+compacto,oclusion,104,CD global (inicial),0.979527268055157,{'degree': 1}
+compacto,oclusion,104,CD local-espectral (mejora 1),0.9728346420441585,{'n_neighbors': 15}
+compacto,densidad_variable,100,DBSCAN,0.9455031789596949,"{'eps': np.float64(0.32999999999999996), 'min_samples': 5}"
+compacto,densidad_variable,100,OPTICS,0.9417027609199988,{'min_samples': 20}
+compacto,densidad_variable,100,Spectral (kNN),0.9556755291493559,{'n_neighbors': 7}
+compacto,densidad_variable,100,CD global (inicial),0.9556755291493559,{'degree': 1}
+compacto,densidad_variable,100,CD local-espectral (mejora 1),0.9656790761730886,{'n_neighbors': 15}
+compacto,densidad_variable,101,DBSCAN,0.8676442732739832,"{'eps': np.float64(0.18), 'min_samples': 5}"
+compacto,densidad_variable,101,OPTICS,0.9409676330876521,{'min_samples': 20}
+compacto,densidad_variable,101,Spectral (kNN),0.9538650305736891,{'n_neighbors': 15}
+compacto,densidad_variable,101,CD global (inicial),0.9652375657687976,{'degree': 1}
+compacto,densidad_variable,101,CD local-espectral (mejora 1),0.9907079958580233,{'n_neighbors': 5}
+compacto,densidad_variable,102,DBSCAN,0.8437298591842469,"{'eps': np.float64(0.21), 'min_samples': 5}"
+compacto,densidad_variable,102,OPTICS,0.8920052418399071,{'min_samples': 10}
+compacto,densidad_variable,102,Spectral (kNN),0.9569621302994804,{'n_neighbors': 15}
+compacto,densidad_variable,102,CD global (inicial),0.9569621302994804,{'degree': 1}
+compacto,densidad_variable,102,CD local-espectral (mejora 1),0.9569621302994804,{'n_neighbors': 30}
+compacto,densidad_variable,103,DBSCAN,0.8439485982443217,"{'eps': np.float64(0.18), 'min_samples': 5}"
+compacto,densidad_variable,103,OPTICS,0.9422621147296721,{'min_samples': 20}
+compacto,densidad_variable,103,Spectral (kNN),0.9883900061225983,{'n_neighbors': 5}
+compacto,densidad_variable,103,CD global (inicial),0.9768582911368721,{'degree': 2}
+compacto,densidad_variable,103,CD local-espectral (mejora 1),0.9768582911368721,{'n_neighbors': 7}
+compacto,densidad_variable,104,DBSCAN,0.9793911839827305,"{'eps': np.float64(0.30000000000000004), 'min_samples': 5}"
+compacto,densidad_variable,104,OPTICS,0.6664230382168909,{'min_samples': 10}
+compacto,densidad_variable,104,Spectral (kNN),0.9896689864935719,{'n_neighbors': 5}
+compacto,densidad_variable,104,CD global (inicial),0.9774435390809697,{'degree': 2}
+compacto,densidad_variable,104,CD local-espectral (mejora 1),0.9896689864935719,{'n_neighbors': 5}
+no_convexo,base,100,DBSCAN,1.0,"{'eps': np.float64(0.15), 'min_samples': 5}"
+no_convexo,base,100,OPTICS,0.28292969106651306,{'min_samples': 15}
+no_convexo,base,100,Spectral (kNN),1.0,{'n_neighbors': 7}
+no_convexo,base,100,CD global (inicial),0.5966965626927662,{'degree': 1}
+no_convexo,base,100,CD local-espectral (mejora 1),1.0,{'n_neighbors': 5}
+no_convexo,base,101,DBSCAN,1.0,"{'eps': np.float64(0.15), 'min_samples': 5}"
+no_convexo,base,101,OPTICS,0.3805578970435409,{'min_samples': 7}
+no_convexo,base,101,Spectral (kNN),1.0,{'n_neighbors': 7}
+no_convexo,base,101,CD global (inicial),0.5264641615594458,{'degree': 1}
+no_convexo,base,101,CD local-espectral (mejora 1),1.0,{'n_neighbors': 7}
+no_convexo,base,102,DBSCAN,1.0,"{'eps': np.float64(0.18), 'min_samples': 5}"
+no_convexo,base,102,OPTICS,0.2781692404143309,{'min_samples': 7}
+no_convexo,base,102,Spectral (kNN),1.0,{'n_neighbors': 7}
+no_convexo,base,102,CD global (inicial),0.48844308765808986,{'degree': 1}
+no_convexo,base,102,CD local-espectral (mejora 1),1.0,{'n_neighbors': 5}
+no_convexo,base,103,DBSCAN,1.0,"{'eps': np.float64(0.18), 'min_samples': 5}"
+no_convexo,base,103,OPTICS,0.2938801853291733,{'min_samples': 10}
+no_convexo,base,103,Spectral (kNN),1.0,{'n_neighbors': 5}
+no_convexo,base,103,CD global (inicial),0.5264607715942176,{'degree': 1}
+no_convexo,base,103,CD local-espectral (mejora 1),1.0,{'n_neighbors': 5}
+no_convexo,base,104,DBSCAN,1.0,"{'eps': np.float64(0.18), 'min_samples': 5}"
+no_convexo,base,104,OPTICS,0.2756801353057752,{'min_samples': 10}
+no_convexo,base,104,Spectral (kNN),1.0,{'n_neighbors': 10}
+no_convexo,base,104,CD global (inicial),0.4605959731543624,{'degree': 1}
+no_convexo,base,104,CD local-espectral (mejora 1),1.0,{'n_neighbors': 7}
+no_convexo,ruido,100,DBSCAN,1.0,"{'eps': np.float64(0.21), 'min_samples': 5}"
+no_convexo,ruido,100,OPTICS,0.6254357614620291,{'min_samples': 7}
+no_convexo,ruido,100,Spectral (kNN),1.0,{'n_neighbors': 10}
+no_convexo,ruido,100,CD global (inicial),0.536236656513268,{'degree': 1}
+no_convexo,ruido,100,CD local-espectral (mejora 1),1.0,{'n_neighbors': 5}
+no_convexo,ruido,101,DBSCAN,1.0,"{'eps': np.float64(0.18), 'min_samples': 5}"
+no_convexo,ruido,101,OPTICS,0.6066111992861184,{'min_samples': 20}
+no_convexo,ruido,101,Spectral (kNN),1.0,{'n_neighbors': 10}
+no_convexo,ruido,101,CD global (inicial),0.5167980175374441,{'degree': 1}
+no_convexo,ruido,101,CD local-espectral (mejora 1),1.0,{'n_neighbors': 7}
+no_convexo,ruido,102,DBSCAN,1.0,"{'eps': np.float64(0.18), 'min_samples': 5}"
+no_convexo,ruido,102,OPTICS,0.18374800454686122,{'min_samples': 20}
+no_convexo,ruido,102,Spectral (kNN),1.0,{'n_neighbors': 7}
+no_convexo,ruido,102,CD global (inicial),0.48844308765808986,{'degree': 1}
+no_convexo,ruido,102,CD local-espectral (mejora 1),1.0,{'n_neighbors': 7}
+no_convexo,ruido,103,DBSCAN,1.0,"{'eps': np.float64(0.27), 'min_samples': 5}"
+no_convexo,ruido,103,OPTICS,0.4382043971003855,{'min_samples': 5}
+no_convexo,ruido,103,Spectral (kNN),0.9866665195128234,{'n_neighbors': 10}
+no_convexo,ruido,103,CD global (inicial),0.5167841808893775,{'degree': 1}
+no_convexo,ruido,103,CD local-espectral (mejora 1),1.0,{'n_neighbors': 30}
+no_convexo,ruido,104,DBSCAN,1.0,"{'eps': np.float64(0.18), 'min_samples': 5}"
+no_convexo,ruido,104,OPTICS,0.3498725758329189,{'min_samples': 20}
+no_convexo,ruido,104,Spectral (kNN),1.0,{'n_neighbors': 7}
+no_convexo,ruido,104,CD global (inicial),0.45154421120090965,{'degree': 1}
+no_convexo,ruido,104,CD local-espectral (mejora 1),1.0,{'n_neighbors': 7}
+no_convexo,oclusion,100,DBSCAN,0.9153496883009132,"{'eps': np.float64(0.18), 'min_samples': 5}"
+no_convexo,oclusion,100,OPTICS,0.23986409966024916,{'min_samples': 10}
+no_convexo,oclusion,100,Spectral (kNN),0.6808545335942596,{'n_neighbors': 7}
+no_convexo,oclusion,100,CD global (inicial),0.1777051946349277,{'degree': 2}
+no_convexo,oclusion,100,CD local-espectral (mejora 1),1.0,{'n_neighbors': 5}
+no_convexo,oclusion,101,DBSCAN,0.8917589175891759,"{'eps': np.float64(0.18), 'min_samples': 5}"
+no_convexo,oclusion,101,OPTICS,0.3048578214773828,{'min_samples': 15}
+no_convexo,oclusion,101,Spectral (kNN),0.5031101353823637,{'n_neighbors': 7}
+no_convexo,oclusion,101,CD global (inicial),0.09208137715179969,{'degree': 1}
+no_convexo,oclusion,101,CD local-espectral (mejora 1),1.0,{'n_neighbors': 5}
+no_convexo,oclusion,102,DBSCAN,0.8614384013573381,"{'eps': np.float64(0.18), 'min_samples': 5}"
+no_convexo,oclusion,102,OPTICS,0.2737481521968671,{'min_samples': 15}
+no_convexo,oclusion,102,Spectral (kNN),0.6020780369183155,{'n_neighbors': 15}
+no_convexo,oclusion,102,CD global (inicial),0.5881744271988174,{'degree': 1}
+no_convexo,oclusion,102,CD local-espectral (mejora 1),0.6020780369183155,{'n_neighbors': 5}
+no_convexo,oclusion,103,DBSCAN,1.0,"{'eps': np.float64(0.21), 'min_samples': 5}"
+no_convexo,oclusion,103,OPTICS,0.26280822589667524,{'min_samples': 10}
+no_convexo,oclusion,103,Spectral (kNN),1.0,{'n_neighbors': 5}
+no_convexo,oclusion,103,CD global (inicial),0.22259264298997597,{'degree': 1}
+no_convexo,oclusion,103,CD local-espectral (mejora 1),1.0,{'n_neighbors': 5}
+no_convexo,oclusion,104,DBSCAN,1.0,"{'eps': np.float64(0.21), 'min_samples': 5}"
+no_convexo,oclusion,104,OPTICS,0.3053346025804439,{'min_samples': 10}
+no_convexo,oclusion,104,Spectral (kNN),1.0,{'n_neighbors': 10}
+no_convexo,oclusion,104,CD global (inicial),0.2026688527576627,{'degree': 3}
+no_convexo,oclusion,104,CD local-espectral (mejora 1),1.0,{'n_neighbors': 5}
+no_convexo,densidad_variable,100,DBSCAN,1.0,"{'eps': np.float64(0.39), 'min_samples': 5}"
+no_convexo,densidad_variable,100,OPTICS,0.38553136201036675,{'min_samples': 20}
+no_convexo,densidad_variable,100,Spectral (kNN),1.0,{'n_neighbors': 7}
+no_convexo,densidad_variable,100,CD global (inicial),0.2378119276984499,{'degree': 3}
+no_convexo,densidad_variable,100,CD local-espectral (mejora 1),1.0,{'n_neighbors': 5}
+no_convexo,densidad_variable,101,DBSCAN,1.0,"{'eps': np.float64(0.42000000000000004), 'min_samples': 5}"
+no_convexo,densidad_variable,101,OPTICS,0.19280121209624104,{'min_samples': 15}
+no_convexo,densidad_variable,101,Spectral (kNN),1.0,{'n_neighbors': 10}
+no_convexo,densidad_variable,101,CD global (inicial),0.16034316597063436,{'degree': 2}
+no_convexo,densidad_variable,101,CD local-espectral (mejora 1),1.0,{'n_neighbors': 5}
+no_convexo,densidad_variable,102,DBSCAN,1.0,"{'eps': np.float64(0.21), 'min_samples': 5}"
+no_convexo,densidad_variable,102,OPTICS,0.1992242585794871,{'min_samples': 15}
+no_convexo,densidad_variable,102,Spectral (kNN),1.0,{'n_neighbors': 5}
+no_convexo,densidad_variable,102,CD global (inicial),0.6086710019813741,{'degree': 1}
+no_convexo,densidad_variable,102,CD local-espectral (mejora 1),1.0,{'n_neighbors': 7}
+no_convexo,densidad_variable,103,DBSCAN,1.0,"{'eps': np.float64(0.36), 'min_samples': 5}"
+no_convexo,densidad_variable,103,OPTICS,0.31104654802438225,{'min_samples': 5}
+no_convexo,densidad_variable,103,Spectral (kNN),1.0,{'n_neighbors': 5}
+no_convexo,densidad_variable,103,CD global (inicial),0.48402309319304493,{'degree': 2}
+no_convexo,densidad_variable,103,CD local-espectral (mejora 1),1.0,{'n_neighbors': 5}
+no_convexo,densidad_variable,104,DBSCAN,1.0,"{'eps': np.float64(0.30000000000000004), 'min_samples': 5}"
+no_convexo,densidad_variable,104,OPTICS,0.36331792904124083,{'min_samples': 20}
+no_convexo,densidad_variable,104,Spectral (kNN),1.0,{'n_neighbors': 10}
+no_convexo,densidad_variable,104,CD global (inicial),0.5073643793995078,{'degree': 3}
+no_convexo,densidad_variable,104,CD local-espectral (mejora 1),1.0,{'n_neighbors': 5}
+entrelazado,base,100,DBSCAN,1.0,"{'eps': np.float64(0.30000000000000004), 'min_samples': 5}"
+entrelazado,base,100,OPTICS,0.21521887622561542,{'min_samples': 10}
+entrelazado,base,100,Spectral (kNN),0.460781261740932,{'n_neighbors': 10}
+entrelazado,base,100,CD global (inicial),0.07167935594641377,{'degree': 3}
+entrelazado,base,100,CD local-espectral (mejora 1),1.0,{'n_neighbors': 7}
+entrelazado,base,101,DBSCAN,1.0,"{'eps': np.float64(0.32999999999999996), 'min_samples': 5}"
+entrelazado,base,101,OPTICS,0.2413120004640397,{'min_samples': 7}
+entrelazado,base,101,Spectral (kNN),0.20364365400007509,{'n_neighbors': 7}
+entrelazado,base,101,CD global (inicial),0.06800293032251445,{'degree': 4}
+entrelazado,base,101,CD local-espectral (mejora 1),1.0,{'n_neighbors': 5}
+entrelazado,base,102,DBSCAN,1.0,"{'eps': np.float64(0.30000000000000004), 'min_samples': 5}"
+entrelazado,base,102,OPTICS,0.248173264399388,{'min_samples': 7}
+entrelazado,base,102,Spectral (kNN),0.1231381645056177,{'n_neighbors': 7}
+entrelazado,base,102,CD global (inicial),-0.0011453850007359994,{'degree': 1}
+entrelazado,base,102,CD local-espectral (mejora 1),0.1231381645056177,{'n_neighbors': 5}
+entrelazado,base,103,DBSCAN,0.9933554078979533,"{'eps': np.float64(0.27), 'min_samples': 5}"
+entrelazado,base,103,OPTICS,0.2707094673986554,{'min_samples': 7}
+entrelazado,base,103,Spectral (kNN),0.28256754944186946,{'n_neighbors': 7}
+entrelazado,base,103,CD global (inicial),0.051303274685040395,{'degree': 1}
+entrelazado,base,103,CD local-espectral (mejora 1),0.3992828414982798,{'n_neighbors': 10}
+entrelazado,base,104,DBSCAN,0.7288482853592181,"{'eps': np.float64(0.24), 'min_samples': 5}"
+entrelazado,base,104,OPTICS,0.21634241059059509,{'min_samples': 5}
+entrelazado,base,104,Spectral (kNN),0.20972766246183264,{'n_neighbors': 10}
+entrelazado,base,104,CD global (inicial),0.10378420554142709,{'degree': 2}
+entrelazado,base,104,CD local-espectral (mejora 1),0.6604149492438169,{'n_neighbors': 5}
+entrelazado,ruido,100,DBSCAN,0.1604676140390629,"{'eps': np.float64(0.18), 'min_samples': 5}"
+entrelazado,ruido,100,OPTICS,0.22051004193489676,{'min_samples': 10}
+entrelazado,ruido,100,Spectral (kNN),0.07165609726307055,{'n_neighbors': 15}
+entrelazado,ruido,100,CD global (inicial),0.06803906865648848,{'degree': 3}
+entrelazado,ruido,100,CD local-espectral (mejora 1),0.0753868124080616,{'n_neighbors': 30}
+entrelazado,ruido,101,DBSCAN,0.15559002830394078,"{'eps': np.float64(0.18), 'min_samples': 5}"
+entrelazado,ruido,101,OPTICS,0.15470978765015614,{'min_samples': 5}
+entrelazado,ruido,101,Spectral (kNN),0.14773297361838836,{'n_neighbors': 5}
+entrelazado,ruido,101,CD global (inicial),0.0577335294571196,{'degree': 1}
+entrelazado,ruido,101,CD local-espectral (mejora 1),0.08298623249531996,{'n_neighbors': 20}
+entrelazado,ruido,102,DBSCAN,0.11609527563812294,"{'eps': np.float64(0.18), 'min_samples': 5}"
+entrelazado,ruido,102,OPTICS,0.19815924009456118,{'min_samples': 5}
+entrelazado,ruido,102,Spectral (kNN),0.026804074510447272,{'n_neighbors': 10}
+entrelazado,ruido,102,CD global (inicial),-0.0011585244085791058,{'degree': 1}
+entrelazado,ruido,102,CD local-espectral (mejora 1),0.07546678007490432,{'n_neighbors': 10}
+entrelazado,ruido,103,DBSCAN,0.11340303563091061,"{'eps': np.float64(0.18), 'min_samples': 5}"
+entrelazado,ruido,103,OPTICS,0.10975920919557243,{'min_samples': 10}
+entrelazado,ruido,103,Spectral (kNN),0.1231381645056177,{'n_neighbors': 7}
+entrelazado,ruido,103,CD global (inicial),0.03950231356333496,{'degree': 2}
+entrelazado,ruido,103,CD local-espectral (mejora 1),0.09142927334806569,{'n_neighbors': 10}
+entrelazado,ruido,104,DBSCAN,0.1641362015294959,"{'eps': np.float64(0.18), 'min_samples': 5}"
+entrelazado,ruido,104,OPTICS,0.18277153759265702,{'min_samples': 5}
+entrelazado,ruido,104,Spectral (kNN),0.12674223068759838,{'n_neighbors': 20}
+entrelazado,ruido,104,CD global (inicial),0.09517433490490694,{'degree': 2}
+entrelazado,ruido,104,CD local-espectral (mejora 1),0.0884451740426815,{'n_neighbors': 5}
+entrelazado,oclusion,100,DBSCAN,0.6024392371497314,"{'eps': np.float64(0.32999999999999996), 'min_samples': 5}"
+entrelazado,oclusion,100,OPTICS,0.12339836448861523,{'min_samples': 10}
+entrelazado,oclusion,100,Spectral (kNN),0.29498228584069563,{'n_neighbors': 10}
+entrelazado,oclusion,100,CD global (inicial),0.008048124390941548,{'degree': 1}
+entrelazado,oclusion,100,CD local-espectral (mejora 1),0.929734533251304,{'n_neighbors': 7}
+entrelazado,oclusion,101,DBSCAN,0.6214871533463227,"{'eps': np.float64(0.36), 'min_samples': 5}"
+entrelazado,oclusion,101,OPTICS,0.262835086171101,{'min_samples': 10}
+entrelazado,oclusion,101,Spectral (kNN),0.0422037454547796,{'n_neighbors': 7}
+entrelazado,oclusion,101,CD global (inicial),0.024926266942263544,{'degree': 2}
+entrelazado,oclusion,101,CD local-espectral (mejora 1),0.2669593476462135,{'n_neighbors': 5}
+entrelazado,oclusion,102,DBSCAN,0.6463236850902975,"{'eps': np.float64(0.32999999999999996), 'min_samples': 5}"
+entrelazado,oclusion,102,OPTICS,0.20104219187684255,{'min_samples': 5}
+entrelazado,oclusion,102,Spectral (kNN),0.10020043535191184,{'n_neighbors': 7}
+entrelazado,oclusion,102,CD global (inicial),0.006066454822212557,{'degree': 2}
+entrelazado,oclusion,102,CD local-espectral (mejora 1),0.10020043535191184,{'n_neighbors': 5}
+entrelazado,oclusion,103,DBSCAN,0.7242864979113885,"{'eps': np.float64(0.32999999999999996), 'min_samples': 5}"
+entrelazado,oclusion,103,OPTICS,0.17487485757115162,{'min_samples': 5}
+entrelazado,oclusion,103,Spectral (kNN),0.24919554776959202,{'n_neighbors': 7}
+entrelazado,oclusion,103,CD global (inicial),0.10129692237039166,{'degree': 2}
+entrelazado,oclusion,103,CD local-espectral (mejora 1),0.24919554776959202,{'n_neighbors': 5}
+entrelazado,oclusion,104,DBSCAN,0.6936249619845932,"{'eps': np.float64(0.27), 'min_samples': 5}"
+entrelazado,oclusion,104,OPTICS,0.28313782814835986,{'min_samples': 5}
+entrelazado,oclusion,104,Spectral (kNN),0.27719632096416114,{'n_neighbors': 10}
+entrelazado,oclusion,104,CD global (inicial),0.11334474090333284,{'degree': 3}
+entrelazado,oclusion,104,CD local-espectral (mejora 1),0.15404120443740096,{'n_neighbors': 7}
+entrelazado,densidad_variable,100,DBSCAN,0.468822097043738,"{'eps': np.float64(0.32999999999999996), 'min_samples': 5}"
+entrelazado,densidad_variable,100,OPTICS,0.1569964676517046,{'min_samples': 7}
+entrelazado,densidad_variable,100,Spectral (kNN),0.187016965950336,{'n_neighbors': 7}
+entrelazado,densidad_variable,100,CD global (inicial),0.0401950404869165,{'degree': 3}
+entrelazado,densidad_variable,100,CD local-espectral (mejora 1),0.25121363778663425,{'n_neighbors': 10}
+entrelazado,densidad_variable,101,DBSCAN,0.5392746732229625,"{'eps': np.float64(0.36), 'min_samples': 5}"
+entrelazado,densidad_variable,101,OPTICS,0.17655741773673142,{'min_samples': 10}
+entrelazado,densidad_variable,101,Spectral (kNN),0.008108938531379303,{'n_neighbors': 20}
+entrelazado,densidad_variable,101,CD global (inicial),0.0053443971022118465,{'degree': 4}
+entrelazado,densidad_variable,101,CD local-espectral (mejora 1),0.2165516132852078,{'n_neighbors': 7}
+entrelazado,densidad_variable,102,DBSCAN,0.5124971409703162,"{'eps': np.float64(0.32999999999999996), 'min_samples': 5}"
+entrelazado,densidad_variable,102,OPTICS,0.11528401978492339,{'min_samples': 7}
+entrelazado,densidad_variable,102,Spectral (kNN),0.48462821738930767,{'n_neighbors': 5}
+entrelazado,densidad_variable,102,CD global (inicial),-0.0031948249777827378,{'degree': 1}
+entrelazado,densidad_variable,102,CD local-espectral (mejora 1),0.04772714977202129,{'n_neighbors': 5}
+entrelazado,densidad_variable,103,DBSCAN,0.41039622809981136,"{'eps': np.float64(0.32999999999999996), 'min_samples': 5}"
+entrelazado,densidad_variable,103,OPTICS,0.2977688480741762,{'min_samples': 7}
+entrelazado,densidad_variable,103,Spectral (kNN),0.2723283891124224,{'n_neighbors': 5}
+entrelazado,densidad_variable,103,CD global (inicial),0.0537374048578241,{'degree': 2}
+entrelazado,densidad_variable,103,CD local-espectral (mejora 1),0.18500723664556099,{'n_neighbors': 5}
+entrelazado,densidad_variable,104,DBSCAN,0.36158469655055026,"{'eps': np.float64(0.32999999999999996), 'min_samples': 5}"
+entrelazado,densidad_variable,104,OPTICS,0.2533905956470363,{'min_samples': 7}
+entrelazado,densidad_variable,104,Spectral (kNN),0.21755367412871018,{'n_neighbors': 10}
+entrelazado,densidad_variable,104,CD global (inicial),0.18190865216846513,{'degree': 2}
+entrelazado,densidad_variable,104,CD local-espectral (mejora 1),0.28265459192177345,{'n_neighbors': 5}
+anidado,base,100,DBSCAN,1.0,"{'eps': np.float64(0.32999999999999996), 'min_samples': 5}"
+anidado,base,100,OPTICS,0.31888299318995966,{'min_samples': 10}
+anidado,base,100,Spectral (kNN),1.0,{'n_neighbors': 7}
+anidado,base,100,CD global (inicial),-0.0021617981221168383,{'degree': 2}
+anidado,base,100,CD local-espectral (mejora 1),1.0,{'n_neighbors': 7}
+anidado,base,101,DBSCAN,1.0,"{'eps': np.float64(0.32999999999999996), 'min_samples': 5}"
+anidado,base,101,OPTICS,0.2501435125166833,{'min_samples': 7}
+anidado,base,101,Spectral (kNN),1.0,{'n_neighbors': 7}
+anidado,base,101,CD global (inicial),0.018265074443093596,{'degree': 1}
+anidado,base,101,CD local-espectral (mejora 1),1.0,{'n_neighbors': 5}
+anidado,base,102,DBSCAN,1.0,"{'eps': np.float64(0.30000000000000004), 'min_samples': 5}"
+anidado,base,102,OPTICS,0.32531551116755275,{'min_samples': 5}
+anidado,base,102,Spectral (kNN),1.0,{'n_neighbors': 7}
+anidado,base,102,CD global (inicial),0.009596982510173454,{'degree': 2}
+anidado,base,102,CD local-espectral (mejora 1),1.0,{'n_neighbors': 5}
+anidado,base,103,DBSCAN,1.0,"{'eps': np.float64(0.27), 'min_samples': 5}"
+anidado,base,103,OPTICS,0.3145494541764753,{'min_samples': 7}
+anidado,base,103,Spectral (kNN),1.0,{'n_neighbors': 7}
+anidado,base,103,CD global (inicial),-0.002593759824282913,{'degree': 2}
+anidado,base,103,CD local-espectral (mejora 1),1.0,{'n_neighbors': 5}
+anidado,base,104,DBSCAN,1.0,"{'eps': np.float64(0.32999999999999996), 'min_samples': 5}"
+anidado,base,104,OPTICS,0.457494911198471,{'min_samples': 5}
+anidado,base,104,Spectral (kNN),1.0,{'n_neighbors': 5}
+anidado,base,104,CD global (inicial),-0.0028884006286834826,{'degree': 3}
+anidado,base,104,CD local-espectral (mejora 1),1.0,{'n_neighbors': 5}
+anidado,ruido,100,DBSCAN,1.0,"{'eps': np.float64(0.30000000000000004), 'min_samples': 5}"
+anidado,ruido,100,OPTICS,0.2344184578799364,{'min_samples': 5}
+anidado,ruido,100,Spectral (kNN),1.0,{'n_neighbors': 5}
+anidado,ruido,100,CD global (inicial),-0.003139030038525002,{'degree': 2}
+anidado,ruido,100,CD local-espectral (mejora 1),1.0,{'n_neighbors': 5}
+anidado,ruido,101,DBSCAN,1.0,"{'eps': np.float64(0.32999999999999996), 'min_samples': 5}"
+anidado,ruido,101,OPTICS,0.2862288675051093,{'min_samples': 20}
+anidado,ruido,101,Spectral (kNN),1.0,{'n_neighbors': 7}
+anidado,ruido,101,CD global (inicial),0.02457944227680178,{'degree': 1}
+anidado,ruido,101,CD local-espectral (mejora 1),1.0,{'n_neighbors': 7}
+anidado,ruido,102,DBSCAN,1.0,"{'eps': np.float64(0.32999999999999996), 'min_samples': 5}"
+anidado,ruido,102,OPTICS,0.6147060848331133,{'min_samples': 7}
+anidado,ruido,102,Spectral (kNN),1.0,{'n_neighbors': 7}
+anidado,ruido,102,CD global (inicial),0.014540519581233036,{'degree': 3}
+anidado,ruido,102,CD local-espectral (mejora 1),1.0,{'n_neighbors': 5}
+anidado,ruido,103,DBSCAN,1.0,"{'eps': np.float64(0.27), 'min_samples': 5}"
+anidado,ruido,103,OPTICS,0.25731707061880804,{'min_samples': 7}
+anidado,ruido,103,Spectral (kNN),1.0,{'n_neighbors': 5}
+anidado,ruido,103,CD global (inicial),-0.0031623689430433552,{'degree': 4}
+anidado,ruido,103,CD local-espectral (mejora 1),1.0,{'n_neighbors': 5}
+anidado,ruido,104,DBSCAN,1.0,"{'eps': np.float64(0.30000000000000004), 'min_samples': 5}"
+anidado,ruido,104,OPTICS,0.8068296443744216,{'min_samples': 15}
+anidado,ruido,104,Spectral (kNN),1.0,{'n_neighbors': 7}
+anidado,ruido,104,CD global (inicial),-0.0026398147297485943,{'degree': 1}
+anidado,ruido,104,CD local-espectral (mejora 1),1.0,{'n_neighbors': 5}
+anidado,oclusion,100,DBSCAN,1.0,"{'eps': np.float64(0.51), 'min_samples': 5}"
+anidado,oclusion,100,OPTICS,0.39216568864464374,{'min_samples': 10}
+anidado,oclusion,100,Spectral (kNN),1.0,{'n_neighbors': 10}
+anidado,oclusion,100,CD global (inicial),0.02242043429129281,{'degree': 2}
+anidado,oclusion,100,CD local-espectral (mejora 1),1.0,{'n_neighbors': 5}
+anidado,oclusion,101,DBSCAN,1.0,"{'eps': np.float64(0.42000000000000004), 'min_samples': 5}"
+anidado,oclusion,101,OPTICS,0.3590536723304398,{'min_samples': 20}
+anidado,oclusion,101,Spectral (kNN),1.0,{'n_neighbors': 7}
+anidado,oclusion,101,CD global (inicial),0.011756335923443275,{'degree': 1}
+anidado,oclusion,101,CD local-espectral (mejora 1),1.0,{'n_neighbors': 5}
+anidado,oclusion,102,DBSCAN,1.0,"{'eps': np.float64(0.36), 'min_samples': 5}"
+anidado,oclusion,102,OPTICS,0.42907660066540637,{'min_samples': 20}
+anidado,oclusion,102,Spectral (kNN),1.0,{'n_neighbors': 7}
+anidado,oclusion,102,CD global (inicial),0.0025527537354661316,{'degree': 2}
+anidado,oclusion,102,CD local-espectral (mejora 1),1.0,{'n_neighbors': 5}
+anidado,oclusion,103,DBSCAN,1.0,"{'eps': np.float64(0.39), 'min_samples': 5}"
+anidado,oclusion,103,OPTICS,0.18579177087027476,{'min_samples': 5}
+anidado,oclusion,103,Spectral (kNN),1.0,{'n_neighbors': 7}
+anidado,oclusion,103,CD global (inicial),0.007681340281151661,{'degree': 1}
+anidado,oclusion,103,CD local-espectral (mejora 1),1.0,{'n_neighbors': 5}
+anidado,oclusion,104,DBSCAN,1.0,"{'eps': np.float64(0.44999999999999996), 'min_samples': 5}"
+anidado,oclusion,104,OPTICS,0.19412306050612152,{'min_samples': 7}
+anidado,oclusion,104,Spectral (kNN),1.0,{'n_neighbors': 10}
+anidado,oclusion,104,CD global (inicial),-0.004183246607489032,{'degree': 2}
+anidado,oclusion,104,CD local-espectral (mejora 1),1.0,{'n_neighbors': 5}
+anidado,densidad_variable,100,DBSCAN,0.9896785003265383,"{'eps': np.float64(0.5700000000000001), 'min_samples': 5}"
+anidado,densidad_variable,100,OPTICS,0.785203537278853,{'min_samples': 20}
+anidado,densidad_variable,100,Spectral (kNN),1.0,{'n_neighbors': 5}
+anidado,densidad_variable,100,CD global (inicial),0.29847800380413403,{'degree': 1}
+anidado,densidad_variable,100,CD local-espectral (mejora 1),1.0,{'n_neighbors': 5}
+anidado,densidad_variable,101,DBSCAN,1.0,"{'eps': np.float64(0.5700000000000001), 'min_samples': 5}"
+anidado,densidad_variable,101,OPTICS,0.2608664012212972,{'min_samples': 20}
+anidado,densidad_variable,101,Spectral (kNN),0.7331379763541229,{'n_neighbors': 10}
+anidado,densidad_variable,101,CD global (inicial),0.014531106265830292,{'degree': 1}
+anidado,densidad_variable,101,CD local-espectral (mejora 1),0.817517511554092,{'n_neighbors': 10}
+anidado,densidad_variable,102,DBSCAN,0.9136386285663061,"{'eps': np.float64(0.36), 'min_samples': 5}"
+anidado,densidad_variable,102,OPTICS,0.28898118228678593,{'min_samples': 15}
+anidado,densidad_variable,102,Spectral (kNN),0.9135433075092111,{'n_neighbors': 7}
+anidado,densidad_variable,102,CD global (inicial),0.018378507643083172,{'degree': 1}
+anidado,densidad_variable,102,CD local-espectral (mejora 1),0.8925363208235186,{'n_neighbors': 7}
+anidado,densidad_variable,103,DBSCAN,1.0,"{'eps': np.float64(0.54), 'min_samples': 5}"
+anidado,densidad_variable,103,OPTICS,0.25899548240009884,{'min_samples': 20}
+anidado,densidad_variable,103,Spectral (kNN),1.0,{'n_neighbors': 7}
+anidado,densidad_variable,103,CD global (inicial),0.04601139601139601,{'degree': 1}
+anidado,densidad_variable,103,CD local-espectral (mejora 1),1.0,{'n_neighbors': 5}
+anidado,densidad_variable,104,DBSCAN,0.936371496115619,"{'eps': np.float64(0.5700000000000001), 'min_samples': 5}"
+anidado,densidad_variable,104,OPTICS,0.26388986097325884,{'min_samples': 15}
+anidado,densidad_variable,104,Spectral (kNN),0.9036594084825715,{'n_neighbors': 10}
+anidado,densidad_variable,104,CD global (inicial),-0.0016003211794422853,{'degree': 2}
+anidado,densidad_variable,104,CD local-espectral (mejora 1),0.9036594084825715,{'n_neighbors': 5}
+espiral_3brazos,base,100,DBSCAN,0.7270221007792756,"{'eps': np.float64(0.24), 'min_samples': 5}"
+espiral_3brazos,base,100,OPTICS,0.3617911521025842,{'min_samples': 5}
+espiral_3brazos,base,100,Spectral (kNN),0.5453245204439714,{'n_neighbors': 7}
+espiral_3brazos,base,100,CD global (inicial),0.047644815245516996,{'degree': 1}
+espiral_3brazos,base,100,CD local-espectral (mejora 1),0.8552937488850213,{'n_neighbors': 5}
+espiral_3brazos,base,101,DBSCAN,0.8700969811483658,"{'eps': np.float64(0.24), 'min_samples': 5}"
+espiral_3brazos,base,101,OPTICS,0.39567168232854655,{'min_samples': 7}
+espiral_3brazos,base,101,Spectral (kNN),0.40386315757446567,{'n_neighbors': 7}
+espiral_3brazos,base,101,CD global (inicial),0.01751758037675541,{'degree': 2}
+espiral_3brazos,base,101,CD local-espectral (mejora 1),0.9933258765991864,{'n_neighbors': 10}
+espiral_3brazos,base,102,DBSCAN,1.0,"{'eps': np.float64(0.24), 'min_samples': 5}"
+espiral_3brazos,base,102,OPTICS,0.5970595879158637,{'min_samples': 7}
+espiral_3brazos,base,102,Spectral (kNN),0.42795745963593124,{'n_neighbors': 7}
+espiral_3brazos,base,102,CD global (inicial),0.024891976056234808,{'degree': 4}
+espiral_3brazos,base,102,CD local-espectral (mejora 1),0.34852843077849005,{'n_neighbors': 10}
+espiral_3brazos,base,103,DBSCAN,0.7679587060737677,"{'eps': np.float64(0.21), 'min_samples': 5}"
+espiral_3brazos,base,103,OPTICS,0.396723210596591,{'min_samples': 10}
+espiral_3brazos,base,103,Spectral (kNN),0.28764742947667565,{'n_neighbors': 7}
+espiral_3brazos,base,103,CD global (inicial),0.04701056248533789,{'degree': 1}
+espiral_3brazos,base,103,CD local-espectral (mejora 1),0.3575256951015288,{'n_neighbors': 7}
+espiral_3brazos,base,104,DBSCAN,0.7175486351584134,"{'eps': np.float64(0.21), 'min_samples': 5}"
+espiral_3brazos,base,104,OPTICS,0.35218920851351765,{'min_samples': 7}
+espiral_3brazos,base,104,Spectral (kNN),0.3440492195870973,{'n_neighbors': 7}
+espiral_3brazos,base,104,CD global (inicial),0.04110581054277028,{'degree': 1}
+espiral_3brazos,base,104,CD local-espectral (mejora 1),1.0,{'n_neighbors': 5}
+espiral_3brazos,ruido,100,DBSCAN,0.10640069873683115,"{'eps': np.float64(0.12), 'min_samples': 5}"
+espiral_3brazos,ruido,100,OPTICS,0.07138783154955894,{'min_samples': 7}
+espiral_3brazos,ruido,100,Spectral (kNN),0.10567309733641703,{'n_neighbors': 10}
+espiral_3brazos,ruido,100,CD global (inicial),0.047855693091725264,{'degree': 2}
+espiral_3brazos,ruido,100,CD local-espectral (mejora 1),0.13093020709423772,{'n_neighbors': 10}
+espiral_3brazos,ruido,101,DBSCAN,0.10084787780985996,"{'eps': np.float64(0.15), 'min_samples': 5}"
+espiral_3brazos,ruido,101,OPTICS,0.052352943766533606,{'min_samples': 5}
+espiral_3brazos,ruido,101,Spectral (kNN),0.06262493380419058,{'n_neighbors': 5}
+espiral_3brazos,ruido,101,CD global (inicial),0.016371940623498296,{'degree': 1}
+espiral_3brazos,ruido,101,CD local-espectral (mejora 1),0.0950256254391207,{'n_neighbors': 7}
+espiral_3brazos,ruido,102,DBSCAN,0.13571964239446688,"{'eps': np.float64(0.15), 'min_samples': 5}"
+espiral_3brazos,ruido,102,OPTICS,0.09527261549974546,{'min_samples': 5}
+espiral_3brazos,ruido,102,Spectral (kNN),0.04619427805316,{'n_neighbors': 7}
+espiral_3brazos,ruido,102,CD global (inicial),0.027931538175861227,{'degree': 1}
+espiral_3brazos,ruido,102,CD local-espectral (mejora 1),0.1274162518140187,{'n_neighbors': 7}
+espiral_3brazos,ruido,103,DBSCAN,0.15779489783409661,"{'eps': np.float64(0.15), 'min_samples': 5}"
+espiral_3brazos,ruido,103,OPTICS,0.08596057276849288,{'min_samples': 5}
+espiral_3brazos,ruido,103,Spectral (kNN),0.06080807076869034,{'n_neighbors': 7}
+espiral_3brazos,ruido,103,CD global (inicial),0.06088115831378051,{'degree': 1}
+espiral_3brazos,ruido,103,CD local-espectral (mejora 1),0.06570326712455464,{'n_neighbors': 10}
+espiral_3brazos,ruido,104,DBSCAN,0.14201686390817836,"{'eps': np.float64(0.15), 'min_samples': 5}"
+espiral_3brazos,ruido,104,OPTICS,0.10952088255928762,{'min_samples': 5}
+espiral_3brazos,ruido,104,Spectral (kNN),0.09891454314964454,{'n_neighbors': 5}
+espiral_3brazos,ruido,104,CD global (inicial),0.032094986373135806,{'degree': 2}
+espiral_3brazos,ruido,104,CD local-espectral (mejora 1),0.13074903450836367,{'n_neighbors': 7}
+espiral_3brazos,oclusion,100,DBSCAN,0.5883433449200421,"{'eps': np.float64(0.24), 'min_samples': 5}"
+espiral_3brazos,oclusion,100,OPTICS,0.3644172173927408,{'min_samples': 10}
+espiral_3brazos,oclusion,100,Spectral (kNN),0.23518471542700514,{'n_neighbors': 7}
+espiral_3brazos,oclusion,100,CD global (inicial),0.02244228657317309,{'degree': 4}
+espiral_3brazos,oclusion,100,CD local-espectral (mejora 1),0.7240301621664449,{'n_neighbors': 5}
+espiral_3brazos,oclusion,101,DBSCAN,0.6538301272243406,"{'eps': np.float64(0.24), 'min_samples': 5}"
+espiral_3brazos,oclusion,101,OPTICS,0.33281765113608464,{'min_samples': 10}
+espiral_3brazos,oclusion,101,Spectral (kNN),0.2907811168352289,{'n_neighbors': 7}
+espiral_3brazos,oclusion,101,CD global (inicial),0.013222650234181966,{'degree': 3}
+espiral_3brazos,oclusion,101,CD local-espectral (mejora 1),0.41511374480510493,{'n_neighbors': 7}
+espiral_3brazos,oclusion,102,DBSCAN,0.7155734265116174,"{'eps': np.float64(0.27), 'min_samples': 5}"
+espiral_3brazos,oclusion,102,OPTICS,0.35640221171235004,{'min_samples': 10}
+espiral_3brazos,oclusion,102,Spectral (kNN),0.24909895212399466,{'n_neighbors': 7}
+espiral_3brazos,oclusion,102,CD global (inicial),0.024449558254234487,{'degree': 1}
+espiral_3brazos,oclusion,102,CD local-espectral (mejora 1),0.416717528520813,{'n_neighbors': 5}
+espiral_3brazos,oclusion,103,DBSCAN,0.6371904431174915,"{'eps': np.float64(0.24), 'min_samples': 5}"
+espiral_3brazos,oclusion,103,OPTICS,0.4187437499888728,{'min_samples': 7}
+espiral_3brazos,oclusion,103,Spectral (kNN),0.22539998629367797,{'n_neighbors': 5}
+espiral_3brazos,oclusion,103,CD global (inicial),0.03096736303615972,{'degree': 2}
+espiral_3brazos,oclusion,103,CD local-espectral (mejora 1),0.17468105254101565,{'n_neighbors': 7}
+espiral_3brazos,oclusion,104,DBSCAN,0.7015946817567292,"{'eps': np.float64(0.24), 'min_samples': 5}"
+espiral_3brazos,oclusion,104,OPTICS,0.3459443132562703,{'min_samples': 5}
+espiral_3brazos,oclusion,104,Spectral (kNN),0.2753481848088939,{'n_neighbors': 7}
+espiral_3brazos,oclusion,104,CD global (inicial),0.04652961387450997,{'degree': 1}
+espiral_3brazos,oclusion,104,CD local-espectral (mejora 1),0.7367650396198472,{'n_neighbors': 5}
+espiral_3brazos,densidad_variable,100,DBSCAN,0.7213921972907316,"{'eps': np.float64(0.27), 'min_samples': 5}"
+espiral_3brazos,densidad_variable,100,OPTICS,0.31444562645058777,{'min_samples': 5}
+espiral_3brazos,densidad_variable,100,Spectral (kNN),0.25706349033227965,{'n_neighbors': 5}
+espiral_3brazos,densidad_variable,100,CD global (inicial),0.08812449852300332,{'degree': 1}
+espiral_3brazos,densidad_variable,100,CD local-espectral (mejora 1),0.11777247936911445,{'n_neighbors': 10}
+espiral_3brazos,densidad_variable,101,DBSCAN,0.5706042418511299,"{'eps': np.float64(0.27), 'min_samples': 5}"
+espiral_3brazos,densidad_variable,101,OPTICS,0.19932141309064497,{'min_samples': 7}
+espiral_3brazos,densidad_variable,101,Spectral (kNN),0.2525728164409304,{'n_neighbors': 10}
+espiral_3brazos,densidad_variable,101,CD global (inicial),0.046469740253342065,{'degree': 1}
+espiral_3brazos,densidad_variable,101,CD local-espectral (mejora 1),0.28039295114873386,{'n_neighbors': 7}
+espiral_3brazos,densidad_variable,102,DBSCAN,0.6521009064493898,"{'eps': np.float64(0.27), 'min_samples': 5}"
+espiral_3brazos,densidad_variable,102,OPTICS,0.11456447692010298,{'min_samples': 7}
+espiral_3brazos,densidad_variable,102,Spectral (kNN),0.35384653212286543,{'n_neighbors': 7}
+espiral_3brazos,densidad_variable,102,CD global (inicial),0.03172216607043536,{'degree': 3}
+espiral_3brazos,densidad_variable,102,CD local-espectral (mejora 1),0.3471874670646692,{'n_neighbors': 7}
+espiral_3brazos,densidad_variable,103,DBSCAN,0.684603133944382,"{'eps': np.float64(0.27), 'min_samples': 5}"
+espiral_3brazos,densidad_variable,103,OPTICS,0.24473995370943405,{'min_samples': 7}
+espiral_3brazos,densidad_variable,103,Spectral (kNN),0.2199276553613672,{'n_neighbors': 7}
+espiral_3brazos,densidad_variable,103,CD global (inicial),0.046541765792950565,{'degree': 4}
+espiral_3brazos,densidad_variable,103,CD local-espectral (mejora 1),0.28993802872052016,{'n_neighbors': 5}
+espiral_3brazos,densidad_variable,104,DBSCAN,0.48017067269657626,"{'eps': np.float64(0.24), 'min_samples': 5}"
+espiral_3brazos,densidad_variable,104,OPTICS,0.25074874285150855,{'min_samples': 5}
+espiral_3brazos,densidad_variable,104,Spectral (kNN),0.3400212651862463,{'n_neighbors': 5}
+espiral_3brazos,densidad_variable,104,CD global (inicial),0.021190268945771987,{'degree': 2}
+espiral_3brazos,densidad_variable,104,CD local-espectral (mejora 1),0.22455007569241023,{'n_neighbors': 5}
+espiral_log,base,100,DBSCAN,0.2105339084479283,"{'eps': np.float64(0.24), 'min_samples': 5}"
+espiral_log,base,100,OPTICS,0.20270570421391518,{'min_samples': 20}
+espiral_log,base,100,Spectral (kNN),0.6604149492438169,{'n_neighbors': 10}
+espiral_log,base,100,CD global (inicial),0.09134312336936265,{'degree': 1}
+espiral_log,base,100,CD local-espectral (mejora 1),0.6604149492438169,{'n_neighbors': 10}
+espiral_log,base,101,DBSCAN,0.4087566589654975,"{'eps': np.float64(0.27), 'min_samples': 5}"
+espiral_log,base,101,OPTICS,0.18834966053557767,{'min_samples': 5}
+espiral_log,base,101,Spectral (kNN),0.5363373393373692,{'n_neighbors': 10}
+espiral_log,base,101,CD global (inicial),0.04580797335012613,{'degree': 1}
+espiral_log,base,101,CD local-espectral (mejora 1),0.5363373393373692,{'n_neighbors': 7}
+espiral_log,base,102,DBSCAN,0.5041397257540734,"{'eps': np.float64(0.24), 'min_samples': 5}"
+espiral_log,base,102,OPTICS,0.14514393082836588,{'min_samples': 10}
+espiral_log,base,102,Spectral (kNN),0.5363373393373692,{'n_neighbors': 10}
+espiral_log,base,102,CD global (inicial),0.05476239037324087,{'degree': 2}
+espiral_log,base,102,CD local-espectral (mejora 1),0.5864700334390809,{'n_neighbors': 10}
+espiral_log,base,103,DBSCAN,0.5561218434091152,"{'eps': np.float64(0.24), 'min_samples': 5}"
+espiral_log,base,103,OPTICS,0.21686044730334922,{'min_samples': 5}
+espiral_log,base,103,Spectral (kNN),0.5363373393373692,{'n_neighbors': 7}
+espiral_log,base,103,CD global (inicial),0.08329248234462014,{'degree': 1}
+espiral_log,base,103,CD local-espectral (mejora 1),0.5561218434091152,{'n_neighbors': 7}
+espiral_log,base,104,DBSCAN,0.2311559409199485,"{'eps': np.float64(0.24), 'min_samples': 5}"
+espiral_log,base,104,OPTICS,0.1179798682465605,{'min_samples': 7}
+espiral_log,base,104,Spectral (kNN),0.47913290898800615,{'n_neighbors': 7}
+espiral_log,base,104,CD global (inicial),0.06168452956529308,{'degree': 2}
+espiral_log,base,104,CD local-espectral (mejora 1),0.4078763061433685,{'n_neighbors': 10}
+espiral_log,ruido,100,DBSCAN,0.2911827116664281,"{'eps': np.float64(0.18), 'min_samples': 5}"
+espiral_log,ruido,100,OPTICS,0.1867060557770828,{'min_samples': 7}
+espiral_log,ruido,100,Spectral (kNN),0.19174452656533258,{'n_neighbors': 15}
+espiral_log,ruido,100,CD global (inicial),0.09535674308631853,{'degree': 1}
+espiral_log,ruido,100,CD local-espectral (mejora 1),0.6713364050351572,{'n_neighbors': 7}
+espiral_log,ruido,101,DBSCAN,0.13437685051472895,"{'eps': np.float64(0.18), 'min_samples': 5}"
+espiral_log,ruido,101,OPTICS,0.22140615014262593,{'min_samples': 7}
+espiral_log,ruido,101,Spectral (kNN),0.21590130226182316,{'n_neighbors': 10}
+espiral_log,ruido,101,CD global (inicial),0.055014863403355686,{'degree': 1}
+espiral_log,ruido,101,CD local-espectral (mejora 1),0.20972766246183264,{'n_neighbors': 15}
+espiral_log,ruido,102,DBSCAN,0.21773443943142676,"{'eps': np.float64(0.21), 'min_samples': 5}"
+espiral_log,ruido,102,OPTICS,0.17375881279558078,{'min_samples': 7}
+espiral_log,ruido,102,Spectral (kNN),0.3423540627863757,{'n_neighbors': 7}
+espiral_log,ruido,102,CD global (inicial),0.10814741637166927,{'degree': 1}
+espiral_log,ruido,102,CD local-espectral (mejora 1),0.4251529286325097,{'n_neighbors': 7}
+espiral_log,ruido,103,DBSCAN,0.26967304459992675,"{'eps': np.float64(0.18), 'min_samples': 5}"
+espiral_log,ruido,103,OPTICS,0.191552631252969,{'min_samples': 15}
+espiral_log,ruido,103,Spectral (kNN),0.44278792396571004,{'n_neighbors': 10}
+espiral_log,ruido,103,CD global (inicial),0.0794274861455279,{'degree': 1}
+espiral_log,ruido,103,CD local-espectral (mejora 1),0.546174539456448,{'n_neighbors': 5}
+espiral_log,ruido,104,DBSCAN,0.18237456969208024,"{'eps': np.float64(0.21), 'min_samples': 5}"
+espiral_log,ruido,104,OPTICS,0.11630845895461493,{'min_samples': 10}
+espiral_log,ruido,104,Spectral (kNN),0.3192619117707336,{'n_neighbors': 7}
+espiral_log,ruido,104,CD global (inicial),0.0681741456088428,{'degree': 3}
+espiral_log,ruido,104,CD local-espectral (mejora 1),0.3581969412396029,{'n_neighbors': 7}
+espiral_log,oclusion,100,DBSCAN,0.3350063590116279,"{'eps': np.float64(0.36), 'min_samples': 5}"
+espiral_log,oclusion,100,OPTICS,0.2884373540190017,{'min_samples': 5}
+espiral_log,oclusion,100,Spectral (kNN),0.3350063590116279,{'n_neighbors': 7}
+espiral_log,oclusion,100,CD global (inicial),0.020029313599083633,{'degree': 1}
+espiral_log,oclusion,100,CD local-espectral (mejora 1),0.3350063590116279,{'n_neighbors': 7}
+espiral_log,oclusion,101,DBSCAN,0.39199130203173377,"{'eps': np.float64(0.36), 'min_samples': 5}"
+espiral_log,oclusion,101,OPTICS,0.17258931585827195,{'min_samples': 5}
+espiral_log,oclusion,101,Spectral (kNN),0.33581773174530843,{'n_neighbors': 10}
+espiral_log,oclusion,101,CD global (inicial),-0.0019353786332435446,{'degree': 1}
+espiral_log,oclusion,101,CD local-espectral (mejora 1),0.34634077497772797,{'n_neighbors': 7}
+espiral_log,oclusion,102,DBSCAN,0.38849234595549653,"{'eps': np.float64(0.30000000000000004), 'min_samples': 5}"
+espiral_log,oclusion,102,OPTICS,0.2768255800522903,{'min_samples': 7}
+espiral_log,oclusion,102,Spectral (kNN),0.14576378793871858,{'n_neighbors': 20}
+espiral_log,oclusion,102,CD global (inicial),0.018389604339034617,{'degree': 1}
+espiral_log,oclusion,102,CD local-espectral (mejora 1),0.13864234185147617,{'n_neighbors': 7}
+espiral_log,oclusion,103,DBSCAN,0.34865079365079366,"{'eps': np.float64(0.24), 'min_samples': 5}"
+espiral_log,oclusion,103,OPTICS,0.2876984126984127,{'min_samples': 5}
+espiral_log,oclusion,103,Spectral (kNN),0.3465079365079365,{'n_neighbors': 7}
+espiral_log,oclusion,103,CD global (inicial),0.09,{'degree': 1}
+espiral_log,oclusion,103,CD local-espectral (mejora 1),0.3465079365079365,{'n_neighbors': 7}
+espiral_log,oclusion,104,DBSCAN,0.31861375429547134,"{'eps': np.float64(0.24), 'min_samples': 5}"
+espiral_log,oclusion,104,OPTICS,0.27478934583491554,{'min_samples': 20}
+espiral_log,oclusion,104,Spectral (kNN),0.2304940536422888,{'n_neighbors': 7}
+espiral_log,oclusion,104,CD global (inicial),0.13177916490818972,{'degree': 1}
+espiral_log,oclusion,104,CD local-espectral (mejora 1),0.45965079473128895,{'n_neighbors': 5}
+espiral_log,densidad_variable,100,DBSCAN,0.26426144722522815,"{'eps': np.float64(0.32999999999999996), 'min_samples': 5}"
+espiral_log,densidad_variable,100,OPTICS,0.08029839785423698,{'min_samples': 10}
+espiral_log,densidad_variable,100,Spectral (kNN),0.23538917681982283,{'n_neighbors': 7}
+espiral_log,densidad_variable,100,CD global (inicial),0.12979753375191028,{'degree': 2}
+espiral_log,densidad_variable,100,CD local-espectral (mejora 1),0.23538917681982283,{'n_neighbors': 10}
+espiral_log,densidad_variable,101,DBSCAN,0.30030627078332084,"{'eps': np.float64(0.32999999999999996), 'min_samples': 5}"
+espiral_log,densidad_variable,101,OPTICS,0.06827460589443299,{'min_samples': 10}
+espiral_log,densidad_variable,101,Spectral (kNN),0.29274811686404606,{'n_neighbors': 5}
+espiral_log,densidad_variable,101,CD global (inicial),0.1083478291758697,{'degree': 1}
+espiral_log,densidad_variable,101,CD local-espectral (mejora 1),0.3064899839442009,{'n_neighbors': 10}
+espiral_log,densidad_variable,102,DBSCAN,0.3817626422127901,"{'eps': np.float64(0.32999999999999996), 'min_samples': 5}"
+espiral_log,densidad_variable,102,OPTICS,0.1930067156226567,{'min_samples': 7}
+espiral_log,densidad_variable,102,Spectral (kNN),0.36425420334550473,{'n_neighbors': 10}
+espiral_log,densidad_variable,102,CD global (inicial),-0.005435904689038733,{'degree': 3}
+espiral_log,densidad_variable,102,CD local-espectral (mejora 1),0.457012535098475,{'n_neighbors': 10}
+espiral_log,densidad_variable,103,DBSCAN,0.3778910804645208,"{'eps': np.float64(0.27), 'min_samples': 5}"
+espiral_log,densidad_variable,103,OPTICS,0.09955674453261353,{'min_samples': 10}
+espiral_log,densidad_variable,103,Spectral (kNN),0.20743592900920022,{'n_neighbors': 7}
+espiral_log,densidad_variable,103,CD global (inicial),0.06995663307450851,{'degree': 2}
+espiral_log,densidad_variable,103,CD local-espectral (mejora 1),0.40169151550565113,{'n_neighbors': 5}
+espiral_log,densidad_variable,104,DBSCAN,0.2243661638703869,"{'eps': np.float64(0.44999999999999996), 'min_samples': 5}"
+espiral_log,densidad_variable,104,OPTICS,0.21721786386681782,{'min_samples': 10}
+espiral_log,densidad_variable,104,Spectral (kNN),0.11791741453784761,{'n_neighbors': 7}
+espiral_log,densidad_variable,104,CD global (inicial),0.11791741453784761,{'degree': 2}
+espiral_log,densidad_variable,104,CD local-espectral (mejora 1),0.24309239991731552,{'n_neighbors': 5}
