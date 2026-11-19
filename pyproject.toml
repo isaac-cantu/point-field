@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pointfield"
-version = "0.2.0"
+version = "0.3.0"
 description = "Synthetic geometric data generation and geometric learning tools."
 readme = "README.md"
 requires-python = ">=3.11"
@@ -22,9 +22,11 @@ dependencies = [
 
 [project.optional-dependencies]
 learning = [
+    "scipy>=1.11",
     "scikit-learn>=1.4",
 ]
 bench = [
+    "scipy>=1.11",
     "scikit-learn>=1.4",
     "scikit-image>=0.22",
     "pandas>=2.0",

@@ -1,4 +1,19 @@
-"""Whole-object descriptors for 3D point clouds (exploratory stage).
+"""Whole-object descriptors for 3D point clouds (exploratory mid-term stage).
+
+Superseded for the thesis by :mod:`pointfield.learning.invariant`. Kept so
+the mid-term figures stay reproducible. Known limitations (audit H11, H14):
+
+* Averaging M over Haar rotations keeps only *radial* moments: for each point
+  the orbit Rx is the sphere of radius |x|. The cube vertices and the
+  octahedron vertices give the same averaged matrix. Monte Carlo with few
+  rotations is, in addition, only approximately invariant.
+* Classical MDS / kernel PCA of Log-Euclidean distances is exactly PCA of
+  svec(log M); it does not "unfold curvature".
+* Log-Euclidean distances between *non-averaged* matrices are not
+  rotation-invariant (diag(2,1) vs diag(1,2) differ by sqrt(2) ln 2).
+* In the mid-term 3D test D2 beat this descriptor (1.00 vs 0.99 clean,
+  0.96 vs 0.66 with occlusion).
+
 
 CD descriptor: the moment matrix M_d of the (centred, RMS-normalised) cloud,
 made rotation-invariant by averaging over random rotations (empirical

@@ -70,3 +70,36 @@ Detalle por caso: `results/tabla_clustering_resumen.csv`, `figures/fig_heatmap_a
 | Fase de Szegő: ARI 1.00 en espirales | Se reproduce (1.00 en entrelazado, 3 brazos; 0.92 logarítmica). Nuevo: falla con oclusión/densidad variable. |
 | CD + Log-Euclidiana supera a D2 en clasificación de objetos | No se reproduce: D2 = 1.00 y CD = 0.99 (con 300 rotaciones); con oclusión D2 0.96 vs CD 0.66. |
 | Λ_d separa soporte y hueco del anillo | Se reproduce (d ≥ 2, figura del Bloque 02). |
+
+## Posterior al medio término: reconocimiento de objetos completos
+
+Scripts: `objetos_invariantes.py` (sintético) y `modelnet10.py` (real). Código en
+`pointfield.learning.invariant` y `pointfield.learning.evaluation`.
+
+**Protocolo.** Galería de referencia y consultas disjuntas; cada objeto con similitud
+aleatoria (rotación, reflexión, escala ∈ [0.5, 2], traslación). Las consultas se
+perturban (`clean`, `noise` 3 % RMS, `density` sesgo de muestreo, `occlusion` 20 %,
+`outliers` 5 %); la galería queda limpia. Estandarización por bloques y métrica
+multivista se ajustan **solo con referencias** (η ∈ {0.1, 1, 10} por recuperación de
+identidad en 20 % de ellas). mAP, 1-NN y bootstrap pareado estratificado (3000).
+
+**ModelNet10** (semilla 20261025; 400 referencias / 100 desarrollo de `train` /
+200 prueba de `test`; 512 puntos; deduplicación SHA-256):
+
+| Comparación (prueba) | mAP |
+|---|---|
+| CD_U + métrica | 0.402 |
+| M_U + métrica (control sin inversión) | 0.398 — empate, IC incluye 0 |
+| CD_W − CD_U con sesgo de densidad | +0.017 / +0.020, IC > 0 |
+| Cualquier método sin filtro, 5 % atípicos | ≈ 0.10 |
+| Filtro geométrico de atípicos | rescata la condición con atípicos pero erosiona partes delgadas en objetos limpios |
+
+**Sintético** (`results/objetos_{2,3}d.csv`, 20 referencias + 10 consultas por clase):
+CD_U + métrica supera a M_U + métrica en todas las condiciones (3D limpio 0.940 vs 0.885),
+y la métrica multivista recupera casi todo el sesgo de densidad (3D 0.477 → 0.924). D2
+es el más robusto a atípicos sin métrica. Estas familias son más fáciles que ModelNet10
+y la ventaja de CD no se transfirió: la conclusión de la tesis se basa en ModelNet10.
+
+**Lectura.** La contribución defendible es el descriptor invariante con controles y la
+evidencia acotada de que la normalización CD ayuda bajo sesgo de densidad; no una
+superioridad general sobre momentos o D2.

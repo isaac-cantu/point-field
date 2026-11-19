@@ -4,8 +4,9 @@ from pointfield.geometry.shapes3d._base import Surface3D
 
 
 class Ellipsoid(Surface3D):
-    """Ellipsoid surface with semi-axes (a, b, c), approximately area-uniform
-    (rejection on the surface-element of the sphere map)."""
+    """Ellipsoid surface with semi-axes (a, b, c), area-uniform: points of the
+    unit sphere are accepted with probability proportional to the area
+    element of the map u -> (a u1, b u2, c u3), which is exact."""
 
     def __init__(self, a: float = 1.0, b: float = 0.7, c: float = 0.4):
         if min(a, b, c) <= 0:

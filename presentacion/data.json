@@ -1,0 +1,1762 @@
+{
+"por_metodo": {
+"CD + fase Szeg\u0151 (mejora 2)": {
+"principal|base": 0.988,
+"principal|perturbado": 0.747,
+"reservado|base": 0.96,
+"reservado|perturbado": 0.271
+},
+"CD global (inicial)": {
+"principal|base": 0.337,
+"principal|perturbado": 0.314,
+"reservado|base": 0.044,
+"reservado|perturbado": 0.044
+},
+"CD local-espectral (mejora 1)": {
+"principal|base": 0.781,
+"principal|perturbado": 0.72,
+"reservado|base": 0.477,
+"reservado|perturbado": 0.224
+},
+"DBSCAN": {
+"principal|base": 0.489,
+"principal|perturbado": 0.554,
+"reservado|base": 0.178,
+"reservado|perturbado": 0.211
+},
+"K-Means": {
+"principal|base": 0.314,
+"principal|perturbado": 0.308,
+"reservado|base": 0.04,
+"reservado|perturbado": 0.035
+},
+"OPTICS": {
+"principal|base": 0.332,
+"principal|perturbado": 0.254,
+"reservado|base": 0.274,
+"reservado|perturbado": 0.158
+},
+"Spectral (kNN)": {
+"principal|base": 0.79,
+"principal|perturbado": 0.711,
+"reservado|base": 0.364,
+"reservado|perturbado": 0.192
+}
+},
+"oracle": [
+{
+"case": "anidado",
+"variant": "base",
+"method": "CD + fase Szeg\u0151 (mejora 2)",
+"ARI_default": 1.0,
+"ARI_oracle": null
+},
+{
+"case": "anidado",
+"variant": "base",
+"method": "CD global (inicial)",
+"ARI_default": 0.0,
+"ARI_oracle": 0.0
+},
+{
+"case": "anidado",
+"variant": "base",
+"method": "CD local-espectral (mejora 1)",
+"ARI_default": 1.0,
+"ARI_oracle": 1.0
+},
+{
+"case": "anidado",
+"variant": "base",
+"method": "DBSCAN",
+"ARI_default": 0.56,
+"ARI_oracle": 1.0
+},
+{
+"case": "anidado",
+"variant": "base",
+"method": "K-Means",
+"ARI_default": 0.0,
+"ARI_oracle": null
+},
+{
+"case": "anidado",
+"variant": "base",
+"method": "OPTICS",
+"ARI_default": 0.24,
+"ARI_oracle": 0.33
+},
+{
+"case": "anidado",
+"variant": "base",
+"method": "Spectral (kNN)",
+"ARI_default": 1.0,
+"ARI_oracle": 1.0
+},
+{
+"case": "anidado",
+"variant": "densidad_variable",
+"method": "CD + fase Szeg\u0151 (mejora 2)",
+"ARI_default": 0.86,
+"ARI_oracle": null
+},
+{
+"case": "anidado",
+"variant": "densidad_variable",
+"method": "CD global (inicial)",
+"ARI_default": 0.06,
+"ARI_oracle": 0.08
+},
+{
+"case": "anidado",
+"variant": "densidad_variable",
+"method": "CD local-espectral (mejora 1)",
+"ARI_default": 0.86,
+"ARI_oracle": 0.92
+},
+{
+"case": "anidado",
+"variant": "densidad_variable",
+"method": "DBSCAN",
+"ARI_default": 0.68,
+"ARI_oracle": 0.97
+},
+{
+"case": "anidado",
+"variant": "densidad_variable",
+"method": "K-Means",
+"ARI_default": 0.06,
+"ARI_oracle": null
+},
+{
+"case": "anidado",
+"variant": "densidad_variable",
+"method": "OPTICS",
+"ARI_default": 0.14,
+"ARI_oracle": 0.37
+},
+{
+"case": "anidado",
+"variant": "densidad_variable",
+"method": "Spectral (kNN)",
+"ARI_default": 0.89,
+"ARI_oracle": 0.91
+},
+{
+"case": "anidado",
+"variant": "oclusion",
+"method": "CD + fase Szeg\u0151 (mejora 2)",
+"ARI_default": 1.0,
+"ARI_oracle": null
+},
+{
+"case": "anidado",
+"variant": "oclusion",
+"method": "CD global (inicial)",
+"ARI_default": 0.01,
+"ARI_oracle": 0.01
+},
+{
+"case": "anidado",
+"variant": "oclusion",
+"method": "CD local-espectral (mejora 1)",
+"ARI_default": 1.0,
+"ARI_oracle": 1.0
+},
+{
+"case": "anidado",
+"variant": "oclusion",
+"method": "DBSCAN",
+"ARI_default": 0.76,
+"ARI_oracle": 1.0
+},
+{
+"case": "anidado",
+"variant": "oclusion",
+"method": "K-Means",
+"ARI_default": 0.01,
+"ARI_oracle": null
+},
+{
+"case": "anidado",
+"variant": "oclusion",
+"method": "OPTICS",
+"ARI_default": 0.2,
+"ARI_oracle": 0.31
+},
+{
+"case": "anidado",
+"variant": "oclusion",
+"method": "Spectral (kNN)",
+"ARI_default": 1.0,
+"ARI_oracle": 1.0
+},
+{
+"case": "anidado",
+"variant": "ruido",
+"method": "CD + fase Szeg\u0151 (mejora 2)",
+"ARI_default": 1.0,
+"ARI_oracle": null
+},
+{
+"case": "anidado",
+"variant": "ruido",
+"method": "CD global (inicial)",
+"ARI_default": 0.01,
+"ARI_oracle": 0.01
+},
+{
+"case": "anidado",
+"variant": "ruido",
+"method": "CD local-espectral (mejora 1)",
+"ARI_default": 1.0,
+"ARI_oracle": 1.0
+},
+{
+"case": "anidado",
+"variant": "ruido",
+"method": "DBSCAN",
+"ARI_default": 0.56,
+"ARI_oracle": 1.0
+},
+{
+"case": "anidado",
+"variant": "ruido",
+"method": "K-Means",
+"ARI_default": 0.0,
+"ARI_oracle": null
+},
+{
+"case": "anidado",
+"variant": "ruido",
+"method": "OPTICS",
+"ARI_default": 0.28,
+"ARI_oracle": 0.44
+},
+{
+"case": "anidado",
+"variant": "ruido",
+"method": "Spectral (kNN)",
+"ARI_default": 1.0,
+"ARI_oracle": 1.0
+},
+{
+"case": "compacto",
+"variant": "base",
+"method": "CD + fase Szeg\u0151 (mejora 2)",
+"ARI_default": 0.95,
+"ARI_oracle": null
+},
+{
+"case": "compacto",
+"variant": "base",
+"method": "CD global (inicial)",
+"ARI_default": 0.96,
+"ARI_oracle": 0.96
+},
+{
+"case": "compacto",
+"variant": "base",
+"method": "CD local-espectral (mejora 1)",
+"ARI_default": 0.95,
+"ARI_oracle": 0.96
+},
+{
+"case": "compacto",
+"variant": "base",
+"method": "DBSCAN",
+"ARI_default": 0.79,
+"ARI_oracle": 0.86
+},
+{
+"case": "compacto",
+"variant": "base",
+"method": "K-Means",
+"ARI_default": 0.93,
+"ARI_oracle": null
+},
+{
+"case": "compacto",
+"variant": "base",
+"method": "OPTICS",
+"ARI_default": 0.61,
+"ARI_oracle": 0.83
+},
+{
+"case": "compacto",
+"variant": "base",
+"method": "Spectral (kNN)",
+"ARI_default": 0.95,
+"ARI_oracle": 0.96
+},
+{
+"case": "compacto",
+"variant": "densidad_variable",
+"method": "CD + fase Szeg\u0151 (mejora 2)",
+"ARI_default": 0.96,
+"ARI_oracle": null
+},
+{
+"case": "compacto",
+"variant": "densidad_variable",
+"method": "CD global (inicial)",
+"ARI_default": 0.96,
+"ARI_oracle": 0.97
+},
+{
+"case": "compacto",
+"variant": "densidad_variable",
+"method": "CD local-espectral (mejora 1)",
+"ARI_default": 0.96,
+"ARI_oracle": 0.98
+},
+{
+"case": "compacto",
+"variant": "densidad_variable",
+"method": "DBSCAN",
+"ARI_default": 0.8,
+"ARI_oracle": 0.9
+},
+{
+"case": "compacto",
+"variant": "densidad_variable",
+"method": "K-Means",
+"ARI_default": 0.94,
+"ARI_oracle": null
+},
+{
+"case": "compacto",
+"variant": "densidad_variable",
+"method": "OPTICS",
+"ARI_default": 0.25,
+"ARI_oracle": 0.88
+},
+{
+"case": "compacto",
+"variant": "densidad_variable",
+"method": "Spectral (kNN)",
+"ARI_default": 0.96,
+"ARI_oracle": 0.97
+},
+{
+"case": "compacto",
+"variant": "oclusion",
+"method": "CD + fase Szeg\u0151 (mejora 2)",
+"ARI_default": 0.88,
+"ARI_oracle": null
+},
+{
+"case": "compacto",
+"variant": "oclusion",
+"method": "CD global (inicial)",
+"ARI_default": 0.93,
+"ARI_oracle": 0.96
+},
+{
+"case": "compacto",
+"variant": "oclusion",
+"method": "CD local-espectral (mejora 1)",
+"ARI_default": 0.88,
+"ARI_oracle": 0.95
+},
+{
+"case": "compacto",
+"variant": "oclusion",
+"method": "DBSCAN",
+"ARI_default": 0.83,
+"ARI_oracle": 0.86
+},
+{
+"case": "compacto",
+"variant": "oclusion",
+"method": "K-Means",
+"ARI_default": 0.9,
+"ARI_oracle": null
+},
+{
+"case": "compacto",
+"variant": "oclusion",
+"method": "OPTICS",
+"ARI_default": 0.59,
+"ARI_oracle": 0.87
+},
+{
+"case": "compacto",
+"variant": "oclusion",
+"method": "Spectral (kNN)",
+"ARI_default": 0.91,
+"ARI_oracle": 0.96
+},
+{
+"case": "compacto",
+"variant": "ruido",
+"method": "CD + fase Szeg\u0151 (mejora 2)",
+"ARI_default": 0.94,
+"ARI_oracle": null
+},
+{
+"case": "compacto",
+"variant": "ruido",
+"method": "CD global (inicial)",
+"ARI_default": 0.95,
+"ARI_oracle": 0.96
+},
+{
+"case": "compacto",
+"variant": "ruido",
+"method": "CD local-espectral (mejora 1)",
+"ARI_default": 0.94,
+"ARI_oracle": 0.96
+},
+{
+"case": "compacto",
+"variant": "ruido",
+"method": "DBSCAN",
+"ARI_default": 0.57,
+"ARI_oracle": 0.77
+},
+{
+"case": "compacto",
+"variant": "ruido",
+"method": "K-Means",
+"ARI_default": 0.92,
+"ARI_oracle": null
+},
+{
+"case": "compacto",
+"variant": "ruido",
+"method": "OPTICS",
+"ARI_default": 0.53,
+"ARI_oracle": 0.77
+},
+{
+"case": "compacto",
+"variant": "ruido",
+"method": "Spectral (kNN)",
+"ARI_default": 0.94,
+"ARI_oracle": 0.95
+},
+{
+"case": "entrelazado",
+"variant": "base",
+"method": "CD + fase Szeg\u0151 (mejora 2)",
+"ARI_default": 1.0,
+"ARI_oracle": null
+},
+{
+"case": "entrelazado",
+"variant": "base",
+"method": "CD global (inicial)",
+"ARI_default": 0.06,
+"ARI_oracle": 0.06
+},
+{
+"case": "entrelazado",
+"variant": "base",
+"method": "CD local-espectral (mejora 1)",
+"ARI_default": 0.17,
+"ARI_oracle": 0.64
+},
+{
+"case": "entrelazado",
+"variant": "base",
+"method": "DBSCAN",
+"ARI_default": 0.16,
+"ARI_oracle": 0.94
+},
+{
+"case": "entrelazado",
+"variant": "base",
+"method": "K-Means",
+"ARI_default": 0.06,
+"ARI_oracle": null
+},
+{
+"case": "entrelazado",
+"variant": "base",
+"method": "OPTICS",
+"ARI_default": 0.22,
+"ARI_oracle": 0.24
+},
+{
+"case": "entrelazado",
+"variant": "base",
+"method": "Spectral (kNN)",
+"ARI_default": 0.21,
+"ARI_oracle": 0.26
+},
+{
+"case": "entrelazado",
+"variant": "densidad_variable",
+"method": "CD + fase Szeg\u0151 (mejora 2)",
+"ARI_default": 0.14,
+"ARI_oracle": null
+},
+{
+"case": "entrelazado",
+"variant": "densidad_variable",
+"method": "CD global (inicial)",
+"ARI_default": 0.05,
+"ARI_oracle": 0.06
+},
+{
+"case": "entrelazado",
+"variant": "densidad_variable",
+"method": "CD local-espectral (mejora 1)",
+"ARI_default": 0.14,
+"ARI_oracle": 0.2
+},
+{
+"case": "entrelazado",
+"variant": "densidad_variable",
+"method": "DBSCAN",
+"ARI_default": 0.22,
+"ARI_oracle": 0.46
+},
+{
+"case": "entrelazado",
+"variant": "densidad_variable",
+"method": "K-Means",
+"ARI_default": 0.05,
+"ARI_oracle": null
+},
+{
+"case": "entrelazado",
+"variant": "densidad_variable",
+"method": "OPTICS",
+"ARI_default": 0.2,
+"ARI_oracle": 0.2
+},
+{
+"case": "entrelazado",
+"variant": "densidad_variable",
+"method": "Spectral (kNN)",
+"ARI_default": 0.08,
+"ARI_oracle": 0.23
+},
+{
+"case": "entrelazado",
+"variant": "oclusion",
+"method": "CD + fase Szeg\u0151 (mejora 2)",
+"ARI_default": 0.16,
+"ARI_oracle": null
+},
+{
+"case": "entrelazado",
+"variant": "oclusion",
+"method": "CD global (inicial)",
+"ARI_default": 0.04,
+"ARI_oracle": 0.05
+},
+{
+"case": "entrelazado",
+"variant": "oclusion",
+"method": "CD local-espectral (mejora 1)",
+"ARI_default": 0.16,
+"ARI_oracle": 0.34
+},
+{
+"case": "entrelazado",
+"variant": "oclusion",
+"method": "DBSCAN",
+"ARI_default": 0.21,
+"ARI_oracle": 0.66
+},
+{
+"case": "entrelazado",
+"variant": "oclusion",
+"method": "K-Means",
+"ARI_default": 0.05,
+"ARI_oracle": null
+},
+{
+"case": "entrelazado",
+"variant": "oclusion",
+"method": "OPTICS",
+"ARI_default": 0.16,
+"ARI_oracle": 0.21
+},
+{
+"case": "entrelazado",
+"variant": "oclusion",
+"method": "Spectral (kNN)",
+"ARI_default": 0.19,
+"ARI_oracle": 0.19
+},
+{
+"case": "entrelazado",
+"variant": "ruido",
+"method": "CD + fase Szeg\u0151 (mejora 2)",
+"ARI_default": 0.42,
+"ARI_oracle": null
+},
+{
+"case": "entrelazado",
+"variant": "ruido",
+"method": "CD global (inicial)",
+"ARI_default": 0.05,
+"ARI_oracle": 0.05
+},
+{
+"case": "entrelazado",
+"variant": "ruido",
+"method": "CD local-espectral (mejora 1)",
+"ARI_default": 0.05,
+"ARI_oracle": 0.08
+},
+{
+"case": "entrelazado",
+"variant": "ruido",
+"method": "DBSCAN",
+"ARI_default": 0.13,
+"ARI_oracle": 0.14
+},
+{
+"case": "entrelazado",
+"variant": "ruido",
+"method": "K-Means",
+"ARI_default": 0.05,
+"ARI_oracle": null
+},
+{
+"case": "entrelazado",
+"variant": "ruido",
+"method": "OPTICS",
+"ARI_default": 0.11,
+"ARI_oracle": 0.17
+},
+{
+"case": "entrelazado",
+"variant": "ruido",
+"method": "Spectral (kNN)",
+"ARI_default": 0.04,
+"ARI_oracle": 0.1
+},
+{
+"case": "espiral_3brazos",
+"variant": "base",
+"method": "CD + fase Szeg\u0151 (mejora 2)",
+"ARI_default": 1.0,
+"ARI_oracle": null
+},
+{
+"case": "espiral_3brazos",
+"variant": "base",
+"method": "CD global (inicial)",
+"ARI_default": 0.03,
+"ARI_oracle": 0.04
+},
+{
+"case": "espiral_3brazos",
+"variant": "base",
+"method": "CD local-espectral (mejora 1)",
+"ARI_default": 0.4,
+"ARI_oracle": 0.71
+},
+{
+"case": "espiral_3brazos",
+"variant": "base",
+"method": "DBSCAN",
+"ARI_default": 0.24,
+"ARI_oracle": 0.82
+},
+{
+"case": "espiral_3brazos",
+"variant": "base",
+"method": "K-Means",
+"ARI_default": 0.03,
+"ARI_oracle": null
+},
+{
+"case": "espiral_3brazos",
+"variant": "base",
+"method": "OPTICS",
+"ARI_default": 0.4,
+"ARI_oracle": 0.42
+},
+{
+"case": "espiral_3brazos",
+"variant": "base",
+"method": "Spectral (kNN)",
+"ARI_default": 0.2,
+"ARI_oracle": 0.4
+},
+{
+"case": "espiral_3brazos",
+"variant": "densidad_variable",
+"method": "CD + fase Szeg\u0151 (mejora 2)",
+"ARI_default": 0.14,
+"ARI_oracle": null
+},
+{
+"case": "espiral_3brazos",
+"variant": "densidad_variable",
+"method": "CD global (inicial)",
+"ARI_default": 0.03,
+"ARI_oracle": 0.05
+},
+{
+"case": "espiral_3brazos",
+"variant": "densidad_variable",
+"method": "CD local-espectral (mejora 1)",
+"ARI_default": 0.14,
+"ARI_oracle": 0.25
+},
+{
+"case": "espiral_3brazos",
+"variant": "densidad_variable",
+"method": "DBSCAN",
+"ARI_default": 0.3,
+"ARI_oracle": 0.62
+},
+{
+"case": "espiral_3brazos",
+"variant": "densidad_variable",
+"method": "K-Means",
+"ARI_default": 0.03,
+"ARI_oracle": null
+},
+{
+"case": "espiral_3brazos",
+"variant": "densidad_variable",
+"method": "OPTICS",
+"ARI_default": 0.2,
+"ARI_oracle": 0.22
+},
+{
+"case": "espiral_3brazos",
+"variant": "densidad_variable",
+"method": "Spectral (kNN)",
+"ARI_default": 0.15,
+"ARI_oracle": 0.28
+},
+{
+"case": "espiral_3brazos",
+"variant": "oclusion",
+"method": "CD + fase Szeg\u0151 (mejora 2)",
+"ARI_default": 0.26,
+"ARI_oracle": null
+},
+{
+"case": "espiral_3brazos",
+"variant": "oclusion",
+"method": "CD global (inicial)",
+"ARI_default": 0.02,
+"ARI_oracle": 0.03
+},
+{
+"case": "espiral_3brazos",
+"variant": "oclusion",
+"method": "CD local-espectral (mejora 1)",
+"ARI_default": 0.26,
+"ARI_oracle": 0.49
+},
+{
+"case": "espiral_3brazos",
+"variant": "oclusion",
+"method": "DBSCAN",
+"ARI_default": 0.27,
+"ARI_oracle": 0.66
+},
+{
+"case": "espiral_3brazos",
+"variant": "oclusion",
+"method": "K-Means",
+"ARI_default": 0.02,
+"ARI_oracle": null
+},
+{
+"case": "espiral_3brazos",
+"variant": "oclusion",
+"method": "OPTICS",
+"ARI_default": 0.31,
+"ARI_oracle": 0.36
+},
+{
+"case": "espiral_3brazos",
+"variant": "oclusion",
+"method": "Spectral (kNN)",
+"ARI_default": 0.19,
+"ARI_oracle": 0.26
+},
+{
+"case": "espiral_3brazos",
+"variant": "ruido",
+"method": "CD + fase Szeg\u0151 (mejora 2)",
+"ARI_default": 0.07,
+"ARI_oracle": null
+},
+{
+"case": "espiral_3brazos",
+"variant": "ruido",
+"method": "CD global (inicial)",
+"ARI_default": 0.03,
+"ARI_oracle": 0.04
+},
+{
+"case": "espiral_3brazos",
+"variant": "ruido",
+"method": "CD local-espectral (mejora 1)",
+"ARI_default": 0.07,
+"ARI_oracle": 0.11
+},
+{
+"case": "espiral_3brazos",
+"variant": "ruido",
+"method": "DBSCAN",
+"ARI_default": 0.14,
+"ARI_oracle": 0.13
+},
+{
+"case": "espiral_3brazos",
+"variant": "ruido",
+"method": "K-Means",
+"ARI_default": 0.03,
+"ARI_oracle": null
+},
+{
+"case": "espiral_3brazos",
+"variant": "ruido",
+"method": "OPTICS",
+"ARI_default": 0.05,
+"ARI_oracle": 0.08
+},
+{
+"case": "espiral_3brazos",
+"variant": "ruido",
+"method": "Spectral (kNN)",
+"ARI_default": 0.06,
+"ARI_oracle": 0.07
+},
+{
+"case": "espiral_log",
+"variant": "base",
+"method": "CD + fase Szeg\u0151 (mejora 2)",
+"ARI_default": 0.92,
+"ARI_oracle": null
+},
+{
+"case": "espiral_log",
+"variant": "base",
+"method": "CD global (inicial)",
+"ARI_default": 0.06,
+"ARI_oracle": 0.07
+},
+{
+"case": "espiral_log",
+"variant": "base",
+"method": "CD local-espectral (mejora 1)",
+"ARI_default": 0.55,
+"ARI_oracle": 0.55
+},
+{
+"case": "espiral_log",
+"variant": "base",
+"method": "DBSCAN",
+"ARI_default": 0.11,
+"ARI_oracle": 0.38
+},
+{
+"case": "espiral_log",
+"variant": "base",
+"method": "K-Means",
+"ARI_default": 0.05,
+"ARI_oracle": null
+},
+{
+"case": "espiral_log",
+"variant": "base",
+"method": "OPTICS",
+"ARI_default": 0.15,
+"ARI_oracle": 0.17
+},
+{
+"case": "espiral_log",
+"variant": "base",
+"method": "Spectral (kNN)",
+"ARI_default": 0.52,
+"ARI_oracle": 0.55
+},
+{
+"case": "espiral_log",
+"variant": "densidad_variable",
+"method": "CD + fase Szeg\u0151 (mejora 2)",
+"ARI_default": 0.28,
+"ARI_oracle": null
+},
+{
+"case": "espiral_log",
+"variant": "densidad_variable",
+"method": "CD global (inicial)",
+"ARI_default": 0.08,
+"ARI_oracle": 0.08
+},
+{
+"case": "espiral_log",
+"variant": "densidad_variable",
+"method": "CD local-espectral (mejora 1)",
+"ARI_default": 0.28,
+"ARI_oracle": 0.33
+},
+{
+"case": "espiral_log",
+"variant": "densidad_variable",
+"method": "DBSCAN",
+"ARI_default": 0.23,
+"ARI_oracle": 0.31
+},
+{
+"case": "espiral_log",
+"variant": "densidad_variable",
+"method": "K-Means",
+"ARI_default": 0.03,
+"ARI_oracle": null
+},
+{
+"case": "espiral_log",
+"variant": "densidad_variable",
+"method": "OPTICS",
+"ARI_default": 0.1,
+"ARI_oracle": 0.13
+},
+{
+"case": "espiral_log",
+"variant": "densidad_variable",
+"method": "Spectral (kNN)",
+"ARI_default": 0.21,
+"ARI_oracle": 0.24
+},
+{
+"case": "espiral_log",
+"variant": "oclusion",
+"method": "CD + fase Szeg\u0151 (mejora 2)",
+"ARI_default": 0.24,
+"ARI_oracle": null
+},
+{
+"case": "espiral_log",
+"variant": "oclusion",
+"method": "CD global (inicial)",
+"ARI_default": 0.04,
+"ARI_oracle": 0.05
+},
+{
+"case": "espiral_log",
+"variant": "oclusion",
+"method": "CD local-espectral (mejora 1)",
+"ARI_default": 0.24,
+"ARI_oracle": 0.33
+},
+{
+"case": "espiral_log",
+"variant": "oclusion",
+"method": "DBSCAN",
+"ARI_default": 0.14,
+"ARI_oracle": 0.36
+},
+{
+"case": "espiral_log",
+"variant": "oclusion",
+"method": "K-Means",
+"ARI_default": 0.04,
+"ARI_oracle": null
+},
+{
+"case": "espiral_log",
+"variant": "oclusion",
+"method": "OPTICS",
+"ARI_default": 0.13,
+"ARI_oracle": 0.26
+},
+{
+"case": "espiral_log",
+"variant": "oclusion",
+"method": "Spectral (kNN)",
+"ARI_default": 0.28,
+"ARI_oracle": 0.28
+},
+{
+"case": "espiral_log",
+"variant": "ruido",
+"method": "CD + fase Szeg\u0151 (mejora 2)",
+"ARI_default": 0.62,
+"ARI_oracle": null
+},
+{
+"case": "espiral_log",
+"variant": "ruido",
+"method": "CD global (inicial)",
+"ARI_default": 0.05,
+"ARI_oracle": 0.08
+},
+{
+"case": "espiral_log",
+"variant": "ruido",
+"method": "CD local-espectral (mejora 1)",
+"ARI_default": 0.34,
+"ARI_oracle": 0.44
+},
+{
+"case": "espiral_log",
+"variant": "ruido",
+"method": "DBSCAN",
+"ARI_default": 0.18,
+"ARI_oracle": 0.22
+},
+{
+"case": "espiral_log",
+"variant": "ruido",
+"method": "K-Means",
+"ARI_default": 0.05,
+"ARI_oracle": null
+},
+{
+"case": "espiral_log",
+"variant": "ruido",
+"method": "OPTICS",
+"ARI_default": 0.16,
+"ARI_oracle": 0.18
+},
+{
+"case": "espiral_log",
+"variant": "ruido",
+"method": "Spectral (kNN)",
+"ARI_default": 0.28,
+"ARI_oracle": 0.3
+},
+{
+"case": "no_convexo",
+"variant": "base",
+"method": "CD + fase Szeg\u0151 (mejora 2)",
+"ARI_default": 1.0,
+"ARI_oracle": null
+},
+{
+"case": "no_convexo",
+"variant": "base",
+"method": "CD global (inicial)",
+"ARI_default": 0.33,
+"ARI_oracle": 0.52
+},
+{
+"case": "no_convexo",
+"variant": "base",
+"method": "CD local-espectral (mejora 1)",
+"ARI_default": 1.0,
+"ARI_oracle": 1.0
+},
+{
+"case": "no_convexo",
+"variant": "base",
+"method": "DBSCAN",
+"ARI_default": 0.44,
+"ARI_oracle": 1.0
+},
+{
+"case": "no_convexo",
+"variant": "base",
+"method": "K-Means",
+"ARI_default": 0.27,
+"ARI_oracle": null
+},
+{
+"case": "no_convexo",
+"variant": "base",
+"method": "OPTICS",
+"ARI_default": 0.26,
+"ARI_oracle": 0.3
+},
+{
+"case": "no_convexo",
+"variant": "base",
+"method": "Spectral (kNN)",
+"ARI_default": 1.0,
+"ARI_oracle": 1.0
+},
+{
+"case": "no_convexo",
+"variant": "densidad_variable",
+"method": "CD + fase Szeg\u0151 (mejora 2)",
+"ARI_default": 1.0,
+"ARI_oracle": null
+},
+{
+"case": "no_convexo",
+"variant": "densidad_variable",
+"method": "CD global (inicial)",
+"ARI_default": 0.28,
+"ARI_oracle": 0.4
+},
+{
+"case": "no_convexo",
+"variant": "densidad_variable",
+"method": "CD local-espectral (mejora 1)",
+"ARI_default": 1.0,
+"ARI_oracle": 1.0
+},
+{
+"case": "no_convexo",
+"variant": "densidad_variable",
+"method": "DBSCAN",
+"ARI_default": 0.68,
+"ARI_oracle": 1.0
+},
+{
+"case": "no_convexo",
+"variant": "densidad_variable",
+"method": "K-Means",
+"ARI_default": 0.3,
+"ARI_oracle": null
+},
+{
+"case": "no_convexo",
+"variant": "densidad_variable",
+"method": "OPTICS",
+"ARI_default": 0.13,
+"ARI_oracle": 0.29
+},
+{
+"case": "no_convexo",
+"variant": "densidad_variable",
+"method": "Spectral (kNN)",
+"ARI_default": 0.99,
+"ARI_oracle": 1.0
+},
+{
+"case": "no_convexo",
+"variant": "oclusion",
+"method": "CD + fase Szeg\u0151 (mejora 2)",
+"ARI_default": 0.66,
+"ARI_oracle": null
+},
+{
+"case": "no_convexo",
+"variant": "oclusion",
+"method": "CD global (inicial)",
+"ARI_default": 0.16,
+"ARI_oracle": 0.26
+},
+{
+"case": "no_convexo",
+"variant": "oclusion",
+"method": "CD local-espectral (mejora 1)",
+"ARI_default": 0.66,
+"ARI_oracle": 0.92
+},
+{
+"case": "no_convexo",
+"variant": "oclusion",
+"method": "DBSCAN",
+"ARI_default": 0.51,
+"ARI_oracle": 0.93
+},
+{
+"case": "no_convexo",
+"variant": "oclusion",
+"method": "K-Means",
+"ARI_default": 0.15,
+"ARI_oracle": null
+},
+{
+"case": "no_convexo",
+"variant": "oclusion",
+"method": "OPTICS",
+"ARI_default": 0.17,
+"ARI_oracle": 0.28
+},
+{
+"case": "no_convexo",
+"variant": "oclusion",
+"method": "Spectral (kNN)",
+"ARI_default": 0.56,
+"ARI_oracle": 0.76
+},
+{
+"case": "no_convexo",
+"variant": "ruido",
+"method": "CD + fase Szeg\u0151 (mejora 2)",
+"ARI_default": 0.94,
+"ARI_oracle": null
+},
+{
+"case": "no_convexo",
+"variant": "ruido",
+"method": "CD global (inicial)",
+"ARI_default": 0.27,
+"ARI_oracle": 0.5
+},
+{
+"case": "no_convexo",
+"variant": "ruido",
+"method": "CD local-espectral (mejora 1)",
+"ARI_default": 1.0,
+"ARI_oracle": 1.0
+},
+{
+"case": "no_convexo",
+"variant": "ruido",
+"method": "DBSCAN",
+"ARI_default": 0.71,
+"ARI_oracle": 1.0
+},
+{
+"case": "no_convexo",
+"variant": "ruido",
+"method": "K-Means",
+"ARI_default": 0.27,
+"ARI_oracle": null
+},
+{
+"case": "no_convexo",
+"variant": "ruido",
+"method": "OPTICS",
+"ARI_default": 0.28,
+"ARI_oracle": 0.44
+},
+{
+"case": "no_convexo",
+"variant": "ruido",
+"method": "Spectral (kNN)",
+"ARI_default": 0.98,
+"ARI_oracle": 1.0
+}
+],
+"emb": {
+"CD local-espectral": {
+"T": 0.86,
+"C": 0.95,
+"kNN_acc": 0.83
+},
+"Isomap": {
+"T": 0.86,
+"C": 0.96,
+"kNN_acc": 0.88
+},
+"Kernel PCA (RBF)": {
+"T": 0.8,
+"C": 0.95,
+"kNN_acc": 0.8
+},
+"Laplacian Eigenmaps": {
+"T": 0.86,
+"C": 0.95,
+"kNN_acc": 0.83
+},
+"PCA": {
+"T": 0.81,
+"C": 0.96,
+"kNN_acc": 0.8
+},
+"UMAP": {
+"T": 0.95,
+"C": 0.96,
+"kNN_acc": 0.92
+}
+},
+"c3d": [
+{
+"method": "CD + Log-Euclidiana (d=2, 30 rot.)",
+"variant": "base",
+"mean": 0.74,
+"std": 0.058
+},
+{
+"method": "CD + Log-Euclidiana (d=2, 30 rot.)",
+"variant": "oclusion",
+"mean": 0.466,
+"std": 0.048
+},
+{
+"method": "CD + Log-Euclidiana (d=2, 30 rot.)",
+"variant": "ruido",
+"mean": 0.737,
+"std": 0.054
+},
+{
+"method": "CD + Log-Euclidiana (d=4, 30 rot.)",
+"variant": "base",
+"mean": 0.889,
+"std": 0.038
+},
+{
+"method": "CD + Log-Euclidiana (d=4, 30 rot.)",
+"variant": "oclusion",
+"mean": 0.48,
+"std": 0.054
+},
+{
+"method": "CD + Log-Euclidiana (d=4, 30 rot.)",
+"variant": "ruido",
+"mean": 0.871,
+"std": 0.051
+},
+{
+"method": "CD + Log-Euclidiana (d=4, 300 rot.)",
+"variant": "base",
+"mean": 0.986,
+"std": 0.014
+},
+{
+"method": "CD + Log-Euclidiana (d=4, 300 rot.)",
+"variant": "oclusion",
+"mean": 0.66,
+"std": 0.057
+},
+{
+"method": "CD + Log-Euclidiana (d=4, 300 rot.)",
+"variant": "ruido",
+"mean": 0.989,
+"std": 0.012
+},
+{
+"method": "D2 (Osada 2002)",
+"variant": "base",
+"mean": 1.0,
+"std": 0.0
+},
+{
+"method": "D2 (Osada 2002)",
+"variant": "oclusion",
+"mean": 0.957,
+"std": 0.014
+},
+{
+"method": "D2 (Osada 2002)",
+"variant": "ruido",
+"mean": 1.0,
+"std": 0.0
+},
+{
+"method": "Eigen-rasgos PCA",
+"variant": "base",
+"mean": 0.857,
+"std": 0.042
+},
+{
+"method": "Eigen-rasgos PCA",
+"variant": "oclusion",
+"mean": 0.623,
+"std": 0.03
+},
+{
+"method": "Eigen-rasgos PCA",
+"variant": "ruido",
+"mean": 0.851,
+"std": 0.076
+}
+],
+"gate_eval": [
+{
+"case": "compacto",
+"variant": "base",
+"ganancia_devanado": 0.02,
+"ganancia_std": 0.01,
+"fase_activada": 0.0
+},
+{
+"case": "compacto",
+"variant": "ruido",
+"ganancia_devanado": 0.01,
+"ganancia_std": 0.01,
+"fase_activada": 0.0
+},
+{
+"case": "compacto",
+"variant": "oclusion",
+"ganancia_devanado": 0.01,
+"ganancia_std": 0.01,
+"fase_activada": 0.0
+},
+{
+"case": "compacto",
+"variant": "densidad_variable",
+"ganancia_devanado": 0.02,
+"ganancia_std": 0.01,
+"fase_activada": 0.0
+},
+{
+"case": "no_convexo",
+"variant": "base",
+"ganancia_devanado": 0.24,
+"ganancia_std": 0.01,
+"fase_activada": 1.0
+},
+{
+"case": "no_convexo",
+"variant": "ruido",
+"ganancia_devanado": 0.21,
+"ganancia_std": 0.01,
+"fase_activada": 0.8
+},
+{
+"case": "no_convexo",
+"variant": "oclusion",
+"ganancia_devanado": 0.12,
+"ganancia_std": 0.04,
+"fase_activada": 0.0
+},
+{
+"case": "no_convexo",
+"variant": "densidad_variable",
+"ganancia_devanado": 0.14,
+"ganancia_std": 0.03,
+"fase_activada": 0.0
+},
+{
+"case": "entrelazado",
+"variant": "base",
+"ganancia_devanado": 0.34,
+"ganancia_std": 0.07,
+"fase_activada": 1.0
+},
+{
+"case": "entrelazado",
+"variant": "ruido",
+"ganancia_devanado": 0.21,
+"ganancia_std": 0.05,
+"fase_activada": 0.4
+},
+{
+"case": "entrelazado",
+"variant": "oclusion",
+"ganancia_devanado": 0.07,
+"ganancia_std": 0.05,
+"fase_activada": 0.0
+},
+{
+"case": "entrelazado",
+"variant": "densidad_variable",
+"ganancia_devanado": 0.1,
+"ganancia_std": 0.04,
+"fase_activada": 0.0
+},
+{
+"case": "anidado",
+"variant": "base",
+"ganancia_devanado": 0.03,
+"ganancia_std": 0.02,
+"fase_activada": 0.0
+},
+{
+"case": "anidado",
+"variant": "ruido",
+"ganancia_devanado": 0.04,
+"ganancia_std": 0.02,
+"fase_activada": 0.0
+},
+{
+"case": "anidado",
+"variant": "oclusion",
+"ganancia_devanado": 0.1,
+"ganancia_std": 0.03,
+"fase_activada": 0.0
+},
+{
+"case": "anidado",
+"variant": "densidad_variable",
+"ganancia_devanado": 0.11,
+"ganancia_std": 0.02,
+"fase_activada": 0.0
+},
+{
+"case": "espiral_3brazos",
+"variant": "base",
+"ganancia_devanado": 0.33,
+"ganancia_std": 0.06,
+"fase_activada": 1.0
+},
+{
+"case": "espiral_3brazos",
+"variant": "ruido",
+"ganancia_devanado": 0.16,
+"ganancia_std": 0.03,
+"fase_activada": 0.0
+},
+{
+"case": "espiral_3brazos",
+"variant": "oclusion",
+"ganancia_devanado": 0.06,
+"ganancia_std": 0.02,
+"fase_activada": 0.0
+},
+{
+"case": "espiral_3brazos",
+"variant": "densidad_variable",
+"ganancia_devanado": 0.09,
+"ganancia_std": 0.04,
+"fase_activada": 0.0
+},
+{
+"case": "espiral_log",
+"variant": "base",
+"ganancia_devanado": 0.35,
+"ganancia_std": 0.07,
+"fase_activada": 1.0
+},
+{
+"case": "espiral_log",
+"variant": "ruido",
+"ganancia_devanado": 0.24,
+"ganancia_std": 0.03,
+"fase_activada": 1.0
+},
+{
+"case": "espiral_log",
+"variant": "oclusion",
+"ganancia_devanado": 0.08,
+"ganancia_std": 0.02,
+"fase_activada": 0.0
+},
+{
+"case": "espiral_log",
+"variant": "densidad_variable",
+"ganancia_devanado": 0.12,
+"ganancia_std": 0.03,
+"fase_activada": 0.0
+}
+],
+"gate_dev": [
+{
+"case": "compacto",
+"variant": "base",
+"g": 0.01,
+"on": 0.0
+},
+{
+"case": "compacto",
+"variant": "ruido",
+"g": 0.01,
+"on": 0.0
+},
+{
+"case": "compacto",
+"variant": "oclusion",
+"g": 0.01,
+"on": 0.0
+},
+{
+"case": "compacto",
+"variant": "densidad_variable",
+"g": 0.01,
+"on": 0.0
+},
+{
+"case": "no_convexo",
+"variant": "base",
+"g": 0.22,
+"on": 1.0
+},
+{
+"case": "no_convexo",
+"variant": "ruido",
+"g": 0.2,
+"on": 0.6666666666666666
+},
+{
+"case": "no_convexo",
+"variant": "oclusion",
+"g": 0.09,
+"on": 0.0
+},
+{
+"case": "no_convexo",
+"variant": "densidad_variable",
+"g": 0.09,
+"on": 0.0
+},
+{
+"case": "entrelazado",
+"variant": "base",
+"g": 0.41,
+"on": 1.0
+},
+{
+"case": "entrelazado",
+"variant": "ruido",
+"g": 0.25,
+"on": 1.0
+},
+{
+"case": "entrelazado",
+"variant": "oclusion",
+"g": 0.05,
+"on": 0.0
+},
+{
+"case": "entrelazado",
+"variant": "densidad_variable",
+"g": 0.1,
+"on": 0.0
+},
+{
+"case": "anidado",
+"variant": "base",
+"g": 0.04,
+"on": 0.0
+},
+{
+"case": "anidado",
+"variant": "ruido",
+"g": 0.03,
+"on": 0.0
+},
+{
+"case": "anidado",
+"variant": "oclusion",
+"g": 0.1,
+"on": 0.0
+},
+{
+"case": "anidado",
+"variant": "densidad_variable",
+"g": 0.12,
+"on": 0.0
+},
+{
+"case": "espiral_3brazos",
+"variant": "base",
+"g": 0.36,
+"on": 1.0
+},
+{
+"case": "espiral_3brazos",
+"variant": "ruido",
+"g": 0.19,
+"on": 0.0
+},
+{
+"case": "espiral_3brazos",
+"variant": "oclusion",
+"g": 0.06,
+"on": 0.0
+},
+{
+"case": "espiral_3brazos",
+"variant": "densidad_variable",
+"g": 0.06,
+"on": 0.0
+},
+{
+"case": "espiral_log",
+"variant": "base",
+"g": 0.41,
+"on": 1.0
+},
+{
+"case": "espiral_log",
+"variant": "ruido",
+"g": 0.26,
+"on": 1.0
+},
+{
+"case": "espiral_log",
+"variant": "oclusion",
+"g": 0.08,
+"on": 0.0
+},
+{
+"case": "espiral_log",
+"variant": "densidad_variable",
+"g": 0.13,
+"on": 0.0
+}
+],
+"deg": [
+{
+"dataset": "anillo (con hueco)",
+"degree": 1,
+"basis_size": 3,
+"N_per_param": 100.0,
+"cond_M": 2.196708913874628,
+"trace_rel_error": 1.1182963888245467e-08,
+"P_median_data": 2.991631224501122,
+"ratio_hueco": 0.3342657962463575,
+"ratio_lejano": 4.446290451763739,
+"hueco_fuera_soporte": false
+},
+{
+"dataset": "anillo (con hueco)",
+"degree": 2,
+"basis_size": 6,
+"N_per_param": 50.0,
+"cond_M": 197.69031501683455,
+"trace_rel_error": 1.188821932747904e-07,
+"P_median_data": 5.669787990773726,
+"ratio_hueco": 7.755586448577868,
+"ratio_lejano": 187.90566605593645,
+"hueco_fuera_soporte": true
+},
+{
+"dataset": "anillo (con hueco)",
+"degree": 4,
+"basis_size": 15,
+"N_per_param": 20.0,
+"cond_M": 61609.938666755406,
+"trace_rel_error": 7.055311121225335e-06,
+"P_median_data": 12.96554839123553,
+"ratio_hueco": 158.20042607489674,
+"ratio_lejano": 89916.31619367219,
+"hueco_fuera_soporte": true
+},
+{
+"dataset": "anillo (con hueco)",
+"degree": 6,
+"basis_size": 28,
+"N_per_param": 10.714285714285714,
+"cond_M": 25044237.189492226,
+"trace_rel_error": 0.000881773523725,
+"P_median_data": 22.480173455497265,
+"ratio_hueco": 4596.991481389856,
+"ratio_lejano": 59041602.45068763,
+"hueco_fuera_soporte": true
+},
+{
+"dataset": "lunas (no convexo)",
+"degree": 1,
+"basis_size": 3,
+"N_per_param": 100.0,
+"cond_M": 5.583864867728689,
+"trace_rel_error": 1.7337824213351876e-08,
+"P_median_data": 3.0044429027340187,
+"ratio_hueco": null,
+"ratio_lejano": null,
+"hueco_fuera_soporte": null
+},
+{
+"dataset": "lunas (no convexo)",
+"degree": 2,
+"basis_size": 6,
+"N_per_param": 50.0,
+"cond_M": 125.95518421036776,
+"trace_rel_error": 8.18842682548393e-08,
+"P_median_data": 4.904970549889091,
+"ratio_hueco": null,
+"ratio_lejano": null,
+"hueco_fuera_soporte": null
+},
+{
+"dataset": "lunas (no convexo)",
+"degree": 4,
+"basis_size": 15,
+"N_per_param": 20.0,
+"cond_M": 44799.27955816346,
+"trace_rel_error": 4.495226056159633e-06,
+"P_median_data": 11.705699998291331,
+"ratio_hueco": null,
+"ratio_lejano": null,
+"hueco_fuera_soporte": null
+},
+{
+"dataset": "lunas (no convexo)",
+"degree": 6,
+"basis_size": 28,
+"N_per_param": 10.714285714285714,
+"cond_M": 38901138.71809275,
+"trace_rel_error": 0.0009213247797788,
+"P_median_data": 21.51134808768428,
+"ratio_hueco": null,
+"ratio_lejano": null,
+"hueco_fuera_soporte": null
+}
+]
+}

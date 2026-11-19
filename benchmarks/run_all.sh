@@ -17,4 +17,7 @@ step "Bloque 06 · mejoras";                   python fig_mejoras.py
 step "Bloque 08 · 3D exploratorio";           python exploratorio_3d.py
 step "Figuras explicativas";                  python fig_explicativas.py
 python fig_nube.py
+step "Posterior · objetos sintéticos";    python objetos_invariantes.py --dim 2 --out results/objetos_2d.csv
+python objetos_invariantes.py --dim 3 --out results/objetos_3d.csv
+# ModelNet10 (requiere datos locales): python modelnet10.py --root ../data/ModelNet10 --split test
 step "Verificación de cifras";                python verificar_cifras.py

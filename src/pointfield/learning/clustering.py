@@ -9,13 +9,26 @@ measured failure of the previous one):
 2. CDLocalSpectral      (mejora 1)    one *local* CD model per neighbourhood
    defines an affinity graph; spectral embedding + k-means on it.
 3. SzegoPhase           (mejora 2)    angular phase psi = theta - c*g(r)
-   (Szegő / trigonometric CD) appended as features *only if* a label-free
-   gate says the phase carries cluster structure.
+   appended as features *only if* a label-free gate says the phase carries
+   cluster structure.
+
+Notes from the post-mid-term audit (see benchmarks/BENCHMARKS.md):
+* The "Szegő" name is historical. The phase is a change of coordinates based
+  on a spiral model (theta - r/b is constant on each arm of r = a + b theta);
+  it is not the Szegő kernel. ``PhaseFeatures`` / ``CDPhaseSpectral`` are the
+  preferred aliases. The phase alone already separates the spirals (ARI 1),
+  so success there must not be attributed to CD. It depends on the winding
+  centre (occlusion moves it), needs a single isotropic scale and uses K.
+* With the same k-NN graph, a binary affinity also solves clean moons/rings:
+  ARI = 1 there is not evidence for CD. CD helps on noisy rings.
+* CDGlobalClustering compares q across models without log det(M_k) or
+  priors: a heuristic, not maximum likelihood / EM.
 """
 
 from __future__ import annotations
 
 import numpy as np
+from scipy.linalg import cholesky, solve_triangular
 from sklearn.cluster import KMeans
 from sklearn.manifold import spectral_embedding
 from sklearn.metrics import silhouette_score
@@ -31,8 +44,11 @@ class CDGlobalClustering:
     """Assign each point to the group whose CD model finds it most typical.
 
     Initialised with k-means; alternates (fit one CD per group) / (reassign by
-    argmin_k log P_d^{(k)}(x)). Because (1/N_k) sum P^{(k)} = s(n,d) for every
-    group, raw P_d values are already on a common scale.
+    argmin_k log P_d^{(k)}(x)). The mean of P^{(k)} over its own group is
+    s(n,d) for every group, but comparing P across models ignores log det(M_k)
+    and group sizes, so this is a heuristic rather than a likelihood (EM).
+    Behaves like k-means: fails on non-convex / nested groups (mid-term ARI
+    0.33 moons, 0.00 rings).
     """
 
     def __init__(self, n_clusters: int, degree: int = 2, n_iter: int = 30, reg: float = 1e-6,
@@ -63,7 +79,7 @@ class CDGlobalClustering:
 # 2. Mejora 1: local CD affinity + spectral embedding
 # --------------------------------------------------------------------------
 def local_cd_affinity(X: np.ndarray, n_neighbors: int = 10, degree: int = 1,
-                      reg: float = 1e-6) -> np.ndarray:
+                      reg: float = 1e-6, weight: str = "gaussian") -> np.ndarray:
     """A_ij from a CD model fitted only on the neighbourhood of x_i.
 
     P_i(x_j) = v_d(x_j)^T (M_d^{(i)})^{-1} v_d(x_j), M^{(i)} from the k+1 nearest
@@ -72,7 +88,13 @@ def local_cd_affinity(X: np.ndarray, n_neighbors: int = 10, degree: int = 1,
     symmetrised with max(A, A^T). With degree=1, P_i - 1 is the Mahalanobis
     distance under the local covariance, so the graph follows the local
     orientation of the data (it is anisotropic, unlike an RBF kernel).
+
+    ``weight="gaussian"`` (mid-term default) peaks at the *median* score, not
+    at the most typical point; ``weight="monotone"`` uses exp(-max(0, z)),
+    which is non-increasing in P (audit H06). Neither dominated in E2.
     """
+    if weight not in ("gaussian", "monotone"):
+        raise ValueError("weight must be 'gaussian' or 'monotone'")
     X = np.asarray(X, dtype=float)
     n = len(X)
     k = min(n_neighbors + 1, n)
@@ -83,11 +105,12 @@ def local_cd_affinity(X: np.ndarray, n_neighbors: int = 10, degree: int = 1,
         B = monomial_basis(X[nb], terms)
         M = B.T @ B / len(nb)
         M += reg * np.trace(M) / len(M) * np.eye(len(M))
-        P = np.einsum("ij,jk,ik->i", B, np.linalg.pinv(M, hermitian=True), B)
+        Z = solve_triangular(cholesky(M, lower=True), B.T, lower=True, check_finite=False)
+        P = np.einsum("ij,ij->j", Z, Z)
         med = np.median(P)
         mad = np.median(np.abs(P - med)) + 1e-12
         z = (P - med) / mad
-        A[i, nb] = np.exp(-0.5 * z ** 2)
+        A[i, nb] = np.exp(-0.5 * z ** 2) if weight == "gaussian" else np.exp(-np.maximum(z, 0.0))
     A = np.maximum(A, A.T)
     np.fill_diagonal(A, 0.0)
     return A
@@ -237,3 +260,8 @@ class CDSzegoSpectral:
         self.labels_ = model.fit_predict(Z)
         self.features_ = Z
         return self.labels_
+
+
+# Preferred names (the phase is a spiral-model coordinate change, not Szegő theory)
+PhaseFeatures = SzegoPhase
+CDPhaseSpectral = CDSzegoSpectral
