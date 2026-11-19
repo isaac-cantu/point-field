@@ -1,0 +1,2341 @@
+dataset,cond,rep,modelo,id,clase,AP,acierto
+PF2D,limpio,0,CD W,test-0,ellipse,0.40625,0
+PF2D,limpio,0,CD W,test-1,ellipse,0.75,1
+PF2D,limpio,0,CD W,test-2,ellipse,0.7928571428571428,1
+PF2D,limpio,0,CD W,test-3,rectangle,0.95,1
+PF2D,limpio,0,CD W,test-4,rectangle,0.3415158371040724,0
+PF2D,limpio,0,CD W,test-5,rectangle,0.7333333333333334,1
+PF2D,limpio,0,CD W,test-6,triangle,0.7954545454545454,1
+PF2D,limpio,0,CD W,test-7,triangle,1.0,1
+PF2D,limpio,0,CD W,test-8,triangle,0.9166666666666666,1
+PF2D,limpio,0,CD W,test-9,hexagon,1.0,1
+PF2D,limpio,0,CD W,test-10,hexagon,1.0,1
+PF2D,limpio,0,CD W,test-11,hexagon,0.6904761904761905,1
+PF2D,limpio,0,CD W,test-12,star,0.6525974025974026,1
+PF2D,limpio,0,CD W,test-13,star,0.40062111801242234,0
+PF2D,limpio,0,CD W,test-14,star,0.8125,1
+PF2D,limpio,0,CD W,test-15,annulus,0.7708333333333333,1
+PF2D,limpio,0,CD W,test-16,annulus,0.875,1
+PF2D,limpio,0,CD W,test-17,annulus,0.5011904761904762,0
+PF2D,limpio,0,CD W MV,test-0,ellipse,0.2597222222222222,0
+PF2D,limpio,0,CD W MV,test-1,ellipse,1.0,1
+PF2D,limpio,0,CD W MV,test-2,ellipse,1.0,1
+PF2D,limpio,0,CD W MV,test-3,rectangle,1.0,1
+PF2D,limpio,0,CD W MV,test-4,rectangle,0.6875,1
+PF2D,limpio,0,CD W MV,test-5,rectangle,0.8125,1
+PF2D,limpio,0,CD W MV,test-6,triangle,1.0,1
+PF2D,limpio,0,CD W MV,test-7,triangle,1.0,1
+PF2D,limpio,0,CD W MV,test-8,triangle,0.95,1
+PF2D,limpio,0,CD W MV,test-9,hexagon,1.0,1
+PF2D,limpio,0,CD W MV,test-10,hexagon,1.0,1
+PF2D,limpio,0,CD W MV,test-11,hexagon,0.95,1
+PF2D,limpio,0,CD W MV,test-12,star,0.8611111111111112,1
+PF2D,limpio,0,CD W MV,test-13,star,0.4613095238095238,0
+PF2D,limpio,0,CD W MV,test-14,star,0.875,1
+PF2D,limpio,0,CD W MV,test-15,annulus,0.95,1
+PF2D,limpio,0,CD W MV,test-16,annulus,1.0,1
+PF2D,limpio,0,CD W MV,test-17,annulus,0.7333333333333333,1
+PF2D,limpio,0,Momentos W,test-0,ellipse,0.2956709956709957,0
+PF2D,limpio,0,Momentos W,test-1,ellipse,0.6904761904761905,1
+PF2D,limpio,0,Momentos W,test-2,ellipse,0.75,1
+PF2D,limpio,0,Momentos W,test-3,rectangle,0.6458333333333333,0
+PF2D,limpio,0,Momentos W,test-4,rectangle,0.48750000000000004,1
+PF2D,limpio,0,Momentos W,test-5,rectangle,0.7159090909090909,1
+PF2D,limpio,0,Momentos W,test-6,triangle,0.6954545454545454,1
+PF2D,limpio,0,Momentos W,test-7,triangle,0.8928571428571428,1
+PF2D,limpio,0,Momentos W,test-8,triangle,0.9166666666666666,1
+PF2D,limpio,0,Momentos W,test-9,hexagon,1.0,1
+PF2D,limpio,0,Momentos W,test-10,hexagon,0.8875,1
+PF2D,limpio,0,Momentos W,test-11,hexagon,0.7083333333333334,1
+PF2D,limpio,0,Momentos W,test-12,star,0.7976190476190477,1
+PF2D,limpio,0,Momentos W,test-13,star,0.7934782608695652,1
+PF2D,limpio,0,Momentos W,test-14,star,0.875,1
+PF2D,limpio,0,Momentos W,test-15,annulus,1.0,1
+PF2D,limpio,0,Momentos W,test-16,annulus,0.6071428571428572,1
+PF2D,limpio,0,Momentos W,test-17,annulus,0.3738095238095238,0
+PF2D,limpio,0,Momentos W MV,test-0,ellipse,0.32007575757575757,0
+PF2D,limpio,0,Momentos W MV,test-1,ellipse,0.8541666666666666,1
+PF2D,limpio,0,Momentos W MV,test-2,ellipse,0.95,1
+PF2D,limpio,0,Momentos W MV,test-3,rectangle,0.6458333333333333,0
+PF2D,limpio,0,Momentos W MV,test-4,rectangle,0.85,1
+PF2D,limpio,0,Momentos W MV,test-5,rectangle,0.7986111111111112,1
+PF2D,limpio,0,Momentos W MV,test-6,triangle,0.8125,1
+PF2D,limpio,0,Momentos W MV,test-7,triangle,1.0,1
+PF2D,limpio,0,Momentos W MV,test-8,triangle,0.8928571428571428,1
+PF2D,limpio,0,Momentos W MV,test-9,hexagon,1.0,1
+PF2D,limpio,0,Momentos W MV,test-10,hexagon,1.0,1
+PF2D,limpio,0,Momentos W MV,test-11,hexagon,0.9166666666666666,1
+PF2D,limpio,0,Momentos W MV,test-12,star,0.9166666666666666,1
+PF2D,limpio,0,Momentos W MV,test-13,star,0.8166666666666667,1
+PF2D,limpio,0,Momentos W MV,test-14,star,1.0,1
+PF2D,limpio,0,Momentos W MV,test-15,annulus,1.0,1
+PF2D,limpio,0,Momentos W MV,test-16,annulus,0.5480519480519481,1
+PF2D,limpio,0,Momentos W MV,test-17,annulus,0.7611111111111112,1
+PF2D,limpio,0,D2,test-0,ellipse,0.1808712121212121,0
+PF2D,limpio,0,D2,test-1,ellipse,0.8611111111111112,1
+PF2D,limpio,0,D2,test-2,ellipse,0.95,1
+PF2D,limpio,0,D2,test-3,rectangle,0.22450657894736842,0
+PF2D,limpio,0,D2,test-4,rectangle,0.2049145299145299,0
+PF2D,limpio,0,D2,test-5,rectangle,0.3240601503759398,0
+PF2D,limpio,0,D2,test-6,triangle,0.2869047619047619,0
+PF2D,limpio,0,D2,test-7,triangle,0.8875,1
+PF2D,limpio,0,D2,test-8,triangle,0.5700757575757576,0
+PF2D,limpio,0,D2,test-9,hexagon,1.0,1
+PF2D,limpio,0,D2,test-10,hexagon,1.0,1
+PF2D,limpio,0,D2,test-11,hexagon,1.0,1
+PF2D,limpio,0,D2,test-12,star,0.2726449275362319,0
+PF2D,limpio,0,D2,test-13,star,0.3922037714607374,1
+PF2D,limpio,0,D2,test-14,star,0.4640151515151515,1
+PF2D,limpio,0,D2,test-15,annulus,1.0,1
+PF2D,limpio,0,D2,test-16,annulus,0.6659090909090909,1
+PF2D,limpio,0,D2,test-17,annulus,1.0,1
+PF2D,limpio,0,Momentos,test-0,ellipse,0.25416666666666665,0
+PF2D,limpio,0,Momentos,test-1,ellipse,0.6964285714285714,1
+PF2D,limpio,0,Momentos,test-2,ellipse,0.54375,1
+PF2D,limpio,0,Momentos,test-3,rectangle,0.7708333333333333,1
+PF2D,limpio,0,Momentos,test-4,rectangle,0.65,1
+PF2D,limpio,0,Momentos,test-5,rectangle,0.6416666666666666,1
+PF2D,limpio,0,Momentos,test-6,triangle,0.8,1
+PF2D,limpio,0,Momentos,test-7,triangle,0.95,1
+PF2D,limpio,0,Momentos,test-8,triangle,0.8928571428571428,1
+PF2D,limpio,0,Momentos,test-9,hexagon,1.0,1
+PF2D,limpio,0,Momentos,test-10,hexagon,0.8875,1
+PF2D,limpio,0,Momentos,test-11,hexagon,0.7083333333333334,1
+PF2D,limpio,0,Momentos,test-12,star,0.8,1
+PF2D,limpio,0,Momentos,test-13,star,0.8,1
+PF2D,limpio,0,Momentos,test-14,star,0.9166666666666666,1
+PF2D,limpio,0,Momentos,test-15,annulus,1.0,1
+PF2D,limpio,0,Momentos,test-16,annulus,0.4548611111111111,0
+PF2D,limpio,0,Momentos,test-17,annulus,0.36408730158730157,0
+PF2D,limpio,0,Momentos MV,test-0,ellipse,0.25555555555555554,0
+PF2D,limpio,0,Momentos MV,test-1,ellipse,0.7708333333333333,1
+PF2D,limpio,0,Momentos MV,test-2,ellipse,0.7152777777777777,1
+PF2D,limpio,0,Momentos MV,test-3,rectangle,0.7708333333333333,1
+PF2D,limpio,0,Momentos MV,test-4,rectangle,0.8303571428571428,1
+PF2D,limpio,0,Momentos MV,test-5,rectangle,0.7152777777777777,1
+PF2D,limpio,0,Momentos MV,test-6,triangle,0.95,1
+PF2D,limpio,0,Momentos MV,test-7,triangle,1.0,1
+PF2D,limpio,0,Momentos MV,test-8,triangle,0.9166666666666666,1
+PF2D,limpio,0,Momentos MV,test-9,hexagon,1.0,1
+PF2D,limpio,0,Momentos MV,test-10,hexagon,1.0,1
+PF2D,limpio,0,Momentos MV,test-11,hexagon,0.9166666666666666,1
+PF2D,limpio,0,Momentos MV,test-12,star,0.875,1
+PF2D,limpio,0,Momentos MV,test-13,star,0.8125,1
+PF2D,limpio,0,Momentos MV,test-14,star,0.95,1
+PF2D,limpio,0,Momentos MV,test-15,annulus,1.0,1
+PF2D,limpio,0,Momentos MV,test-16,annulus,0.5242424242424242,1
+PF2D,limpio,0,Momentos MV,test-17,annulus,0.775,1
+PF2D,limpio,0,CD solo,test-0,ellipse,0.7708333333333333,1
+PF2D,limpio,0,CD solo,test-1,ellipse,1.0,1
+PF2D,limpio,0,CD solo,test-2,ellipse,0.8303571428571428,1
+PF2D,limpio,0,CD solo,test-3,rectangle,0.875,1
+PF2D,limpio,0,CD solo,test-4,rectangle,0.3881448412698413,1
+PF2D,limpio,0,CD solo,test-5,rectangle,0.5909090909090909,1
+PF2D,limpio,0,CD solo,test-6,triangle,1.0,1
+PF2D,limpio,0,CD solo,test-7,triangle,1.0,1
+PF2D,limpio,0,CD solo,test-8,triangle,0.8166666666666667,1
+PF2D,limpio,0,CD solo,test-9,hexagon,1.0,1
+PF2D,limpio,0,CD solo,test-10,hexagon,1.0,1
+PF2D,limpio,0,CD solo,test-11,hexagon,0.95,1
+PF2D,limpio,0,CD solo,test-12,star,0.7401315789473684,1
+PF2D,limpio,0,CD solo,test-13,star,0.7430555555555556,1
+PF2D,limpio,0,CD solo,test-14,star,1.0,1
+PF2D,limpio,0,CD solo,test-15,annulus,0.7708333333333333,1
+PF2D,limpio,0,CD solo,test-16,annulus,0.9166666666666666,1
+PF2D,limpio,0,CD solo,test-17,annulus,0.95,1
+PF2D,limpio,0,CD + angular,test-0,ellipse,0.3923992673992674,0
+PF2D,limpio,0,CD + angular,test-1,ellipse,0.7159090909090909,1
+PF2D,limpio,0,CD + angular,test-2,ellipse,0.7678571428571428,1
+PF2D,limpio,0,CD + angular,test-3,rectangle,0.8041666666666667,1
+PF2D,limpio,0,CD + angular,test-4,rectangle,0.27127774186597714,0
+PF2D,limpio,0,CD + angular,test-5,rectangle,0.7875,1
+PF2D,limpio,0,CD + angular,test-6,triangle,0.7934782608695652,1
+PF2D,limpio,0,CD + angular,test-7,triangle,1.0,1
+PF2D,limpio,0,CD + angular,test-8,triangle,0.7611111111111112,1
+PF2D,limpio,0,CD + angular,test-9,hexagon,1.0,1
+PF2D,limpio,0,CD + angular,test-10,hexagon,0.8875,1
+PF2D,limpio,0,CD + angular,test-11,hexagon,0.6706730769230769,1
+PF2D,limpio,0,CD + angular,test-12,star,0.6704545454545454,1
+PF2D,limpio,0,CD + angular,test-13,star,0.524621212121212,0
+PF2D,limpio,0,CD + angular,test-14,star,0.8928571428571428,1
+PF2D,limpio,0,CD + angular,test-15,annulus,0.7708333333333333,1
+PF2D,limpio,0,CD + angular,test-16,annulus,0.8928571428571428,1
+PF2D,limpio,0,CD + angular,test-17,annulus,0.5249999999999999,0
+PF2D,limpio,0,CD + angular MV,test-0,ellipse,0.2958333333333333,0
+PF2D,limpio,0,CD + angular MV,test-1,ellipse,0.95,1
+PF2D,limpio,0,CD + angular MV,test-2,ellipse,1.0,1
+PF2D,limpio,0,CD + angular MV,test-3,rectangle,0.95,1
+PF2D,limpio,0,CD + angular MV,test-4,rectangle,0.8166666666666667,1
+PF2D,limpio,0,CD + angular MV,test-5,rectangle,0.8928571428571428,1
+PF2D,limpio,0,CD + angular MV,test-6,triangle,0.95,1
+PF2D,limpio,0,CD + angular MV,test-7,triangle,1.0,1
+PF2D,limpio,0,CD + angular MV,test-8,triangle,0.9166666666666666,1
+PF2D,limpio,0,CD + angular MV,test-9,hexagon,1.0,1
+PF2D,limpio,0,CD + angular MV,test-10,hexagon,1.0,1
+PF2D,limpio,0,CD + angular MV,test-11,hexagon,0.95,1
+PF2D,limpio,0,CD + angular MV,test-12,star,0.8409090909090909,1
+PF2D,limpio,0,CD + angular MV,test-13,star,0.6659663865546218,1
+PF2D,limpio,0,CD + angular MV,test-14,star,0.875,1
+PF2D,limpio,0,CD + angular MV,test-15,annulus,0.95,1
+PF2D,limpio,0,CD + angular MV,test-16,annulus,1.0,1
+PF2D,limpio,0,CD + angular MV,test-17,annulus,0.6458333333333333,0
+PF3D,limpio,0,CD W,test-0,sphere,0.95,1
+PF3D,limpio,0,CD W,test-1,sphere,1.0,1
+PF3D,limpio,0,CD W,test-2,sphere,1.0,1
+PF3D,limpio,0,CD W,test-3,ellipsoid,0.7784090909090909,1
+PF3D,limpio,0,CD W,test-4,ellipsoid,1.0,1
+PF3D,limpio,0,CD W,test-5,ellipsoid,1.0,1
+PF3D,limpio,0,CD W,test-6,cube,1.0,1
+PF3D,limpio,0,CD W,test-7,cube,1.0,1
+PF3D,limpio,0,CD W,test-8,cube,0.95,1
+PF3D,limpio,0,CD W,test-9,cylinder,0.39017857142857143,0
+PF3D,limpio,0,CD W,test-10,cylinder,0.23511904761904762,0
+PF3D,limpio,0,CD W,test-11,cylinder,0.6541666666666667,1
+PF3D,limpio,0,CD W,test-12,cone,0.6220238095238095,0
+PF3D,limpio,0,CD W,test-13,cone,0.9166666666666666,1
+PF3D,limpio,0,CD W,test-14,cone,0.6916666666666667,1
+PF3D,limpio,0,CD W,test-15,torus,1.0,1
+PF3D,limpio,0,CD W,test-16,torus,1.0,1
+PF3D,limpio,0,CD W,test-17,torus,1.0,1
+PF3D,limpio,0,CD W,test-18,pyramid,0.875,1
+PF3D,limpio,0,CD W,test-19,pyramid,0.7611111111111112,1
+PF3D,limpio,0,CD W,test-20,pyramid,0.8611111111111112,1
+PF3D,limpio,0,CD W MV,test-0,sphere,1.0,1
+PF3D,limpio,0,CD W MV,test-1,sphere,1.0,1
+PF3D,limpio,0,CD W MV,test-2,sphere,1.0,1
+PF3D,limpio,0,CD W MV,test-3,ellipsoid,0.875,1
+PF3D,limpio,0,CD W MV,test-4,ellipsoid,1.0,1
+PF3D,limpio,0,CD W MV,test-5,ellipsoid,1.0,1
+PF3D,limpio,0,CD W MV,test-6,cube,1.0,1
+PF3D,limpio,0,CD W MV,test-7,cube,1.0,1
+PF3D,limpio,0,CD W MV,test-8,cube,1.0,1
+PF3D,limpio,0,CD W MV,test-9,cylinder,0.7088235294117647,1
+PF3D,limpio,0,CD W MV,test-10,cylinder,0.27045454545454545,0
+PF3D,limpio,0,CD W MV,test-11,cylinder,0.9166666666666666,1
+PF3D,limpio,0,CD W MV,test-12,cone,0.6916666666666667,1
+PF3D,limpio,0,CD W MV,test-13,cone,0.95,1
+PF3D,limpio,0,CD W MV,test-14,cone,0.6220238095238095,0
+PF3D,limpio,0,CD W MV,test-15,torus,1.0,1
+PF3D,limpio,0,CD W MV,test-16,torus,1.0,1
+PF3D,limpio,0,CD W MV,test-17,torus,1.0,1
+PF3D,limpio,0,CD W MV,test-18,pyramid,0.8303571428571428,1
+PF3D,limpio,0,CD W MV,test-19,pyramid,0.725,1
+PF3D,limpio,0,CD W MV,test-20,pyramid,1.0,1
+PF3D,limpio,0,Momentos W,test-0,sphere,0.95,1
+PF3D,limpio,0,Momentos W,test-1,sphere,1.0,1
+PF3D,limpio,0,Momentos W,test-2,sphere,1.0,1
+PF3D,limpio,0,Momentos W,test-3,ellipsoid,0.6810897435897436,1
+PF3D,limpio,0,Momentos W,test-4,ellipsoid,0.8041666666666667,1
+PF3D,limpio,0,Momentos W,test-5,ellipsoid,0.7291666666666666,1
+PF3D,limpio,0,Momentos W,test-6,cube,1.0,1
+PF3D,limpio,0,Momentos W,test-7,cube,0.8928571428571428,1
+PF3D,limpio,0,Momentos W,test-8,cube,0.8928571428571428,1
+PF3D,limpio,0,Momentos W,test-9,cylinder,0.2619047619047619,0
+PF3D,limpio,0,Momentos W,test-10,cylinder,0.13293650793650794,0
+PF3D,limpio,0,Momentos W,test-11,cylinder,0.8928571428571428,1
+PF3D,limpio,0,Momentos W,test-12,cone,0.49090909090909096,0
+PF3D,limpio,0,Momentos W,test-13,cone,0.9166666666666666,1
+PF3D,limpio,0,Momentos W,test-14,cone,0.4511904761904762,0
+PF3D,limpio,0,Momentos W,test-15,torus,1.0,1
+PF3D,limpio,0,Momentos W,test-16,torus,1.0,1
+PF3D,limpio,0,Momentos W,test-17,torus,1.0,1
+PF3D,limpio,0,Momentos W,test-18,pyramid,0.43465909090909094,0
+PF3D,limpio,0,Momentos W,test-19,pyramid,0.7611111111111112,1
+PF3D,limpio,0,Momentos W,test-20,pyramid,0.5625,1
+PF3D,limpio,0,Momentos W MV,test-0,sphere,1.0,1
+PF3D,limpio,0,Momentos W MV,test-1,sphere,1.0,1
+PF3D,limpio,0,Momentos W MV,test-2,sphere,1.0,1
+PF3D,limpio,0,Momentos W MV,test-3,ellipsoid,0.7041666666666666,1
+PF3D,limpio,0,Momentos W MV,test-4,ellipsoid,0.8875,1
+PF3D,limpio,0,Momentos W MV,test-5,ellipsoid,0.7470238095238095,1
+PF3D,limpio,0,Momentos W MV,test-6,cube,1.0,1
+PF3D,limpio,0,Momentos W MV,test-7,cube,1.0,1
+PF3D,limpio,0,Momentos W MV,test-8,cube,1.0,1
+PF3D,limpio,0,Momentos W MV,test-9,cylinder,0.3993589743589744,0
+PF3D,limpio,0,Momentos W MV,test-10,cylinder,0.11982192102329402,0
+PF3D,limpio,0,Momentos W MV,test-11,cylinder,0.875,1
+PF3D,limpio,0,Momentos W MV,test-12,cone,0.6458333333333333,0
+PF3D,limpio,0,Momentos W MV,test-13,cone,1.0,1
+PF3D,limpio,0,Momentos W MV,test-14,cone,0.41547619047619044,0
+PF3D,limpio,0,Momentos W MV,test-15,torus,1.0,1
+PF3D,limpio,0,Momentos W MV,test-16,torus,1.0,1
+PF3D,limpio,0,Momentos W MV,test-17,torus,1.0,1
+PF3D,limpio,0,Momentos W MV,test-18,pyramid,0.7784090909090909,1
+PF3D,limpio,0,Momentos W MV,test-19,pyramid,0.7875,1
+PF3D,limpio,0,Momentos W MV,test-20,pyramid,0.6,1
+PF3D,limpio,0,D2,test-0,sphere,1.0,1
+PF3D,limpio,0,D2,test-1,sphere,1.0,1
+PF3D,limpio,0,D2,test-2,sphere,1.0,1
+PF3D,limpio,0,D2,test-3,ellipsoid,0.43214285714285716,0
+PF3D,limpio,0,D2,test-4,ellipsoid,0.6325757575757576,1
+PF3D,limpio,0,D2,test-5,ellipsoid,1.0,1
+PF3D,limpio,0,D2,test-6,cube,0.95,1
+PF3D,limpio,0,D2,test-7,cube,0.8928571428571428,1
+PF3D,limpio,0,D2,test-8,cube,0.8611111111111112,1
+PF3D,limpio,0,D2,test-9,cylinder,0.16107503607503604,0
+PF3D,limpio,0,D2,test-10,cylinder,0.09978771228771229,0
+PF3D,limpio,0,D2,test-11,cylinder,0.5025974025974026,1
+PF3D,limpio,0,D2,test-12,cone,0.6361111111111111,1
+PF3D,limpio,0,D2,test-13,cone,0.6845238095238095,1
+PF3D,limpio,0,D2,test-14,cone,0.5666666666666667,0
+PF3D,limpio,0,D2,test-15,torus,1.0,1
+PF3D,limpio,0,D2,test-16,torus,1.0,1
+PF3D,limpio,0,D2,test-17,torus,1.0,1
+PF3D,limpio,0,D2,test-18,pyramid,0.599537037037037,1
+PF3D,limpio,0,D2,test-19,pyramid,0.6870370370370371,1
+PF3D,limpio,0,D2,test-20,pyramid,0.20938552188552187,0
+PF3D,limpio,0,Momentos,test-0,sphere,0.9166666666666666,1
+PF3D,limpio,0,Momentos,test-1,sphere,0.95,1
+PF3D,limpio,0,Momentos,test-2,sphere,1.0,1
+PF3D,limpio,0,Momentos,test-3,ellipsoid,0.49358974358974356,0
+PF3D,limpio,0,Momentos,test-4,ellipsoid,0.8041666666666667,1
+PF3D,limpio,0,Momentos,test-5,ellipsoid,0.6916666666666667,1
+PF3D,limpio,0,Momentos,test-6,cube,1.0,1
+PF3D,limpio,0,Momentos,test-7,cube,0.8928571428571428,1
+PF3D,limpio,0,Momentos,test-8,cube,0.8928571428571428,1
+PF3D,limpio,0,Momentos,test-9,cylinder,0.31076388888888884,0
+PF3D,limpio,0,Momentos,test-10,cylinder,0.1245959595959596,0
+PF3D,limpio,0,Momentos,test-11,cylinder,0.95,1
+PF3D,limpio,0,Momentos,test-12,cone,0.4063852813852814,0
+PF3D,limpio,0,Momentos,test-13,cone,0.875,1
+PF3D,limpio,0,Momentos,test-14,cone,0.42976190476190473,0
+PF3D,limpio,0,Momentos,test-15,torus,1.0,1
+PF3D,limpio,0,Momentos,test-16,torus,1.0,1
+PF3D,limpio,0,Momentos,test-17,torus,1.0,1
+PF3D,limpio,0,Momentos,test-18,pyramid,0.4206730769230769,0
+PF3D,limpio,0,Momentos,test-19,pyramid,0.7361111111111112,1
+PF3D,limpio,0,Momentos,test-20,pyramid,0.48484848484848486,1
+PF3D,limpio,0,Momentos MV,test-0,sphere,1.0,1
+PF3D,limpio,0,Momentos MV,test-1,sphere,1.0,1
+PF3D,limpio,0,Momentos MV,test-2,sphere,1.0,1
+PF3D,limpio,0,Momentos MV,test-3,ellipsoid,0.6666666666666666,1
+PF3D,limpio,0,Momentos MV,test-4,ellipsoid,0.8875,1
+PF3D,limpio,0,Momentos MV,test-5,ellipsoid,0.6916666666666667,1
+PF3D,limpio,0,Momentos MV,test-6,cube,1.0,1
+PF3D,limpio,0,Momentos MV,test-7,cube,1.0,1
+PF3D,limpio,0,Momentos MV,test-8,cube,1.0,1
+PF3D,limpio,0,Momentos MV,test-9,cylinder,0.5404040404040404,1
+PF3D,limpio,0,Momentos MV,test-10,cylinder,0.11824361628709454,0
+PF3D,limpio,0,Momentos MV,test-11,cylinder,0.9166666666666666,1
+PF3D,limpio,0,Momentos MV,test-12,cone,0.5325757575757576,0
+PF3D,limpio,0,Momentos MV,test-13,cone,1.0,1
+PF3D,limpio,0,Momentos MV,test-14,cone,0.37976190476190474,0
+PF3D,limpio,0,Momentos MV,test-15,torus,1.0,1
+PF3D,limpio,0,Momentos MV,test-16,torus,1.0,1
+PF3D,limpio,0,Momentos MV,test-17,torus,1.0,1
+PF3D,limpio,0,Momentos MV,test-18,pyramid,0.7875,1
+PF3D,limpio,0,Momentos MV,test-19,pyramid,0.7361111111111112,1
+PF3D,limpio,0,Momentos MV,test-20,pyramid,0.5682539682539682,1
+PF3D,limpio,0,CD solo,test-0,sphere,1.0,1
+PF3D,limpio,0,CD solo,test-1,sphere,0.95,1
+PF3D,limpio,0,CD solo,test-2,sphere,1.0,1
+PF3D,limpio,0,CD solo,test-3,ellipsoid,0.95,1
+PF3D,limpio,0,CD solo,test-4,ellipsoid,0.8875,1
+PF3D,limpio,0,CD solo,test-5,ellipsoid,0.95,1
+PF3D,limpio,0,CD solo,test-6,cube,1.0,1
+PF3D,limpio,0,CD solo,test-7,cube,1.0,1
+PF3D,limpio,0,CD solo,test-8,cube,1.0,1
+PF3D,limpio,0,CD solo,test-9,cylinder,0.9166666666666666,1
+PF3D,limpio,0,CD solo,test-10,cylinder,0.4025974025974026,0
+PF3D,limpio,0,CD solo,test-11,cylinder,0.7166666666666667,1
+PF3D,limpio,0,CD solo,test-12,cone,0.8541666666666666,1
+PF3D,limpio,0,CD solo,test-13,cone,0.8875,1
+PF3D,limpio,0,CD solo,test-14,cone,0.6215277777777778,1
+PF3D,limpio,0,CD solo,test-15,torus,0.95,1
+PF3D,limpio,0,CD solo,test-16,torus,1.0,1
+PF3D,limpio,0,CD solo,test-17,torus,1.0,1
+PF3D,limpio,0,CD solo,test-18,pyramid,1.0,1
+PF3D,limpio,0,CD solo,test-19,pyramid,0.6041666666666666,0
+PF3D,limpio,0,CD solo,test-20,pyramid,1.0,1
+PF3D,limpio,0,CD + angular,test-0,sphere,0.9166666666666666,1
+PF3D,limpio,0,CD + angular,test-1,sphere,0.95,1
+PF3D,limpio,0,CD + angular,test-2,sphere,1.0,1
+PF3D,limpio,0,CD + angular,test-3,ellipsoid,0.7986111111111112,1
+PF3D,limpio,0,CD + angular,test-4,ellipsoid,0.95,1
+PF3D,limpio,0,CD + angular,test-5,ellipsoid,1.0,1
+PF3D,limpio,0,CD + angular,test-6,cube,1.0,1
+PF3D,limpio,0,CD + angular,test-7,cube,0.95,1
+PF3D,limpio,0,CD + angular,test-8,cube,0.95,1
+PF3D,limpio,0,CD + angular,test-9,cylinder,0.34375,0
+PF3D,limpio,0,CD + angular,test-10,cylinder,0.2826923076923077,0
+PF3D,limpio,0,CD + angular,test-11,cylinder,0.8611111111111112,1
+PF3D,limpio,0,CD + angular,test-12,cone,0.6220238095238095,0
+PF3D,limpio,0,CD + angular,test-13,cone,0.9166666666666666,1
+PF3D,limpio,0,CD + angular,test-14,cone,0.615909090909091,1
+PF3D,limpio,0,CD + angular,test-15,torus,1.0,1
+PF3D,limpio,0,CD + angular,test-16,torus,1.0,1
+PF3D,limpio,0,CD + angular,test-17,torus,1.0,1
+PF3D,limpio,0,CD + angular,test-18,pyramid,0.875,1
+PF3D,limpio,0,CD + angular,test-19,pyramid,0.7048611111111112,1
+PF3D,limpio,0,CD + angular,test-20,pyramid,0.8409090909090909,1
+PF3D,limpio,0,CD + angular MV,test-0,sphere,1.0,1
+PF3D,limpio,0,CD + angular MV,test-1,sphere,1.0,1
+PF3D,limpio,0,CD + angular MV,test-2,sphere,1.0,1
+PF3D,limpio,0,CD + angular MV,test-3,ellipsoid,0.875,1
+PF3D,limpio,0,CD + angular MV,test-4,ellipsoid,1.0,1
+PF3D,limpio,0,CD + angular MV,test-5,ellipsoid,1.0,1
+PF3D,limpio,0,CD + angular MV,test-6,cube,1.0,1
+PF3D,limpio,0,CD + angular MV,test-7,cube,1.0,1
+PF3D,limpio,0,CD + angular MV,test-8,cube,1.0,1
+PF3D,limpio,0,CD + angular MV,test-9,cylinder,0.6964285714285714,1
+PF3D,limpio,0,CD + angular MV,test-10,cylinder,0.2577380952380952,0
+PF3D,limpio,0,CD + angular MV,test-11,cylinder,0.8611111111111112,1
+PF3D,limpio,0,CD + angular MV,test-12,cone,0.6220238095238095,0
+PF3D,limpio,0,CD + angular MV,test-13,cone,0.9166666666666666,1
+PF3D,limpio,0,CD + angular MV,test-14,cone,0.5845238095238094,0
+PF3D,limpio,0,CD + angular MV,test-15,torus,1.0,1
+PF3D,limpio,0,CD + angular MV,test-16,torus,1.0,1
+PF3D,limpio,0,CD + angular MV,test-17,torus,1.0,1
+PF3D,limpio,0,CD + angular MV,test-18,pyramid,0.8875,1
+PF3D,limpio,0,CD + angular MV,test-19,pyramid,0.6238095238095237,1
+PF3D,limpio,0,CD + angular MV,test-20,pyramid,1.0,1
+PF2D,mitad,0,CD W,test-0,ellipse,0.3005952380952381,0
+PF2D,mitad,0,CD W,test-1,ellipse,0.69375,1
+PF2D,mitad,0,CD W,test-2,ellipse,0.9166666666666666,1
+PF2D,mitad,0,CD W,test-3,rectangle,0.3265151515151515,0
+PF2D,mitad,0,CD W,test-4,rectangle,0.46388888888888885,1
+PF2D,mitad,0,CD W,test-5,rectangle,0.18123885918003566,0
+PF2D,mitad,0,CD W,test-6,triangle,0.5201048951048951,1
+PF2D,mitad,0,CD W,test-7,triangle,1.0,1
+PF2D,mitad,0,CD W,test-8,triangle,0.7986111111111112,1
+PF2D,mitad,0,CD W,test-9,hexagon,0.6666666666666666,1
+PF2D,mitad,0,CD W,test-10,hexagon,0.6845238095238095,1
+PF2D,mitad,0,CD W,test-11,hexagon,0.8611111111111112,1
+PF2D,mitad,0,CD W,test-12,star,0.3958333333333333,0
+PF2D,mitad,0,CD W,test-13,star,0.5404761904761904,1
+PF2D,mitad,0,CD W,test-14,star,0.7541666666666667,1
+PF2D,mitad,0,CD W,test-15,annulus,0.4928571428571429,0
+PF2D,mitad,0,CD W,test-16,annulus,0.32916666666666666,0
+PF2D,mitad,0,CD W,test-17,annulus,0.32916666666666666,0
+PF2D,mitad,0,CD W MV,test-0,ellipse,0.21953781512605042,0
+PF2D,mitad,0,CD W MV,test-1,ellipse,0.7321428571428572,1
+PF2D,mitad,0,CD W MV,test-2,ellipse,0.8928571428571428,1
+PF2D,mitad,0,CD W MV,test-3,rectangle,1.0,1
+PF2D,mitad,0,CD W MV,test-4,rectangle,0.6875,1
+PF2D,mitad,0,CD W MV,test-5,rectangle,0.8928571428571428,1
+PF2D,mitad,0,CD W MV,test-6,triangle,0.8928571428571428,1
+PF2D,mitad,0,CD W MV,test-7,triangle,1.0,1
+PF2D,mitad,0,CD W MV,test-8,triangle,0.8875,1
+PF2D,mitad,0,CD W MV,test-9,hexagon,0.95,1
+PF2D,mitad,0,CD W MV,test-10,hexagon,1.0,1
+PF2D,mitad,0,CD W MV,test-11,hexagon,1.0,1
+PF2D,mitad,0,CD W MV,test-12,star,0.5625,1
+PF2D,mitad,0,CD W MV,test-13,star,0.32158119658119655,0
+PF2D,mitad,0,CD W MV,test-14,star,0.875,1
+PF2D,mitad,0,CD W MV,test-15,annulus,0.6458333333333333,0
+PF2D,mitad,0,CD W MV,test-16,annulus,0.5011904761904762,0
+PF2D,mitad,0,CD W MV,test-17,annulus,0.37797619047619047,0
+PF2D,mitad,0,Momentos W,test-0,ellipse,0.3179563492063492,0
+PF2D,mitad,0,Momentos W,test-1,ellipse,0.740909090909091,1
+PF2D,mitad,0,Momentos W,test-2,ellipse,0.8303571428571428,1
+PF2D,mitad,0,Momentos W,test-3,rectangle,0.41981351981351983,1
+PF2D,mitad,0,Momentos W,test-4,rectangle,0.5446428571428572,1
+PF2D,mitad,0,Momentos W,test-5,rectangle,0.17261904761904762,0
+PF2D,mitad,0,Momentos W,test-6,triangle,0.4624542124542125,1
+PF2D,mitad,0,Momentos W,test-7,triangle,0.95,1
+PF2D,mitad,0,Momentos W,test-8,triangle,0.8875,1
+PF2D,mitad,0,Momentos W,test-9,hexagon,0.6527777777777778,1
+PF2D,mitad,0,Momentos W,test-10,hexagon,0.6845238095238095,1
+PF2D,mitad,0,Momentos W,test-11,hexagon,0.875,1
+PF2D,mitad,0,Momentos W,test-12,star,0.7976190476190477,1
+PF2D,mitad,0,Momentos W,test-13,star,0.5596590909090909,1
+PF2D,mitad,0,Momentos W,test-14,star,0.7976190476190477,1
+PF2D,mitad,0,Momentos W,test-15,annulus,0.95,1
+PF2D,mitad,0,Momentos W,test-16,annulus,0.23273809523809522,0
+PF2D,mitad,0,Momentos W,test-17,annulus,0.22916666666666669,0
+PF2D,mitad,0,Momentos W MV,test-0,ellipse,0.3394209956709957,0
+PF2D,mitad,0,Momentos W MV,test-1,ellipse,0.725,1
+PF2D,mitad,0,Momentos W MV,test-2,ellipse,0.8611111111111112,1
+PF2D,mitad,0,Momentos W MV,test-3,rectangle,0.7333333333333333,1
+PF2D,mitad,0,Momentos W MV,test-4,rectangle,0.85,1
+PF2D,mitad,0,Momentos W MV,test-5,rectangle,0.6416666666666666,1
+PF2D,mitad,0,Momentos W MV,test-6,triangle,0.43068181818181817,1
+PF2D,mitad,0,Momentos W MV,test-7,triangle,1.0,1
+PF2D,mitad,0,Momentos W MV,test-8,triangle,0.8041666666666667,1
+PF2D,mitad,0,Momentos W MV,test-9,hexagon,0.8541666666666666,1
+PF2D,mitad,0,Momentos W MV,test-10,hexagon,0.8875,1
+PF2D,mitad,0,Momentos W MV,test-11,hexagon,1.0,1
+PF2D,mitad,0,Momentos W MV,test-12,star,0.9166666666666666,1
+PF2D,mitad,0,Momentos W MV,test-13,star,0.5208333333333333,1
+PF2D,mitad,0,Momentos W MV,test-14,star,0.95,1
+PF2D,mitad,0,Momentos W MV,test-15,annulus,1.0,1
+PF2D,mitad,0,Momentos W MV,test-16,annulus,0.27976190476190477,0
+PF2D,mitad,0,Momentos W MV,test-17,annulus,0.23127705627705625,0
+PF2D,mitad,0,D2,test-0,ellipse,0.18533549783549785,0
+PF2D,mitad,0,D2,test-1,ellipse,0.7361111111111112,1
+PF2D,mitad,0,D2,test-2,ellipse,0.875,1
+PF2D,mitad,0,D2,test-3,rectangle,0.4132478632478633,1
+PF2D,mitad,0,D2,test-4,rectangle,0.24404761904761907,0
+PF2D,mitad,0,D2,test-5,rectangle,0.16800833605753512,0
+PF2D,mitad,0,D2,test-6,triangle,0.5902777777777777,0
+PF2D,mitad,0,D2,test-7,triangle,0.8125,1
+PF2D,mitad,0,D2,test-8,triangle,0.4833333333333333,0
+PF2D,mitad,0,D2,test-9,hexagon,1.0,1
+PF2D,mitad,0,D2,test-10,hexagon,1.0,1
+PF2D,mitad,0,D2,test-11,hexagon,1.0,1
+PF2D,mitad,0,D2,test-12,star,0.2580504533829342,0
+PF2D,mitad,0,D2,test-13,star,0.2621212121212121,0
+PF2D,mitad,0,D2,test-14,star,0.4576330532212885,0
+PF2D,mitad,0,D2,test-15,annulus,1.0,1
+PF2D,mitad,0,D2,test-16,annulus,0.41185897435897434,0
+PF2D,mitad,0,D2,test-17,annulus,0.69375,1
+PF2D,mitad,0,Momentos,test-0,ellipse,0.28733766233766234,0
+PF2D,mitad,0,Momentos,test-1,ellipse,0.7333333333333334,1
+PF2D,mitad,0,Momentos,test-2,ellipse,0.42424242424242425,0
+PF2D,mitad,0,Momentos,test-3,rectangle,0.45707070707070707,1
+PF2D,mitad,0,Momentos,test-4,rectangle,0.65,1
+PF2D,mitad,0,Momentos,test-5,rectangle,0.2477124183006536,0
+PF2D,mitad,0,Momentos,test-6,triangle,0.5265151515151515,1
+PF2D,mitad,0,Momentos,test-7,triangle,0.9166666666666666,1
+PF2D,mitad,0,Momentos,test-8,triangle,0.7708333333333333,1
+PF2D,mitad,0,Momentos,test-9,hexagon,0.6845238095238095,1
+PF2D,mitad,0,Momentos,test-10,hexagon,0.7095238095238094,1
+PF2D,mitad,0,Momentos,test-11,hexagon,0.875,1
+PF2D,mitad,0,Momentos,test-12,star,0.8055555555555556,1
+PF2D,mitad,0,Momentos,test-13,star,0.5404761904761904,1
+PF2D,mitad,0,Momentos,test-14,star,0.8026315789473684,1
+PF2D,mitad,0,Momentos,test-15,annulus,0.95,1
+PF2D,mitad,0,Momentos,test-16,annulus,0.27275641025641023,0
+PF2D,mitad,0,Momentos,test-17,annulus,0.23487762237762239,0
+PF2D,mitad,0,Momentos MV,test-0,ellipse,0.27976190476190477,0
+PF2D,mitad,0,Momentos MV,test-1,ellipse,0.7083333333333334,1
+PF2D,mitad,0,Momentos MV,test-2,ellipse,0.65,1
+PF2D,mitad,0,Momentos MV,test-3,rectangle,0.7333333333333333,1
+PF2D,mitad,0,Momentos MV,test-4,rectangle,0.875,1
+PF2D,mitad,0,Momentos MV,test-5,rectangle,0.6777777777777778,1
+PF2D,mitad,0,Momentos MV,test-6,triangle,0.7000000000000001,1
+PF2D,mitad,0,Momentos MV,test-7,triangle,0.95,1
+PF2D,mitad,0,Momentos MV,test-8,triangle,0.8041666666666667,1
+PF2D,mitad,0,Momentos MV,test-9,hexagon,0.8875,1
+PF2D,mitad,0,Momentos MV,test-10,hexagon,0.8875,1
+PF2D,mitad,0,Momentos MV,test-11,hexagon,1.0,1
+PF2D,mitad,0,Momentos MV,test-12,star,0.9166666666666666,1
+PF2D,mitad,0,Momentos MV,test-13,star,0.6696428571428572,1
+PF2D,mitad,0,Momentos MV,test-14,star,0.9166666666666666,1
+PF2D,mitad,0,Momentos MV,test-15,annulus,1.0,1
+PF2D,mitad,0,Momentos MV,test-16,annulus,0.32708333333333334,0
+PF2D,mitad,0,Momentos MV,test-17,annulus,0.25151515151515147,0
+PF2D,mitad,0,CD solo,test-0,ellipse,0.75,1
+PF2D,mitad,0,CD solo,test-1,ellipse,0.7048611111111112,1
+PF2D,mitad,0,CD solo,test-2,ellipse,0.95,1
+PF2D,mitad,0,CD solo,test-3,rectangle,0.8928571428571428,1
+PF2D,mitad,0,CD solo,test-4,rectangle,0.4202380952380952,1
+PF2D,mitad,0,CD solo,test-5,rectangle,0.5075757575757576,1
+PF2D,mitad,0,CD solo,test-6,triangle,1.0,1
+PF2D,mitad,0,CD solo,test-7,triangle,1.0,1
+PF2D,mitad,0,CD solo,test-8,triangle,0.41847826086956524,1
+PF2D,mitad,0,CD solo,test-9,hexagon,0.8166666666666667,1
+PF2D,mitad,0,CD solo,test-10,hexagon,0.8541666666666666,1
+PF2D,mitad,0,CD solo,test-11,hexagon,0.95,1
+PF2D,mitad,0,CD solo,test-12,star,0.675,1
+PF2D,mitad,0,CD solo,test-13,star,0.8611111111111112,1
+PF2D,mitad,0,CD solo,test-14,star,0.95,1
+PF2D,mitad,0,CD solo,test-15,annulus,0.4511904761904762,0
+PF2D,mitad,0,CD solo,test-16,annulus,0.95,1
+PF2D,mitad,0,CD solo,test-17,annulus,0.8541666666666666,1
+PF2D,mitad,0,CD + angular,test-0,ellipse,0.4063852813852814,0
+PF2D,mitad,0,CD + angular,test-1,ellipse,0.6833333333333333,1
+PF2D,mitad,0,CD + angular,test-2,ellipse,0.8166666666666667,1
+PF2D,mitad,0,CD + angular,test-3,rectangle,0.3265151515151515,0
+PF2D,mitad,0,CD + angular,test-4,rectangle,0.4268790849673203,1
+PF2D,mitad,0,CD + angular,test-5,rectangle,0.18928571428571428,0
+PF2D,mitad,0,CD + angular,test-6,triangle,0.48942307692307696,1
+PF2D,mitad,0,CD + angular,test-7,triangle,0.95,1
+PF2D,mitad,0,CD + angular,test-8,triangle,0.29645445134575565,0
+PF2D,mitad,0,CD + angular,test-9,hexagon,0.6488095238095237,1
+PF2D,mitad,0,CD + angular,test-10,hexagon,0.6666666666666666,1
+PF2D,mitad,0,CD + angular,test-11,hexagon,0.8333333333333333,1
+PF2D,mitad,0,CD + angular,test-12,star,0.5672877846790889,1
+PF2D,mitad,0,CD + angular,test-13,star,0.5654761904761905,1
+PF2D,mitad,0,CD + angular,test-14,star,0.6875,1
+PF2D,mitad,0,CD + angular,test-15,annulus,0.475,0
+PF2D,mitad,0,CD + angular,test-16,annulus,0.3380952380952381,0
+PF2D,mitad,0,CD + angular,test-17,annulus,0.4333333333333333,0
+PF2D,mitad,0,CD + angular MV,test-0,ellipse,0.28809523809523807,0
+PF2D,mitad,0,CD + angular MV,test-1,ellipse,0.6833333333333333,1
+PF2D,mitad,0,CD + angular MV,test-2,ellipse,0.8928571428571428,1
+PF2D,mitad,0,CD + angular MV,test-3,rectangle,0.95,1
+PF2D,mitad,0,CD + angular MV,test-4,rectangle,0.8214285714285714,1
+PF2D,mitad,0,CD + angular MV,test-5,rectangle,0.8303571428571428,1
+PF2D,mitad,0,CD + angular MV,test-6,triangle,1.0,1
+PF2D,mitad,0,CD + angular MV,test-7,triangle,1.0,1
+PF2D,mitad,0,CD + angular MV,test-8,triangle,0.42692307692307696,0
+PF2D,mitad,0,CD + angular MV,test-9,hexagon,0.95,1
+PF2D,mitad,0,CD + angular MV,test-10,hexagon,1.0,1
+PF2D,mitad,0,CD + angular MV,test-11,hexagon,1.0,1
+PF2D,mitad,0,CD + angular MV,test-12,star,0.7541666666666667,1
+PF2D,mitad,0,CD + angular MV,test-13,star,0.3821428571428571,0
+PF2D,mitad,0,CD + angular MV,test-14,star,0.8125,1
+PF2D,mitad,0,CD + angular MV,test-15,annulus,0.6220238095238095,0
+PF2D,mitad,0,CD + angular MV,test-16,annulus,0.5011904761904762,0
+PF2D,mitad,0,CD + angular MV,test-17,annulus,0.5428571428571428,0
+PF2D,densidad,0,CD W,test-0,ellipse,0.5595238095238095,0
+PF2D,densidad,0,CD W,test-1,ellipse,0.43333333333333335,0
+PF2D,densidad,0,CD W,test-2,ellipse,0.5833333333333333,1
+PF2D,densidad,0,CD W,test-3,rectangle,0.2204861111111111,0
+PF2D,densidad,0,CD W,test-4,rectangle,0.18322368421052632,0
+PF2D,densidad,0,CD W,test-5,rectangle,0.19962121212121212,0
+PF2D,densidad,0,CD W,test-6,triangle,0.33511904761904765,0
+PF2D,densidad,0,CD W,test-7,triangle,0.3309782608695652,0
+PF2D,densidad,0,CD W,test-8,triangle,0.35,0
+PF2D,densidad,0,CD W,test-9,hexagon,0.6845238095238095,1
+PF2D,densidad,0,CD W,test-10,hexagon,0.2869047619047619,0
+PF2D,densidad,0,CD W,test-11,hexagon,0.3410714285714286,0
+PF2D,densidad,0,CD W,test-12,star,0.49523809523809526,1
+PF2D,densidad,0,CD W,test-13,star,0.5520833333333333,1
+PF2D,densidad,0,CD W,test-14,star,0.6742424242424242,1
+PF2D,densidad,0,CD W,test-15,annulus,0.23328754578754576,0
+PF2D,densidad,0,CD W,test-16,annulus,0.18657078215901746,0
+PF2D,densidad,0,CD W,test-17,annulus,0.20357142857142854,0
+PF2D,densidad,0,CD W MV,test-0,ellipse,0.7708333333333333,1
+PF2D,densidad,0,CD W MV,test-1,ellipse,0.7182539682539683,1
+PF2D,densidad,0,CD W MV,test-2,ellipse,0.875,1
+PF2D,densidad,0,CD W MV,test-3,rectangle,0.5416666666666666,0
+PF2D,densidad,0,CD W MV,test-4,rectangle,0.6950757575757576,1
+PF2D,densidad,0,CD W MV,test-5,rectangle,0.85,1
+PF2D,densidad,0,CD W MV,test-6,triangle,0.7321428571428572,1
+PF2D,densidad,0,CD W MV,test-7,triangle,0.12221202710333144,0
+PF2D,densidad,0,CD W MV,test-8,triangle,0.5659722222222222,1
+PF2D,densidad,0,CD W MV,test-9,hexagon,1.0,1
+PF2D,densidad,0,CD W MV,test-10,hexagon,0.8611111111111112,1
+PF2D,densidad,0,CD W MV,test-11,hexagon,0.6071428571428572,1
+PF2D,densidad,0,CD W MV,test-12,star,0.34970238095238093,0
+PF2D,densidad,0,CD W MV,test-13,star,0.3076923076923077,0
+PF2D,densidad,0,CD W MV,test-14,star,0.740909090909091,1
+PF2D,densidad,0,CD W MV,test-15,annulus,0.95,1
+PF2D,densidad,0,CD W MV,test-16,annulus,0.7095238095238094,1
+PF2D,densidad,0,CD W MV,test-17,annulus,0.775,1
+PF2D,densidad,0,Momentos W,test-0,ellipse,0.27782738095238096,0
+PF2D,densidad,0,Momentos W,test-1,ellipse,0.36651583710407243,0
+PF2D,densidad,0,Momentos W,test-2,ellipse,0.4562770562770563,1
+PF2D,densidad,0,Momentos W,test-3,rectangle,0.36041666666666666,0
+PF2D,densidad,0,Momentos W,test-4,rectangle,0.17518796992481203,0
+PF2D,densidad,0,Momentos W,test-5,rectangle,0.20595238095238094,0
+PF2D,densidad,0,Momentos W,test-6,triangle,0.4576330532212885,0
+PF2D,densidad,0,Momentos W,test-7,triangle,0.4,0
+PF2D,densidad,0,Momentos W,test-8,triangle,0.4892857142857142,0
+PF2D,densidad,0,Momentos W,test-9,hexagon,0.6845238095238095,1
+PF2D,densidad,0,Momentos W,test-10,hexagon,0.23931159420289855,0
+PF2D,densidad,0,Momentos W,test-11,hexagon,0.25476190476190474,0
+PF2D,densidad,0,Momentos W,test-12,star,0.5098484848484849,1
+PF2D,densidad,0,Momentos W,test-13,star,0.40555555555555556,1
+PF2D,densidad,0,Momentos W,test-14,star,0.6742424242424242,1
+PF2D,densidad,0,Momentos W,test-15,annulus,0.18667582417582418,0
+PF2D,densidad,0,Momentos W,test-16,annulus,0.15560515873015873,0
+PF2D,densidad,0,Momentos W,test-17,annulus,0.15496001031991744,0
+PF2D,densidad,0,Momentos W MV,test-0,ellipse,0.22062908496732025,0
+PF2D,densidad,0,Momentos W MV,test-1,ellipse,0.5146103896103896,1
+PF2D,densidad,0,Momentos W MV,test-2,ellipse,0.3119047619047619,0
+PF2D,densidad,0,Momentos W MV,test-3,rectangle,0.47619047619047616,0
+PF2D,densidad,0,Momentos W MV,test-4,rectangle,0.85,1
+PF2D,densidad,0,Momentos W MV,test-5,rectangle,0.6666666666666666,1
+PF2D,densidad,0,Momentos W MV,test-6,triangle,0.5875,1
+PF2D,densidad,0,Momentos W MV,test-7,triangle,0.15625,0
+PF2D,densidad,0,Momentos W MV,test-8,triangle,0.5185897435897435,0
+PF2D,densidad,0,Momentos W MV,test-9,hexagon,0.8875,1
+PF2D,densidad,0,Momentos W MV,test-10,hexagon,0.4861111111111111,0
+PF2D,densidad,0,Momentos W MV,test-11,hexagon,0.6349206349206349,1
+PF2D,densidad,0,Momentos W MV,test-12,star,0.6916666666666667,1
+PF2D,densidad,0,Momentos W MV,test-13,star,0.1251082251082251,0
+PF2D,densidad,0,Momentos W MV,test-14,star,0.7611111111111112,1
+PF2D,densidad,0,Momentos W MV,test-15,annulus,0.5595238095238095,0
+PF2D,densidad,0,Momentos W MV,test-16,annulus,0.36666666666666664,0
+PF2D,densidad,0,Momentos W MV,test-17,annulus,0.6488095238095237,1
+PF2D,densidad,0,D2,test-0,ellipse,0.2265151515151515,0
+PF2D,densidad,0,D2,test-1,ellipse,0.2111111111111111,0
+PF2D,densidad,0,D2,test-2,ellipse,0.28869047619047616,0
+PF2D,densidad,0,D2,test-3,rectangle,0.21609311740890685,0
+PF2D,densidad,0,D2,test-4,rectangle,0.22876984126984123,0
+PF2D,densidad,0,D2,test-5,rectangle,0.22499999999999998,0
+PF2D,densidad,0,D2,test-6,triangle,0.8541666666666666,1
+PF2D,densidad,0,D2,test-7,triangle,0.5791666666666666,0
+PF2D,densidad,0,D2,test-8,triangle,0.5791666666666666,0
+PF2D,densidad,0,D2,test-9,hexagon,0.6875,1
+PF2D,densidad,0,D2,test-10,hexagon,0.12365249129955012,0
+PF2D,densidad,0,D2,test-11,hexagon,0.1304955096073517,0
+PF2D,densidad,0,D2,test-12,star,0.2188445612358656,0
+PF2D,densidad,0,D2,test-13,star,0.13357023411371238,0
+PF2D,densidad,0,D2,test-14,star,0.4774305555555556,1
+PF2D,densidad,0,D2,test-15,annulus,0.36964285714285716,0
+PF2D,densidad,0,D2,test-16,annulus,0.6291666666666667,1
+PF2D,densidad,0,D2,test-17,annulus,0.6458333333333333,0
+PF2D,densidad,0,Momentos,test-0,ellipse,0.36025641025641025,0
+PF2D,densidad,0,Momentos,test-1,ellipse,0.37916666666666665,0
+PF2D,densidad,0,Momentos,test-2,ellipse,0.5102564102564102,1
+PF2D,densidad,0,Momentos,test-3,rectangle,0.4154761904761905,0
+PF2D,densidad,0,Momentos,test-4,rectangle,0.2583333333333333,0
+PF2D,densidad,0,Momentos,test-5,rectangle,0.286525974025974,0
+PF2D,densidad,0,Momentos,test-6,triangle,0.6875,1
+PF2D,densidad,0,Momentos,test-7,triangle,0.6629901960784313,1
+PF2D,densidad,0,Momentos,test-8,triangle,0.85,1
+PF2D,densidad,0,Momentos,test-9,hexagon,0.6845238095238095,1
+PF2D,densidad,0,Momentos,test-10,hexagon,0.30952380952380953,0
+PF2D,densidad,0,Momentos,test-11,hexagon,0.48055555555555557,1
+PF2D,densidad,0,Momentos,test-12,star,0.541025641025641,1
+PF2D,densidad,0,Momentos,test-13,star,0.27743055555555557,0
+PF2D,densidad,0,Momentos,test-14,star,0.6515151515151515,1
+PF2D,densidad,0,Momentos,test-15,annulus,0.22457542457542456,0
+PF2D,densidad,0,Momentos,test-16,annulus,0.15245098039215688,0
+PF2D,densidad,0,Momentos,test-17,annulus,0.16133255933952528,0
+PF2D,densidad,0,Momentos MV,test-0,ellipse,0.3284090909090909,0
+PF2D,densidad,0,Momentos MV,test-1,ellipse,0.6435897435897435,1
+PF2D,densidad,0,Momentos MV,test-2,ellipse,0.32291666666666663,0
+PF2D,densidad,0,Momentos MV,test-3,rectangle,0.5011904761904762,0
+PF2D,densidad,0,Momentos MV,test-4,rectangle,0.875,1
+PF2D,densidad,0,Momentos MV,test-5,rectangle,0.6916666666666667,1
+PF2D,densidad,0,Momentos MV,test-6,triangle,0.85,1
+PF2D,densidad,0,Momentos MV,test-7,triangle,0.41351010101010105,1
+PF2D,densidad,0,Momentos MV,test-8,triangle,0.6875,1
+PF2D,densidad,0,Momentos MV,test-9,hexagon,0.95,1
+PF2D,densidad,0,Momentos MV,test-10,hexagon,0.65,1
+PF2D,densidad,0,Momentos MV,test-11,hexagon,0.5932539682539683,1
+PF2D,densidad,0,Momentos MV,test-12,star,0.8541666666666666,1
+PF2D,densidad,0,Momentos MV,test-13,star,0.14794254658385092,0
+PF2D,densidad,0,Momentos MV,test-14,star,0.95,1
+PF2D,densidad,0,Momentos MV,test-15,annulus,0.7333333333333333,1
+PF2D,densidad,0,Momentos MV,test-16,annulus,0.34775641025641024,0
+PF2D,densidad,0,Momentos MV,test-17,annulus,0.7159090909090909,1
+PF2D,densidad,0,CD solo,test-0,ellipse,0.7071428571428571,1
+PF2D,densidad,0,CD solo,test-1,ellipse,0.3839285714285714,0
+PF2D,densidad,0,CD solo,test-2,ellipse,0.8166666666666667,1
+PF2D,densidad,0,CD solo,test-3,rectangle,0.4119703825586179,1
+PF2D,densidad,0,CD solo,test-4,rectangle,0.4081825037707391,1
+PF2D,densidad,0,CD solo,test-5,rectangle,0.42045454545454547,1
+PF2D,densidad,0,CD solo,test-6,triangle,0.27056159420289855,0
+PF2D,densidad,0,CD solo,test-7,triangle,0.20793650793650792,0
+PF2D,densidad,0,CD solo,test-8,triangle,0.21388888888888885,0
+PF2D,densidad,0,CD solo,test-9,hexagon,0.625,1
+PF2D,densidad,0,CD solo,test-10,hexagon,0.16959586466165413,0
+PF2D,densidad,0,CD solo,test-11,hexagon,0.20616883116883117,0
+PF2D,densidad,0,CD solo,test-12,star,0.9166666666666666,1
+PF2D,densidad,0,CD solo,test-13,star,0.875,1
+PF2D,densidad,0,CD solo,test-14,star,0.7928571428571428,1
+PF2D,densidad,0,CD solo,test-15,annulus,0.3104166666666667,0
+PF2D,densidad,0,CD solo,test-16,annulus,0.23677156177156178,0
+PF2D,densidad,0,CD solo,test-17,annulus,0.49583333333333335,1
+PF2D,densidad,0,CD + angular,test-0,ellipse,0.6349206349206349,1
+PF2D,densidad,0,CD + angular,test-1,ellipse,0.40079365079365076,0
+PF2D,densidad,0,CD + angular,test-2,ellipse,0.5769230769230769,1
+PF2D,densidad,0,CD + angular,test-3,rectangle,0.24166666666666664,0
+PF2D,densidad,0,CD + angular,test-4,rectangle,0.19233193277310923,0
+PF2D,densidad,0,CD + angular,test-5,rectangle,0.20084586466165413,0
+PF2D,densidad,0,CD + angular,test-6,triangle,0.3113095238095238,0
+PF2D,densidad,0,CD + angular,test-7,triangle,0.3113095238095238,0
+PF2D,densidad,0,CD + angular,test-8,triangle,0.45833333333333326,0
+PF2D,densidad,0,CD + angular,test-9,hexagon,0.6428571428571428,1
+PF2D,densidad,0,CD + angular,test-10,hexagon,0.26785714285714285,0
+PF2D,densidad,0,CD + angular,test-11,hexagon,0.34305555555555556,0
+PF2D,densidad,0,CD + angular,test-12,star,0.5354166666666667,1
+PF2D,densidad,0,CD + angular,test-13,star,0.5833333333333333,1
+PF2D,densidad,0,CD + angular,test-14,star,0.6659090909090909,1
+PF2D,densidad,0,CD + angular,test-15,annulus,0.22457542457542456,0
+PF2D,densidad,0,CD + angular,test-16,annulus,0.16944444444444445,0
+PF2D,densidad,0,CD + angular,test-17,annulus,0.22078754578754578,0
+PF2D,densidad,0,CD + angular MV,test-0,ellipse,0.6458333333333333,0
+PF2D,densidad,0,CD + angular MV,test-1,ellipse,0.7333333333333334,1
+PF2D,densidad,0,CD + angular MV,test-2,ellipse,0.7611111111111112,1
+PF2D,densidad,0,CD + angular MV,test-3,rectangle,0.5845238095238094,0
+PF2D,densidad,0,CD + angular MV,test-4,rectangle,0.7986111111111112,1
+PF2D,densidad,0,CD + angular MV,test-5,rectangle,0.7470238095238095,1
+PF2D,densidad,0,CD + angular MV,test-6,triangle,0.7095238095238094,1
+PF2D,densidad,0,CD + angular MV,test-7,triangle,0.16090225563909774,0
+PF2D,densidad,0,CD + angular MV,test-8,triangle,0.85,1
+PF2D,densidad,0,CD + angular MV,test-9,hexagon,1.0,1
+PF2D,densidad,0,CD + angular MV,test-10,hexagon,0.8409090909090909,1
+PF2D,densidad,0,CD + angular MV,test-11,hexagon,0.8928571428571428,1
+PF2D,densidad,0,CD + angular MV,test-12,star,0.291025641025641,0
+PF2D,densidad,0,CD + angular MV,test-13,star,0.4375,1
+PF2D,densidad,0,CD + angular MV,test-14,star,0.69375,1
+PF2D,densidad,0,CD + angular MV,test-15,annulus,1.0,1
+PF2D,densidad,0,CD + angular MV,test-16,annulus,1.0,1
+PF2D,densidad,0,CD + angular MV,test-17,annulus,0.7470238095238095,1
+PF2D,ruido,0,CD W,test-0,ellipse,0.3222222222222222,0
+PF2D,ruido,0,CD W,test-1,ellipse,0.6547619047619047,1
+PF2D,ruido,0,CD W,test-2,ellipse,0.7361111111111112,1
+PF2D,ruido,0,CD W,test-3,rectangle,1.0,1
+PF2D,ruido,0,CD W,test-4,rectangle,0.2965811965811966,0
+PF2D,ruido,0,CD W,test-5,rectangle,0.7333333333333334,1
+PF2D,ruido,0,CD W,test-6,triangle,0.7954545454545454,1
+PF2D,ruido,0,CD W,test-7,triangle,1.0,1
+PF2D,ruido,0,CD W,test-8,triangle,0.875,1
+PF2D,ruido,0,CD W,test-9,hexagon,1.0,1
+PF2D,ruido,0,CD W,test-10,hexagon,1.0,1
+PF2D,ruido,0,CD W,test-11,hexagon,0.6904761904761905,1
+PF2D,ruido,0,CD W,test-12,star,0.6506211180124224,1
+PF2D,ruido,0,CD W,test-13,star,0.5226449275362318,0
+PF2D,ruido,0,CD W,test-14,star,0.8125,1
+PF2D,ruido,0,CD W,test-15,annulus,0.7470238095238095,1
+PF2D,ruido,0,CD W,test-16,annulus,0.65,1
+PF2D,ruido,0,CD W,test-17,annulus,0.4333333333333333,0
+PF2D,ruido,0,CD W MV,test-0,ellipse,0.23886895268474215,0
+PF2D,ruido,0,CD W MV,test-1,ellipse,0.7321428571428572,1
+PF2D,ruido,0,CD W MV,test-2,ellipse,0.95,1
+PF2D,ruido,0,CD W MV,test-3,rectangle,1.0,1
+PF2D,ruido,0,CD W MV,test-4,rectangle,0.6875,1
+PF2D,ruido,0,CD W MV,test-5,rectangle,0.8611111111111112,1
+PF2D,ruido,0,CD W MV,test-6,triangle,0.95,1
+PF2D,ruido,0,CD W MV,test-7,triangle,1.0,1
+PF2D,ruido,0,CD W MV,test-8,triangle,0.8928571428571428,1
+PF2D,ruido,0,CD W MV,test-9,hexagon,1.0,1
+PF2D,ruido,0,CD W MV,test-10,hexagon,1.0,1
+PF2D,ruido,0,CD W MV,test-11,hexagon,1.0,1
+PF2D,ruido,0,CD W MV,test-12,star,0.8611111111111112,1
+PF2D,ruido,0,CD W MV,test-13,star,0.47916666666666663,0
+PF2D,ruido,0,CD W MV,test-14,star,0.875,1
+PF2D,ruido,0,CD W MV,test-15,annulus,0.8875,1
+PF2D,ruido,0,CD W MV,test-16,annulus,0.6916666666666667,1
+PF2D,ruido,0,CD W MV,test-17,annulus,0.6083333333333333,0
+PF2D,ruido,0,Momentos W,test-0,ellipse,0.2956709956709957,0
+PF2D,ruido,0,Momentos W,test-1,ellipse,0.6840659340659341,1
+PF2D,ruido,0,Momentos W,test-2,ellipse,0.6,1
+PF2D,ruido,0,Momentos W,test-3,rectangle,0.6458333333333333,0
+PF2D,ruido,0,Momentos W,test-4,rectangle,0.47700534759358293,1
+PF2D,ruido,0,Momentos W,test-5,rectangle,0.7159090909090909,1
+PF2D,ruido,0,Momentos W,test-6,triangle,0.6704545454545454,1
+PF2D,ruido,0,Momentos W,test-7,triangle,0.9166666666666666,1
+PF2D,ruido,0,Momentos W,test-8,triangle,0.9166666666666666,1
+PF2D,ruido,0,Momentos W,test-9,hexagon,1.0,1
+PF2D,ruido,0,Momentos W,test-10,hexagon,0.8875,1
+PF2D,ruido,0,Momentos W,test-11,hexagon,0.7083333333333334,1
+PF2D,ruido,0,Momentos W,test-12,star,0.7976190476190477,1
+PF2D,ruido,0,Momentos W,test-13,star,0.7954545454545454,1
+PF2D,ruido,0,Momentos W,test-14,star,0.875,1
+PF2D,ruido,0,Momentos W,test-15,annulus,1.0,1
+PF2D,ruido,0,Momentos W,test-16,annulus,0.4548611111111111,0
+PF2D,ruido,0,Momentos W,test-17,annulus,0.35297619047619044,0
+PF2D,ruido,0,Momentos W MV,test-0,ellipse,0.32007575757575757,0
+PF2D,ruido,0,Momentos W MV,test-1,ellipse,0.8303571428571428,1
+PF2D,ruido,0,Momentos W MV,test-2,ellipse,0.8928571428571428,1
+PF2D,ruido,0,Momentos W MV,test-3,rectangle,0.6458333333333333,0
+PF2D,ruido,0,Momentos W MV,test-4,rectangle,0.8333333333333333,1
+PF2D,ruido,0,Momentos W MV,test-5,rectangle,0.7986111111111112,1
+PF2D,ruido,0,Momentos W MV,test-6,triangle,0.8088235294117647,1
+PF2D,ruido,0,Momentos W MV,test-7,triangle,1.0,1
+PF2D,ruido,0,Momentos W MV,test-8,triangle,0.8928571428571428,1
+PF2D,ruido,0,Momentos W MV,test-9,hexagon,1.0,1
+PF2D,ruido,0,Momentos W MV,test-10,hexagon,1.0,1
+PF2D,ruido,0,Momentos W MV,test-11,hexagon,0.9166666666666666,1
+PF2D,ruido,0,Momentos W MV,test-12,star,0.8928571428571428,1
+PF2D,ruido,0,Momentos W MV,test-13,star,0.8409090909090909,1
+PF2D,ruido,0,Momentos W MV,test-14,star,0.95,1
+PF2D,ruido,0,Momentos W MV,test-15,annulus,1.0,1
+PF2D,ruido,0,Momentos W MV,test-16,annulus,0.5480519480519481,1
+PF2D,ruido,0,Momentos W MV,test-17,annulus,0.6361111111111111,1
+PF2D,ruido,0,D2,test-0,ellipse,0.17283549783549784,0
+PF2D,ruido,0,D2,test-1,ellipse,0.8409090909090909,1
+PF2D,ruido,0,D2,test-2,ellipse,1.0,1
+PF2D,ruido,0,D2,test-3,rectangle,0.2236111111111111,0
+PF2D,ruido,0,D2,test-4,rectangle,0.22976190476190472,0
+PF2D,ruido,0,D2,test-5,rectangle,0.3302521008403362,0
+PF2D,ruido,0,D2,test-6,triangle,0.3043831168831169,0
+PF2D,ruido,0,D2,test-7,triangle,1.0,1
+PF2D,ruido,0,D2,test-8,triangle,0.5791666666666666,0
+PF2D,ruido,0,D2,test-9,hexagon,1.0,1
+PF2D,ruido,0,D2,test-10,hexagon,1.0,1
+PF2D,ruido,0,D2,test-11,hexagon,1.0,1
+PF2D,ruido,0,D2,test-12,star,0.3622282608695652,0
+PF2D,ruido,0,D2,test-13,star,0.3850267379679145,1
+PF2D,ruido,0,D2,test-14,star,0.48660714285714285,1
+PF2D,ruido,0,D2,test-15,annulus,1.0,1
+PF2D,ruido,0,D2,test-16,annulus,0.6394230769230769,1
+PF2D,ruido,0,D2,test-17,annulus,0.9166666666666666,1
+PF2D,ruido,0,Momentos,test-0,ellipse,0.24632352941176472,0
+PF2D,ruido,0,Momentos,test-1,ellipse,0.6964285714285714,1
+PF2D,ruido,0,Momentos,test-2,ellipse,0.5151785714285714,1
+PF2D,ruido,0,Momentos,test-3,rectangle,0.7708333333333333,1
+PF2D,ruido,0,Momentos,test-4,rectangle,0.6435897435897435,1
+PF2D,ruido,0,Momentos,test-5,rectangle,0.6416666666666666,1
+PF2D,ruido,0,Momentos,test-6,triangle,0.8,1
+PF2D,ruido,0,Momentos,test-7,triangle,1.0,1
+PF2D,ruido,0,Momentos,test-8,triangle,0.9166666666666666,1
+PF2D,ruido,0,Momentos,test-9,hexagon,1.0,1
+PF2D,ruido,0,Momentos,test-10,hexagon,0.8875,1
+PF2D,ruido,0,Momentos,test-11,hexagon,0.7083333333333334,1
+PF2D,ruido,0,Momentos,test-12,star,0.8,1
+PF2D,ruido,0,Momentos,test-13,star,0.8,1
+PF2D,ruido,0,Momentos,test-14,star,0.9166666666666666,1
+PF2D,ruido,0,Momentos,test-15,annulus,1.0,1
+PF2D,ruido,0,Momentos,test-16,annulus,0.4548611111111111,0
+PF2D,ruido,0,Momentos,test-17,annulus,0.36408730158730157,0
+PF2D,ruido,0,Momentos MV,test-0,ellipse,0.2588235294117647,0
+PF2D,ruido,0,Momentos MV,test-1,ellipse,0.7333333333333334,1
+PF2D,ruido,0,Momentos MV,test-2,ellipse,0.6777777777777778,1
+PF2D,ruido,0,Momentos MV,test-3,rectangle,0.7708333333333333,1
+PF2D,ruido,0,Momentos MV,test-4,rectangle,0.8303571428571428,1
+PF2D,ruido,0,Momentos MV,test-5,rectangle,0.7152777777777777,1
+PF2D,ruido,0,Momentos MV,test-6,triangle,0.95,1
+PF2D,ruido,0,Momentos MV,test-7,triangle,1.0,1
+PF2D,ruido,0,Momentos MV,test-8,triangle,0.95,1
+PF2D,ruido,0,Momentos MV,test-9,hexagon,1.0,1
+PF2D,ruido,0,Momentos MV,test-10,hexagon,1.0,1
+PF2D,ruido,0,Momentos MV,test-11,hexagon,0.95,1
+PF2D,ruido,0,Momentos MV,test-12,star,0.8611111111111112,1
+PF2D,ruido,0,Momentos MV,test-13,star,0.8269230769230769,1
+PF2D,ruido,0,Momentos MV,test-14,star,0.95,1
+PF2D,ruido,0,Momentos MV,test-15,annulus,1.0,1
+PF2D,ruido,0,Momentos MV,test-16,annulus,0.5159090909090909,1
+PF2D,ruido,0,Momentos MV,test-17,annulus,0.7928571428571428,1
+PF2D,ruido,0,CD solo,test-0,ellipse,0.6083333333333333,0
+PF2D,ruido,0,CD solo,test-1,ellipse,0.7048611111111112,1
+PF2D,ruido,0,CD solo,test-2,ellipse,0.7182539682539683,1
+PF2D,ruido,0,CD solo,test-3,rectangle,0.95,1
+PF2D,ruido,0,CD solo,test-4,rectangle,0.39401709401709406,1
+PF2D,ruido,0,CD solo,test-5,rectangle,0.573051948051948,1
+PF2D,ruido,0,CD solo,test-6,triangle,1.0,1
+PF2D,ruido,0,CD solo,test-7,triangle,1.0,1
+PF2D,ruido,0,CD solo,test-8,triangle,0.8,1
+PF2D,ruido,0,CD solo,test-9,hexagon,1.0,1
+PF2D,ruido,0,CD solo,test-10,hexagon,0.8303571428571428,1
+PF2D,ruido,0,CD solo,test-11,hexagon,0.95,1
+PF2D,ruido,0,CD solo,test-12,star,0.7430555555555556,1
+PF2D,ruido,0,CD solo,test-13,star,0.8055555555555556,1
+PF2D,ruido,0,CD solo,test-14,star,1.0,1
+PF2D,ruido,0,CD solo,test-15,annulus,0.7470238095238095,1
+PF2D,ruido,0,CD solo,test-16,annulus,0.7152777777777777,1
+PF2D,ruido,0,CD solo,test-17,annulus,1.0,1
+PF2D,ruido,0,CD + angular,test-0,ellipse,0.3958333333333333,0
+PF2D,ruido,0,CD + angular,test-1,ellipse,0.6416666666666666,1
+PF2D,ruido,0,CD + angular,test-2,ellipse,0.581845238095238,1
+PF2D,ruido,0,CD + angular,test-3,rectangle,0.8875,1
+PF2D,ruido,0,CD + angular,test-4,rectangle,0.2998491704374057,0
+PF2D,ruido,0,CD + angular,test-5,rectangle,0.7986111111111112,1
+PF2D,ruido,0,CD + angular,test-6,triangle,0.7934782608695652,1
+PF2D,ruido,0,CD + angular,test-7,triangle,1.0,1
+PF2D,ruido,0,CD + angular,test-8,triangle,0.7611111111111112,1
+PF2D,ruido,0,CD + angular,test-9,hexagon,1.0,1
+PF2D,ruido,0,CD + angular,test-10,hexagon,0.8541666666666666,1
+PF2D,ruido,0,CD + angular,test-11,hexagon,0.6706730769230769,1
+PF2D,ruido,0,CD + angular,test-12,star,0.6704545454545454,1
+PF2D,ruido,0,CD + angular,test-13,star,0.524621212121212,0
+PF2D,ruido,0,CD + angular,test-14,star,0.875,1
+PF2D,ruido,0,CD + angular,test-15,annulus,0.7470238095238095,1
+PF2D,ruido,0,CD + angular,test-16,annulus,0.8303571428571428,1
+PF2D,ruido,0,CD + angular,test-17,annulus,0.5249999999999999,0
+PF2D,ruido,0,CD + angular MV,test-0,ellipse,0.26845238095238094,0
+PF2D,ruido,0,CD + angular MV,test-1,ellipse,0.7048611111111112,1
+PF2D,ruido,0,CD + angular MV,test-2,ellipse,0.775,1
+PF2D,ruido,0,CD + angular MV,test-3,rectangle,0.95,1
+PF2D,ruido,0,CD + angular MV,test-4,rectangle,0.8125,1
+PF2D,ruido,0,CD + angular MV,test-5,rectangle,0.8928571428571428,1
+PF2D,ruido,0,CD + angular MV,test-6,triangle,0.9166666666666666,1
+PF2D,ruido,0,CD + angular MV,test-7,triangle,1.0,1
+PF2D,ruido,0,CD + angular MV,test-8,triangle,0.9166666666666666,1
+PF2D,ruido,0,CD + angular MV,test-9,hexagon,1.0,1
+PF2D,ruido,0,CD + angular MV,test-10,hexagon,1.0,1
+PF2D,ruido,0,CD + angular MV,test-11,hexagon,0.95,1
+PF2D,ruido,0,CD + angular MV,test-12,star,0.8409090909090909,1
+PF2D,ruido,0,CD + angular MV,test-13,star,0.6805555555555556,1
+PF2D,ruido,0,CD + angular MV,test-14,star,0.875,1
+PF2D,ruido,0,CD + angular MV,test-15,annulus,0.95,1
+PF2D,ruido,0,CD + angular MV,test-16,annulus,0.7708333333333333,1
+PF2D,ruido,0,CD + angular MV,test-17,annulus,0.7708333333333333,1
+PF2D,oclusion,0,CD W,test-0,ellipse,0.3390151515151515,0
+PF2D,oclusion,0,CD W,test-1,ellipse,0.8303571428571428,1
+PF2D,oclusion,0,CD W,test-2,ellipse,0.7928571428571428,1
+PF2D,oclusion,0,CD W,test-3,rectangle,0.5571428571428572,1
+PF2D,oclusion,0,CD W,test-4,rectangle,0.24572368421052632,0
+PF2D,oclusion,0,CD W,test-5,rectangle,0.23394660894660896,0
+PF2D,oclusion,0,CD W,test-6,triangle,0.8541666666666666,1
+PF2D,oclusion,0,CD W,test-7,triangle,0.3821428571428571,0
+PF2D,oclusion,0,CD W,test-8,triangle,0.44047619047619047,0
+PF2D,oclusion,0,CD W,test-9,hexagon,0.573051948051948,1
+PF2D,oclusion,0,CD W,test-10,hexagon,0.7071428571428571,1
+PF2D,oclusion,0,CD W,test-11,hexagon,0.6488095238095237,1
+PF2D,oclusion,0,CD W,test-12,star,0.254656862745098,0
+PF2D,oclusion,0,CD W,test-13,star,0.28068181818181814,0
+PF2D,oclusion,0,CD W,test-14,star,0.5178571428571428,0
+PF2D,oclusion,0,CD W,test-15,annulus,1.0,1
+PF2D,oclusion,0,CD W,test-16,annulus,0.7041666666666666,1
+PF2D,oclusion,0,CD W,test-17,annulus,0.2418831168831169,0
+PF2D,oclusion,0,CD W MV,test-0,ellipse,0.31858974358974357,0
+PF2D,oclusion,0,CD W MV,test-1,ellipse,0.8166666666666667,1
+PF2D,oclusion,0,CD W MV,test-2,ellipse,0.95,1
+PF2D,oclusion,0,CD W MV,test-3,rectangle,1.0,1
+PF2D,oclusion,0,CD W MV,test-4,rectangle,0.95,1
+PF2D,oclusion,0,CD W MV,test-5,rectangle,0.8875,1
+PF2D,oclusion,0,CD W MV,test-6,triangle,1.0,1
+PF2D,oclusion,0,CD W MV,test-7,triangle,0.8875,1
+PF2D,oclusion,0,CD W MV,test-8,triangle,0.5381944444444444,1
+PF2D,oclusion,0,CD W MV,test-9,hexagon,0.8166666666666667,1
+PF2D,oclusion,0,CD W MV,test-10,hexagon,1.0,1
+PF2D,oclusion,0,CD W MV,test-11,hexagon,1.0,1
+PF2D,oclusion,0,CD W MV,test-12,star,0.28525641025641024,0
+PF2D,oclusion,0,CD W MV,test-13,star,0.21564685314685317,0
+PF2D,oclusion,0,CD W MV,test-14,star,0.38125,0
+PF2D,oclusion,0,CD W MV,test-15,annulus,1.0,1
+PF2D,oclusion,0,CD W MV,test-16,annulus,0.8125,1
+PF2D,oclusion,0,CD W MV,test-17,annulus,0.5428571428571428,0
+PF2D,oclusion,0,Momentos W,test-0,ellipse,0.3047619047619048,0
+PF2D,oclusion,0,Momentos W,test-1,ellipse,0.6659090909090909,1
+PF2D,oclusion,0,Momentos W,test-2,ellipse,0.47632575757575757,0
+PF2D,oclusion,0,Momentos W,test-3,rectangle,0.5060876623376623,1
+PF2D,oclusion,0,Momentos W,test-4,rectangle,0.40453296703296704,1
+PF2D,oclusion,0,Momentos W,test-5,rectangle,0.38092320261437906,1
+PF2D,oclusion,0,Momentos W,test-6,triangle,0.7321428571428572,1
+PF2D,oclusion,0,Momentos W,test-7,triangle,0.28179824561403505,0
+PF2D,oclusion,0,Momentos W,test-8,triangle,0.4464285714285714,0
+PF2D,oclusion,0,Momentos W,test-9,hexagon,0.5056818181818181,1
+PF2D,oclusion,0,Momentos W,test-10,hexagon,0.69375,1
+PF2D,oclusion,0,Momentos W,test-11,hexagon,0.6215277777777778,1
+PF2D,oclusion,0,Momentos W,test-12,star,0.16488095238095238,0
+PF2D,oclusion,0,Momentos W,test-13,star,0.23295454545454547,0
+PF2D,oclusion,0,Momentos W,test-14,star,0.5666666666666667,0
+PF2D,oclusion,0,Momentos W,test-15,annulus,1.0,1
+PF2D,oclusion,0,Momentos W,test-16,annulus,0.2121732026143791,0
+PF2D,oclusion,0,Momentos W,test-17,annulus,0.14502923976608187,0
+PF2D,oclusion,0,Momentos W MV,test-0,ellipse,0.3173992673992674,0
+PF2D,oclusion,0,Momentos W MV,test-1,ellipse,0.423051948051948,0
+PF2D,oclusion,0,Momentos W MV,test-2,ellipse,0.6791666666666667,0
+PF2D,oclusion,0,Momentos W MV,test-3,rectangle,0.7095238095238094,1
+PF2D,oclusion,0,Momentos W MV,test-4,rectangle,0.8125,1
+PF2D,oclusion,0,Momentos W MV,test-5,rectangle,0.5654761904761905,1
+PF2D,oclusion,0,Momentos W MV,test-6,triangle,0.8214285714285714,1
+PF2D,oclusion,0,Momentos W MV,test-7,triangle,0.17539682539682538,0
+PF2D,oclusion,0,Momentos W MV,test-8,triangle,0.40795454545454546,1
+PF2D,oclusion,0,Momentos W MV,test-9,hexagon,0.6916666666666667,1
+PF2D,oclusion,0,Momentos W MV,test-10,hexagon,0.8875,1
+PF2D,oclusion,0,Momentos W MV,test-11,hexagon,0.7361111111111112,1
+PF2D,oclusion,0,Momentos W MV,test-12,star,0.19166666666666668,0
+PF2D,oclusion,0,Momentos W MV,test-13,star,0.38095238095238093,0
+PF2D,oclusion,0,Momentos W MV,test-14,star,0.85,1
+PF2D,oclusion,0,Momentos W MV,test-15,annulus,1.0,1
+PF2D,oclusion,0,Momentos W MV,test-16,annulus,0.26031746031746034,0
+PF2D,oclusion,0,Momentos W MV,test-17,annulus,0.23487762237762239,0
+PF2D,oclusion,0,D2,test-0,ellipse,0.2624007936507936,0
+PF2D,oclusion,0,D2,test-1,ellipse,1.0,1
+PF2D,oclusion,0,D2,test-2,ellipse,0.4431818181818182,1
+PF2D,oclusion,0,D2,test-3,rectangle,0.21250000000000002,0
+PF2D,oclusion,0,D2,test-4,rectangle,0.1742217863499328,0
+PF2D,oclusion,0,D2,test-5,rectangle,0.18116623079437724,0
+PF2D,oclusion,0,D2,test-6,triangle,0.42280701754385963,1
+PF2D,oclusion,0,D2,test-7,triangle,0.8541666666666666,1
+PF2D,oclusion,0,D2,test-8,triangle,0.6458333333333333,0
+PF2D,oclusion,0,D2,test-9,hexagon,0.41547619047619044,0
+PF2D,oclusion,0,D2,test-10,hexagon,1.0,1
+PF2D,oclusion,0,D2,test-11,hexagon,1.0,1
+PF2D,oclusion,0,D2,test-12,star,0.16252587991718426,0
+PF2D,oclusion,0,D2,test-13,star,0.14701361440491872,0
+PF2D,oclusion,0,D2,test-14,star,0.5037593984962405,1
+PF2D,oclusion,0,D2,test-15,annulus,1.0,1
+PF2D,oclusion,0,D2,test-16,annulus,0.6339285714285714,1
+PF2D,oclusion,0,D2,test-17,annulus,0.8166666666666667,1
+PF2D,oclusion,0,Momentos,test-0,ellipse,0.30400641025641023,0
+PF2D,oclusion,0,Momentos,test-1,ellipse,0.5825757575757575,1
+PF2D,oclusion,0,Momentos,test-2,ellipse,0.5075757575757576,0
+PF2D,oclusion,0,Momentos,test-3,rectangle,0.5821428571428572,1
+PF2D,oclusion,0,Momentos,test-4,rectangle,0.4348776223776224,1
+PF2D,oclusion,0,Momentos,test-5,rectangle,0.29578754578754574,0
+PF2D,oclusion,0,Momentos,test-6,triangle,0.8166666666666667,1
+PF2D,oclusion,0,Momentos,test-7,triangle,0.41269841269841273,0
+PF2D,oclusion,0,Momentos,test-8,triangle,0.7125,1
+PF2D,oclusion,0,Momentos,test-9,hexagon,0.5654761904761905,1
+PF2D,oclusion,0,Momentos,test-10,hexagon,0.6666666666666666,1
+PF2D,oclusion,0,Momentos,test-11,hexagon,0.7048611111111112,1
+PF2D,oclusion,0,Momentos,test-12,star,0.14016812865497075,0
+PF2D,oclusion,0,Momentos,test-13,star,0.19526397515527952,0
+PF2D,oclusion,0,Momentos,test-14,star,0.4083333333333333,0
+PF2D,oclusion,0,Momentos,test-15,annulus,1.0,1
+PF2D,oclusion,0,Momentos,test-16,annulus,0.17222222222222222,0
+PF2D,oclusion,0,Momentos,test-17,annulus,0.1653766769865841,0
+PF2D,oclusion,0,Momentos MV,test-0,ellipse,0.3196428571428571,0
+PF2D,oclusion,0,Momentos MV,test-1,ellipse,0.4340659340659341,0
+PF2D,oclusion,0,Momentos MV,test-2,ellipse,0.6777777777777778,1
+PF2D,oclusion,0,Momentos MV,test-3,rectangle,0.6845238095238095,1
+PF2D,oclusion,0,Momentos MV,test-4,rectangle,0.6527777777777778,1
+PF2D,oclusion,0,Momentos MV,test-5,rectangle,0.5682539682539682,1
+PF2D,oclusion,0,Momentos MV,test-6,triangle,0.9166666666666666,1
+PF2D,oclusion,0,Momentos MV,test-7,triangle,0.26007326007326004,0
+PF2D,oclusion,0,Momentos MV,test-8,triangle,0.3833333333333333,0
+PF2D,oclusion,0,Momentos MV,test-9,hexagon,0.7928571428571428,1
+PF2D,oclusion,0,Momentos MV,test-10,hexagon,0.8125,1
+PF2D,oclusion,0,Momentos MV,test-11,hexagon,0.7986111111111112,1
+PF2D,oclusion,0,Momentos MV,test-12,star,0.15027097795639993,0
+PF2D,oclusion,0,Momentos MV,test-13,star,0.2229055258467023,0
+PF2D,oclusion,0,Momentos MV,test-14,star,0.7976190476190477,1
+PF2D,oclusion,0,Momentos MV,test-15,annulus,1.0,1
+PF2D,oclusion,0,Momentos MV,test-16,annulus,0.2219187675070028,0
+PF2D,oclusion,0,Momentos MV,test-17,annulus,0.24377705627705626,0
+PF2D,oclusion,0,CD solo,test-0,ellipse,0.6666666666666666,1
+PF2D,oclusion,0,CD solo,test-1,ellipse,0.8875,1
+PF2D,oclusion,0,CD solo,test-2,ellipse,0.8166666666666667,1
+PF2D,oclusion,0,CD solo,test-3,rectangle,1.0,1
+PF2D,oclusion,0,CD solo,test-4,rectangle,0.25304383116883117,0
+PF2D,oclusion,0,CD solo,test-5,rectangle,0.40555555555555556,1
+PF2D,oclusion,0,CD solo,test-6,triangle,1.0,1
+PF2D,oclusion,0,CD solo,test-7,triangle,0.875,1
+PF2D,oclusion,0,CD solo,test-8,triangle,0.25684523809523807,0
+PF2D,oclusion,0,CD solo,test-9,hexagon,0.27976190476190477,0
+PF2D,oclusion,0,CD solo,test-10,hexagon,0.6916666666666667,1
+PF2D,oclusion,0,CD solo,test-11,hexagon,0.7182539682539683,1
+PF2D,oclusion,0,CD solo,test-12,star,0.5970496894409938,1
+PF2D,oclusion,0,CD solo,test-13,star,0.8166666666666667,1
+PF2D,oclusion,0,CD solo,test-14,star,0.8928571428571428,1
+PF2D,oclusion,0,CD solo,test-15,annulus,1.0,1
+PF2D,oclusion,0,CD solo,test-16,annulus,0.8875,1
+PF2D,oclusion,0,CD solo,test-17,annulus,0.8041666666666667,1
+PF2D,oclusion,0,CD + angular,test-0,ellipse,0.34775641025641024,0
+PF2D,oclusion,0,CD + angular,test-1,ellipse,0.7470238095238095,1
+PF2D,oclusion,0,CD + angular,test-2,ellipse,0.75,1
+PF2D,oclusion,0,CD + angular,test-3,rectangle,0.575,1
+PF2D,oclusion,0,CD + angular,test-4,rectangle,0.15891812865497076,0
+PF2D,oclusion,0,CD + angular,test-5,rectangle,0.19585921325051758,0
+PF2D,oclusion,0,CD + angular,test-6,triangle,0.8875,1
+PF2D,oclusion,0,CD + angular,test-7,triangle,0.3159722222222222,0
+PF2D,oclusion,0,CD + angular,test-8,triangle,0.42708333333333326,0
+PF2D,oclusion,0,CD + angular,test-9,hexagon,0.5243055555555556,1
+PF2D,oclusion,0,CD + angular,test-10,hexagon,0.698051948051948,1
+PF2D,oclusion,0,CD + angular,test-11,hexagon,0.6215277777777778,1
+PF2D,oclusion,0,CD + angular,test-12,star,0.4076923076923077,1
+PF2D,oclusion,0,CD + angular,test-13,star,0.29221491228070173,0
+PF2D,oclusion,0,CD + angular,test-14,star,0.42986111111111114,0
+PF2D,oclusion,0,CD + angular,test-15,annulus,1.0,1
+PF2D,oclusion,0,CD + angular,test-16,annulus,0.8303571428571428,1
+PF2D,oclusion,0,CD + angular,test-17,annulus,0.23328754578754576,0
+PF2D,oclusion,0,CD + angular MV,test-0,ellipse,0.28585164835164834,0
+PF2D,oclusion,0,CD + angular MV,test-1,ellipse,0.775,1
+PF2D,oclusion,0,CD + angular MV,test-2,ellipse,0.95,1
+PF2D,oclusion,0,CD + angular MV,test-3,rectangle,1.0,1
+PF2D,oclusion,0,CD + angular MV,test-4,rectangle,0.4166666666666667,0
+PF2D,oclusion,0,CD + angular MV,test-5,rectangle,0.6678571428571428,1
+PF2D,oclusion,0,CD + angular MV,test-6,triangle,1.0,1
+PF2D,oclusion,0,CD + angular MV,test-7,triangle,0.8166666666666667,1
+PF2D,oclusion,0,CD + angular MV,test-8,triangle,0.5515873015873016,1
+PF2D,oclusion,0,CD + angular MV,test-9,hexagon,0.8928571428571428,1
+PF2D,oclusion,0,CD + angular MV,test-10,hexagon,0.8875,1
+PF2D,oclusion,0,CD + angular MV,test-11,hexagon,1.0,1
+PF2D,oclusion,0,CD + angular MV,test-12,star,0.31805555555555554,0
+PF2D,oclusion,0,CD + angular MV,test-13,star,0.26666666666666666,0
+PF2D,oclusion,0,CD + angular MV,test-14,star,0.375,0
+PF2D,oclusion,0,CD + angular MV,test-15,annulus,1.0,1
+PF2D,oclusion,0,CD + angular MV,test-16,annulus,0.9166666666666666,1
+PF2D,oclusion,0,CD + angular MV,test-17,annulus,0.5428571428571428,0
+PF2D,atipicos,0,CD W,test-0,ellipse,0.2589285714285714,0
+PF2D,atipicos,0,CD W,test-1,ellipse,0.28809523809523807,0
+PF2D,atipicos,0,CD W,test-2,ellipse,0.2589285714285714,0
+PF2D,atipicos,0,CD W,test-3,rectangle,0.13709297948428384,0
+PF2D,atipicos,0,CD W,test-4,rectangle,0.1303469477382521,0
+PF2D,atipicos,0,CD W,test-5,rectangle,0.1263786937699981,0
+PF2D,atipicos,0,CD W,test-6,triangle,0.19903381642512077,0
+PF2D,atipicos,0,CD W,test-7,triangle,0.3199934123847167,0
+PF2D,atipicos,0,CD W,test-8,triangle,0.29318181818181815,0
+PF2D,atipicos,0,CD W,test-9,hexagon,0.1527398040555935,0
+PF2D,atipicos,0,CD W,test-10,hexagon,0.14791524265208478,0
+PF2D,atipicos,0,CD W,test-11,hexagon,0.14454334365325078,0
+PF2D,atipicos,0,CD W,test-12,star,0.8303571428571428,1
+PF2D,atipicos,0,CD W,test-13,star,0.8125,1
+PF2D,atipicos,0,CD W,test-14,star,0.8303571428571428,1
+PF2D,atipicos,0,CD W,test-15,annulus,0.22104978354978355,0
+PF2D,atipicos,0,CD W,test-16,annulus,0.22078754578754578,0
+PF2D,atipicos,0,CD W,test-17,annulus,0.19583333333333333,0
+PF2D,atipicos,0,CD W MV,test-0,ellipse,0.1589181286549708,0
+PF2D,atipicos,0,CD W MV,test-1,ellipse,0.2470238095238095,0
+PF2D,atipicos,0,CD W MV,test-2,ellipse,0.16617324561403507,0
+PF2D,atipicos,0,CD W MV,test-3,rectangle,0.23799019607843136,0
+PF2D,atipicos,0,CD W MV,test-4,rectangle,0.17991452991452989,0
+PF2D,atipicos,0,CD W MV,test-5,rectangle,0.16210317460317458,0
+PF2D,atipicos,0,CD W MV,test-6,triangle,0.20416666666666664,0
+PF2D,atipicos,0,CD W MV,test-7,triangle,0.32450657894736845,0
+PF2D,atipicos,0,CD W MV,test-8,triangle,0.3351190476190476,0
+PF2D,atipicos,0,CD W MV,test-9,hexagon,0.11197377501725328,0
+PF2D,atipicos,0,CD W MV,test-10,hexagon,0.11262763504611331,0
+PF2D,atipicos,0,CD W MV,test-11,hexagon,0.12179383116883116,0
+PF2D,atipicos,0,CD W MV,test-12,star,0.8166666666666667,1
+PF2D,atipicos,0,CD W MV,test-13,star,0.6678571428571428,1
+PF2D,atipicos,0,CD W MV,test-14,star,1.0,1
+PF2D,atipicos,0,CD W MV,test-15,annulus,0.32628968253968255,0
+PF2D,atipicos,0,CD W MV,test-16,annulus,0.3179563492063492,0
+PF2D,atipicos,0,CD W MV,test-17,annulus,0.36736111111111114,0
+PF2D,atipicos,0,Momentos W,test-0,ellipse,0.21060924369747897,0
+PF2D,atipicos,0,Momentos W,test-1,ellipse,0.21060924369747897,0
+PF2D,atipicos,0,Momentos W,test-2,ellipse,0.16688311688311688,0
+PF2D,atipicos,0,Momentos W,test-3,rectangle,0.19772086466165412,0
+PF2D,atipicos,0,Momentos W,test-4,rectangle,0.1802083333333333,0
+PF2D,atipicos,0,Momentos W,test-5,rectangle,0.18293650793650792,0
+PF2D,atipicos,0,Momentos W,test-6,triangle,0.5325757575757576,0
+PF2D,atipicos,0,Momentos W,test-7,triangle,0.5185897435897435,0
+PF2D,atipicos,0,Momentos W,test-8,triangle,0.5458333333333333,0
+PF2D,atipicos,0,Momentos W,test-9,hexagon,0.12836892957030255,0
+PF2D,atipicos,0,Momentos W,test-10,hexagon,0.12586266390614215,0
+PF2D,atipicos,0,Momentos W,test-11,hexagon,0.12010869565217391,0
+PF2D,atipicos,0,Momentos W,test-12,star,0.49999999999999994,1
+PF2D,atipicos,0,Momentos W,test-13,star,0.46818181818181814,1
+PF2D,atipicos,0,Momentos W,test-14,star,0.5821428571428571,1
+PF2D,atipicos,0,Momentos W,test-15,annulus,0.1899496336996337,0
+PF2D,atipicos,0,Momentos W,test-16,annulus,0.19724025974025972,0
+PF2D,atipicos,0,Momentos W,test-17,annulus,0.17251984126984127,0
+PF2D,atipicos,0,Momentos W MV,test-0,ellipse,0.15047452547452547,0
+PF2D,atipicos,0,Momentos W MV,test-1,ellipse,0.16169386169386168,0
+PF2D,atipicos,0,Momentos W MV,test-2,ellipse,0.12543820558526442,0
+PF2D,atipicos,0,Momentos W MV,test-3,rectangle,0.26448412698412693,0
+PF2D,atipicos,0,Momentos W MV,test-4,rectangle,0.22195165945165946,0
+PF2D,atipicos,0,Momentos W MV,test-5,rectangle,0.20734126984126983,0
+PF2D,atipicos,0,Momentos W MV,test-6,triangle,0.49090909090909096,0
+PF2D,atipicos,0,Momentos W MV,test-7,triangle,0.7928571428571428,1
+PF2D,atipicos,0,Momentos W MV,test-8,triangle,0.75,1
+PF2D,atipicos,0,Momentos W MV,test-9,hexagon,0.11058488612836438,0
+PF2D,atipicos,0,Momentos W MV,test-10,hexagon,0.11016052978295542,0
+PF2D,atipicos,0,Momentos W MV,test-11,hexagon,0.11124278086520649,0
+PF2D,atipicos,0,Momentos W MV,test-12,star,0.283234126984127,0
+PF2D,atipicos,0,Momentos W MV,test-13,star,0.2276315789473684,0
+PF2D,atipicos,0,Momentos W MV,test-14,star,0.740909090909091,1
+PF2D,atipicos,0,Momentos W MV,test-15,annulus,0.2487373737373737,0
+PF2D,atipicos,0,Momentos W MV,test-16,annulus,0.2700757575757575,0
+PF2D,atipicos,0,Momentos W MV,test-17,annulus,0.25555555555555554,0
+PF2D,atipicos,0,D2,test-0,ellipse,0.13601072840203274,0
+PF2D,atipicos,0,D2,test-1,ellipse,0.13901255114069758,0
+PF2D,atipicos,0,D2,test-2,ellipse,0.12436868686868685,0
+PF2D,atipicos,0,D2,test-3,rectangle,0.13526239842029314,0
+PF2D,atipicos,0,D2,test-4,rectangle,0.2857142857142857,0
+PF2D,atipicos,0,D2,test-5,rectangle,0.15483058608058609,0
+PF2D,atipicos,0,D2,test-6,triangle,0.6220238095238095,0
+PF2D,atipicos,0,D2,test-7,triangle,0.5527777777777778,0
+PF2D,atipicos,0,D2,test-8,triangle,0.5416666666666666,0
+PF2D,atipicos,0,D2,test-9,hexagon,0.12957639196029289,0
+PF2D,atipicos,0,D2,test-10,hexagon,0.14264828738512947,0
+PF2D,atipicos,0,D2,test-11,hexagon,0.15826263197586726,0
+PF2D,atipicos,0,D2,test-12,star,0.42045454545454547,1
+PF2D,atipicos,0,D2,test-13,star,0.6103238866396761,1
+PF2D,atipicos,0,D2,test-14,star,0.4125,1
+PF2D,atipicos,0,D2,test-15,annulus,0.42658730158730157,0
+PF2D,atipicos,0,D2,test-16,annulus,0.26653346653346655,0
+PF2D,atipicos,0,D2,test-17,annulus,0.37152777777777773,0
+PF2D,atipicos,0,Momentos,test-0,ellipse,0.2073135198135198,0
+PF2D,atipicos,0,Momentos,test-1,ellipse,0.21007326007326005,0
+PF2D,atipicos,0,Momentos,test-2,ellipse,0.16591251885369532,0
+PF2D,atipicos,0,Momentos,test-3,rectangle,0.26448412698412693,0
+PF2D,atipicos,0,Momentos,test-4,rectangle,0.2640151515151515,0
+PF2D,atipicos,0,Momentos,test-5,rectangle,0.22045454545454546,0
+PF2D,atipicos,0,Momentos,test-6,triangle,0.9166666666666666,1
+PF2D,atipicos,0,Momentos,test-7,triangle,0.9166666666666666,1
+PF2D,atipicos,0,Momentos,test-8,triangle,0.9166666666666666,1
+PF2D,atipicos,0,Momentos,test-9,hexagon,0.11124278086520649,0
+PF2D,atipicos,0,Momentos,test-10,hexagon,0.11016052978295542,0
+PF2D,atipicos,0,Momentos,test-11,hexagon,0.1089073969508752,0
+PF2D,atipicos,0,Momentos,test-12,star,0.2608516483516483,0
+PF2D,atipicos,0,Momentos,test-13,star,0.23903186274509802,0
+PF2D,atipicos,0,Momentos,test-14,star,0.42986111111111114,0
+PF2D,atipicos,0,Momentos,test-15,annulus,0.15775978407557356,0
+PF2D,atipicos,0,Momentos,test-16,annulus,0.19545454545454546,0
+PF2D,atipicos,0,Momentos,test-17,annulus,0.17045454545454547,0
+PF2D,atipicos,0,Momentos MV,test-0,ellipse,0.18871635610766047,0
+PF2D,atipicos,0,Momentos MV,test-1,ellipse,0.1847402597402597,0
+PF2D,atipicos,0,Momentos MV,test-2,ellipse,0.1565364782276547,0
+PF2D,atipicos,0,Momentos MV,test-3,rectangle,0.35132575757575757,0
+PF2D,atipicos,0,Momentos MV,test-4,rectangle,0.49642857142857144,1
+PF2D,atipicos,0,Momentos MV,test-5,rectangle,0.30608974358974356,0
+PF2D,atipicos,0,Momentos MV,test-6,triangle,1.0,1
+PF2D,atipicos,0,Momentos MV,test-7,triangle,0.95,1
+PF2D,atipicos,0,Momentos MV,test-8,triangle,0.8875,1
+PF2D,atipicos,0,Momentos MV,test-9,hexagon,0.11170851739905449,0
+PF2D,atipicos,0,Momentos MV,test-10,hexagon,0.11197377501725328,0
+PF2D,atipicos,0,Momentos MV,test-11,hexagon,0.11272499430394166,0
+PF2D,atipicos,0,Momentos MV,test-12,star,0.16944444444444445,0
+PF2D,atipicos,0,Momentos MV,test-13,star,0.15293522267206477,0
+PF2D,atipicos,0,Momentos MV,test-14,star,0.26726190476190476,0
+PF2D,atipicos,0,Momentos MV,test-15,annulus,0.18657078215901746,0
+PF2D,atipicos,0,Momentos MV,test-16,annulus,0.18898809523809523,0
+PF2D,atipicos,0,Momentos MV,test-17,annulus,0.18578296703296704,0
+PF2D,atipicos,0,CD solo,test-0,ellipse,0.4083333333333333,0
+PF2D,atipicos,0,CD solo,test-1,ellipse,0.5666666666666667,0
+PF2D,atipicos,0,CD solo,test-2,ellipse,0.46825396825396826,0
+PF2D,atipicos,0,CD solo,test-3,rectangle,0.39662511401641837,1
+PF2D,atipicos,0,CD solo,test-4,rectangle,0.16177173210421292,0
+PF2D,atipicos,0,CD solo,test-5,rectangle,0.1820199275362319,0
+PF2D,atipicos,0,CD solo,test-6,triangle,0.11742424242424243,0
+PF2D,atipicos,0,CD solo,test-7,triangle,0.14553429027113238,0
+PF2D,atipicos,0,CD solo,test-8,triangle,0.13720095693779905,0
+PF2D,atipicos,0,CD solo,test-9,hexagon,0.15232843137254903,0
+PF2D,atipicos,0,CD solo,test-10,hexagon,0.17743055555555554,0
+PF2D,atipicos,0,CD solo,test-11,hexagon,0.2073135198135198,0
+PF2D,atipicos,0,CD solo,test-12,star,0.7678571428571428,1
+PF2D,atipicos,0,CD solo,test-13,star,0.7361111111111112,1
+PF2D,atipicos,0,CD solo,test-14,star,0.7928571428571428,1
+PF2D,atipicos,0,CD solo,test-15,annulus,0.1488562091503268,0
+PF2D,atipicos,0,CD solo,test-16,annulus,0.1399787347155768,0
+PF2D,atipicos,0,CD solo,test-17,annulus,0.15293560606060605,0
+PF2D,atipicos,0,CD + angular,test-0,ellipse,0.28809523809523807,0
+PF2D,atipicos,0,CD + angular,test-1,ellipse,0.37797619047619047,0
+PF2D,atipicos,0,CD + angular,test-2,ellipse,0.3304924242424242,0
+PF2D,atipicos,0,CD + angular,test-3,rectangle,0.1708592132505176,0
+PF2D,atipicos,0,CD + angular,test-4,rectangle,0.15416666666666667,0
+PF2D,atipicos,0,CD + angular,test-5,rectangle,0.1549501223414267,0
+PF2D,atipicos,0,CD + angular,test-6,triangle,0.21464646464646464,0
+PF2D,atipicos,0,CD + angular,test-7,triangle,0.2875,0
+PF2D,atipicos,0,CD + angular,test-8,triangle,0.30833333333333335,0
+PF2D,atipicos,0,CD + angular,test-9,hexagon,0.1482755183413078,0
+PF2D,atipicos,0,CD + angular,test-10,hexagon,0.16953781512605043,0
+PF2D,atipicos,0,CD + angular,test-11,hexagon,0.18183940242763771,0
+PF2D,atipicos,0,CD + angular,test-12,star,0.8166666666666667,1
+PF2D,atipicos,0,CD + angular,test-13,star,0.6349206349206349,1
+PF2D,atipicos,0,CD + angular,test-14,star,0.8166666666666667,1
+PF2D,atipicos,0,CD + angular,test-15,annulus,0.1580065359477124,0
+PF2D,atipicos,0,CD + angular,test-16,annulus,0.14030920060331825,0
+PF2D,atipicos,0,CD + angular,test-17,annulus,0.14791524265208478,0
+PF2D,atipicos,0,CD + angular MV,test-0,ellipse,0.2428830227743271,0
+PF2D,atipicos,0,CD + angular MV,test-1,ellipse,0.2621212121212121,0
+PF2D,atipicos,0,CD + angular MV,test-2,ellipse,0.29583333333333334,0
+PF2D,atipicos,0,CD + angular MV,test-3,rectangle,0.4063852813852814,0
+PF2D,atipicos,0,CD + angular MV,test-4,rectangle,0.3254901960784313,0
+PF2D,atipicos,0,CD + angular MV,test-5,rectangle,0.27499999999999997,0
+PF2D,atipicos,0,CD + angular MV,test-6,triangle,0.2287878787878788,0
+PF2D,atipicos,0,CD + angular MV,test-7,triangle,0.4186720142602496,0
+PF2D,atipicos,0,CD + angular MV,test-8,triangle,0.45436507936507936,0
+PF2D,atipicos,0,CD + angular MV,test-9,hexagon,0.12179383116883116,0
+PF2D,atipicos,0,CD + angular MV,test-10,hexagon,0.12965250329380765,0
+PF2D,atipicos,0,CD + angular MV,test-11,hexagon,0.16400978407557354,0
+PF2D,atipicos,0,CD + angular MV,test-12,star,0.2963235294117647,0
+PF2D,atipicos,0,CD + angular MV,test-13,star,0.35200534759358293,0
+PF2D,atipicos,0,CD + angular MV,test-14,star,0.7333333333333334,1
+PF2D,atipicos,0,CD + angular MV,test-15,annulus,0.191025641025641,0
+PF2D,atipicos,0,CD + angular MV,test-16,annulus,0.15207068151147096,0
+PF2D,atipicos,0,CD + angular MV,test-17,annulus,0.20845959595959596,0
+PF3D,mitad,0,CD W,test-0,sphere,0.95,1
+PF3D,mitad,0,CD W,test-1,sphere,0.45833333333333337,0
+PF3D,mitad,0,CD W,test-2,sphere,0.4213235294117647,1
+PF3D,mitad,0,CD W,test-3,ellipsoid,0.31101190476190477,0
+PF3D,mitad,0,CD W,test-4,ellipsoid,0.2936572199730094,0
+PF3D,mitad,0,CD W,test-5,ellipsoid,0.8303571428571428,1
+PF3D,mitad,0,CD W,test-6,cube,1.0,1
+PF3D,mitad,0,CD W,test-7,cube,1.0,1
+PF3D,mitad,0,CD W,test-8,cube,0.75,1
+PF3D,mitad,0,CD W,test-9,cylinder,0.17920454545454548,0
+PF3D,mitad,0,CD W,test-10,cylinder,0.11646533613445377,0
+PF3D,mitad,0,CD W,test-11,cylinder,0.7954545454545454,1
+PF3D,mitad,0,CD W,test-12,cone,0.7708333333333333,1
+PF3D,mitad,0,CD W,test-13,cone,0.6083333333333333,0
+PF3D,mitad,0,CD W,test-14,cone,0.46111111111111114,0
+PF3D,mitad,0,CD W,test-15,torus,1.0,1
+PF3D,mitad,0,CD W,test-16,torus,1.0,1
+PF3D,mitad,0,CD W,test-17,torus,0.46875,0
+PF3D,mitad,0,CD W,test-18,pyramid,0.5560897435897436,1
+PF3D,mitad,0,CD W,test-19,pyramid,0.725,1
+PF3D,mitad,0,CD W,test-20,pyramid,0.7071428571428571,1
+PF3D,mitad,0,CD W MV,test-0,sphere,1.0,1
+PF3D,mitad,0,CD W MV,test-1,sphere,0.4303571428571429,0
+PF3D,mitad,0,CD W MV,test-2,sphere,0.5270833333333333,1
+PF3D,mitad,0,CD W MV,test-3,ellipsoid,0.42424242424242425,0
+PF3D,mitad,0,CD W MV,test-4,ellipsoid,0.7928571428571428,1
+PF3D,mitad,0,CD W MV,test-5,ellipsoid,1.0,1
+PF3D,mitad,0,CD W MV,test-6,cube,1.0,1
+PF3D,mitad,0,CD W MV,test-7,cube,1.0,1
+PF3D,mitad,0,CD W MV,test-8,cube,1.0,1
+PF3D,mitad,0,CD W MV,test-9,cylinder,0.5226190476190476,1
+PF3D,mitad,0,CD W MV,test-10,cylinder,0.11884825700615174,0
+PF3D,mitad,0,CD W MV,test-11,cylinder,0.8269230769230769,1
+PF3D,mitad,0,CD W MV,test-12,cone,0.5595238095238095,0
+PF3D,mitad,0,CD W MV,test-13,cone,0.4928571428571429,0
+PF3D,mitad,0,CD W MV,test-14,cone,0.7333333333333333,1
+PF3D,mitad,0,CD W MV,test-15,torus,1.0,1
+PF3D,mitad,0,CD W MV,test-16,torus,1.0,1
+PF3D,mitad,0,CD W MV,test-17,torus,1.0,1
+PF3D,mitad,0,CD W MV,test-18,pyramid,0.740909090909091,1
+PF3D,mitad,0,CD W MV,test-19,pyramid,0.8409090909090909,1
+PF3D,mitad,0,CD W MV,test-20,pyramid,0.775,1
+PF3D,mitad,0,Momentos W,test-0,sphere,1.0,1
+PF3D,mitad,0,Momentos W,test-1,sphere,0.7928571428571428,1
+PF3D,mitad,0,Momentos W,test-2,sphere,1.0,1
+PF3D,mitad,0,Momentos W,test-3,ellipsoid,0.3849206349206349,0
+PF3D,mitad,0,Momentos W,test-4,ellipsoid,0.8541666666666666,1
+PF3D,mitad,0,Momentos W,test-5,ellipsoid,0.44047619047619047,0
+PF3D,mitad,0,Momentos W,test-6,cube,0.95,1
+PF3D,mitad,0,Momentos W,test-7,cube,0.8928571428571428,1
+PF3D,mitad,0,Momentos W,test-8,cube,0.48214285714285715,0
+PF3D,mitad,0,Momentos W,test-9,cylinder,0.20148809523809524,0
+PF3D,mitad,0,Momentos W,test-10,cylinder,0.12209249084249084,0
+PF3D,mitad,0,Momentos W,test-11,cylinder,0.8928571428571428,1
+PF3D,mitad,0,Momentos W,test-12,cone,0.6527777777777778,1
+PF3D,mitad,0,Momentos W,test-13,cone,0.5845238095238094,0
+PF3D,mitad,0,Momentos W,test-14,cone,0.31997863247863245,0
+PF3D,mitad,0,Momentos W,test-15,torus,1.0,1
+PF3D,mitad,0,Momentos W,test-16,torus,1.0,1
+PF3D,mitad,0,Momentos W,test-17,torus,0.7784090909090909,1
+PF3D,mitad,0,Momentos W,test-18,pyramid,0.26845238095238094,0
+PF3D,mitad,0,Momentos W,test-19,pyramid,0.8166666666666667,1
+PF3D,mitad,0,Momentos W,test-20,pyramid,0.52906162464986,1
+PF3D,mitad,0,Momentos W MV,test-0,sphere,1.0,1
+PF3D,mitad,0,Momentos W MV,test-1,sphere,1.0,1
+PF3D,mitad,0,Momentos W MV,test-2,sphere,1.0,1
+PF3D,mitad,0,Momentos W MV,test-3,ellipsoid,0.360551948051948,0
+PF3D,mitad,0,Momentos W MV,test-4,ellipsoid,0.8875,1
+PF3D,mitad,0,Momentos W MV,test-5,ellipsoid,0.4154761904761905,0
+PF3D,mitad,0,Momentos W MV,test-6,cube,1.0,1
+PF3D,mitad,0,Momentos W MV,test-7,cube,0.8125,1
+PF3D,mitad,0,Momentos W MV,test-8,cube,1.0,1
+PF3D,mitad,0,Momentos W MV,test-9,cylinder,0.3076923076923077,0
+PF3D,mitad,0,Momentos W MV,test-10,cylinder,0.11154642458990285,0
+PF3D,mitad,0,Momentos W MV,test-11,cylinder,0.9166666666666666,1
+PF3D,mitad,0,Momentos W MV,test-12,cone,0.8166666666666667,1
+PF3D,mitad,0,Momentos W MV,test-13,cone,0.5666666666666667,0
+PF3D,mitad,0,Momentos W MV,test-14,cone,0.3701048951048951,0
+PF3D,mitad,0,Momentos W MV,test-15,torus,1.0,1
+PF3D,mitad,0,Momentos W MV,test-16,torus,1.0,1
+PF3D,mitad,0,Momentos W MV,test-17,torus,1.0,1
+PF3D,mitad,0,Momentos W MV,test-18,pyramid,0.19920051353874885,0
+PF3D,mitad,0,Momentos W MV,test-19,pyramid,0.8611111111111112,1
+PF3D,mitad,0,Momentos W MV,test-20,pyramid,0.8409090909090909,1
+PF3D,mitad,0,D2,test-0,sphere,1.0,1
+PF3D,mitad,0,D2,test-1,sphere,0.95,1
+PF3D,mitad,0,D2,test-2,sphere,0.8875,1
+PF3D,mitad,0,D2,test-3,ellipsoid,0.625,1
+PF3D,mitad,0,D2,test-4,ellipsoid,0.7333333333333333,1
+PF3D,mitad,0,D2,test-5,ellipsoid,0.5666666666666667,0
+PF3D,mitad,0,D2,test-6,cube,0.8875,1
+PF3D,mitad,0,D2,test-7,cube,0.8409090909090909,1
+PF3D,mitad,0,D2,test-8,cube,0.3380952380952381,0
+PF3D,mitad,0,D2,test-9,cylinder,0.1309163059163059,0
+PF3D,mitad,0,D2,test-10,cylinder,0.10387218045112782,0
+PF3D,mitad,0,D2,test-11,cylinder,0.54,1
+PF3D,mitad,0,D2,test-12,cone,0.8541666666666666,1
+PF3D,mitad,0,D2,test-13,cone,0.34851190476190474,0
+PF3D,mitad,0,D2,test-14,cone,0.7152777777777777,1
+PF3D,mitad,0,D2,test-15,torus,0.3363095238095238,0
+PF3D,mitad,0,D2,test-16,torus,1.0,1
+PF3D,mitad,0,D2,test-17,torus,1.0,1
+PF3D,mitad,0,D2,test-18,pyramid,0.5947293447293447,1
+PF3D,mitad,0,D2,test-19,pyramid,0.5120370370370371,1
+PF3D,mitad,0,D2,test-20,pyramid,0.31865721997300944,0
+PF3D,mitad,0,Momentos,test-0,sphere,1.0,1
+PF3D,mitad,0,Momentos,test-1,sphere,0.7928571428571428,1
+PF3D,mitad,0,Momentos,test-2,sphere,0.95,1
+PF3D,mitad,0,Momentos,test-3,ellipsoid,0.4131944444444444,0
+PF3D,mitad,0,Momentos,test-4,ellipsoid,0.775,1
+PF3D,mitad,0,Momentos,test-5,ellipsoid,0.44047619047619047,0
+PF3D,mitad,0,Momentos,test-6,cube,1.0,1
+PF3D,mitad,0,Momentos,test-7,cube,0.8928571428571428,1
+PF3D,mitad,0,Momentos,test-8,cube,0.46233974358974356,0
+PF3D,mitad,0,Momentos,test-9,cylinder,0.1968954248366013,0
+PF3D,mitad,0,Momentos,test-10,cylinder,0.11898690078037905,0
+PF3D,mitad,0,Momentos,test-11,cylinder,0.95,1
+PF3D,mitad,0,Momentos,test-12,cone,0.6488095238095237,1
+PF3D,mitad,0,Momentos,test-13,cone,0.5845238095238094,0
+PF3D,mitad,0,Momentos,test-14,cone,0.4451659451659452,1
+PF3D,mitad,0,Momentos,test-15,torus,1.0,1
+PF3D,mitad,0,Momentos,test-16,torus,1.0,1
+PF3D,mitad,0,Momentos,test-17,torus,0.7784090909090909,1
+PF3D,mitad,0,Momentos,test-18,pyramid,0.275,0
+PF3D,mitad,0,Momentos,test-19,pyramid,0.8166666666666667,1
+PF3D,mitad,0,Momentos,test-20,pyramid,0.5416666666666666,1
+PF3D,mitad,0,Momentos MV,test-0,sphere,1.0,1
+PF3D,mitad,0,Momentos MV,test-1,sphere,1.0,1
+PF3D,mitad,0,Momentos MV,test-2,sphere,1.0,1
+PF3D,mitad,0,Momentos MV,test-3,ellipsoid,0.42424242424242425,0
+PF3D,mitad,0,Momentos MV,test-4,ellipsoid,0.8875,1
+PF3D,mitad,0,Momentos MV,test-5,ellipsoid,0.4154761904761905,0
+PF3D,mitad,0,Momentos MV,test-6,cube,1.0,1
+PF3D,mitad,0,Momentos MV,test-7,cube,0.875,1
+PF3D,mitad,0,Momentos MV,test-8,cube,1.0,1
+PF3D,mitad,0,Momentos MV,test-9,cylinder,0.3820199275362318,0
+PF3D,mitad,0,Momentos MV,test-10,cylinder,0.11971276805036396,0
+PF3D,mitad,0,Momentos MV,test-11,cylinder,0.95,1
+PF3D,mitad,0,Momentos MV,test-12,cone,0.8166666666666667,1
+PF3D,mitad,0,Momentos MV,test-13,cone,0.5249999999999999,0
+PF3D,mitad,0,Momentos MV,test-14,cone,0.5104166666666666,1
+PF3D,mitad,0,Momentos MV,test-15,torus,1.0,1
+PF3D,mitad,0,Momentos MV,test-16,torus,1.0,1
+PF3D,mitad,0,Momentos MV,test-17,torus,1.0,1
+PF3D,mitad,0,Momentos MV,test-18,pyramid,0.2184065934065934,0
+PF3D,mitad,0,Momentos MV,test-19,pyramid,0.875,1
+PF3D,mitad,0,Momentos MV,test-20,pyramid,0.95,1
+PF3D,mitad,0,CD solo,test-0,sphere,1.0,1
+PF3D,mitad,0,CD solo,test-1,sphere,0.6785714285714286,1
+PF3D,mitad,0,CD solo,test-2,sphere,0.41299019607843135,0
+PF3D,mitad,0,CD solo,test-3,ellipsoid,0.5583333333333333,1
+PF3D,mitad,0,CD solo,test-4,ellipsoid,0.5277777777777778,0
+PF3D,mitad,0,CD solo,test-5,ellipsoid,0.5952380952380951,1
+PF3D,mitad,0,CD solo,test-6,cube,1.0,1
+PF3D,mitad,0,CD solo,test-7,cube,0.7095238095238094,1
+PF3D,mitad,0,CD solo,test-8,cube,1.0,1
+PF3D,mitad,0,CD solo,test-9,cylinder,0.6875,1
+PF3D,mitad,0,CD solo,test-10,cylinder,0.1714985994397759,0
+PF3D,mitad,0,CD solo,test-11,cylinder,0.2142857142857143,0
+PF3D,mitad,0,CD solo,test-12,cone,0.5416666666666666,0
+PF3D,mitad,0,CD solo,test-13,cone,0.7708333333333333,1
+PF3D,mitad,0,CD solo,test-14,cone,0.21756213450292397,0
+PF3D,mitad,0,CD solo,test-15,torus,0.8214285714285714,1
+PF3D,mitad,0,CD solo,test-16,torus,1.0,1
+PF3D,mitad,0,CD solo,test-17,torus,0.95,1
+PF3D,mitad,0,CD solo,test-18,pyramid,1.0,1
+PF3D,mitad,0,CD solo,test-19,pyramid,0.9166666666666666,1
+PF3D,mitad,0,CD solo,test-20,pyramid,0.95,1
+PF3D,mitad,0,CD + angular,test-0,sphere,1.0,1
+PF3D,mitad,0,CD + angular,test-1,sphere,0.7071428571428571,1
+PF3D,mitad,0,CD + angular,test-2,sphere,0.6185897435897436,1
+PF3D,mitad,0,CD + angular,test-3,ellipsoid,0.3852564102564103,0
+PF3D,mitad,0,CD + angular,test-4,ellipsoid,0.5666666666666667,1
+PF3D,mitad,0,CD + angular,test-5,ellipsoid,0.5821428571428572,1
+PF3D,mitad,0,CD + angular,test-6,cube,1.0,1
+PF3D,mitad,0,CD + angular,test-7,cube,1.0,1
+PF3D,mitad,0,CD + angular,test-8,cube,0.7159090909090909,1
+PF3D,mitad,0,CD + angular,test-9,cylinder,0.18680555555555556,0
+PF3D,mitad,0,CD + angular,test-10,cylinder,0.11772186147186146,0
+PF3D,mitad,0,CD + angular,test-11,cylinder,0.7976190476190477,1
+PF3D,mitad,0,CD + angular,test-12,cone,0.5527777777777778,0
+PF3D,mitad,0,CD + angular,test-13,cone,0.6220238095238095,0
+PF3D,mitad,0,CD + angular,test-14,cone,0.33531746031746035,0
+PF3D,mitad,0,CD + angular,test-15,torus,1.0,1
+PF3D,mitad,0,CD + angular,test-16,torus,1.0,1
+PF3D,mitad,0,CD + angular,test-17,torus,0.5,0
+PF3D,mitad,0,CD + angular,test-18,pyramid,0.5560897435897436,1
+PF3D,mitad,0,CD + angular,test-19,pyramid,0.7928571428571428,1
+PF3D,mitad,0,CD + angular,test-20,pyramid,0.6742424242424242,1
+PF3D,mitad,0,CD + angular MV,test-0,sphere,1.0,1
+PF3D,mitad,0,CD + angular MV,test-1,sphere,1.0,1
+PF3D,mitad,0,CD + angular MV,test-2,sphere,1.0,1
+PF3D,mitad,0,CD + angular MV,test-3,ellipsoid,0.5902777777777777,0
+PF3D,mitad,0,CD + angular MV,test-4,ellipsoid,0.8541666666666666,1
+PF3D,mitad,0,CD + angular MV,test-5,ellipsoid,0.7678571428571428,1
+PF3D,mitad,0,CD + angular MV,test-6,cube,1.0,1
+PF3D,mitad,0,CD + angular MV,test-7,cube,1.0,1
+PF3D,mitad,0,CD + angular MV,test-8,cube,1.0,1
+PF3D,mitad,0,CD + angular MV,test-9,cylinder,0.5476190476190477,1
+PF3D,mitad,0,CD + angular MV,test-10,cylinder,0.18392857142857144,0
+PF3D,mitad,0,CD + angular MV,test-11,cylinder,0.8611111111111112,1
+PF3D,mitad,0,CD + angular MV,test-12,cone,0.5428571428571428,0
+PF3D,mitad,0,CD + angular MV,test-13,cone,0.5011904761904762,0
+PF3D,mitad,0,CD + angular MV,test-14,cone,0.43333333333333335,0
+PF3D,mitad,0,CD + angular MV,test-15,torus,1.0,1
+PF3D,mitad,0,CD + angular MV,test-16,torus,1.0,1
+PF3D,mitad,0,CD + angular MV,test-17,torus,1.0,1
+PF3D,mitad,0,CD + angular MV,test-18,pyramid,0.6349206349206349,1
+PF3D,mitad,0,CD + angular MV,test-19,pyramid,0.8611111111111112,1
+PF3D,mitad,0,CD + angular MV,test-20,pyramid,1.0,1
+PF3D,densidad,0,CD W,test-0,sphere,0.4625,1
+PF3D,densidad,0,CD W,test-1,sphere,0.420687134502924,1
+PF3D,densidad,0,CD W,test-2,sphere,0.3934782608695652,1
+PF3D,densidad,0,CD W,test-3,ellipsoid,0.38541666666666663,0
+PF3D,densidad,0,CD W,test-4,ellipsoid,0.4666666666666667,0
+PF3D,densidad,0,CD W,test-5,ellipsoid,0.3287878787878788,0
+PF3D,densidad,0,CD W,test-6,cube,0.4859649122807017,1
+PF3D,densidad,0,CD W,test-7,cube,0.34429824561403505,0
+PF3D,densidad,0,CD W,test-8,cube,0.30297619047619045,0
+PF3D,densidad,0,CD W,test-9,cylinder,0.16314484126984125,0
+PF3D,densidad,0,CD W,test-10,cylinder,0.29040404040404033,0
+PF3D,densidad,0,CD W,test-11,cylinder,0.13510860484544696,0
+PF3D,densidad,0,CD W,test-12,cone,0.28174603174603174,0
+PF3D,densidad,0,CD W,test-13,cone,0.4206730769230769,0
+PF3D,densidad,0,CD W,test-14,cone,0.2837024087024087,0
+PF3D,densidad,0,CD W,test-15,torus,0.15538277511961723,0
+PF3D,densidad,0,CD W,test-16,torus,0.23856209150326796,0
+PF3D,densidad,0,CD W,test-17,torus,0.21964285714285714,0
+PF3D,densidad,0,CD W,test-18,pyramid,0.596749226006192,1
+PF3D,densidad,0,CD W,test-19,pyramid,0.5037593984962405,1
+PF3D,densidad,0,CD W,test-20,pyramid,0.5941176470588236,1
+PF3D,densidad,0,CD W MV,test-0,sphere,1.0,1
+PF3D,densidad,0,CD W MV,test-1,sphere,1.0,1
+PF3D,densidad,0,CD W MV,test-2,sphere,1.0,1
+PF3D,densidad,0,CD W MV,test-3,ellipsoid,0.95,1
+PF3D,densidad,0,CD W MV,test-4,ellipsoid,1.0,1
+PF3D,densidad,0,CD W MV,test-5,ellipsoid,1.0,1
+PF3D,densidad,0,CD W MV,test-6,cube,0.8611111111111112,1
+PF3D,densidad,0,CD W MV,test-7,cube,0.95,1
+PF3D,densidad,0,CD W MV,test-8,cube,0.9166666666666666,1
+PF3D,densidad,0,CD W MV,test-9,cylinder,0.23690476190476192,0
+PF3D,densidad,0,CD W MV,test-10,cylinder,0.30000000000000004,0
+PF3D,densidad,0,CD W MV,test-11,cylinder,0.1536235754985755,0
+PF3D,densidad,0,CD W MV,test-12,cone,0.6349206349206349,1
+PF3D,densidad,0,CD W MV,test-13,cone,0.6083333333333333,0
+PF3D,densidad,0,CD W MV,test-14,cone,0.7678571428571428,1
+PF3D,densidad,0,CD W MV,test-15,torus,0.6178571428571429,1
+PF3D,densidad,0,CD W MV,test-16,torus,1.0,1
+PF3D,densidad,0,CD W MV,test-17,torus,1.0,1
+PF3D,densidad,0,CD W MV,test-18,pyramid,0.7361111111111112,1
+PF3D,densidad,0,CD W MV,test-19,pyramid,0.2791666666666667,0
+PF3D,densidad,0,CD W MV,test-20,pyramid,0.6904761904761905,1
+PF3D,densidad,0,Momentos W,test-0,sphere,0.4427521008403361,1
+PF3D,densidad,0,Momentos W,test-1,sphere,0.4257478632478633,1
+PF3D,densidad,0,Momentos W,test-2,sphere,0.4007936507936508,1
+PF3D,densidad,0,Momentos W,test-3,ellipsoid,0.3852564102564102,0
+PF3D,densidad,0,Momentos W,test-4,ellipsoid,0.5097744360902255,1
+PF3D,densidad,0,Momentos W,test-5,ellipsoid,0.3583333333333333,0
+PF3D,densidad,0,Momentos W,test-6,cube,0.27953296703296704,0
+PF3D,densidad,0,Momentos W,test-7,cube,0.3080886504799548,0
+PF3D,densidad,0,Momentos W,test-8,cube,0.29374999999999996,0
+PF3D,densidad,0,Momentos W,test-9,cylinder,0.21148018648018652,0
+PF3D,densidad,0,Momentos W,test-10,cylinder,0.12941176470588234,0
+PF3D,densidad,0,Momentos W,test-11,cylinder,0.16647086466165412,0
+PF3D,densidad,0,Momentos W,test-12,cone,0.33207070707070707,0
+PF3D,densidad,0,Momentos W,test-13,cone,0.5381944444444444,1
+PF3D,densidad,0,Momentos W,test-14,cone,0.3043831168831169,0
+PF3D,densidad,0,Momentos W,test-15,torus,0.16951447245564893,0
+PF3D,densidad,0,Momentos W,test-16,torus,0.20853817235396183,0
+PF3D,densidad,0,Momentos W,test-17,torus,0.2576048951048951,0
+PF3D,densidad,0,Momentos W,test-18,pyramid,0.5134158926728586,1
+PF3D,densidad,0,Momentos W,test-19,pyramid,0.45597826086956517,1
+PF3D,densidad,0,Momentos W,test-20,pyramid,0.5894736842105264,1
+PF3D,densidad,0,Momentos W MV,test-0,sphere,1.0,1
+PF3D,densidad,0,Momentos W MV,test-1,sphere,1.0,1
+PF3D,densidad,0,Momentos W MV,test-2,sphere,1.0,1
+PF3D,densidad,0,Momentos W MV,test-3,ellipsoid,0.40208333333333335,0
+PF3D,densidad,0,Momentos W MV,test-4,ellipsoid,1.0,1
+PF3D,densidad,0,Momentos W MV,test-5,ellipsoid,1.0,1
+PF3D,densidad,0,Momentos W MV,test-6,cube,0.6338235294117647,1
+PF3D,densidad,0,Momentos W MV,test-7,cube,0.75,1
+PF3D,densidad,0,Momentos W MV,test-8,cube,0.9166666666666666,1
+PF3D,densidad,0,Momentos W MV,test-9,cylinder,0.40208333333333335,0
+PF3D,densidad,0,Momentos W MV,test-10,cylinder,0.10950263504611331,0
+PF3D,densidad,0,Momentos W MV,test-11,cylinder,0.19930555555555557,0
+PF3D,densidad,0,Momentos W MV,test-12,cone,0.6071428571428572,1
+PF3D,densidad,0,Momentos W MV,test-13,cone,0.7928571428571428,1
+PF3D,densidad,0,Momentos W MV,test-14,cone,0.5666666666666667,0
+PF3D,densidad,0,Momentos W MV,test-15,torus,0.4511904761904762,0
+PF3D,densidad,0,Momentos W MV,test-16,torus,0.95,1
+PF3D,densidad,0,Momentos W MV,test-17,torus,1.0,1
+PF3D,densidad,0,Momentos W MV,test-18,pyramid,0.4083333333333333,0
+PF3D,densidad,0,Momentos W MV,test-19,pyramid,0.2835213032581454,0
+PF3D,densidad,0,Momentos W MV,test-20,pyramid,0.6291666666666667,1
+PF3D,densidad,0,D2,test-0,sphere,0.15863095238095237,0
+PF3D,densidad,0,D2,test-1,sphere,0.11923583662714096,0
+PF3D,densidad,0,D2,test-2,sphere,0.10922812885055448,0
+PF3D,densidad,0,D2,test-3,ellipsoid,0.3471590909090909,0
+PF3D,densidad,0,D2,test-4,ellipsoid,0.8611111111111112,1
+PF3D,densidad,0,D2,test-5,ellipsoid,0.4757326007326007,0
+PF3D,densidad,0,D2,test-6,cube,0.12958937198067633,0
+PF3D,densidad,0,D2,test-7,cube,0.14722999523696118,0
+PF3D,densidad,0,D2,test-8,cube,0.17893085264408792,0
+PF3D,densidad,0,D2,test-9,cylinder,0.1146824973950933,0
+PF3D,densidad,0,D2,test-10,cylinder,0.1159593837535014,0
+PF3D,densidad,0,D2,test-11,cylinder,0.16872082166199814,0
+PF3D,densidad,0,D2,test-12,cone,0.29910714285714285,0
+PF3D,densidad,0,D2,test-13,cone,0.3706709956709956,0
+PF3D,densidad,0,D2,test-14,cone,0.27275641025641023,0
+PF3D,densidad,0,D2,test-15,torus,0.7333333333333333,1
+PF3D,densidad,0,D2,test-16,torus,1.0,1
+PF3D,densidad,0,D2,test-17,torus,1.0,1
+PF3D,densidad,0,D2,test-18,pyramid,0.23809523809523808,0
+PF3D,densidad,0,D2,test-19,pyramid,0.19244040983171418,0
+PF3D,densidad,0,D2,test-20,pyramid,0.3922037714607374,1
+PF3D,densidad,0,Momentos,test-0,sphere,0.4625,1
+PF3D,densidad,0,Momentos,test-1,sphere,0.44166666666666665,1
+PF3D,densidad,0,Momentos,test-2,sphere,0.4156746031746032,1
+PF3D,densidad,0,Momentos,test-3,ellipsoid,0.37351190476190477,0
+PF3D,densidad,0,Momentos,test-4,ellipsoid,0.5555555555555556,1
+PF3D,densidad,0,Momentos,test-5,ellipsoid,0.3821428571428571,0
+PF3D,densidad,0,Momentos,test-6,cube,0.2845496894409938,0
+PF3D,densidad,0,Momentos,test-7,cube,0.31461038961038956,0
+PF3D,densidad,0,Momentos,test-8,cube,0.2791666666666667,0
+PF3D,densidad,0,Momentos,test-9,cylinder,0.1610805860805861,0
+PF3D,densidad,0,Momentos,test-10,cylinder,0.12362401100791193,0
+PF3D,densidad,0,Momentos,test-11,cylinder,0.13995445344129553,0
+PF3D,densidad,0,Momentos,test-12,cone,0.4506604506604507,1
+PF3D,densidad,0,Momentos,test-13,cone,0.5060876623376623,1
+PF3D,densidad,0,Momentos,test-14,cone,0.4293831168831169,1
+PF3D,densidad,0,Momentos,test-15,torus,0.16951447245564893,0
+PF3D,densidad,0,Momentos,test-16,torus,0.2232142857142857,0
+PF3D,densidad,0,Momentos,test-17,torus,0.2784382284382284,0
+PF3D,densidad,0,Momentos,test-18,pyramid,0.5269905533063428,1
+PF3D,densidad,0,Momentos,test-19,pyramid,0.33097826086956517,0
+PF3D,densidad,0,Momentos,test-20,pyramid,0.5894736842105264,1
+PF3D,densidad,0,Momentos MV,test-0,sphere,1.0,1
+PF3D,densidad,0,Momentos MV,test-1,sphere,1.0,1
+PF3D,densidad,0,Momentos MV,test-2,sphere,0.95,1
+PF3D,densidad,0,Momentos MV,test-3,ellipsoid,0.4154761904761905,0
+PF3D,densidad,0,Momentos MV,test-4,ellipsoid,1.0,1
+PF3D,densidad,0,Momentos MV,test-5,ellipsoid,1.0,1
+PF3D,densidad,0,Momentos MV,test-6,cube,0.6785714285714286,1
+PF3D,densidad,0,Momentos MV,test-7,cube,0.9166666666666666,1
+PF3D,densidad,0,Momentos MV,test-8,cube,0.8928571428571428,1
+PF3D,densidad,0,Momentos MV,test-9,cylinder,0.488095238095238,1
+PF3D,densidad,0,Momentos MV,test-10,cylinder,0.11004185073238781,0
+PF3D,densidad,0,Momentos MV,test-11,cylinder,0.1864801864801865,0
+PF3D,densidad,0,Momentos MV,test-12,cone,0.6349206349206349,1
+PF3D,densidad,0,Momentos MV,test-13,cone,0.8875,1
+PF3D,densidad,0,Momentos MV,test-14,cone,0.6678571428571428,1
+PF3D,densidad,0,Momentos MV,test-15,torus,0.6178571428571429,1
+PF3D,densidad,0,Momentos MV,test-16,torus,1.0,1
+PF3D,densidad,0,Momentos MV,test-17,torus,1.0,1
+PF3D,densidad,0,Momentos MV,test-18,pyramid,0.4583333333333333,0
+PF3D,densidad,0,Momentos MV,test-19,pyramid,0.21726190476190474,0
+PF3D,densidad,0,Momentos MV,test-20,pyramid,0.8611111111111112,1
+PF3D,densidad,0,CD solo,test-0,sphere,0.22081339712918657,0
+PF3D,densidad,0,CD solo,test-1,sphere,0.14881850175967823,0
+PF3D,densidad,0,CD solo,test-2,sphere,0.14084249084249084,0
+PF3D,densidad,0,CD solo,test-3,ellipsoid,0.3770833333333333,0
+PF3D,densidad,0,CD solo,test-4,ellipsoid,0.35132575757575757,0
+PF3D,densidad,0,CD solo,test-5,ellipsoid,0.3318452380952381,0
+PF3D,densidad,0,CD solo,test-6,cube,0.256547619047619,0
+PF3D,densidad,0,CD solo,test-7,cube,0.36666666666666664,0
+PF3D,densidad,0,CD solo,test-8,cube,0.25766594516594515,0
+PF3D,densidad,0,CD solo,test-9,cylinder,0.6916666666666667,1
+PF3D,densidad,0,CD solo,test-10,cylinder,0.95,1
+PF3D,densidad,0,CD solo,test-11,cylinder,0.6220238095238095,0
+PF3D,densidad,0,CD solo,test-12,cone,0.1328474765974766,0
+PF3D,densidad,0,CD solo,test-13,cone,0.18116883116883117,0
+PF3D,densidad,0,CD solo,test-14,cone,0.1475076855511638,0
+PF3D,densidad,0,CD solo,test-15,torus,0.16837121212121212,0
+PF3D,densidad,0,CD solo,test-16,torus,0.3318452380952381,0
+PF3D,densidad,0,CD solo,test-17,torus,0.24278499278499277,0
+PF3D,densidad,0,CD solo,test-18,pyramid,0.75,1
+PF3D,densidad,0,CD solo,test-19,pyramid,0.42692307692307696,0
+PF3D,densidad,0,CD solo,test-20,pyramid,0.6349206349206349,1
+PF3D,densidad,0,CD + angular,test-0,sphere,0.5404040404040404,1
+PF3D,densidad,0,CD + angular,test-1,sphere,0.3990338164251208,1
+PF3D,densidad,0,CD + angular,test-2,sphere,0.25666666666666665,0
+PF3D,densidad,0,CD + angular,test-3,ellipsoid,0.5416666666666666,1
+PF3D,densidad,0,CD + angular,test-4,ellipsoid,0.55,1
+PF3D,densidad,0,CD + angular,test-5,ellipsoid,0.46847826086956523,1
+PF3D,densidad,0,CD + angular,test-6,cube,0.3555555555555555,0
+PF3D,densidad,0,CD + angular,test-7,cube,0.36636904761904765,0
+PF3D,densidad,0,CD + angular,test-8,cube,0.30297619047619045,0
+PF3D,densidad,0,CD + angular,test-9,cylinder,0.1421474358974359,0
+PF3D,densidad,0,CD + angular,test-10,cylinder,0.23722943722943718,0
+PF3D,densidad,0,CD + angular,test-11,cylinder,0.14340538847117792,0
+PF3D,densidad,0,CD + angular,test-12,cone,0.20320048309178743,0
+PF3D,densidad,0,CD + angular,test-13,cone,0.3297149122807017,0
+PF3D,densidad,0,CD + angular,test-14,cone,0.22613636363636364,0
+PF3D,densidad,0,CD + angular,test-15,torus,0.1394736842105263,0
+PF3D,densidad,0,CD + angular,test-16,torus,0.2359649122807017,0
+PF3D,densidad,0,CD + angular,test-17,torus,0.20812908496732024,0
+PF3D,densidad,0,CD + angular,test-18,pyramid,0.6291666666666667,1
+PF3D,densidad,0,CD + angular,test-19,pyramid,0.5017857142857143,1
+PF3D,densidad,0,CD + angular,test-20,pyramid,0.606203007518797,1
+PF3D,densidad,0,CD + angular MV,test-0,sphere,1.0,1
+PF3D,densidad,0,CD + angular MV,test-1,sphere,1.0,1
+PF3D,densidad,0,CD + angular MV,test-2,sphere,0.95,1
+PF3D,densidad,0,CD + angular MV,test-3,ellipsoid,0.8166666666666667,1
+PF3D,densidad,0,CD + angular MV,test-4,ellipsoid,1.0,1
+PF3D,densidad,0,CD + angular MV,test-5,ellipsoid,1.0,1
+PF3D,densidad,0,CD + angular MV,test-6,cube,0.85,1
+PF3D,densidad,0,CD + angular MV,test-7,cube,1.0,1
+PF3D,densidad,0,CD + angular MV,test-8,cube,0.8541666666666666,1
+PF3D,densidad,0,CD + angular MV,test-9,cylinder,0.20076590076590078,0
+PF3D,densidad,0,CD + angular MV,test-10,cylinder,0.34929971988795516,0
+PF3D,densidad,0,CD + angular MV,test-11,cylinder,0.16386113886113884,0
+PF3D,densidad,0,CD + angular MV,test-12,cone,0.675595238095238,1
+PF3D,densidad,0,CD + angular MV,test-13,cone,0.7708333333333333,1
+PF3D,densidad,0,CD + angular MV,test-14,cone,0.5845238095238094,0
+PF3D,densidad,0,CD + angular MV,test-15,torus,0.6,1
+PF3D,densidad,0,CD + angular MV,test-16,torus,1.0,1
+PF3D,densidad,0,CD + angular MV,test-17,torus,1.0,1
+PF3D,densidad,0,CD + angular MV,test-18,pyramid,0.775,1
+PF3D,densidad,0,CD + angular MV,test-19,pyramid,0.2855489417989418,0
+PF3D,densidad,0,CD + angular MV,test-20,pyramid,0.8303571428571428,1
+PF3D,ruido,0,CD W,test-0,sphere,0.9166666666666666,1
+PF3D,ruido,0,CD W,test-1,sphere,0.9166666666666666,1
+PF3D,ruido,0,CD W,test-2,sphere,1.0,1
+PF3D,ruido,0,CD W,test-3,ellipsoid,0.6435897435897435,1
+PF3D,ruido,0,CD W,test-4,ellipsoid,0.95,1
+PF3D,ruido,0,CD W,test-5,ellipsoid,1.0,1
+PF3D,ruido,0,CD W,test-6,cube,1.0,1
+PF3D,ruido,0,CD W,test-7,cube,1.0,1
+PF3D,ruido,0,CD W,test-8,cube,1.0,1
+PF3D,ruido,0,CD W,test-9,cylinder,0.4666666666666667,0
+PF3D,ruido,0,CD W,test-10,cylinder,0.3020833333333333,0
+PF3D,ruido,0,CD W,test-11,cylinder,0.8166666666666667,1
+PF3D,ruido,0,CD W,test-12,cone,0.6220238095238095,0
+PF3D,ruido,0,CD W,test-13,cone,0.9166666666666666,1
+PF3D,ruido,0,CD W,test-14,cone,0.5666666666666667,0
+PF3D,ruido,0,CD W,test-15,torus,1.0,1
+PF3D,ruido,0,CD W,test-16,torus,1.0,1
+PF3D,ruido,0,CD W,test-17,torus,1.0,1
+PF3D,ruido,0,CD W,test-18,pyramid,0.8611111111111112,1
+PF3D,ruido,0,CD W,test-19,pyramid,0.7159090909090909,1
+PF3D,ruido,0,CD W,test-20,pyramid,0.9166666666666666,1
+PF3D,ruido,0,CD W MV,test-0,sphere,1.0,1
+PF3D,ruido,0,CD W MV,test-1,sphere,1.0,1
+PF3D,ruido,0,CD W MV,test-2,sphere,1.0,1
+PF3D,ruido,0,CD W MV,test-3,ellipsoid,0.85,1
+PF3D,ruido,0,CD W MV,test-4,ellipsoid,1.0,1
+PF3D,ruido,0,CD W MV,test-5,ellipsoid,0.9166666666666666,1
+PF3D,ruido,0,CD W MV,test-6,cube,1.0,1
+PF3D,ruido,0,CD W MV,test-7,cube,1.0,1
+PF3D,ruido,0,CD W MV,test-8,cube,1.0,1
+PF3D,ruido,0,CD W MV,test-9,cylinder,0.6435897435897435,1
+PF3D,ruido,0,CD W MV,test-10,cylinder,0.2895833333333333,0
+PF3D,ruido,0,CD W MV,test-11,cylinder,0.95,1
+PF3D,ruido,0,CD W MV,test-12,cone,0.6916666666666667,1
+PF3D,ruido,0,CD W MV,test-13,cone,0.95,1
+PF3D,ruido,0,CD W MV,test-14,cone,0.6220238095238095,0
+PF3D,ruido,0,CD W MV,test-15,torus,1.0,1
+PF3D,ruido,0,CD W MV,test-16,torus,1.0,1
+PF3D,ruido,0,CD W MV,test-17,torus,1.0,1
+PF3D,ruido,0,CD W MV,test-18,pyramid,0.8303571428571428,1
+PF3D,ruido,0,CD W MV,test-19,pyramid,0.7083333333333334,1
+PF3D,ruido,0,CD W MV,test-20,pyramid,1.0,1
+PF3D,ruido,0,Momentos W,test-0,sphere,0.95,1
+PF3D,ruido,0,Momentos W,test-1,sphere,0.95,1
+PF3D,ruido,0,Momentos W,test-2,sphere,1.0,1
+PF3D,ruido,0,Momentos W,test-3,ellipsoid,0.6810897435897436,1
+PF3D,ruido,0,Momentos W,test-4,ellipsoid,0.8041666666666667,1
+PF3D,ruido,0,Momentos W,test-5,ellipsoid,0.7291666666666666,1
+PF3D,ruido,0,Momentos W,test-6,cube,1.0,1
+PF3D,ruido,0,Momentos W,test-7,cube,0.8928571428571428,1
+PF3D,ruido,0,Momentos W,test-8,cube,0.8928571428571428,1
+PF3D,ruido,0,Momentos W,test-9,cylinder,0.26726190476190476,0
+PF3D,ruido,0,Momentos W,test-10,cylinder,0.13819444444444443,0
+PF3D,ruido,0,Momentos W,test-11,cylinder,0.8928571428571428,1
+PF3D,ruido,0,Momentos W,test-12,cone,0.4583333333333333,0
+PF3D,ruido,0,Momentos W,test-13,cone,0.8928571428571428,1
+PF3D,ruido,0,Momentos W,test-14,cone,0.4194444444444444,0
+PF3D,ruido,0,Momentos W,test-15,torus,1.0,1
+PF3D,ruido,0,Momentos W,test-16,torus,1.0,1
+PF3D,ruido,0,Momentos W,test-17,torus,1.0,1
+PF3D,ruido,0,Momentos W,test-18,pyramid,0.46875,0
+PF3D,ruido,0,Momentos W,test-19,pyramid,0.7611111111111112,1
+PF3D,ruido,0,Momentos W,test-20,pyramid,0.6013257575757576,1
+PF3D,ruido,0,Momentos W MV,test-0,sphere,1.0,1
+PF3D,ruido,0,Momentos W MV,test-1,sphere,1.0,1
+PF3D,ruido,0,Momentos W MV,test-2,sphere,1.0,1
+PF3D,ruido,0,Momentos W MV,test-3,ellipsoid,0.6950757575757576,1
+PF3D,ruido,0,Momentos W MV,test-4,ellipsoid,0.8041666666666667,1
+PF3D,ruido,0,Momentos W MV,test-5,ellipsoid,0.7095238095238094,1
+PF3D,ruido,0,Momentos W MV,test-6,cube,1.0,1
+PF3D,ruido,0,Momentos W MV,test-7,cube,1.0,1
+PF3D,ruido,0,Momentos W MV,test-8,cube,1.0,1
+PF3D,ruido,0,Momentos W MV,test-9,cylinder,0.3993589743589744,0
+PF3D,ruido,0,Momentos W MV,test-10,cylinder,0.11850613154960982,0
+PF3D,ruido,0,Momentos W MV,test-11,cylinder,0.875,1
+PF3D,ruido,0,Momentos W MV,test-12,cone,0.6220238095238095,0
+PF3D,ruido,0,Momentos W MV,test-13,cone,1.0,1
+PF3D,ruido,0,Momentos W MV,test-14,cone,0.3738095238095238,0
+PF3D,ruido,0,Momentos W MV,test-15,torus,1.0,1
+PF3D,ruido,0,Momentos W MV,test-16,torus,1.0,1
+PF3D,ruido,0,Momentos W MV,test-17,torus,1.0,1
+PF3D,ruido,0,Momentos W MV,test-18,pyramid,0.8409090909090909,1
+PF3D,ruido,0,Momentos W MV,test-19,pyramid,0.7875,1
+PF3D,ruido,0,Momentos W MV,test-20,pyramid,0.7095238095238094,1
+PF3D,ruido,0,D2,test-0,sphere,0.8611111111111112,1
+PF3D,ruido,0,D2,test-1,sphere,1.0,1
+PF3D,ruido,0,D2,test-2,sphere,0.95,1
+PF3D,ruido,0,D2,test-3,ellipsoid,0.4571428571428572,0
+PF3D,ruido,0,D2,test-4,ellipsoid,0.551923076923077,1
+PF3D,ruido,0,D2,test-5,ellipsoid,0.875,1
+PF3D,ruido,0,D2,test-6,cube,1.0,1
+PF3D,ruido,0,D2,test-7,cube,0.8928571428571428,1
+PF3D,ruido,0,D2,test-8,cube,0.875,1
+PF3D,ruido,0,D2,test-9,cylinder,0.15661075036075034,0
+PF3D,ruido,0,D2,test-10,cylinder,0.10086996336996336,0
+PF3D,ruido,0,D2,test-11,cylinder,0.5142045454545454,1
+PF3D,ruido,0,D2,test-12,cone,0.6458333333333333,0
+PF3D,ruido,0,D2,test-13,cone,0.4409090909090909,0
+PF3D,ruido,0,D2,test-14,cone,0.37797619047619047,0
+PF3D,ruido,0,D2,test-15,torus,0.95,1
+PF3D,ruido,0,D2,test-16,torus,1.0,1
+PF3D,ruido,0,D2,test-17,torus,1.0,1
+PF3D,ruido,0,D2,test-18,pyramid,0.5113960113960114,1
+PF3D,ruido,0,D2,test-19,pyramid,0.45370370370370366,0
+PF3D,ruido,0,D2,test-20,pyramid,0.48703703703703705,1
+PF3D,ruido,0,Momentos,test-0,sphere,0.9166666666666666,1
+PF3D,ruido,0,Momentos,test-1,sphere,0.9166666666666666,1
+PF3D,ruido,0,Momentos,test-2,sphere,1.0,1
+PF3D,ruido,0,Momentos,test-3,ellipsoid,0.5185897435897435,0
+PF3D,ruido,0,Momentos,test-4,ellipsoid,0.8041666666666667,1
+PF3D,ruido,0,Momentos,test-5,ellipsoid,0.6916666666666667,1
+PF3D,ruido,0,Momentos,test-6,cube,1.0,1
+PF3D,ruido,0,Momentos,test-7,cube,0.8928571428571428,1
+PF3D,ruido,0,Momentos,test-8,cube,0.875,1
+PF3D,ruido,0,Momentos,test-9,cylinder,0.2690972222222222,0
+PF3D,ruido,0,Momentos,test-10,cylinder,0.12964646464646465,0
+PF3D,ruido,0,Momentos,test-11,cylinder,0.95,1
+PF3D,ruido,0,Momentos,test-12,cone,0.4063852813852814,0
+PF3D,ruido,0,Momentos,test-13,cone,0.875,1
+PF3D,ruido,0,Momentos,test-14,cone,0.4492424242424242,0
+PF3D,ruido,0,Momentos,test-15,torus,1.0,1
+PF3D,ruido,0,Momentos,test-16,torus,1.0,1
+PF3D,ruido,0,Momentos,test-17,torus,1.0,1
+PF3D,ruido,0,Momentos,test-18,pyramid,0.38541666666666663,0
+PF3D,ruido,0,Momentos,test-19,pyramid,0.7361111111111112,1
+PF3D,ruido,0,Momentos,test-20,pyramid,0.4797619047619047,1
+PF3D,ruido,0,Momentos MV,test-0,sphere,1.0,1
+PF3D,ruido,0,Momentos MV,test-1,sphere,1.0,1
+PF3D,ruido,0,Momentos MV,test-2,sphere,1.0,1
+PF3D,ruido,0,Momentos MV,test-3,ellipsoid,0.6950757575757576,1
+PF3D,ruido,0,Momentos MV,test-4,ellipsoid,0.8041666666666667,1
+PF3D,ruido,0,Momentos MV,test-5,ellipsoid,0.65,1
+PF3D,ruido,0,Momentos MV,test-6,cube,1.0,1
+PF3D,ruido,0,Momentos MV,test-7,cube,1.0,1
+PF3D,ruido,0,Momentos MV,test-8,cube,0.8928571428571428,1
+PF3D,ruido,0,Momentos MV,test-9,cylinder,0.5243589743589744,1
+PF3D,ruido,0,Momentos MV,test-10,cylinder,0.12469202898550724,0
+PF3D,ruido,0,Momentos MV,test-11,cylinder,0.9166666666666666,1
+PF3D,ruido,0,Momentos MV,test-12,cone,0.5075757575757576,0
+PF3D,ruido,0,Momentos MV,test-13,cone,1.0,1
+PF3D,ruido,0,Momentos MV,test-14,cone,0.39166666666666666,0
+PF3D,ruido,0,Momentos MV,test-15,torus,1.0,1
+PF3D,ruido,0,Momentos MV,test-16,torus,1.0,1
+PF3D,ruido,0,Momentos MV,test-17,torus,1.0,1
+PF3D,ruido,0,Momentos MV,test-18,pyramid,0.75,1
+PF3D,ruido,0,Momentos MV,test-19,pyramid,0.725,1
+PF3D,ruido,0,Momentos MV,test-20,pyramid,0.6111111111111112,1
+PF3D,ruido,0,CD solo,test-0,sphere,1.0,1
+PF3D,ruido,0,CD solo,test-1,sphere,1.0,1
+PF3D,ruido,0,CD solo,test-2,sphere,1.0,1
+PF3D,ruido,0,CD solo,test-3,ellipsoid,0.8928571428571428,1
+PF3D,ruido,0,CD solo,test-4,ellipsoid,0.8541666666666666,1
+PF3D,ruido,0,CD solo,test-5,ellipsoid,0.875,1
+PF3D,ruido,0,CD solo,test-6,cube,1.0,1
+PF3D,ruido,0,CD solo,test-7,cube,1.0,1
+PF3D,ruido,0,CD solo,test-8,cube,1.0,1
+PF3D,ruido,0,CD solo,test-9,cylinder,0.7986111111111112,1
+PF3D,ruido,0,CD solo,test-10,cylinder,0.4576330532212885,0
+PF3D,ruido,0,CD solo,test-11,cylinder,0.875,1
+PF3D,ruido,0,CD solo,test-12,cone,0.8166666666666667,1
+PF3D,ruido,0,CD solo,test-13,cone,0.8875,1
+PF3D,ruido,0,CD solo,test-14,cone,0.5416666666666666,0
+PF3D,ruido,0,CD solo,test-15,torus,0.875,1
+PF3D,ruido,0,CD solo,test-16,torus,1.0,1
+PF3D,ruido,0,CD solo,test-17,torus,1.0,1
+PF3D,ruido,0,CD solo,test-18,pyramid,1.0,1
+PF3D,ruido,0,CD solo,test-19,pyramid,0.8041666666666667,1
+PF3D,ruido,0,CD solo,test-20,pyramid,1.0,1
+PF3D,ruido,0,CD + angular,test-0,sphere,0.9166666666666666,1
+PF3D,ruido,0,CD + angular,test-1,sphere,0.95,1
+PF3D,ruido,0,CD + angular,test-2,sphere,0.95,1
+PF3D,ruido,0,CD + angular,test-3,ellipsoid,0.6950757575757576,1
+PF3D,ruido,0,CD + angular,test-4,ellipsoid,0.8041666666666667,1
+PF3D,ruido,0,CD + angular,test-5,ellipsoid,0.8928571428571428,1
+PF3D,ruido,0,CD + angular,test-6,cube,1.0,1
+PF3D,ruido,0,CD + angular,test-7,cube,0.95,1
+PF3D,ruido,0,CD + angular,test-8,cube,1.0,1
+PF3D,ruido,0,CD + angular,test-9,cylinder,0.39880952380952384,0
+PF3D,ruido,0,CD + angular,test-10,cylinder,0.3142857142857143,0
+PF3D,ruido,0,CD + angular,test-11,cylinder,0.8928571428571428,1
+PF3D,ruido,0,CD + angular,test-12,cone,0.5428571428571428,0
+PF3D,ruido,0,CD + angular,test-13,cone,0.9166666666666666,1
+PF3D,ruido,0,CD + angular,test-14,cone,0.5,0
+PF3D,ruido,0,CD + angular,test-15,torus,1.0,1
+PF3D,ruido,0,CD + angular,test-16,torus,1.0,1
+PF3D,ruido,0,CD + angular,test-17,torus,1.0,1
+PF3D,ruido,0,CD + angular,test-18,pyramid,0.8611111111111112,1
+PF3D,ruido,0,CD + angular,test-19,pyramid,0.7321428571428572,1
+PF3D,ruido,0,CD + angular,test-20,pyramid,0.8409090909090909,1
+PF3D,ruido,0,CD + angular MV,test-0,sphere,1.0,1
+PF3D,ruido,0,CD + angular MV,test-1,sphere,1.0,1
+PF3D,ruido,0,CD + angular MV,test-2,sphere,1.0,1
+PF3D,ruido,0,CD + angular MV,test-3,ellipsoid,0.7875,1
+PF3D,ruido,0,CD + angular MV,test-4,ellipsoid,1.0,1
+PF3D,ruido,0,CD + angular MV,test-5,ellipsoid,0.9166666666666666,1
+PF3D,ruido,0,CD + angular MV,test-6,cube,1.0,1
+PF3D,ruido,0,CD + angular MV,test-7,cube,1.0,1
+PF3D,ruido,0,CD + angular MV,test-8,cube,1.0,1
+PF3D,ruido,0,CD + angular MV,test-9,cylinder,0.6916666666666667,1
+PF3D,ruido,0,CD + angular MV,test-10,cylinder,0.26564685314685316,0
+PF3D,ruido,0,CD + angular MV,test-11,cylinder,0.9166666666666666,1
+PF3D,ruido,0,CD + angular MV,test-12,cone,0.5178571428571428,0
+PF3D,ruido,0,CD + angular MV,test-13,cone,0.8541666666666666,1
+PF3D,ruido,0,CD + angular MV,test-14,cone,0.5666666666666667,0
+PF3D,ruido,0,CD + angular MV,test-15,torus,1.0,1
+PF3D,ruido,0,CD + angular MV,test-16,torus,1.0,1
+PF3D,ruido,0,CD + angular MV,test-17,torus,1.0,1
+PF3D,ruido,0,CD + angular MV,test-18,pyramid,0.8928571428571428,1
+PF3D,ruido,0,CD + angular MV,test-19,pyramid,0.7182539682539683,1
+PF3D,ruido,0,CD + angular MV,test-20,pyramid,1.0,1
+PF3D,oclusion,0,CD W,test-0,sphere,0.8125,1
+PF3D,oclusion,0,CD W,test-1,sphere,0.6846590909090909,1
+PF3D,oclusion,0,CD W,test-2,sphere,0.5769230769230769,1
+PF3D,oclusion,0,CD W,test-3,ellipsoid,0.4464285714285714,0
+PF3D,oclusion,0,CD W,test-4,ellipsoid,0.65625,1
+PF3D,oclusion,0,CD W,test-5,ellipsoid,0.5347744360902256,1
+PF3D,oclusion,0,CD W,test-6,cube,1.0,1
+PF3D,oclusion,0,CD W,test-7,cube,0.8928571428571428,1
+PF3D,oclusion,0,CD W,test-8,cube,0.95,1
+PF3D,oclusion,0,CD W,test-9,cylinder,0.7333333333333333,1
+PF3D,oclusion,0,CD W,test-10,cylinder,0.17425595238095237,0
+PF3D,oclusion,0,CD W,test-11,cylinder,0.15986519607843136,0
+PF3D,oclusion,0,CD W,test-12,cone,0.5527777777777778,0
+PF3D,oclusion,0,CD W,test-13,cone,0.7644230769230769,1
+PF3D,oclusion,0,CD W,test-14,cone,0.8166666666666667,1
+PF3D,oclusion,0,CD W,test-15,torus,0.8166666666666667,1
+PF3D,oclusion,0,CD W,test-16,torus,1.0,1
+PF3D,oclusion,0,CD W,test-17,torus,1.0,1
+PF3D,oclusion,0,CD W,test-18,pyramid,0.8611111111111112,1
+PF3D,oclusion,0,CD W,test-19,pyramid,0.5333333333333333,1
+PF3D,oclusion,0,CD W,test-20,pyramid,0.5849282296650717,1
+PF3D,oclusion,0,CD W MV,test-0,sphere,1.0,1
+PF3D,oclusion,0,CD W MV,test-1,sphere,1.0,1
+PF3D,oclusion,0,CD W MV,test-2,sphere,1.0,1
+PF3D,oclusion,0,CD W MV,test-3,ellipsoid,0.5932539682539683,1
+PF3D,oclusion,0,CD W MV,test-4,ellipsoid,1.0,1
+PF3D,oclusion,0,CD W MV,test-5,ellipsoid,1.0,1
+PF3D,oclusion,0,CD W MV,test-6,cube,1.0,1
+PF3D,oclusion,0,CD W MV,test-7,cube,1.0,1
+PF3D,oclusion,0,CD W MV,test-8,cube,1.0,1
+PF3D,oclusion,0,CD W MV,test-9,cylinder,0.5560897435897436,1
+PF3D,oclusion,0,CD W MV,test-10,cylinder,0.22938311688311688,0
+PF3D,oclusion,0,CD W MV,test-11,cylinder,0.3802083333333333,1
+PF3D,oclusion,0,CD W MV,test-12,cone,0.4928571428571429,0
+PF3D,oclusion,0,CD W MV,test-13,cone,0.8928571428571428,1
+PF3D,oclusion,0,CD W MV,test-14,cone,0.6178571428571429,1
+PF3D,oclusion,0,CD W MV,test-15,torus,1.0,1
+PF3D,oclusion,0,CD W MV,test-16,torus,1.0,1
+PF3D,oclusion,0,CD W MV,test-17,torus,1.0,1
+PF3D,oclusion,0,CD W MV,test-18,pyramid,0.6220238095238095,0
+PF3D,oclusion,0,CD W MV,test-19,pyramid,0.7708333333333333,1
+PF3D,oclusion,0,CD W MV,test-20,pyramid,0.95,1
+PF3D,oclusion,0,Momentos W,test-0,sphere,0.7159090909090909,1
+PF3D,oclusion,0,Momentos W,test-1,sphere,0.475,1
+PF3D,oclusion,0,Momentos W,test-2,sphere,0.46726190476190477,1
+PF3D,oclusion,0,Momentos W,test-3,ellipsoid,0.581845238095238,1
+PF3D,oclusion,0,Momentos W,test-4,ellipsoid,0.5904761904761904,1
+PF3D,oclusion,0,Momentos W,test-5,ellipsoid,0.4088235294117647,0
+PF3D,oclusion,0,Momentos W,test-6,cube,0.8928571428571428,1
+PF3D,oclusion,0,Momentos W,test-7,cube,0.7083333333333334,1
+PF3D,oclusion,0,Momentos W,test-8,cube,0.9166666666666666,1
+PF3D,oclusion,0,Momentos W,test-9,cylinder,0.3630952380952381,0
+PF3D,oclusion,0,Momentos W,test-10,cylinder,0.20866402116402116,0
+PF3D,oclusion,0,Momentos W,test-11,cylinder,0.15084586466165412,0
+PF3D,oclusion,0,Momentos W,test-12,cone,0.8409090909090909,1
+PF3D,oclusion,0,Momentos W,test-13,cone,0.85,1
+PF3D,oclusion,0,Momentos W,test-14,cone,0.95,1
+PF3D,oclusion,0,Momentos W,test-15,torus,0.423051948051948,0
+PF3D,oclusion,0,Momentos W,test-16,torus,1.0,1
+PF3D,oclusion,0,Momentos W,test-17,torus,1.0,1
+PF3D,oclusion,0,Momentos W,test-18,pyramid,0.6833333333333333,1
+PF3D,oclusion,0,Momentos W,test-19,pyramid,0.4805555555555555,1
+PF3D,oclusion,0,Momentos W,test-20,pyramid,0.5740909090909091,1
+PF3D,oclusion,0,Momentos W MV,test-0,sphere,1.0,1
+PF3D,oclusion,0,Momentos W MV,test-1,sphere,0.95,1
+PF3D,oclusion,0,Momentos W MV,test-2,sphere,1.0,1
+PF3D,oclusion,0,Momentos W MV,test-3,ellipsoid,0.8875,1
+PF3D,oclusion,0,Momentos W MV,test-4,ellipsoid,1.0,1
+PF3D,oclusion,0,Momentos W MV,test-5,ellipsoid,0.9166666666666666,1
+PF3D,oclusion,0,Momentos W MV,test-6,cube,1.0,1
+PF3D,oclusion,0,Momentos W MV,test-7,cube,1.0,1
+PF3D,oclusion,0,Momentos W MV,test-8,cube,1.0,1
+PF3D,oclusion,0,Momentos W MV,test-9,cylinder,0.37797619047619047,0
+PF3D,oclusion,0,Momentos W MV,test-10,cylinder,0.18258928571428573,0
+PF3D,oclusion,0,Momentos W MV,test-11,cylinder,0.18391608391608394,0
+PF3D,oclusion,0,Momentos W MV,test-12,cone,1.0,1
+PF3D,oclusion,0,Momentos W MV,test-13,cone,1.0,1
+PF3D,oclusion,0,Momentos W MV,test-14,cone,0.95,1
+PF3D,oclusion,0,Momentos W MV,test-15,torus,1.0,1
+PF3D,oclusion,0,Momentos W MV,test-16,torus,1.0,1
+PF3D,oclusion,0,Momentos W MV,test-17,torus,1.0,1
+PF3D,oclusion,0,Momentos W MV,test-18,pyramid,0.5,0
+PF3D,oclusion,0,Momentos W MV,test-19,pyramid,0.5472222222222222,1
+PF3D,oclusion,0,Momentos W MV,test-20,pyramid,0.4151315789473684,1
+PF3D,oclusion,0,D2,test-0,sphere,0.461038961038961,1
+PF3D,oclusion,0,D2,test-1,sphere,0.2583333333333333,0
+PF3D,oclusion,0,D2,test-2,sphere,0.20260524499654933,0
+PF3D,oclusion,0,D2,test-3,ellipsoid,0.8166666666666667,1
+PF3D,oclusion,0,D2,test-4,ellipsoid,0.8541666666666666,1
+PF3D,oclusion,0,D2,test-5,ellipsoid,0.4083333333333333,0
+PF3D,oclusion,0,D2,test-6,cube,0.6678571428571428,1
+PF3D,oclusion,0,D2,test-7,cube,0.6435897435897435,1
+PF3D,oclusion,0,D2,test-8,cube,0.8055555555555556,1
+PF3D,oclusion,0,D2,test-9,cylinder,0.11482142857142856,0
+PF3D,oclusion,0,D2,test-10,cylinder,0.09543000477783087,0
+PF3D,oclusion,0,D2,test-11,cylinder,0.18975155279503103,0
+PF3D,oclusion,0,D2,test-12,cone,0.7678571428571428,1
+PF3D,oclusion,0,D2,test-13,cone,0.5428571428571428,0
+PF3D,oclusion,0,D2,test-14,cone,0.6178571428571429,1
+PF3D,oclusion,0,D2,test-15,torus,0.6527777777777778,1
+PF3D,oclusion,0,D2,test-16,torus,1.0,1
+PF3D,oclusion,0,D2,test-17,torus,1.0,1
+PF3D,oclusion,0,D2,test-18,pyramid,0.21025132275132274,0
+PF3D,oclusion,0,D2,test-19,pyramid,0.4775132275132275,1
+PF3D,oclusion,0,D2,test-20,pyramid,0.17791805717502313,0
+PF3D,oclusion,0,Momentos,test-0,sphere,0.7986111111111112,1
+PF3D,oclusion,0,Momentos,test-1,sphere,0.5297619047619048,1
+PF3D,oclusion,0,Momentos,test-2,sphere,0.48392857142857143,1
+PF3D,oclusion,0,Momentos,test-3,ellipsoid,0.7708333333333333,1
+PF3D,oclusion,0,Momentos,test-4,ellipsoid,0.7019230769230769,1
+PF3D,oclusion,0,Momentos,test-5,ellipsoid,0.4375,0
+PF3D,oclusion,0,Momentos,test-6,cube,0.95,1
+PF3D,oclusion,0,Momentos,test-7,cube,0.7708333333333333,1
+PF3D,oclusion,0,Momentos,test-8,cube,0.8928571428571428,1
+PF3D,oclusion,0,Momentos,test-9,cylinder,0.4083333333333333,0
+PF3D,oclusion,0,Momentos,test-10,cylinder,0.21263227513227512,0
+PF3D,oclusion,0,Momentos,test-11,cylinder,0.14846491228070174,0
+PF3D,oclusion,0,Momentos,test-12,cone,0.875,1
+PF3D,oclusion,0,Momentos,test-13,cone,0.8611111111111112,1
+PF3D,oclusion,0,Momentos,test-14,cone,0.875,1
+PF3D,oclusion,0,Momentos,test-15,torus,0.41547619047619044,0
+PF3D,oclusion,0,Momentos,test-16,torus,1.0,1
+PF3D,oclusion,0,Momentos,test-17,torus,1.0,1
+PF3D,oclusion,0,Momentos,test-18,pyramid,0.6165158371040724,1
+PF3D,oclusion,0,Momentos,test-19,pyramid,0.5472222222222222,1
+PF3D,oclusion,0,Momentos,test-20,pyramid,0.3629166666666666,0
+PF3D,oclusion,0,Momentos MV,test-0,sphere,1.0,1
+PF3D,oclusion,0,Momentos MV,test-1,sphere,0.95,1
+PF3D,oclusion,0,Momentos MV,test-2,sphere,1.0,1
+PF3D,oclusion,0,Momentos MV,test-3,ellipsoid,1.0,1
+PF3D,oclusion,0,Momentos MV,test-4,ellipsoid,1.0,1
+PF3D,oclusion,0,Momentos MV,test-5,ellipsoid,0.8125,1
+PF3D,oclusion,0,Momentos MV,test-6,cube,1.0,1
+PF3D,oclusion,0,Momentos MV,test-7,cube,1.0,1
+PF3D,oclusion,0,Momentos MV,test-8,cube,1.0,1
+PF3D,oclusion,0,Momentos MV,test-9,cylinder,0.4063852813852814,0
+PF3D,oclusion,0,Momentos MV,test-10,cylinder,0.1807435254803676,0
+PF3D,oclusion,0,Momentos MV,test-11,cylinder,0.31845238095238093,0
+PF3D,oclusion,0,Momentos MV,test-12,cone,1.0,1
+PF3D,oclusion,0,Momentos MV,test-13,cone,1.0,1
+PF3D,oclusion,0,Momentos MV,test-14,cone,0.875,1
+PF3D,oclusion,0,Momentos MV,test-15,torus,0.8041666666666667,1
+PF3D,oclusion,0,Momentos MV,test-16,torus,1.0,1
+PF3D,oclusion,0,Momentos MV,test-17,torus,1.0,1
+PF3D,oclusion,0,Momentos MV,test-18,pyramid,0.31245421245421245,0
+PF3D,oclusion,0,Momentos MV,test-19,pyramid,0.5685897435897436,1
+PF3D,oclusion,0,Momentos MV,test-20,pyramid,0.4125,1
+PF3D,oclusion,0,CD solo,test-0,sphere,0.7470238095238095,1
+PF3D,oclusion,0,CD solo,test-1,sphere,0.4769230769230769,0
+PF3D,oclusion,0,CD solo,test-2,sphere,0.3056077694235589,0
+PF3D,oclusion,0,CD solo,test-3,ellipsoid,0.33247863247863246,0
+PF3D,oclusion,0,CD solo,test-4,ellipsoid,0.5515873015873016,1
+PF3D,oclusion,0,CD solo,test-5,ellipsoid,0.3404761904761905,0
+PF3D,oclusion,0,CD solo,test-6,cube,0.8125,1
+PF3D,oclusion,0,CD solo,test-7,cube,1.0,1
+PF3D,oclusion,0,CD solo,test-8,cube,1.0,1
+PF3D,oclusion,0,CD solo,test-9,cylinder,1.0,1
+PF3D,oclusion,0,CD solo,test-10,cylinder,0.19451992753623187,0
+PF3D,oclusion,0,CD solo,test-11,cylinder,0.875,1
+PF3D,oclusion,0,CD solo,test-12,cone,0.4861111111111111,0
+PF3D,oclusion,0,CD solo,test-13,cone,0.7928571428571428,1
+PF3D,oclusion,0,CD solo,test-14,cone,0.2931818181818182,0
+PF3D,oclusion,0,CD solo,test-15,torus,0.29642857142857143,0
+PF3D,oclusion,0,CD solo,test-16,torus,0.3179563492063492,0
+PF3D,oclusion,0,CD solo,test-17,torus,0.7986111111111112,1
+PF3D,oclusion,0,CD solo,test-18,pyramid,0.8611111111111112,1
+PF3D,oclusion,0,CD solo,test-19,pyramid,0.9166666666666666,1
+PF3D,oclusion,0,CD solo,test-20,pyramid,0.6147186147186147,1
+PF3D,oclusion,0,CD + angular,test-0,sphere,0.8611111111111112,1
+PF3D,oclusion,0,CD + angular,test-1,sphere,0.6435897435897435,1
+PF3D,oclusion,0,CD + angular,test-2,sphere,0.5458333333333333,1
+PF3D,oclusion,0,CD + angular,test-3,ellipsoid,0.4583333333333333,0
+PF3D,oclusion,0,CD + angular,test-4,ellipsoid,0.5630482456140351,1
+PF3D,oclusion,0,CD + angular,test-5,ellipsoid,0.5526315789473684,1
+PF3D,oclusion,0,CD + angular,test-6,cube,1.0,1
+PF3D,oclusion,0,CD + angular,test-7,cube,0.875,1
+PF3D,oclusion,0,CD + angular,test-8,cube,0.95,1
+PF3D,oclusion,0,CD + angular,test-9,cylinder,0.8166666666666667,1
+PF3D,oclusion,0,CD + angular,test-10,cylinder,0.27321428571428574,0
+PF3D,oclusion,0,CD + angular,test-11,cylinder,0.15015397184514834,0
+PF3D,oclusion,0,CD + angular,test-12,cone,0.7361111111111112,1
+PF3D,oclusion,0,CD + angular,test-13,cone,0.7589285714285714,1
+PF3D,oclusion,0,CD + angular,test-14,cone,0.5685897435897436,1
+PF3D,oclusion,0,CD + angular,test-15,torus,0.44166666666666665,0
+PF3D,oclusion,0,CD + angular,test-16,torus,0.95,1
+PF3D,oclusion,0,CD + angular,test-17,torus,1.0,1
+PF3D,oclusion,0,CD + angular,test-18,pyramid,0.8611111111111112,1
+PF3D,oclusion,0,CD + angular,test-19,pyramid,0.645104895104895,1
+PF3D,oclusion,0,CD + angular,test-20,pyramid,0.5944940476190477,1
+PF3D,oclusion,0,CD + angular MV,test-0,sphere,1.0,1
+PF3D,oclusion,0,CD + angular MV,test-1,sphere,1.0,1
+PF3D,oclusion,0,CD + angular MV,test-2,sphere,1.0,1
+PF3D,oclusion,0,CD + angular MV,test-3,ellipsoid,0.6916666666666667,1
+PF3D,oclusion,0,CD + angular MV,test-4,ellipsoid,1.0,1
+PF3D,oclusion,0,CD + angular MV,test-5,ellipsoid,0.8928571428571428,1
+PF3D,oclusion,0,CD + angular MV,test-6,cube,1.0,1
+PF3D,oclusion,0,CD + angular MV,test-7,cube,1.0,1
+PF3D,oclusion,0,CD + angular MV,test-8,cube,1.0,1
+PF3D,oclusion,0,CD + angular MV,test-9,cylinder,0.7159090909090909,1
+PF3D,oclusion,0,CD + angular MV,test-10,cylinder,0.33596491228070174,0
+PF3D,oclusion,0,CD + angular MV,test-11,cylinder,0.379572192513369,1
+PF3D,oclusion,0,CD + angular MV,test-12,cone,0.6845238095238095,1
+PF3D,oclusion,0,CD + angular MV,test-13,cone,0.8541666666666666,1
+PF3D,oclusion,0,CD + angular MV,test-14,cone,0.6071428571428572,1
+PF3D,oclusion,0,CD + angular MV,test-15,torus,1.0,1
+PF3D,oclusion,0,CD + angular MV,test-16,torus,1.0,1
+PF3D,oclusion,0,CD + angular MV,test-17,torus,1.0,1
+PF3D,oclusion,0,CD + angular MV,test-18,pyramid,0.8125,1
+PF3D,oclusion,0,CD + angular MV,test-19,pyramid,0.75,1
+PF3D,oclusion,0,CD + angular MV,test-20,pyramid,0.875,1
+PF3D,atipicos,0,CD W,test-0,sphere,0.11441798941798942,0
+PF3D,atipicos,0,CD W,test-1,sphere,0.11245720510426392,0
+PF3D,atipicos,0,CD W,test-2,sphere,0.10882635882635883,0
+PF3D,atipicos,0,CD W,test-3,ellipsoid,0.21602564102564104,0
+PF3D,atipicos,0,CD W,test-4,ellipsoid,0.21185897435897438,0
+PF3D,atipicos,0,CD W,test-5,ellipsoid,0.21148018648018652,0
+PF3D,atipicos,0,CD W,test-6,cube,0.1388562091503268,0
+PF3D,atipicos,0,CD W,test-7,cube,0.14233447001989202,0
+PF3D,atipicos,0,CD W,test-8,cube,0.1503968253968254,0
+PF3D,atipicos,0,CD W,test-9,cylinder,0.6791666666666667,0
+PF3D,atipicos,0,CD W,test-10,cylinder,0.8041666666666667,1
+PF3D,atipicos,0,CD W,test-11,cylinder,0.8041666666666667,1
+PF3D,atipicos,0,CD W,test-12,cone,0.10960950080515297,0
+PF3D,atipicos,0,CD W,test-13,cone,0.12668350168350168,0
+PF3D,atipicos,0,CD W,test-14,cone,0.1071011396011396,0
+PF3D,atipicos,0,CD W,test-15,torus,0.1807565789473684,0
+PF3D,atipicos,0,CD W,test-16,torus,0.1772843567251462,0
+PF3D,atipicos,0,CD W,test-17,torus,0.261038961038961,0
+PF3D,atipicos,0,CD W,test-18,pyramid,0.38541666666666663,0
+PF3D,atipicos,0,CD W,test-19,pyramid,0.4548611111111111,0
+PF3D,atipicos,0,CD W,test-20,pyramid,0.4921016483516484,1
+PF3D,atipicos,0,CD W MV,test-0,sphere,0.1182412358882947,0
+PF3D,atipicos,0,CD W MV,test-1,sphere,0.11526758265888701,0
+PF3D,atipicos,0,CD W MV,test-2,sphere,0.11197377501725328,0
+PF3D,atipicos,0,CD W MV,test-3,ellipsoid,0.25013736263736264,0
+PF3D,atipicos,0,CD W MV,test-4,ellipsoid,0.21845238095238095,0
+PF3D,atipicos,0,CD W MV,test-5,ellipsoid,0.22043650793650793,0
+PF3D,atipicos,0,CD W MV,test-6,cube,0.12369505494505494,0
+PF3D,atipicos,0,CD W MV,test-7,cube,0.13484405458089668,0
+PF3D,atipicos,0,CD W MV,test-8,cube,0.15730744638992722,0
+PF3D,atipicos,0,CD W MV,test-9,cylinder,0.6791666666666667,0
+PF3D,atipicos,0,CD W MV,test-10,cylinder,0.8041666666666667,1
+PF3D,atipicos,0,CD W MV,test-11,cylinder,0.8041666666666667,1
+PF3D,atipicos,0,CD W MV,test-12,cone,0.12328703703703703,0
+PF3D,atipicos,0,CD W MV,test-13,cone,0.1391758241758242,0
+PF3D,atipicos,0,CD W MV,test-14,cone,0.12279754559166324,0
+PF3D,atipicos,0,CD W MV,test-15,torus,0.22257326007326006,0
+PF3D,atipicos,0,CD W MV,test-16,torus,0.22738095238095238,0
+PF3D,atipicos,0,CD W MV,test-17,torus,0.39166666666666666,0
+PF3D,atipicos,0,CD W MV,test-18,pyramid,0.35,0
+PF3D,atipicos,0,CD W MV,test-19,pyramid,0.38108766233766234,0
+PF3D,atipicos,0,CD W MV,test-20,pyramid,0.5590659340659341,1
+PF3D,atipicos,0,Momentos W,test-0,sphere,0.09272283272283272,0
+PF3D,atipicos,0,Momentos W,test-1,sphere,0.09272283272283272,0
+PF3D,atipicos,0,Momentos W,test-2,sphere,0.09272283272283272,0
+PF3D,atipicos,0,Momentos W,test-3,ellipsoid,0.17107843137254902,0
+PF3D,atipicos,0,Momentos W,test-4,ellipsoid,0.17371001031991745,0
+PF3D,atipicos,0,Momentos W,test-5,ellipsoid,0.17291666666666666,0
+PF3D,atipicos,0,Momentos W,test-6,cube,0.12018833849329205,0
+PF3D,atipicos,0,Momentos W,test-7,cube,0.11427298192004073,0
+PF3D,atipicos,0,Momentos W,test-8,cube,0.12454312865497075,0
+PF3D,atipicos,0,Momentos W,test-9,cylinder,0.30074786324786323,0
+PF3D,atipicos,0,Momentos W,test-10,cylinder,0.44047619047619047,0
+PF3D,atipicos,0,Momentos W,test-11,cylinder,0.34775641025641024,0
+PF3D,atipicos,0,Momentos W,test-12,cone,0.30833333333333335,0
+PF3D,atipicos,0,Momentos W,test-13,cone,0.28585164835164834,0
+PF3D,atipicos,0,Momentos W,test-14,cone,0.2640151515151515,0
+PF3D,atipicos,0,Momentos W,test-15,torus,0.19389678948502478,0
+PF3D,atipicos,0,Momentos W,test-16,torus,0.19802807486631016,0
+PF3D,atipicos,0,Momentos W,test-17,torus,0.3380952380952381,0
+PF3D,atipicos,0,Momentos W,test-18,pyramid,0.40818250377073906,0
+PF3D,atipicos,0,Momentos W,test-19,pyramid,0.5617715617715617,1
+PF3D,atipicos,0,Momentos W,test-20,pyramid,0.8303571428571428,1
+PF3D,atipicos,0,Momentos W MV,test-0,sphere,0.09272283272283272,0
+PF3D,atipicos,0,Momentos W MV,test-1,sphere,0.09272283272283272,0
+PF3D,atipicos,0,Momentos W MV,test-2,sphere,0.09272283272283272,0
+PF3D,atipicos,0,Momentos W MV,test-3,ellipsoid,0.1507264987334647,0
+PF3D,atipicos,0,Momentos W MV,test-4,ellipsoid,0.15519078444775042,0
+PF3D,atipicos,0,Momentos W MV,test-5,ellipsoid,0.16901709401709403,0
+PF3D,atipicos,0,Momentos W MV,test-6,cube,0.10950263504611331,0
+PF3D,atipicos,0,Momentos W MV,test-7,cube,0.1089073969508752,0
+PF3D,atipicos,0,Momentos W MV,test-8,cube,0.1089073969508752,0
+PF3D,atipicos,0,Momentos W MV,test-9,cylinder,0.5416666666666666,0
+PF3D,atipicos,0,Momentos W MV,test-10,cylinder,0.8041666666666667,1
+PF3D,atipicos,0,Momentos W MV,test-11,cylinder,0.6458333333333333,0
+PF3D,atipicos,0,Momentos W MV,test-12,cone,0.23068181818181818,0
+PF3D,atipicos,0,Momentos W MV,test-13,cone,0.17973137973137973,0
+PF3D,atipicos,0,Momentos W MV,test-14,cone,0.18095238095238095,0
+PF3D,atipicos,0,Momentos W MV,test-15,torus,0.27294372294372293,0
+PF3D,atipicos,0,Momentos W MV,test-16,torus,0.2631313131313131,0
+PF3D,atipicos,0,Momentos W MV,test-17,torus,0.5178571428571428,0
+PF3D,atipicos,0,Momentos W MV,test-18,pyramid,0.23055555555555557,0
+PF3D,atipicos,0,Momentos W MV,test-19,pyramid,0.3671016483516484,0
+PF3D,atipicos,0,Momentos W MV,test-20,pyramid,0.7083333333333334,1
+PF3D,atipicos,0,D2,test-0,sphere,0.09497710622710623,0
+PF3D,atipicos,0,D2,test-1,sphere,0.09741718426501035,0
+PF3D,atipicos,0,D2,test-2,sphere,0.09646520146520146,0
+PF3D,atipicos,0,D2,test-3,ellipsoid,0.21597222222222223,0
+PF3D,atipicos,0,D2,test-4,ellipsoid,0.29642857142857143,0
+PF3D,atipicos,0,D2,test-5,ellipsoid,0.2529040404040404,0
+PF3D,atipicos,0,D2,test-6,cube,0.10051522551522551,0
+PF3D,atipicos,0,D2,test-7,cube,0.10051522551522551,0
+PF3D,atipicos,0,D2,test-8,cube,0.10882635882635883,0
+PF3D,atipicos,0,D2,test-9,cylinder,0.5099206349206349,0
+PF3D,atipicos,0,D2,test-10,cylinder,0.6083333333333333,0
+PF3D,atipicos,0,D2,test-11,cylinder,0.4575757575757576,0
+PF3D,atipicos,0,D2,test-12,cone,0.15175653594771243,0
+PF3D,atipicos,0,D2,test-13,cone,0.14758986928104575,0
+PF3D,atipicos,0,D2,test-14,cone,0.14758986928104575,0
+PF3D,atipicos,0,D2,test-15,torus,0.46111111111111114,0
+PF3D,atipicos,0,D2,test-16,torus,0.5,0
+PF3D,atipicos,0,D2,test-17,torus,0.6791666666666667,0
+PF3D,atipicos,0,D2,test-18,pyramid,0.3894736842105263,1
+PF3D,atipicos,0,D2,test-19,pyramid,0.381140350877193,1
+PF3D,atipicos,0,D2,test-20,pyramid,0.375187969924812,1
+PF3D,atipicos,0,Momentos,test-0,sphere,0.09272283272283272,0
+PF3D,atipicos,0,Momentos,test-1,sphere,0.09272283272283272,0
+PF3D,atipicos,0,Momentos,test-2,sphere,0.09272283272283272,0
+PF3D,atipicos,0,Momentos,test-3,ellipsoid,0.23295454545454547,0
+PF3D,atipicos,0,Momentos,test-4,ellipsoid,0.23712121212121212,0
+PF3D,atipicos,0,Momentos,test-5,ellipsoid,0.2205919080919081,0
+PF3D,atipicos,0,Momentos,test-6,cube,0.1089073969508752,0
+PF3D,atipicos,0,Momentos,test-7,cube,0.1089073969508752,0
+PF3D,atipicos,0,Momentos,test-8,cube,0.12018833849329205,0
+PF3D,atipicos,0,Momentos,test-9,cylinder,0.32916666666666666,0
+PF3D,atipicos,0,Momentos,test-10,cylinder,0.7071428571428571,1
+PF3D,atipicos,0,Momentos,test-11,cylinder,0.56875,1
+PF3D,atipicos,0,Momentos,test-12,cone,0.3047619047619048,0
+PF3D,atipicos,0,Momentos,test-13,cone,0.38075396825396823,0
+PF3D,atipicos,0,Momentos,test-14,cone,0.24319291819291816,0
+PF3D,atipicos,0,Momentos,test-15,torus,0.15604409780106374,0
+PF3D,atipicos,0,Momentos,test-16,torus,0.17368881118881122,0
+PF3D,atipicos,0,Momentos,test-17,torus,0.4583333333333333,0
+PF3D,atipicos,0,Momentos,test-18,pyramid,0.24550653594771243,0
+PF3D,atipicos,0,Momentos,test-19,pyramid,0.3701923076923077,0
+PF3D,atipicos,0,Momentos,test-20,pyramid,0.6916666666666667,1
+PF3D,atipicos,0,Momentos MV,test-0,sphere,0.09272283272283272,0
+PF3D,atipicos,0,Momentos MV,test-1,sphere,0.09272283272283272,0
+PF3D,atipicos,0,Momentos MV,test-2,sphere,0.09272283272283272,0
+PF3D,atipicos,0,Momentos MV,test-3,ellipsoid,0.2700757575757575,0
+PF3D,atipicos,0,Momentos MV,test-4,ellipsoid,0.2708333333333333,0
+PF3D,atipicos,0,Momentos MV,test-5,ellipsoid,0.2901785714285714,0
+PF3D,atipicos,0,Momentos MV,test-6,cube,0.1089073969508752,0
+PF3D,atipicos,0,Momentos MV,test-7,cube,0.1089073969508752,0
+PF3D,atipicos,0,Momentos MV,test-8,cube,0.1089073969508752,0
+PF3D,atipicos,0,Momentos MV,test-9,cylinder,0.6791666666666667,0
+PF3D,atipicos,0,Momentos MV,test-10,cylinder,1.0,1
+PF3D,atipicos,0,Momentos MV,test-11,cylinder,0.8875,1
+PF3D,atipicos,0,Momentos MV,test-12,cone,0.20845959595959596,0
+PF3D,atipicos,0,Momentos MV,test-13,cone,0.24305555555555555,0
+PF3D,atipicos,0,Momentos MV,test-14,cone,0.20159372790951738,0
+PF3D,atipicos,0,Momentos MV,test-15,torus,0.21624209124209126,0
+PF3D,atipicos,0,Momentos MV,test-16,torus,0.24232711732711731,0
+PF3D,atipicos,0,Momentos MV,test-17,torus,0.44375,0
+PF3D,atipicos,0,Momentos MV,test-18,pyramid,0.1538676236044657,0
+PF3D,atipicos,0,Momentos MV,test-19,pyramid,0.19962121212121214,0
+PF3D,atipicos,0,Momentos MV,test-20,pyramid,0.5201048951048951,1
+PF3D,atipicos,0,CD solo,test-0,sphere,0.14165552584670232,0
+PF3D,atipicos,0,CD solo,test-1,sphere,0.1375,0
+PF3D,atipicos,0,CD solo,test-2,sphere,0.1316211201079622,0
+PF3D,atipicos,0,CD solo,test-3,ellipsoid,0.3596230158730158,0
+PF3D,atipicos,0,CD solo,test-4,ellipsoid,0.32767857142857143,0
+PF3D,atipicos,0,CD solo,test-5,ellipsoid,0.32767857142857143,0
+PF3D,atipicos,0,CD solo,test-6,cube,0.12010869565217391,0
+PF3D,atipicos,0,CD solo,test-7,cube,0.11982192102329402,0
+PF3D,atipicos,0,CD solo,test-8,cube,0.13293650793650794,0
+PF3D,atipicos,0,CD solo,test-9,cylinder,0.7333333333333333,1
+PF3D,atipicos,0,CD solo,test-10,cylinder,0.8166666666666667,1
+PF3D,atipicos,0,CD solo,test-11,cylinder,0.8166666666666667,1
+PF3D,atipicos,0,CD solo,test-12,cone,0.09522283272283272,0
+PF3D,atipicos,0,CD solo,test-13,cone,0.0974287150757739,0
+PF3D,atipicos,0,CD solo,test-14,cone,0.09911706349206349,0
+PF3D,atipicos,0,CD solo,test-15,torus,0.2306929181929182,0
+PF3D,atipicos,0,CD solo,test-16,torus,0.24278499278499277,0
+PF3D,atipicos,0,CD solo,test-17,torus,0.2172008547008547,0
+PF3D,atipicos,0,CD solo,test-18,pyramid,0.23856209150326796,0
+PF3D,atipicos,0,CD solo,test-19,pyramid,0.2107142857142857,0
+PF3D,atipicos,0,CD solo,test-20,pyramid,0.25162337662337664,0
+PF3D,atipicos,0,CD + angular,test-0,sphere,0.13203778677462888,0
+PF3D,atipicos,0,CD + angular,test-1,sphere,0.1235701433069854,0
+PF3D,atipicos,0,CD + angular,test-2,sphere,0.1235701433069854,0
+PF3D,atipicos,0,CD + angular,test-3,ellipsoid,0.3596230158730158,0
+PF3D,atipicos,0,CD + angular,test-4,ellipsoid,0.29722222222222217,0
+PF3D,atipicos,0,CD + angular,test-5,ellipsoid,0.3596230158730158,0
+PF3D,atipicos,0,CD + angular,test-6,cube,0.13846153846153847,0
+PF3D,atipicos,0,CD + angular,test-7,cube,0.13410547785547786,0
+PF3D,atipicos,0,CD + angular,test-8,cube,0.15731754658385094,0
+PF3D,atipicos,0,CD + angular,test-9,cylinder,0.6916666666666667,1
+PF3D,atipicos,0,CD + angular,test-10,cylinder,0.6916666666666667,1
+PF3D,atipicos,0,CD + angular,test-11,cylinder,0.6916666666666667,1
+PF3D,atipicos,0,CD + angular,test-12,cone,0.11882803187151013,0
+PF3D,atipicos,0,CD + angular,test-13,cone,0.14233193277310924,0
+PF3D,atipicos,0,CD + angular,test-14,cone,0.12899436090225563,0
+PF3D,atipicos,0,CD + angular,test-15,torus,0.1856272812155165,0
+PF3D,atipicos,0,CD + angular,test-16,torus,0.18552807486631018,0
+PF3D,atipicos,0,CD + angular,test-17,torus,0.3068452380952381,0
+PF3D,atipicos,0,CD + angular,test-18,pyramid,0.36160714285714285,0
+PF3D,atipicos,0,CD + angular,test-19,pyramid,0.3666666666666667,0
+PF3D,atipicos,0,CD + angular,test-20,pyramid,0.3568452380952381,0
+PF3D,atipicos,0,CD + angular MV,test-0,sphere,0.1573756105006105,0
+PF3D,atipicos,0,CD + angular MV,test-1,sphere,0.1268037518037518,0
+PF3D,atipicos,0,CD + angular MV,test-2,sphere,0.12473910528830437,0
+PF3D,atipicos,0,CD + angular MV,test-3,ellipsoid,0.33878968253968256,0
+PF3D,atipicos,0,CD + angular MV,test-4,ellipsoid,0.3068452380952381,0
+PF3D,atipicos,0,CD + angular MV,test-5,ellipsoid,0.3179563492063492,0
+PF3D,atipicos,0,CD + angular MV,test-6,cube,0.12364417989417989,0
+PF3D,atipicos,0,CD + angular MV,test-7,cube,0.1197704800645977,0
+PF3D,atipicos,0,CD + angular MV,test-8,cube,0.14238095238095239,0
+PF3D,atipicos,0,CD + angular MV,test-9,cylinder,0.8041666666666667,1
+PF3D,atipicos,0,CD + angular MV,test-10,cylinder,0.8875,1
+PF3D,atipicos,0,CD + angular MV,test-11,cylinder,0.7470238095238095,1
+PF3D,atipicos,0,CD + angular MV,test-12,cone,0.11779761904761904,0
+PF3D,atipicos,0,CD + angular MV,test-13,cone,0.153829185520362,0
+PF3D,atipicos,0,CD + angular MV,test-14,cone,0.13912037037037037,0
+PF3D,atipicos,0,CD + angular MV,test-15,torus,0.23809523809523808,0
+PF3D,atipicos,0,CD + angular MV,test-16,torus,0.265018315018315,0
+PF3D,atipicos,0,CD + angular MV,test-17,torus,0.5277777777777778,0
+PF3D,atipicos,0,CD + angular MV,test-18,pyramid,0.25707070707070706,0
+PF3D,atipicos,0,CD + angular MV,test-19,pyramid,0.23948412698412697,0
+PF3D,atipicos,0,CD + angular MV,test-20,pyramid,0.375,0

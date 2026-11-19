@@ -1,0 +1,22 @@
+{
+  "seed": 20261119,
+  "modo": "rapido",
+  "N": 96,
+  "seeds": [
+    100,
+    101
+  ],
+  "real": false,
+  "part": "validation",
+  "roots": {
+    "ModelNet10": "/home/icantu24/Downloads/ModelNet10",
+    "ModelNet40": "/home/icantu24/Downloads/ModelNet40"
+  },
+  "python": "3.14.3",
+  "numpy": "2.5.5",
+  "sklearn": "1.9.1",
+  "scipy": "1.18.1",
+  "pandas": "3.1.1",
+  "matplotlib": "3.11.2",
+  "generador_sha256": "69631bd7a316ffff65bbf8940025f20812fd2fdcfa585615ff966b2deff472d4"
+}
