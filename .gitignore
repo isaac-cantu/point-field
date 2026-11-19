@@ -3,3 +3,7 @@ __pycache__/
 *.egg-info/
 .pytest_cache/
 presentacion/data/
+
+data/
+runs/
+.ipynb_checkpoints/

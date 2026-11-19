@@ -89,8 +89,8 @@ identidad en 20 % de ellas). mAP, 1-NN y bootstrap pareado estratificado (3000).
 | Comparación (prueba) | mAP |
 |---|---|
 | CD_U + métrica | 0.402 |
-| M_U + métrica (control sin inversión) | 0.398 — empate, IC incluye 0 |
-| CD_W − CD_U con sesgo de densidad | +0.017 / +0.020, IC > 0 |
+| M_U + métrica (control sin inversión) | 0.398 — IC de la diferencia incluye 0; no demuestra equivalencia |
+| CD_U_metric − M_U_metric con sesgo de densidad | +0.017 / +0.020, IC > 0 |
 | Cualquier método sin filtro, 5 % atípicos | ≈ 0.10 |
 | Filtro geométrico de atípicos | rescata la condición con atípicos pero erosiona partes delgadas en objetos limpios |
 
@@ -103,3 +103,6 @@ y la ventaja de CD no se transfirió: la conclusión de la tesis se basa en Mode
 **Lectura.** La contribución defendible es el descriptor invariante con controles y la
 evidencia acotada de que la normalización CD ayuda bajo sesgo de densidad; no una
 superioridad general sobre momentos o D2.
+
+
+Nota de auditoría (19 nov): las cifras ModelNet anteriores pertenecen a A8. Los scripts públicos actuales y la notebook v1 no son una réplica exacta: cambian escalado, vistas, perturbaciones y selección. No exigir coincidencia numérica sin recuperar los manifiestos y scripts originales.

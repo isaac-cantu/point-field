@@ -12,8 +12,8 @@ families and ModelNet10). One vector per point cloud:
                   angular  radial-angular power invariants              (30)
 
 Exact invariances (same points transformed): translation, positive scale,
-rotations *and reflections* (the group is O(d), so chiral objects collide),
-permutation of the points. NOT invariant to resampling, density, noise,
+rotations *and reflections* (the group is O(d), so chiral objects collide).
+Permutation invariance is exact only when all pairs are used. NOT invariant to resampling, density, noise,
 occlusion or outliers: those are measured, not assumed.
 
 Controls that must be reported next to any CD result:
@@ -210,7 +210,10 @@ def knn_density_weights(X: np.ndarray, k: int = 16, exponent: float | None = Non
     k = min(k, len(X) - 1)
     dist, _ = NearestNeighbors(n_neighbors=k + 1).fit(X).kneighbors(X)
     r = dist[:, -1]
-    w = np.clip((r / np.median(r)) ** m, *clip)
+    median = float(np.median(r))
+    if median <= 0 or not np.isfinite(median):
+        raise ValueError("zero median k-NN radius: deduplicate the cloud or change k")
+    w = np.clip((r / median) ** m, *clip)
     return w / w.sum()
 
 
@@ -296,16 +299,22 @@ class MultiViewMetric:
     @staticmethod
     def _whitener(C: np.ndarray, eta: float) -> np.ndarray:
         p = len(C)
+        if not np.isfinite(C).all() or eta <= 0 or not np.isfinite(eta):
+            raise ValueError("finite covariance and positive eta required")
+        if np.trace(C) <= np.finfo(float).eps:
+            return np.eye(p)  # no observed variation: neutral metric
         w, Q = np.linalg.eigh(C + eta * np.trace(C) / p * np.eye(p))
         return Q @ np.diag(1.0 / np.sqrt(w)) @ Q.T
 
     def fit(self, V: np.ndarray) -> MultiViewMetric:
         V = np.asarray(V, dtype=float)
-        if V.ndim != 3 or V.shape[1] < 2:
-            raise ValueError("V must be (n_objects, n_views >= 2, p)")
+        if V.ndim != 3 or V.shape[0] < 4 or V.shape[1] < 2 or V.shape[2] < 1 or not np.isfinite(V).all():
+            raise ValueError("V must be finite (n_objects >= 4, n_views >= 2, p >= 1)")
+        if not 0 < self.holdout < 1 or not self.etas or any(e <= 0 or not np.isfinite(e) for e in self.etas):
+            raise ValueError("holdout must be in (0,1); etas finite and positive")
         rng = np.random.default_rng(self.seed)
         perm = rng.permutation(len(V))
-        n_ho = max(2, round(self.holdout * len(V)))
+        n_ho = min(len(V) - 2, max(2, round(self.holdout * len(V))))
         ho, tr = perm[:n_ho], perm[n_ho:]
         C = self._cov(V[tr])
         scores = {}

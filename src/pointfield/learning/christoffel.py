@@ -85,8 +85,10 @@ class ChristoffelDarboux:
     """
 
     def __init__(self, degree: int = 2, reg: float = 1e-8, basis: str = "monomial"):
-        if degree < 0:
-            raise ValueError("degree must be non-negative")
+        if not isinstance(degree, (int, np.integer)) or degree < 0:
+            raise ValueError("degree must be a non-negative integer")
+        if not np.isfinite(reg) or reg < 0:
+            raise ValueError("reg must be finite and non-negative")
         if basis not in ("monomial", "weighted"):
             raise ValueError("basis must be 'monomial' or 'weighted'")
         self.degree = int(degree)
@@ -95,6 +97,9 @@ class ChristoffelDarboux:
 
     # ------------------------------------------------------------------ fit
     def design(self, X: np.ndarray) -> np.ndarray:
+        X = np.asarray(X, dtype=float)
+        if X.ndim != 2 or X.shape[1] != self.n_features_ or not np.isfinite(X).all():
+            raise ValueError("query must be finite with the fitted dimension")
         return monomial_basis(X, self.terms_, self.weights_)
 
     def fit(self, X: np.ndarray, sample_weight: np.ndarray | None = None) -> "ChristoffelDarboux":
@@ -109,7 +114,7 @@ class ChristoffelDarboux:
             M = (B.T @ B) / len(X)
         else:
             w = np.asarray(sample_weight, dtype=float)
-            if w.shape != (len(X),) or np.any(w < 0) or w.sum() <= 0:
+            if w.shape != (len(X),) or not np.isfinite(w).all() or np.any(w < 0) or w.sum() <= 0:
                 raise ValueError("sample_weight must be non-negative with positive sum")
             M = (B * (w / w.sum())[:, None]).T @ B
         s = len(M)

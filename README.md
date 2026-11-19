@@ -82,9 +82,9 @@ python benchmarks/modelnet10.py --root data/ModelNet10 --split test
 
 ModelNet10 no se descarga automáticamente; `data/` está en `.gitignore`.
 
-Resultado principal (ModelNet10, prueba): **CD_U + métrica multivista 0.402 mAP vs. control
-de momentos M_U + métrica 0.398 (empate)**. CD aporta solo bajo sesgo de densidad
-(CD_W − CD_U: +0.017/+0.020, IC > 0); con 5 % de valores atípicos todos los métodos sin
+Resultado histórico A8 (ModelNet10, prueba; no réplica exacta del protocolo público actual): **CD_U + métrica multivista 0.402 mAP vs. control
+de momentos M_U + métrica 0.398 (intervalo de la diferencia incluye cero; no prueba equivalencia)**. La señal favorable aparece bajo el sesgo de densidad ensayado
+(CD_U_metric − M_U_metric: +0.017/+0.020, IC > 0); con 5 % de valores atípicos todos los métodos sin
 filtro caen a ≈ 0.10. En las familias sintéticas CD supera a M_U con más margen, pero esa
 ventaja **no se transfiere** a ModelNet10: reportar siempre el control M_U y D2.
 
@@ -98,4 +98,12 @@ ventaja **no se transfiere** a ModelNet10: reportar siempre el control M_U y D2.
 * Descriptor de Reynolds (`descriptors.cd_moment_descriptor`): el promedio conserva solo
   momentos radiales (cubo y octaedro colisionan). Reemplazado por `learning.invariant`.
 
-Las cifras del medio término siguen reproduciéndose: `verificar_cifras.py` → 68/68.
+Las cifras citadas del medio término son consistentes con los CSV conservados: `verificar_cifras.py` → 68/68. Este auditor no reejecuta los modelos.
+
+
+## Verificación sistemática de tesis
+
+Notebook: [`notebooks/verificacion_tesis_CD.ipynb`](notebooks/verificacion_tesis_CD.ipynb).
+Guía, diferencias de protocolo y límites: [`audit/REVISION_Y_USO.md`](audit/REVISION_Y_USO.md).
+Instala `python -m pip install -e ".[notebook,dev]"`; empieza con smoke y luego
+configura ModelNet10/40 locales. Las salidas van a `runs/`, separadas de los CSV históricos.

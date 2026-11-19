@@ -65,6 +65,8 @@ class TriangleMesh(Geometry):
         F = np.asarray(faces, dtype=int)
         if V.ndim != 2 or V.shape[1] != 3 or F.ndim != 2 or F.shape[1] != 3:
             raise ValueError("vertices must be (n, 3) and faces (m, 3)")
+        if not np.isfinite(V).all() or len(F) == 0 or np.any(F < 0) or np.any(F >= len(V)):
+            raise ValueError("finite vertices and valid non-negative face indices required")
         a, b, c = V[F[:, 0]], V[F[:, 1]], V[F[:, 2]]
         areas = 0.5 * np.linalg.norm(np.cross(b - a, c - a), axis=1)
         keep = areas > 0

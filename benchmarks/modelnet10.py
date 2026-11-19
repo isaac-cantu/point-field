@@ -1,4 +1,4 @@
-"""ModelNet10 retrieval with the invariant CD pipeline (thesis experiment A8).
+"""ModelNet10 retrieval with the current invariant CD pipeline (NEW protocol, not A8 replication).
 
 The dataset is not downloaded by this script. Unpack ModelNet10 locally
 (``<root>/<class>/{train,test}/*.off``) and pass ``--root``; ``data/`` is
@@ -15,7 +15,7 @@ Protocol (fixed before looking at test results):
   * same methods / conditions / bootstrap as ``objetos_invariantes.py``.
 
 Thesis numbers (S2, clean, test): CD_U_metric mAP 0.402 vs M_U_metric
-0.398 (tie, CI includes 0); density bias: CD_W - CD_U +0.017 / +0.020 with
+0.398 (tie, CI includes 0); density bias: CD_U_metric - M_U_metric +0.017 / +0.020 with
 CI > 0; 5% outliers collapse every unfiltered method (~0.10).
 
     python benchmarks/modelnet10.py --root data/ModelNet10 --split test
@@ -92,6 +92,8 @@ def main():
         qry = stratified(train, classes, a.n_dev, rng, exclude=[f for f, _ in ref])
     else:
         test, _ = index(a.root, "test")
+        train_hashes = {file_sha256(f) for f, _ in train}
+        test = [(f, c) for f, c in test if file_sha256(f) not in train_hashes]
         qry = stratified(test, classes, a.n_test, rng)
     R, y_ref = load(ref, classes, a.points, rng)
     Q, y_qry = load(qry, classes, a.points, rng)

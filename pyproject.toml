@@ -21,6 +21,7 @@ dependencies = [
 
 
 [project.optional-dependencies]
+notebook = ["jupyterlab>=4", "nbclient>=0.10", "ipykernel>=6", "pandas>=2", "scipy>=1.11", "scikit-learn>=1.4", "pytest>=8"]
 learning = [
     "scipy>=1.11",
     "scikit-learn>=1.4",
