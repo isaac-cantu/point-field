@@ -1,0 +1,313 @@
+órgano,cobertura,invasión,pureza,indice_muestra,grupos,grado
+aorta,0.95,0.0,1.0,0,grupos reales,2
+duodenum,0.95,0.0,1.0,0,grupos reales,2
+esophagus,0.95,0.0,1.0,0,grupos reales,2
+gallbladder,0.95,0.0,1.0,0,grupos reales,2
+inferior_vena_cava,0.95,0.0,1.0,0,grupos reales,2
+left_adrenal_gland,0.95,0.0,1.0,0,grupos reales,2
+left_kidney,0.95,0.0,1.0,0,grupos reales,2
+liver,0.95,0.0,1.0,0,grupos reales,2
+pancreas,0.95,0.0,1.0,0,grupos reales,2
+right_adrenal_gland,0.95,0.0,1.0,0,grupos reales,2
+right_kidney,0.95,0.0,1.0,0,grupos reales,2
+spleen,0.95,0.0,1.0,0,grupos reales,2
+stomach,0.95,0.0,1.0,0,grupos reales,2
+aorta,0.95,0.0,1.0,0,grupos de V1,2
+duodenum,0.95,0.0,1.0,0,grupos de V1,2
+esophagus,0.95,0.0,1.0,0,grupos de V1,2
+gallbladder,0.95,0.0,1.0,0,grupos de V1,2
+inferior_vena_cava,0.95,0.0,1.0,0,grupos de V1,2
+left_adrenal_gland,0.95,0.0,1.0,0,grupos de V1,2
+left_kidney,0.95,0.0,1.0,0,grupos de V1,2
+liver,0.95,0.0,1.0,0,grupos de V1,2
+pancreas,0.95,0.0,1.0,0,grupos de V1,2
+right_adrenal_gland,0.95,0.0,1.0,0,grupos de V1,2
+right_kidney,0.95,0.0,1.0,0,grupos de V1,2
+spleen,0.95,0.0,1.0,0,grupos de V1,2
+stomach,0.95,0.0,1.0,0,grupos de V1,2
+aorta,0.95,0.0,1.0,0,grupos reales,4
+duodenum,0.95,0.0,1.0,0,grupos reales,4
+esophagus,0.95,0.0,1.0,0,grupos reales,4
+gallbladder,0.95,0.0,1.0,0,grupos reales,4
+inferior_vena_cava,0.95,0.0,1.0,0,grupos reales,4
+left_adrenal_gland,0.95,0.0,1.0,0,grupos reales,4
+left_kidney,0.95,0.0,1.0,0,grupos reales,4
+liver,0.95,0.0,1.0,0,grupos reales,4
+pancreas,0.95,0.0,1.0,0,grupos reales,4
+right_adrenal_gland,0.95,0.0,1.0,0,grupos reales,4
+right_kidney,0.95,0.0,1.0,0,grupos reales,4
+spleen,0.95,0.0,1.0,0,grupos reales,4
+stomach,0.95,0.0,1.0,0,grupos reales,4
+aorta,0.95,0.0,1.0,0,grupos de V1,4
+duodenum,0.95,0.0,1.0,0,grupos de V1,4
+esophagus,0.95,0.0,1.0,0,grupos de V1,4
+gallbladder,0.95,0.0,1.0,0,grupos de V1,4
+inferior_vena_cava,0.95,0.0,1.0,0,grupos de V1,4
+left_adrenal_gland,0.95,0.0,1.0,0,grupos de V1,4
+left_kidney,0.95,0.0,1.0,0,grupos de V1,4
+liver,0.95,0.0,1.0,0,grupos de V1,4
+pancreas,0.95,0.0,1.0,0,grupos de V1,4
+right_adrenal_gland,0.95,0.0,1.0,0,grupos de V1,4
+right_kidney,0.95,0.0,1.0,0,grupos de V1,4
+spleen,0.95,0.0,1.0,0,grupos de V1,4
+stomach,0.95,0.0,1.0,0,grupos de V1,4
+aorta,0.95,0.0,1.0,1,grupos reales,2
+duodenum,0.95,0.0,1.0,1,grupos reales,2
+esophagus,0.95,0.0,1.0,1,grupos reales,2
+gallbladder,0.95,0.0,1.0,1,grupos reales,2
+inferior_vena_cava,0.95,0.0,1.0,1,grupos reales,2
+left_adrenal_gland,0.95,0.0,1.0,1,grupos reales,2
+left_kidney,0.95,0.0,1.0,1,grupos reales,2
+liver,0.95,0.0,1.0,1,grupos reales,2
+pancreas,0.95,0.0,1.0,1,grupos reales,2
+right_adrenal_gland,0.95,0.0,1.0,1,grupos reales,2
+right_kidney,0.95,0.0,1.0,1,grupos reales,2
+spleen,0.95,0.0,1.0,1,grupos reales,2
+stomach,0.95,0.0,1.0,1,grupos reales,2
+aorta,0.95,0.0,1.0,1,grupos de V1,2
+duodenum,0.95,0.0,1.0,1,grupos de V1,2
+esophagus,0.95,0.0,1.0,1,grupos de V1,2
+gallbladder,0.95,0.0,1.0,1,grupos de V1,2
+inferior_vena_cava,0.95,0.0,1.0,1,grupos de V1,2
+left_adrenal_gland,0.95,0.0,1.0,1,grupos de V1,2
+left_kidney,0.95,0.0,1.0,1,grupos de V1,2
+liver,0.95,0.0,1.0,1,grupos de V1,2
+pancreas,0.95,0.0,1.0,1,grupos de V1,2
+right_adrenal_gland,0.95,0.0,1.0,1,grupos de V1,2
+right_kidney,0.95,0.0,1.0,1,grupos de V1,2
+spleen,0.95,0.0,1.0,1,grupos de V1,2
+stomach,0.95,0.0,1.0,1,grupos de V1,2
+aorta,0.95,0.0,1.0,1,grupos reales,4
+duodenum,0.95,0.0,1.0,1,grupos reales,4
+esophagus,0.95,0.0,1.0,1,grupos reales,4
+gallbladder,0.95,0.0,1.0,1,grupos reales,4
+inferior_vena_cava,0.95,0.0,1.0,1,grupos reales,4
+left_adrenal_gland,0.95,0.0,1.0,1,grupos reales,4
+left_kidney,0.95,0.0,1.0,1,grupos reales,4
+liver,0.95,0.0,1.0,1,grupos reales,4
+pancreas,0.95,0.0,1.0,1,grupos reales,4
+right_adrenal_gland,0.95,0.0,1.0,1,grupos reales,4
+right_kidney,0.95,0.0,1.0,1,grupos reales,4
+spleen,0.95,0.0,1.0,1,grupos reales,4
+stomach,0.95,0.0,1.0,1,grupos reales,4
+aorta,0.95,0.0,1.0,1,grupos de V1,4
+duodenum,0.95,0.0,1.0,1,grupos de V1,4
+esophagus,0.95,0.0,1.0,1,grupos de V1,4
+gallbladder,0.95,0.0,1.0,1,grupos de V1,4
+inferior_vena_cava,0.95,0.0,1.0,1,grupos de V1,4
+left_adrenal_gland,0.95,0.0,1.0,1,grupos de V1,4
+left_kidney,0.95,0.0,1.0,1,grupos de V1,4
+liver,0.95,0.0,1.0,1,grupos de V1,4
+pancreas,0.95,0.0,1.0,1,grupos de V1,4
+right_adrenal_gland,0.95,0.0,1.0,1,grupos de V1,4
+right_kidney,0.95,0.0,1.0,1,grupos de V1,4
+spleen,0.95,0.0,1.0,1,grupos de V1,4
+stomach,0.95,0.0,1.0,1,grupos de V1,4
+aorta,0.95,0.0,1.0,10,grupos reales,2
+duodenum,0.95,0.0,1.0,10,grupos reales,2
+esophagus,0.95,0.0,1.0,10,grupos reales,2
+gallbladder,0.95,0.0,1.0,10,grupos reales,2
+inferior_vena_cava,0.95,0.0,1.0,10,grupos reales,2
+left_adrenal_gland,0.95,0.0,1.0,10,grupos reales,2
+left_kidney,0.95,0.0,1.0,10,grupos reales,2
+liver,0.95,0.0,1.0,10,grupos reales,2
+pancreas,0.95,0.0,1.0,10,grupos reales,2
+right_adrenal_gland,0.95,0.0,1.0,10,grupos reales,2
+right_kidney,0.95,0.0,1.0,10,grupos reales,2
+spleen,0.95,0.0,1.0,10,grupos reales,2
+stomach,0.95,0.0,1.0,10,grupos reales,2
+aorta,0.95,0.0,1.0,10,grupos de V1,2
+duodenum,0.95,0.0,1.0,10,grupos de V1,2
+esophagus,0.95,0.0,1.0,10,grupos de V1,2
+gallbladder,0.95,0.0,1.0,10,grupos de V1,2
+inferior_vena_cava,0.95,0.0,1.0,10,grupos de V1,2
+left_adrenal_gland,0.95,0.0,1.0,10,grupos de V1,2
+left_kidney,0.95,0.0,1.0,10,grupos de V1,2
+liver,0.95,0.0,1.0,10,grupos de V1,2
+pancreas,0.95,0.0,1.0,10,grupos de V1,2
+right_adrenal_gland,0.95,0.0,1.0,10,grupos de V1,2
+right_kidney,0.95,0.0,1.0,10,grupos de V1,2
+spleen,0.95,0.0,1.0,10,grupos de V1,2
+stomach,0.95,0.0,1.0,10,grupos de V1,2
+aorta,0.95,0.0,1.0,10,grupos reales,4
+duodenum,0.95,0.0,1.0,10,grupos reales,4
+esophagus,0.95,0.0,1.0,10,grupos reales,4
+gallbladder,0.95,0.0,1.0,10,grupos reales,4
+inferior_vena_cava,0.95,0.0,1.0,10,grupos reales,4
+left_adrenal_gland,0.95,0.0,1.0,10,grupos reales,4
+left_kidney,0.95,0.0,1.0,10,grupos reales,4
+liver,0.95,0.0,1.0,10,grupos reales,4
+pancreas,0.95,0.0,1.0,10,grupos reales,4
+right_adrenal_gland,0.95,0.0,1.0,10,grupos reales,4
+right_kidney,0.95,0.0,1.0,10,grupos reales,4
+spleen,0.95,0.0,1.0,10,grupos reales,4
+stomach,0.95,0.0,1.0,10,grupos reales,4
+aorta,0.95,0.0,1.0,10,grupos de V1,4
+duodenum,0.95,0.0,1.0,10,grupos de V1,4
+esophagus,0.95,0.0,1.0,10,grupos de V1,4
+gallbladder,0.95,0.0,1.0,10,grupos de V1,4
+inferior_vena_cava,0.95,0.0,1.0,10,grupos de V1,4
+left_adrenal_gland,0.95,0.0,1.0,10,grupos de V1,4
+left_kidney,0.95,0.0,1.0,10,grupos de V1,4
+liver,0.95,0.0,1.0,10,grupos de V1,4
+pancreas,0.95,0.0,1.0,10,grupos de V1,4
+right_adrenal_gland,0.95,0.0,1.0,10,grupos de V1,4
+right_kidney,0.95,0.0,1.0,10,grupos de V1,4
+spleen,0.95,0.0,1.0,10,grupos de V1,4
+stomach,0.95,0.0,1.0,10,grupos de V1,4
+aorta,0.95,0.0,1.0,11,grupos reales,2
+duodenum,0.95,0.0,1.0,11,grupos reales,2
+esophagus,0.95,0.0,1.0,11,grupos reales,2
+gallbladder,0.95,0.0,1.0,11,grupos reales,2
+inferior_vena_cava,0.95,0.0,1.0,11,grupos reales,2
+left_adrenal_gland,0.95,0.0,1.0,11,grupos reales,2
+left_kidney,0.95,0.0,1.0,11,grupos reales,2
+liver,0.95,0.0,1.0,11,grupos reales,2
+pancreas,0.95,0.0,1.0,11,grupos reales,2
+right_adrenal_gland,0.95,0.0,1.0,11,grupos reales,2
+right_kidney,0.95,0.0,1.0,11,grupos reales,2
+spleen,0.95,0.0,1.0,11,grupos reales,2
+stomach,0.95,0.0,1.0,11,grupos reales,2
+aorta,0.95,0.0,1.0,11,grupos de V1,2
+duodenum,0.95,0.0,1.0,11,grupos de V1,2
+esophagus,0.95,0.0,1.0,11,grupos de V1,2
+gallbladder,0.95,0.0,1.0,11,grupos de V1,2
+inferior_vena_cava,0.95,0.0,1.0,11,grupos de V1,2
+left_adrenal_gland,0.95,0.0,1.0,11,grupos de V1,2
+left_kidney,0.95,0.0,1.0,11,grupos de V1,2
+liver,0.95,0.0,1.0,11,grupos de V1,2
+pancreas,0.95,0.0,1.0,11,grupos de V1,2
+right_adrenal_gland,0.95,0.0,1.0,11,grupos de V1,2
+right_kidney,0.95,0.0,1.0,11,grupos de V1,2
+spleen,0.95,0.0,1.0,11,grupos de V1,2
+stomach,0.95,0.0,1.0,11,grupos de V1,2
+aorta,0.95,0.0,1.0,11,grupos reales,4
+duodenum,0.95,0.0,1.0,11,grupos reales,4
+esophagus,0.95,0.0,1.0,11,grupos reales,4
+gallbladder,0.95,0.0,1.0,11,grupos reales,4
+inferior_vena_cava,0.95,0.0,1.0,11,grupos reales,4
+left_adrenal_gland,0.95,0.0,1.0,11,grupos reales,4
+left_kidney,0.95,0.0,1.0,11,grupos reales,4
+liver,0.95,0.0,1.0,11,grupos reales,4
+pancreas,0.95,0.0,1.0,11,grupos reales,4
+right_adrenal_gland,0.95,0.0,1.0,11,grupos reales,4
+right_kidney,0.95,0.0,1.0,11,grupos reales,4
+spleen,0.95,0.0,1.0,11,grupos reales,4
+stomach,0.95,0.0,1.0,11,grupos reales,4
+aorta,0.95,0.0,1.0,11,grupos de V1,4
+duodenum,0.95,0.0,1.0,11,grupos de V1,4
+esophagus,0.95,0.0,1.0,11,grupos de V1,4
+gallbladder,0.95,0.0,1.0,11,grupos de V1,4
+inferior_vena_cava,0.95,0.0,1.0,11,grupos de V1,4
+left_adrenal_gland,0.95,0.0,1.0,11,grupos de V1,4
+left_kidney,0.95,0.0,1.0,11,grupos de V1,4
+liver,0.95,0.0,1.0,11,grupos de V1,4
+pancreas,0.95,0.0,1.0,11,grupos de V1,4
+right_adrenal_gland,0.95,0.0,1.0,11,grupos de V1,4
+right_kidney,0.95,0.0,1.0,11,grupos de V1,4
+spleen,0.95,0.0,1.0,11,grupos de V1,4
+stomach,0.95,0.0,1.0,11,grupos de V1,4
+aorta,0.95,0.0,1.0,12,grupos reales,2
+duodenum,0.95,0.0,1.0,12,grupos reales,2
+esophagus,0.95,0.0,1.0,12,grupos reales,2
+gallbladder,0.95,0.0,1.0,12,grupos reales,2
+inferior_vena_cava,0.95,0.0,1.0,12,grupos reales,2
+left_adrenal_gland,0.95,0.0,1.0,12,grupos reales,2
+left_kidney,0.95,0.0,1.0,12,grupos reales,2
+liver,0.95,0.0,1.0,12,grupos reales,2
+pancreas,0.95,0.0,1.0,12,grupos reales,2
+right_adrenal_gland,0.95,0.0,1.0,12,grupos reales,2
+right_kidney,0.95,0.0,1.0,12,grupos reales,2
+spleen,0.95,0.0,1.0,12,grupos reales,2
+stomach,0.95,0.0,1.0,12,grupos reales,2
+aorta,0.95,0.0,1.0,12,grupos de V1,2
+duodenum,0.95,0.0,1.0,12,grupos de V1,2
+esophagus,0.95,0.0,1.0,12,grupos de V1,2
+gallbladder,0.95,0.0,1.0,12,grupos de V1,2
+inferior_vena_cava,0.95,0.0,1.0,12,grupos de V1,2
+left_adrenal_gland,0.95,0.0,1.0,12,grupos de V1,2
+left_kidney,0.95,0.0,1.0,12,grupos de V1,2
+liver,0.95,0.0,1.0,12,grupos de V1,2
+pancreas,0.95,0.0,1.0,12,grupos de V1,2
+right_adrenal_gland,0.95,0.0,1.0,12,grupos de V1,2
+right_kidney,0.95,0.0,1.0,12,grupos de V1,2
+spleen,0.95,0.0,1.0,12,grupos de V1,2
+stomach,0.95,0.0,1.0,12,grupos de V1,2
+aorta,0.95,0.0,1.0,12,grupos reales,4
+duodenum,0.95,0.0,1.0,12,grupos reales,4
+esophagus,0.95,0.0,1.0,12,grupos reales,4
+gallbladder,0.95,0.0,1.0,12,grupos reales,4
+inferior_vena_cava,0.95,0.0,1.0,12,grupos reales,4
+left_adrenal_gland,0.95,0.0,1.0,12,grupos reales,4
+left_kidney,0.95,0.0,1.0,12,grupos reales,4
+liver,0.95,0.0,1.0,12,grupos reales,4
+pancreas,0.95,0.0,1.0,12,grupos reales,4
+right_adrenal_gland,0.95,0.0,1.0,12,grupos reales,4
+right_kidney,0.95,0.0,1.0,12,grupos reales,4
+spleen,0.95,0.0,1.0,12,grupos reales,4
+stomach,0.95,0.0,1.0,12,grupos reales,4
+aorta,0.95,0.0,1.0,12,grupos de V1,4
+duodenum,0.95,0.0,1.0,12,grupos de V1,4
+esophagus,0.95,0.0,1.0,12,grupos de V1,4
+gallbladder,0.95,0.0,1.0,12,grupos de V1,4
+inferior_vena_cava,0.95,0.0,1.0,12,grupos de V1,4
+left_adrenal_gland,0.95,0.0,1.0,12,grupos de V1,4
+left_kidney,0.95,0.0,1.0,12,grupos de V1,4
+liver,0.95,0.0,1.0,12,grupos de V1,4
+pancreas,0.95,0.0,1.0,12,grupos de V1,4
+right_adrenal_gland,0.95,0.0,1.0,12,grupos de V1,4
+right_kidney,0.95,0.0,1.0,12,grupos de V1,4
+spleen,0.95,0.0,1.0,12,grupos de V1,4
+stomach,0.95,0.0,1.0,12,grupos de V1,4
+aorta,0.95,0.0,1.0,13,grupos reales,2
+duodenum,0.95,0.0,1.0,13,grupos reales,2
+esophagus,0.95,0.0,1.0,13,grupos reales,2
+gallbladder,0.95,0.0,1.0,13,grupos reales,2
+inferior_vena_cava,0.95,0.0,1.0,13,grupos reales,2
+left_adrenal_gland,0.95,0.0,1.0,13,grupos reales,2
+left_kidney,0.95,0.0,1.0,13,grupos reales,2
+liver,0.95,0.0,1.0,13,grupos reales,2
+pancreas,0.95,0.0,1.0,13,grupos reales,2
+right_adrenal_gland,0.95,0.0,1.0,13,grupos reales,2
+right_kidney,0.95,0.0,1.0,13,grupos reales,2
+spleen,0.95,0.0,1.0,13,grupos reales,2
+stomach,0.95,0.0,1.0,13,grupos reales,2
+aorta,0.95,0.0,1.0,13,grupos de V1,2
+duodenum,0.95,0.0,1.0,13,grupos de V1,2
+esophagus,0.95,0.0,1.0,13,grupos de V1,2
+gallbladder,0.95,0.0,1.0,13,grupos de V1,2
+inferior_vena_cava,0.95,0.0,1.0,13,grupos de V1,2
+left_adrenal_gland,0.95,0.0,1.0,13,grupos de V1,2
+left_kidney,0.95,0.0,1.0,13,grupos de V1,2
+liver,0.95,0.0,1.0,13,grupos de V1,2
+pancreas,0.95,0.0,1.0,13,grupos de V1,2
+right_adrenal_gland,0.95,0.0,1.0,13,grupos de V1,2
+right_kidney,0.95,0.0,1.0,13,grupos de V1,2
+spleen,0.95,0.0,1.0,13,grupos de V1,2
+stomach,0.95,0.0,1.0,13,grupos de V1,2
+aorta,0.95,0.0,1.0,13,grupos reales,4
+duodenum,0.95,0.0,1.0,13,grupos reales,4
+esophagus,0.95,0.0,1.0,13,grupos reales,4
+gallbladder,0.95,0.0,1.0,13,grupos reales,4
+inferior_vena_cava,0.95,0.0,1.0,13,grupos reales,4
+left_adrenal_gland,0.95,0.0,1.0,13,grupos reales,4
+left_kidney,0.95,0.0,1.0,13,grupos reales,4
+liver,0.95,0.0,1.0,13,grupos reales,4
+pancreas,0.95,0.0,1.0,13,grupos reales,4
+right_adrenal_gland,0.95,0.0,1.0,13,grupos reales,4
+right_kidney,0.95,0.0,1.0,13,grupos reales,4
+spleen,0.95,0.0,1.0,13,grupos reales,4
+stomach,0.95,0.0,1.0,13,grupos reales,4
+aorta,0.95,0.0,1.0,13,grupos de V1,4
+duodenum,0.95,0.0,1.0,13,grupos de V1,4
+esophagus,0.95,0.0,1.0,13,grupos de V1,4
+gallbladder,0.95,0.0,1.0,13,grupos de V1,4
+inferior_vena_cava,0.95,0.0,1.0,13,grupos de V1,4
+left_adrenal_gland,0.95,0.0,1.0,13,grupos de V1,4
+left_kidney,0.95,0.0,1.0,13,grupos de V1,4
+liver,0.95,0.0,1.0,13,grupos de V1,4
+pancreas,0.95,0.0,1.0,13,grupos de V1,4
+right_adrenal_gland,0.95,0.0,1.0,13,grupos de V1,4
+right_kidney,0.95,0.0,1.0,13,grupos de V1,4
+spleen,0.95,0.0,1.0,13,grupos de V1,4
+stomach,0.95,0.0,1.0,13,grupos de V1,4
