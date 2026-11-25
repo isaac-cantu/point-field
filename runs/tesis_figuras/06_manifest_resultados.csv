@@ -1,0 +1,8 @@
+bloque,archivo,estado
+clustering_2d,/home/icantu24/Documents/PEF-CD/point-field/benchmarks/results/clustering_2d_eval.csv,OK
+objetos_sinteticos,/home/icantu24/Documents/PEF-CD/point-field/benchmarks/results/objetos_3d.csv,OK
+modelnet10,/home/icantu24/Documents/PEF-CD/point-field/benchmarks/results/modelnet10_test.csv,OK
+modelnet40,/home/icantu24/Documents/PEF-CD/point-field/benchmarks/results/modelnet40_test.csv,OK
+embeddings,NO ENCONTRADO,FALTA
+contacto3d,NO ENCONTRADO,FALTA
+flare,NO ENCONTRADO,FALTA

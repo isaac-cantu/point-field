@@ -1,0 +1,7 @@
+bloque,condition,method,metric,expected,tol,observed,status
+modelnet10,clean,CD_M,mAP,0.4,0.03,,NO_MATCH
+modelnet10,clean,MOM_M,mAP,0.406,0.03,,NO_MATCH
+modelnet40,clean,CD_M,mAP,0.245,0.03,,NO_MATCH
+modelnet40,clean,MOM_M,mAP,0.236,0.03,,NO_MATCH
+flare,all,CD_M,mAP,0.326,0.03,,MISSING_FILE
+flare,all,MOM_M,mAP,0.282,0.03,,MISSING_FILE

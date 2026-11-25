@@ -1,0 +1,21 @@
+dataset,method,familia,métrica,valor,nota
+ModelNet10,PointNet,DNN supervisado,top-1,,TODO: verificar paper y protocolo
+ModelNet10,PointNet++,DNN supervisado,top-1,,TODO: verificar paper y protocolo
+ModelNet10,DGCNN,DNN supervisado,top-1,,TODO: verificar paper y protocolo
+ModelNet10,Point Transformer,DNN supervisado,top-1,,TODO: verificar paper y protocolo
+ModelNet10,CD,Descriptor no supervisado,mAP,0.25911799060096025,recuperación
+ModelNet10,CD,Descriptor no supervisado,1-NN,0.7025,recuperación
+ModelNet10,Momentos,Descriptor no supervisado,mAP,0.2660329298570914,recuperación
+ModelNet10,Momentos,Descriptor no supervisado,1-NN,0.74,recuperación
+ModelNet10,D2,Descriptor no supervisado,mAP,0.27212086167977995,recuperación
+ModelNet10,D2,Descriptor no supervisado,1-NN,0.44,recuperación
+ModelNet40,PointNet,DNN supervisado,top-1,,TODO: verificar paper y protocolo
+ModelNet40,PointNet++,DNN supervisado,top-1,,TODO: verificar paper y protocolo
+ModelNet40,DGCNN,DNN supervisado,top-1,,TODO: verificar paper y protocolo
+ModelNet40,Point Transformer,DNN supervisado,top-1,,TODO: verificar paper y protocolo
+ModelNet40,CD,Descriptor no supervisado,mAP,0.1568629648110256,recuperación
+ModelNet40,CD,Descriptor no supervisado,1-NN,0.500625,recuperación
+ModelNet40,Momentos,Descriptor no supervisado,mAP,0.15485974437413094,recuperación
+ModelNet40,Momentos,Descriptor no supervisado,1-NN,0.51625,recuperación
+ModelNet40,D2,Descriptor no supervisado,mAP,0.15132100859883973,recuperación
+ModelNet40,D2,Descriptor no supervisado,1-NN,0.3225,recuperación

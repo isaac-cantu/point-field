@@ -1,0 +1,11 @@
+bloque,qué revisar,estado_manual
+Soporte 2D,Figura de grado y puntos,
+Soporte 3D,Cobertura y franja próxima,
+Clustering 2D,"Panel V0–V2, heatmaps y robustez",
+Clustering 3D,Escenas separadas y en contacto,
+Embeddings,"Trustworthiness, continuity, 5-NN",
+Objetos sintéticos,"mAP, 1-NN, invariancia/robustez",
+ModelNet10,"mAP, 1-NN, comparación DNN",
+ModelNet40,"mAP, 1-NN, comparación DNN",
+FLARE,"mAP, 1-NN, alcance exploratorio",
+Documento,"Citas, tablas, figuras y números consistentes",

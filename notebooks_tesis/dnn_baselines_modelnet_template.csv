@@ -1,0 +1,9 @@
+dataset,method,family,metric,value,notes,source_short,source_url
+ModelNet10,PointNet,supervisado,top1_acc,,TODO: verificar paper y protocolo,,
+ModelNet10,PointNet++,supervisado,top1_acc,,TODO: verificar paper y protocolo,,
+ModelNet10,DGCNN,supervisado,top1_acc,,TODO: verificar paper y protocolo,,
+ModelNet10,Point Transformer,supervisado,top1_acc,,TODO: verificar paper y protocolo,,
+ModelNet40,PointNet,supervisado,top1_acc,,TODO: verificar paper y protocolo,,
+ModelNet40,PointNet++,supervisado,top1_acc,,TODO: verificar paper y protocolo,,
+ModelNet40,DGCNN,supervisado,top1_acc,,TODO: verificar paper y protocolo,,
+ModelNet40,Point Transformer,supervisado,top1_acc,,TODO: verificar paper y protocolo,,
