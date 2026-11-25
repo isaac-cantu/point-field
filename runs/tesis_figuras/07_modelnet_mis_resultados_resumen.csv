@@ -1,31 +1,71 @@
-dataset,method,condition,mAP,1NN
-ModelNet10,CD,clean,0.25911799060096025,0.7025
-ModelNet10,CD,noise,0.2585516586317955,0.695
-ModelNet10,CD,density,0.2398987005068187,0.635
-ModelNet10,CD,occlusion,0.23349015247904614,0.5625
-ModelNet10,CD,outliers,0.14846384498283138,0.25125
-ModelNet10,Momentos,clean,0.2660329298570914,0.74
-ModelNet10,Momentos,noise,0.26513748887675187,0.7324999999999999
-ModelNet10,Momentos,density,0.24637771778160766,0.6525000000000001
-ModelNet10,Momentos,occlusion,0.2183828814584189,0.4925
-ModelNet10,Momentos,outliers,0.17118277079246533,0.28500000000000003
-ModelNet10,D2,clean,0.27212086167977995,0.44
-ModelNet10,D2,noise,0.2716682530561191,0.43
-ModelNet10,D2,density,0.2606903372957211,0.42
-ModelNet10,D2,occlusion,0.2430958378843902,0.35
-ModelNet10,D2,outliers,0.25766508161201274,0.405
-ModelNet40,CD,clean,0.1568629648110256,0.500625
-ModelNet40,CD,noise,0.15278162906786782,0.484375
-ModelNet40,CD,density,0.13439139650980764,0.414375
-ModelNet40,CD,occlusion,0.11849877966851986,0.32375
-ModelNet40,CD,outliers,0.07950478458725849,0.16312500000000002
-ModelNet40,Momentos,clean,0.15485974437413094,0.51625
-ModelNet40,Momentos,noise,0.151754606083073,0.51125
-ModelNet40,Momentos,density,0.13353127289247077,0.4125
-ModelNet40,Momentos,occlusion,0.10762592036344774,0.2875
-ModelNet40,Momentos,outliers,0.07750640303666818,0.0975
-ModelNet40,D2,clean,0.15132100859883973,0.3225
-ModelNet40,D2,noise,0.14975443216485193,0.31
-ModelNet40,D2,density,0.1337311729352992,0.2275
-ModelNet40,D2,occlusion,0.11437235609625648,0.1975
-ModelNet40,D2,outliers,0.13617700754173687,0.2475
+condition,method,mAP,1NN,ci_low,ci_high,dataset,method_name,condition_name
+clean,CD_U,0.38304949143283823,0.695,,,ModelNet10,CD,Limpio
+clean,CD_W,0.365491616693171,0.66,,,ModelNet10,CD ponderado,Limpio
+clean,M_U,0.3985471607652296,0.72,,,ModelNet10,Momentos,Limpio
+clean,D2,0.27212086167977995,0.44,,,ModelNet10,D2,Limpio
+clean,CD_U_metric,0.3995516288060448,0.725,,,ModelNet10,CD + métrica,Limpio
+clean,CD_W_metric,0.40635866685266464,0.73,,,ModelNet10,CD ponderado + métrica,Limpio
+clean,M_U_metric,0.40610212703162163,0.76,,,ModelNet10,Momentos + métrica,Limpio
+noise,CD_U,0.3833620566078265,0.69,,,ModelNet10,CD,Ruido
+noise,CD_W,0.36496122708708667,0.65,,,ModelNet10,CD ponderado,Ruido
+noise,M_U,0.3981715076721668,0.72,,,ModelNet10,Momentos,Ruido
+noise,D2,0.2716682530561191,0.43,,,ModelNet10,D2,Ruido
+noise,CD_U_metric,0.39724095895808886,0.725,,,ModelNet10,CD + métrica,Ruido
+noise,CD_W_metric,0.40524463869354677,0.715,,,ModelNet10,CD ponderado + métrica,Ruido
+noise,M_U_metric,0.4047435682493223,0.745,,,ModelNet10,Momentos + métrica,Ruido
+density,CD_U,0.3499105696121211,0.615,,,ModelNet10,CD,Densidad
+density,CD_W,0.3296593276499386,0.55,,,ModelNet10,CD ponderado,Densidad
+density,M_U,0.3683180254707273,0.625,,,ModelNet10,Momentos,Densidad
+density,D2,0.2606903372957211,0.42,,,ModelNet10,D2,Densidad
+density,CD_U_metric,0.37081512787409565,0.695,,,ModelNet10,CD + métrica,Densidad
+density,CD_W_metric,0.38064823802495257,0.68,,,ModelNet10,CD ponderado + métrica,Densidad
+density,M_U_metric,0.3722892981451482,0.68,,,ModelNet10,Momentos + métrica,Densidad
+occlusion,CD_U,0.33602543369040083,0.53,,,ModelNet10,CD,Oclusión
+occlusion,CD_W,0.32694009762161164,0.515,,,ModelNet10,CD ponderado,Oclusión
+occlusion,M_U,0.32189489849801367,0.48,,,ModelNet10,Momentos,Oclusión
+occlusion,D2,0.2430958378843902,0.35,,,ModelNet10,D2,Oclusión
+occlusion,CD_U_metric,0.33325374587724305,0.62,,,ModelNet10,CD + métrica,Oclusión
+occlusion,CD_W_metric,0.3568908332228149,0.585,,,ModelNet10,CD ponderado + métrica,Oclusión
+occlusion,M_U_metric,0.30906002876060845,0.505,,,ModelNet10,Momentos + métrica,Oclusión
+outliers,CD_U,0.2529616924277072,0.31,,,ModelNet10,CD,Atípicos
+outliers,CD_W,0.17349816105166846,0.165,,,ModelNet10,CD ponderado,Atípicos
+outliers,M_U,0.232616722921277,0.3,,,ModelNet10,Momentos,Atípicos
+outliers,D2,0.25766508161201274,0.405,,,ModelNet10,D2,Atípicos
+outliers,CD_U_metric,0.280931589456119,0.34,,,ModelNet10,CD + métrica,Atípicos
+outliers,CD_W_metric,0.20375070761704947,0.19,,,ModelNet10,CD ponderado + métrica,Atípicos
+outliers,M_U_metric,0.22410978827260522,0.27,,,ModelNet10,Momentos + métrica,Atípicos
+clean,CD_U,0.22498409344512446,0.475,,,ModelNet40,CD,Limpio
+clean,CD_W,0.21524147749483444,0.4625,,,ModelNet40,CD ponderado,Limpio
+clean,M_U,0.22003744549405224,0.48,,,ModelNet40,Momentos,Limpio
+clean,D2,0.15132100859883973,0.3225,,,ModelNet40,D2,Limpio
+clean,CD_U_metric,0.24454178762834056,0.5225,,,ModelNet40,CD + métrica,Limpio
+clean,CD_W_metric,0.2463822745394552,0.5425,,,ModelNet40,CD ponderado + métrica,Limpio
+clean,M_U_metric,0.236354118781056,0.5525,,,ModelNet40,Momentos + métrica,Limpio
+noise,CD_U,0.22141346717531626,0.46,,,ModelNet40,CD,Ruido
+noise,CD_W,0.21253213621791178,0.4675,,,ModelNet40,CD ponderado,Ruido
+noise,M_U,0.21793159810514232,0.47,,,ModelNet40,Momentos,Ruido
+noise,D2,0.14975443216485193,0.31,,,ModelNet40,D2,Ruido
+noise,CD_U_metric,0.2373322201440767,0.495,,,ModelNet40,CD + métrica,Ruido
+noise,CD_W_metric,0.23987808159100724,0.515,,,ModelNet40,CD ponderado + métrica,Ruido
+noise,M_U_metric,0.2343442123121124,0.5525,,,ModelNet40,Momentos + métrica,Ruido
+density,CD_U,0.19708432853961114,0.39,,,ModelNet40,CD,Densidad
+density,CD_W,0.1822374770437056,0.3575,,,ModelNet40,CD ponderado,Densidad
+density,M_U,0.1877760356501617,0.3775,,,ModelNet40,Momentos,Densidad
+density,D2,0.1337311729352992,0.2275,,,ModelNet40,D2,Densidad
+density,CD_U_metric,0.21281778302725066,0.4425,,,ModelNet40,CD + métrica,Densidad
+density,CD_W_metric,0.21064583425339228,0.4675,,,ModelNet40,CD ponderado + métrica,Densidad
+density,M_U_metric,0.2070828780585061,0.4475,,,ModelNet40,Momentos + métrica,Densidad
+occlusion,CD_U,0.16447185032251177,0.3175,,,ModelNet40,CD,Oclusión
+occlusion,CD_W,0.1652281107541508,0.3125,,,ModelNet40,CD ponderado,Oclusión
+occlusion,M_U,0.15068047524001524,0.2975,,,ModelNet40,Momentos,Oclusión
+occlusion,D2,0.11437235609625648,0.1975,,,ModelNet40,D2,Oclusión
+occlusion,CD_U_metric,0.17219728585032792,0.3275,,,ModelNet40,CD + métrica,Oclusión
+occlusion,CD_W_metric,0.18129682899034094,0.3375,,,ModelNet40,CD ponderado + métrica,Oclusión
+occlusion,M_U_metric,0.15349822689655312,0.2775,,,ModelNet40,Momentos + métrica,Oclusión
+outliers,CD_U,0.14108200274513938,0.185,,,ModelNet40,CD,Atípicos
+outliers,CD_W,0.08052407965254989,0.1,,,ModelNet40,CD ponderado,Atípicos
+outliers,M_U,0.08235298582316489,0.1025,,,ModelNet40,Momentos,Atípicos
+outliers,D2,0.13617700754173687,0.2475,,,ModelNet40,D2,Atípicos
+outliers,CD_U_metric,0.15016622328683968,0.235,,,ModelNet40,CD + métrica,Atípicos
+outliers,CD_W_metric,0.09819121200277557,0.1325,,,ModelNet40,CD ponderado + métrica,Atípicos
+outliers,M_U_metric,0.09112602216652924,0.0925,,,ModelNet40,Momentos + métrica,Atípicos

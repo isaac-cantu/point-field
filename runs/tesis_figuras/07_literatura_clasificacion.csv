@@ -1,0 +1,9 @@
+method,year,protocol,ModelNet10,ModelNet40,source
+FoldingNet,2018,SVM lineal,94.4,88.4,https://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_FoldingNet_Point_Cloud_CVPR_2018_paper.pdf
+Latent-GAN,2018,SVM lineal,95.3,85.7,https://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_FoldingNet_Point_Cloud_CVPR_2018_paper.pdf
+PointNet,2017,Supervisado,,89.2,https://arxiv.org/abs/1612.00593
+PointNet++,2017,Supervisado,,91.9,https://arxiv.org/abs/1706.02413
+DGCNN,2019,Supervisado,,92.9,https://arxiv.org/abs/1801.07829
+PointMLP,2022,Supervisado,,94.1,https://arxiv.org/abs/2202.07123
+Point-M2AE,2022,SVM lineal,,92.9,https://arxiv.org/abs/2205.14401
+I2P-MAE,2023,SVM lineal,,93.4,https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Learning_3D_Representations_From_2D_Pre-Trained_Models_via_Image-to-Point_Masked_CVPR_2023_paper.html

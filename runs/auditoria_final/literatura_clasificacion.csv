@@ -1,0 +1,6 @@
+method,protocol,MN10_accuracy_pct,MN40_accuracy_pct,source
+FoldingNet,SVM lineal,94.4,88.4,https://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_FoldingNet_Point_Cloud_CVPR_2018_paper.pdf
+Latent-GAN,SVM lineal,95.3,85.7,https://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_FoldingNet_Point_Cloud_CVPR_2018_paper.pdf
+Point-M2AE,SVM lineal,,92.9,https://proceedings.neurips.cc/paper_files/paper/2022/hash/ad1d7a4df30a9c0c46b387815a774a84-Abstract-Conference.html
+I2P-MAE,SVM lineal,,93.4,https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Learning_3D_Representations_From_2D_Pre-Trained_Models_via_Image-to-Point_Masked_CVPR_2023_paper.html
+Point-MAE,Fine-tuning,,94.04,https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/800_ECCV_2022_paper.php

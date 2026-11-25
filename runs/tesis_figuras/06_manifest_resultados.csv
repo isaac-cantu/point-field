@@ -3,6 +3,9 @@ clustering_2d,/home/icantu24/Documents/PEF-CD/point-field/benchmarks/results/clu
 objetos_sinteticos,/home/icantu24/Documents/PEF-CD/point-field/benchmarks/results/objetos_3d.csv,OK
 modelnet10,/home/icantu24/Documents/PEF-CD/point-field/benchmarks/results/modelnet10_test.csv,OK
 modelnet40,/home/icantu24/Documents/PEF-CD/point-field/benchmarks/results/modelnet40_test.csv,OK
-embeddings,NO ENCONTRADO,FALTA
-contacto3d,NO ENCONTRADO,FALTA
-flare,NO ENCONTRADO,FALTA
+embeddings,/home/icantu24/Documents/PEF-CD/point-field/benchmarks/results/embeddings_2d_eval.csv,OK
+contacto3d,/home/icantu24/Documents/PEF-CD/point-field/runs/20261119T210929036674Z/scenes_3d.csv,OK
+flare,/home/icantu24/Documents/PEF-CD/point-field/benchmarks/results/aplicacion_FLARE_nivel2.csv,OK
+reconstruccion,/home/icantu24/Documents/PEF-CD/point-field/runs/20261119T210929036674Z/reconstruction_per_object.csv,OK
+grado_puntos,/home/icantu24/Documents/PEF-CD/point-field/runs/tesis_figuras/09_metricas_soporte_annulus.csv,OK
+diagnostico_numerico,/home/icantu24/Documents/PEF-CD/point-field/runs/tesis_figuras/09_diagnostico_annulus.csv,OK

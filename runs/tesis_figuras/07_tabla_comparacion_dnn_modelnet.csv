@@ -1,21 +1,44 @@
-dataset,method,familia,métrica,valor,nota
-ModelNet10,PointNet,DNN supervisado,top-1,,TODO: verificar paper y protocolo
-ModelNet10,PointNet++,DNN supervisado,top-1,,TODO: verificar paper y protocolo
-ModelNet10,DGCNN,DNN supervisado,top-1,,TODO: verificar paper y protocolo
-ModelNet10,Point Transformer,DNN supervisado,top-1,,TODO: verificar paper y protocolo
-ModelNet10,CD,Descriptor no supervisado,mAP,0.25911799060096025,recuperación
-ModelNet10,CD,Descriptor no supervisado,1-NN,0.7025,recuperación
-ModelNet10,Momentos,Descriptor no supervisado,mAP,0.2660329298570914,recuperación
-ModelNet10,Momentos,Descriptor no supervisado,1-NN,0.74,recuperación
-ModelNet10,D2,Descriptor no supervisado,mAP,0.27212086167977995,recuperación
-ModelNet10,D2,Descriptor no supervisado,1-NN,0.44,recuperación
-ModelNet40,PointNet,DNN supervisado,top-1,,TODO: verificar paper y protocolo
-ModelNet40,PointNet++,DNN supervisado,top-1,,TODO: verificar paper y protocolo
-ModelNet40,DGCNN,DNN supervisado,top-1,,TODO: verificar paper y protocolo
-ModelNet40,Point Transformer,DNN supervisado,top-1,,TODO: verificar paper y protocolo
-ModelNet40,CD,Descriptor no supervisado,mAP,0.1568629648110256,recuperación
-ModelNet40,CD,Descriptor no supervisado,1-NN,0.500625,recuperación
-ModelNet40,Momentos,Descriptor no supervisado,mAP,0.15485974437413094,recuperación
-ModelNet40,Momentos,Descriptor no supervisado,1-NN,0.51625,recuperación
-ModelNet40,D2,Descriptor no supervisado,mAP,0.15132100859883973,recuperación
-ModelNet40,D2,Descriptor no supervisado,1-NN,0.3225,recuperación
+dataset,method,origin,metric,value,protocol,source
+ModelNet10,CD_U,Propio,mAP,0.38304949143283823,Recuperación,benchmarks/results/modelnet10_test.csv
+ModelNet10,CD_U,Propio,1NN,0.695,Recuperación,benchmarks/results/modelnet10_test.csv
+ModelNet10,CD_W,Propio,mAP,0.365491616693171,Recuperación,benchmarks/results/modelnet10_test.csv
+ModelNet10,CD_W,Propio,1NN,0.66,Recuperación,benchmarks/results/modelnet10_test.csv
+ModelNet10,M_U,Propio,mAP,0.3985471607652296,Recuperación,benchmarks/results/modelnet10_test.csv
+ModelNet10,M_U,Propio,1NN,0.72,Recuperación,benchmarks/results/modelnet10_test.csv
+ModelNet10,D2,Propio,mAP,0.27212086167977995,Recuperación,benchmarks/results/modelnet10_test.csv
+ModelNet10,D2,Propio,1NN,0.44,Recuperación,benchmarks/results/modelnet10_test.csv
+ModelNet10,CD_U_metric,Propio,mAP,0.3995516288060448,Recuperación,benchmarks/results/modelnet10_test.csv
+ModelNet10,CD_U_metric,Propio,1NN,0.725,Recuperación,benchmarks/results/modelnet10_test.csv
+ModelNet10,CD_W_metric,Propio,mAP,0.40635866685266464,Recuperación,benchmarks/results/modelnet10_test.csv
+ModelNet10,CD_W_metric,Propio,1NN,0.73,Recuperación,benchmarks/results/modelnet10_test.csv
+ModelNet10,M_U_metric,Propio,mAP,0.40610212703162163,Recuperación,benchmarks/results/modelnet10_test.csv
+ModelNet10,M_U_metric,Propio,1NN,0.76,Recuperación,benchmarks/results/modelnet10_test.csv
+ModelNet40,CD_U,Propio,mAP,0.22498409344512446,Recuperación,benchmarks/results/modelnet40_test.csv
+ModelNet40,CD_U,Propio,1NN,0.475,Recuperación,benchmarks/results/modelnet40_test.csv
+ModelNet40,CD_W,Propio,mAP,0.21524147749483444,Recuperación,benchmarks/results/modelnet40_test.csv
+ModelNet40,CD_W,Propio,1NN,0.4625,Recuperación,benchmarks/results/modelnet40_test.csv
+ModelNet40,M_U,Propio,mAP,0.22003744549405224,Recuperación,benchmarks/results/modelnet40_test.csv
+ModelNet40,M_U,Propio,1NN,0.48,Recuperación,benchmarks/results/modelnet40_test.csv
+ModelNet40,D2,Propio,mAP,0.15132100859883973,Recuperación,benchmarks/results/modelnet40_test.csv
+ModelNet40,D2,Propio,1NN,0.3225,Recuperación,benchmarks/results/modelnet40_test.csv
+ModelNet40,CD_U_metric,Propio,mAP,0.24454178762834056,Recuperación,benchmarks/results/modelnet40_test.csv
+ModelNet40,CD_U_metric,Propio,1NN,0.5225,Recuperación,benchmarks/results/modelnet40_test.csv
+ModelNet40,CD_W_metric,Propio,mAP,0.2463822745394552,Recuperación,benchmarks/results/modelnet40_test.csv
+ModelNet40,CD_W_metric,Propio,1NN,0.5425,Recuperación,benchmarks/results/modelnet40_test.csv
+ModelNet40,M_U_metric,Propio,mAP,0.236354118781056,Recuperación,benchmarks/results/modelnet40_test.csv
+ModelNet40,M_U_metric,Propio,1NN,0.5525,Recuperación,benchmarks/results/modelnet40_test.csv
+ModelNet10,FoldingNet,Literatura,top1_accuracy,0.9440000000000001,SVM lineal,https://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_FoldingNet_Point_Cloud_CVPR_2018_paper.pdf
+ModelNet40,FoldingNet,Literatura,top1_accuracy,0.884,SVM lineal,https://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_FoldingNet_Point_Cloud_CVPR_2018_paper.pdf
+ModelNet10,Latent-GAN,Literatura,top1_accuracy,0.953,SVM lineal,https://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_FoldingNet_Point_Cloud_CVPR_2018_paper.pdf
+ModelNet40,Latent-GAN,Literatura,top1_accuracy,0.857,SVM lineal,https://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_FoldingNet_Point_Cloud_CVPR_2018_paper.pdf
+ModelNet40,PointNet,Literatura,top1_accuracy,0.892,Supervisado,https://arxiv.org/abs/1612.00593
+ModelNet40,PointNet++,Literatura,top1_accuracy,0.919,Supervisado,https://arxiv.org/abs/1706.02413
+ModelNet40,DGCNN,Literatura,top1_accuracy,0.929,Supervisado,https://arxiv.org/abs/1801.07829
+ModelNet40,PointMLP,Literatura,top1_accuracy,0.941,Supervisado,https://arxiv.org/abs/2202.07123
+ModelNet40,Point-M2AE,Literatura,top1_accuracy,0.929,SVM lineal,https://arxiv.org/abs/2205.14401
+ModelNet40,I2P-MAE,Literatura,top1_accuracy,0.934,SVM lineal,https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Learning_3D_Representations_From_2D_Pre-Trained_Models_via_Image-to-Point_Masked_CVPR_2023_paper.html
+ModelNet10,GPSP-DWRN,Literatura,mAP,0.895,Recuperación; protocolo externo,https://pmc.ncbi.nlm.nih.gov/articles/PMC8070544/
+ModelNet40,GPSP-DWRN,Literatura,mAP,0.858,Recuperación; protocolo externo,https://pmc.ncbi.nlm.nih.gov/articles/PMC8070544/
+ModelNet10,GIFT,Literatura,mAP,0.9112,Recuperación; protocolo externo,https://www.robots.ox.ac.uk/~tvg/publications/2019/ued_cvpr.pdf
+ModelNet40,GIFT,Literatura,mAP,0.8194,Recuperación; protocolo externo,https://www.robots.ox.ac.uk/~tvg/publications/2019/ued_cvpr.pdf
+ModelNet40,DGCNN,Literatura,mAP,0.853,Recuperación; protocolo externo,https://www.mdpi.com/1424-8220/21/9/3227

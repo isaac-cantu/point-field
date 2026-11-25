@@ -1,0 +1,40 @@
+check,status,detail
+modelnet10 filas únicas,PASS,
+modelnet10 cobertura,PASS,
+modelnet10 métricas acotadas,PASS,
+modelnet10 clean CD_U_metric - M_U_metric,PASS,-0.006550498 vs -0.006550498
+modelnet10 clean CD_W_metric - CD_U_metric,PASS,0.006807038 vs 0.006807038
+modelnet10 noise CD_U_metric - M_U_metric,PASS,-0.007502609 vs -0.007502609
+modelnet10 noise CD_W_metric - CD_U_metric,PASS,0.008003680 vs 0.008003680
+modelnet10 density CD_U_metric - M_U_metric,PASS,-0.001474170 vs -0.001474170
+modelnet10 density CD_W_metric - CD_U_metric,PASS,0.009833110 vs 0.009833110
+modelnet10 occlusion CD_U_metric - M_U_metric,PASS,0.024193717 vs 0.024193717
+modelnet10 occlusion CD_W_metric - CD_U_metric,PASS,0.023637087 vs 0.023637087
+modelnet10 outliers CD_U_metric - M_U_metric,PASS,0.056821801 vs 0.056821801
+modelnet10 outliers CD_W_metric - CD_U_metric,PASS,-0.077180882 vs -0.077180882
+modelnet10 tabla notebook 05,PASS,
+modelnet40 filas únicas,PASS,
+modelnet40 cobertura,PASS,
+modelnet40 métricas acotadas,PASS,
+modelnet40 clean CD_U_metric - M_U_metric,PASS,0.008187669 vs 0.008187669
+modelnet40 clean CD_W_metric - CD_U_metric,PASS,0.001840487 vs 0.001840487
+modelnet40 noise CD_U_metric - M_U_metric,PASS,0.002988008 vs 0.002988008
+modelnet40 noise CD_W_metric - CD_U_metric,PASS,0.002545861 vs 0.002545861
+modelnet40 density CD_U_metric - M_U_metric,PASS,0.005734905 vs 0.005734905
+modelnet40 density CD_W_metric - CD_U_metric,PASS,-0.002171949 vs -0.002171949
+modelnet40 occlusion CD_U_metric - M_U_metric,PASS,0.018699059 vs 0.018699059
+modelnet40 occlusion CD_W_metric - CD_U_metric,PASS,0.009099543 vs 0.009099543
+modelnet40 outliers CD_U_metric - M_U_metric,PASS,0.059040201 vs 0.059040201
+modelnet40 outliers CD_W_metric - CD_U_metric,PASS,-0.051975011 vs -0.051975011
+modelnet40 tabla notebook 05,PASS,
+clustering tiempos no negativos,PASS,
+clustering métricas válidas,PASS,
+embedding tiempos no negativos,PASS,
+embedding métricas válidas,PASS,
+Anillo 64 configuraciones,PASS,
+Anillo ejecuciones OK,PASS,
+Anillo umbrales iguales,PASS,
+Anillo IoU desde conteos,PASS,
+Anillo Dice desde conteos,PASS,
+Anillo 30000 consultas,PASS,
+Anillo base polinomial,PASS,

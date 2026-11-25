@@ -1,0 +1,11 @@
+method,ModelNet10,ModelNet40,source,origin
+GPSP-DWRN,0.895,0.858,https://pmc.ncbi.nlm.nih.gov/articles/PMC8070544/,Literatura
+GIFT,0.9112,0.8194,https://www.robots.ox.ac.uk/~tvg/publications/2019/ued_cvpr.pdf,Literatura
+DGCNN,,0.853,https://www.mdpi.com/1424-8220/21/9/3227,Literatura
+CD,0.38304949143283823,0.22498409344512446,benchmarks/results/modelnet*_test.csv,Propio
+CD + métrica,0.3995516288060448,0.24454178762834056,benchmarks/results/modelnet*_test.csv,Propio
+CD ponderado,0.365491616693171,0.21524147749483444,benchmarks/results/modelnet*_test.csv,Propio
+CD ponderado + métrica,0.40635866685266464,0.2463822745394552,benchmarks/results/modelnet*_test.csv,Propio
+D2,0.27212086167977995,0.15132100859883973,benchmarks/results/modelnet*_test.csv,Propio
+Momentos,0.3985471607652296,0.22003744549405224,benchmarks/results/modelnet*_test.csv,Propio
+Momentos + métrica,0.40610212703162163,0.236354118781056,benchmarks/results/modelnet*_test.csv,Propio
