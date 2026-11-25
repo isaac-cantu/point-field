@@ -1,0 +1,11 @@
+,bathtub,bed,chair,desk,dresser,monitor,night_stand,sofa,table,toilet
+bathtub,35,4,0,0,0,2,1,8,0,0
+bed,0,81,1,1,1,7,0,7,2,0
+chair,0,1,96,2,0,1,0,0,0,0
+desk,0,7,5,50,1,0,3,10,7,3
+dresser,3,0,1,0,64,0,13,1,1,1
+monitor,0,3,3,0,1,83,1,1,4,4
+night_stand,0,2,4,2,16,0,53,0,6,1
+sofa,0,1,0,0,1,0,1,93,1,3
+table,3,1,2,22,0,0,2,2,68,0
+toilet,0,0,2,0,1,2,1,1,2,91

@@ -1,0 +1,8 @@
+{
+  "system": "Linux-6.19.8-200.fc43.x86_64-x86_64-with-glibc2.42",
+  "python": "3.14.3 (main, Feb  4 2026, 00:00:00) [GCC 15.2.1 20260123 (Red Hat 15.2.1-7)]",
+  "threads": 1,
+  "warmup": 1,
+  "repeats": 5,
+  "commit": "40d6cb85a7d84207ba3dda2eae6b08af2e10eca6"
+}
