@@ -1,0 +1,9 @@
+{
+  "mathematical_checks": "executed",
+  "historical_csv_consistency": "executed",
+  "synthetic_experiments": "smoke",
+  "modelnet": "executed",
+  "historical_A8_replication": "not_claimed",
+  "shapenet": "not_run",
+  "scene_3d": "new_spatial_CD_given_K_and_DBSCAN_unknown_K"
+}
