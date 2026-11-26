@@ -1,0 +1,9 @@
+........................................................................ [ 69%]
+...............................                                          [100%]
+=============================== warnings summary ===============================
+tests/test_learning.py::test_local_spectral_runs
+  /home/icantu24/Documents/PEF-CD/point-field/.venv/lib64/python3.14/site-packages/sklearn/manifold/_spectral_embedding.py:325: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+103 passed, 1 warning in 3.85s

@@ -1,0 +1,7 @@
+block,item,status,detail
+embedding,all executions,PASS,600
+embedding,archive metric comparison,INFO,"120 matched; inspect deltas, not forced equality across environments"
+embedding,BLOCK_END,PASS,
+notebooks,CD_desde_cero_reexecuted,PASS,all cells executed; inspect generated numerical results
+notebooks,verificacion_reexecuted,PASS,all cells executed; inspect generated numerical results
+notebooks,BLOCK_END,PASS,

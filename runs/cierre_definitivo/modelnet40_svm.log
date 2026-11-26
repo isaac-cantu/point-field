@@ -1,0 +1,6 @@
+method  dimension  train  test   C  cv_accuracy  accuracy  macro_f1  search_and_fit_s  predict_s
+  CD_U         78   9702  2367  10     0.688620  0.657795  0.588842        146.357944   0.002903
+  CD_W         78   9702  2367  10     0.693363  0.667934  0.604072        163.013061   0.002871
+   M_U         60   9702  2367 100     0.682850  0.653992  0.575555        133.851841   0.002342
+    D2         32   9702  2367  10     0.321481  0.258555  0.147079         69.752932   0.001996
+/home/icantu24/Documents/PEF-CD/point-field/runs/cierre_definitivo/snapshot/runs/linear_probe/ModelNet40_seed20261025_p512_tr0_te0

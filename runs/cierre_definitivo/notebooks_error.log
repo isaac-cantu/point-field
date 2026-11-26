@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/icantu24/Documents/PEF-CD/point-field/notebooks/13_validacion_final.py", line 261, in <module>
+    f();bad=any(r['status'] in ['FAIL','ERROR','MISSING','SKIP'] for r in records[start:]);record(b,'BLOCK_END','INCOMPLETE' if bad else 'PASS')
+    ~^^
+  File "/home/icantu24/Documents/PEF-CD/point-field/notebooks/13_validacion_final.py", line 240, in notebooks
+    execute_nb(w/'notebooks/verificacion_tesis_CD_corregida.ipynb','verificacion_reexecuted',cfg2)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/icantu24/Documents/PEF-CD/point-field/notebooks/13_validacion_final.py", line 221, in execute_nb
+    from nbclient import NotebookClient
+ModuleNotFoundError: No module named 'nbclient'

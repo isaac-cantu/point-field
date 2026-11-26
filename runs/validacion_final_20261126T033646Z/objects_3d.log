@@ -1,0 +1,41 @@
+families: ['sphere', 'ellipsoid', 'cube', 'cylinder', 'cone', 'torus', 'pyramid']  |  {'eta_CD': 0.1, 'eta_M': 0.1}
+clean      CD_U                       mAP +0.912  1-NN 1.000
+clean      CD_W                       mAP +0.916  1-NN 1.000
+clean      M_U                        mAP +0.840  1-NN 1.000
+clean      D2                         mAP +0.759  1-NN 0.957
+clean      CD_U_metric                mAP +0.940  1-NN 1.000
+clean      M_U_metric                 mAP +0.885  1-NN 1.000
+clean      CD_U_metric - M_U_metric   mAP +0.055  [+0.038, +0.073]
+clean      CD_W - CD_U                mAP +0.003  [-0.003, +0.010]
+noise      CD_U                       mAP +0.902  1-NN 1.000
+noise      CD_W                       mAP +0.904  1-NN 1.000
+noise      M_U                        mAP +0.839  1-NN 1.000
+noise      D2                         mAP +0.759  1-NN 0.943
+noise      CD_U_metric                mAP +0.933  1-NN 1.000
+noise      M_U_metric                 mAP +0.885  1-NN 1.000
+noise      CD_U_metric - M_U_metric   mAP +0.047  [+0.030, +0.066]
+noise      CD_W - CD_U                mAP +0.002  [-0.003, +0.009]
+density    CD_U                       mAP +0.477  1-NN 0.529
+density    CD_W                       mAP +0.528  1-NN 0.500
+density    M_U                        mAP +0.413  1-NN 0.429
+density    D2                         mAP +0.592  1-NN 0.686
+density    CD_U_metric                mAP +0.924  1-NN 1.000
+density    M_U_metric                 mAP +0.867  1-NN 0.986
+density    CD_U_metric - M_U_metric   mAP +0.057  [+0.035, +0.080]
+density    CD_W - CD_U                mAP +0.052  [+0.036, +0.068]
+occlusion  CD_U                       mAP +0.638  1-NN 0.571
+occlusion  CD_W                       mAP +0.667  1-NN 0.700
+occlusion  M_U                        mAP +0.480  1-NN 0.557
+occlusion  D2                         mAP +0.660  1-NN 0.743
+occlusion  CD_U_metric                mAP +0.879  1-NN 0.957
+occlusion  M_U_metric                 mAP +0.698  1-NN 0.771
+occlusion  CD_U_metric - M_U_metric   mAP +0.181  [+0.150, +0.214]
+occlusion  CD_W - CD_U                mAP +0.030  [+0.015, +0.045]
+outliers   CD_U                       mAP +0.674  1-NN 0.657
+outliers   CD_W                       mAP +0.381  1-NN 0.343
+outliers   M_U                        mAP +0.541  1-NN 0.543
+outliers   D2                         mAP +0.704  1-NN 0.843
+outliers   CD_U_metric                mAP +0.728  1-NN 0.671
+outliers   M_U_metric                 mAP +0.571  1-NN 0.514
+outliers   CD_U_metric - M_U_metric   mAP +0.157  [+0.099, +0.217]
+outliers   CD_W - CD_U                mAP -0.293  [-0.332, -0.254]

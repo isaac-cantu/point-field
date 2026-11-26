@@ -1,0 +1,55 @@
+{
+  "commit": "5bcd4c4754bd95ef9ba7b5d5a57e9ceac11016d5",
+  "tracked_changes": "",
+  "mode": "full",
+  "python": "3.14.3 (main, Feb  4 2026, 00:00:00) [GCC 15.2.1 20260123 (Red Hat 15.2.1-7)]",
+  "platform": "Linux-6.19.8-200.fc43.x86_64-x86_64-with-glibc2.42",
+  "cpu": "",
+  "threads": 1,
+  "repeats": 5,
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "/home/icantu24/Documents/PEF-CD/point-field/.venv/lib/python3.14/site-packages/numpy.libs/libscipy_openblas64_-4b78795a.so",
+      "version": "0.3.34.237.2",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "/home/icantu24/Documents/PEF-CD/point-field/.venv/lib/python3.14/site-packages/scipy.libs/libscipy_openblas-5f890258.so",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libgomp",
+      "filepath": "/home/icantu24/Documents/PEF-CD/point-field/.venv/lib/python3.14/site-packages/scikit_learn.libs/libgomp-e985bcbb.so.1.0.0",
+      "version": null
+    }
+  ],
+  "modelnet10": "/home/icantu24/Downloads/ModelNet10/ModelNet10",
+  "modelnet40": "/home/icantu24/Downloads/ModelNet40",
+  "flare_notebook": "notebooks/aplicacion_medshapenet_corregida.ipynb",
+  "accept_test": true,
+  "versions": {
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "pandas": "3.1.1",
+    "scikit-learn": "1.9.1",
+    "umap-learn": "not installed",
+    "point-field": "not installed",
+    "psutil": "7.2.2",
+    "nbclient": "not installed",
+    "pytest": "9.2.0"
+  }
+}

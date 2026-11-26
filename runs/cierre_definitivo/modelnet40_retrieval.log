@@ -1,0 +1,41 @@
+400 reference, 400 queries (test)  |  {'eta_CD': 0.1, 'eta_M': 1.0}
+clean      CD_U                       mAP +0.253  1-NN 0.460
+clean      CD_W                       mAP +0.238  1-NN 0.443
+clean      M_U                        mAP +0.248  1-NN 0.427
+clean      D2                         mAP +0.165  1-NN 0.237
+clean      CD_U_metric                mAP +0.282  1-NN 0.485
+clean      M_U_metric                 mAP +0.272  1-NN 0.480
+clean      CD_U_metric - M_U_metric   mAP +0.009  [+0.000, +0.019]
+clean      CD_W - CD_U                mAP -0.015  [-0.021, -0.010]
+noise      CD_U                       mAP +0.248  1-NN 0.427
+noise      CD_W                       mAP +0.237  1-NN 0.450
+noise      M_U                        mAP +0.247  1-NN 0.427
+noise      D2                         mAP +0.164  1-NN 0.237
+noise      CD_U_metric                mAP +0.275  1-NN 0.460
+noise      M_U_metric                 mAP +0.272  1-NN 0.472
+noise      CD_U_metric - M_U_metric   mAP +0.003  [-0.006, +0.012]
+noise      CD_W - CD_U                mAP -0.011  [-0.017, -0.006]
+density    CD_U                       mAP +0.230  1-NN 0.350
+density    CD_W                       mAP +0.215  1-NN 0.333
+density    M_U                        mAP +0.230  1-NN 0.352
+density    D2                         mAP +0.148  1-NN 0.198
+density    CD_U_metric                mAP +0.250  1-NN 0.410
+density    M_U_metric                 mAP +0.254  1-NN 0.412
+density    CD_U_metric - M_U_metric   mAP -0.004  [-0.013, +0.006]
+density    CD_W - CD_U                mAP -0.014  [-0.021, -0.008]
+occlusion  CD_U                       mAP +0.190  1-NN 0.270
+occlusion  CD_W                       mAP +0.189  1-NN 0.323
+occlusion  M_U                        mAP +0.179  1-NN 0.295
+occlusion  D2                         mAP +0.129  1-NN 0.177
+occlusion  CD_U_metric                mAP +0.204  1-NN 0.312
+occlusion  M_U_metric                 mAP +0.188  1-NN 0.275
+occlusion  CD_U_metric - M_U_metric   mAP +0.016  [+0.007, +0.025]
+occlusion  CD_W - CD_U                mAP -0.001  [-0.007, +0.004]
+outliers   CD_U                       mAP +0.158  1-NN 0.180
+outliers   CD_W                       mAP +0.096  1-NN 0.115
+outliers   M_U                        mAP +0.087  1-NN 0.092
+outliers   D2                         mAP +0.157  1-NN 0.253
+outliers   CD_U_metric                mAP +0.167  1-NN 0.180
+outliers   M_U_metric                 mAP +0.106  1-NN 0.095
+outliers   CD_U_metric - M_U_metric   mAP +0.061  [+0.052, +0.071]
+outliers   CD_W - CD_U                mAP -0.062  [-0.070, -0.054]

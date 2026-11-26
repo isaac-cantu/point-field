@@ -1,0 +1,221 @@
+block,item,status,detail
+archive,benchmarks/results/cd_2d_degree_diagnostics.csv,PASS,8 rows; existence only
+archive,benchmarks/results/clustering_2d_eval.csv,PASS,840 rows; existence only
+archive,benchmarks/results/embeddings_2d_eval.csv,PASS,120 rows; existence only
+archive,benchmarks/results/objetos_2d.csv,PASS,40 rows; existence only
+archive,benchmarks/results/objetos_3d.csv,PASS,40 rows; existence only
+archive,benchmarks/results/modelnet10_test.csv,PASS,45 rows; existence only
+archive,benchmarks/results/modelnet40_test.csv,PASS,45 rows; existence only
+archive,benchmarks/results/aplicacion_FLARE_nivel1.csv,PASS,36 rows; existence only
+archive,benchmarks/results/aplicacion_FLARE_nivel2.csv,PASS,5 rows; existence only
+archive,benchmarks/results/aplicacion_FLARE_contrastes.csv,PASS,3 rows; existence only
+archive,benchmarks/results/aplicacion_FLARE_robustez.csv,PASS,3 rows; existence only
+archive,benchmarks/results/aplicacion_FLARE_envolventes.csv,PASS,312 rows; existence only
+archive,benchmarks/results/aplicacion_FLARE_agrupamiento_formas.csv,PASS,9 rows; existence only
+archive,runs/20261119T210929036674Z/scenes_3d.csv,PASS,6 rows; existence only
+archive,runs/20261119T210929036674Z/reconstruction_per_object.csv,PASS,234 rows; existence only
+archive,runs/tesis_figuras/09_metricas_soporte_annulus.csv,PASS,64 rows; existence only
+archive,runs/tesis_figuras/09_diagnostico_annulus.csv,PASS,64 rows; existence only
+archive,runs/auditoria_final/checks.csv,PASS,39 rows; existence only
+archive,runs/tiempos_controlados/runs.csv,PASS,2832 rows; existence only
+archive,runs/tiempos_controlados/summary.csv,PASS,12 rows; existence only
+archive,previous audit,PASS,39 checks
+archive,MN10 retrieval,PASS,
+archive,MN10 clean CD_U_metric - M_U_metric,PASS,
+archive,MN10 clean CD_W_metric - CD_U_metric,PASS,
+archive,MN10 noise CD_U_metric - M_U_metric,PASS,
+archive,MN10 noise CD_W_metric - CD_U_metric,PASS,
+archive,MN10 density CD_U_metric - M_U_metric,PASS,
+archive,MN10 density CD_W_metric - CD_U_metric,PASS,
+archive,MN10 occlusion CD_U_metric - M_U_metric,PASS,
+archive,MN10 occlusion CD_W_metric - CD_U_metric,PASS,
+archive,MN10 outliers CD_U_metric - M_U_metric,PASS,
+archive,MN10 outliers CD_W_metric - CD_U_metric,PASS,
+archive,MN10 SVM prediction metrics,PASS,
+archive,MN10 manifest unique hashes,PASS,4891 rows
+archive,MN10 prediction metrics,INFO,Recomputed from individual predictions; see CSV; compare with results.csv
+archive,MN40 retrieval,PASS,
+archive,MN40 clean CD_U_metric - M_U_metric,PASS,
+archive,MN40 clean CD_W_metric - CD_U_metric,PASS,
+archive,MN40 noise CD_U_metric - M_U_metric,PASS,
+archive,MN40 noise CD_W_metric - CD_U_metric,PASS,
+archive,MN40 density CD_U_metric - M_U_metric,PASS,
+archive,MN40 density CD_W_metric - CD_U_metric,PASS,
+archive,MN40 occlusion CD_U_metric - M_U_metric,PASS,
+archive,MN40 occlusion CD_W_metric - CD_U_metric,PASS,
+archive,MN40 outliers CD_U_metric - M_U_metric,PASS,
+archive,MN40 outliers CD_W_metric - CD_U_metric,PASS,
+archive,MN40 SVM prediction metrics,PASS,
+archive,MN40 manifest unique hashes,PASS,12069 rows
+archive,MN40 prediction metrics,INFO,Recomputed from individual predictions; see CSV; compare with results.csv
+archive,annulus IoU counts,PASS,
+archive,FLARE scene summary,PASS,
+archive,FLARE retrieval summary,PASS,
+archive,FLARE individual predictions,INFO,Aggregated archive only; cannot independently recover AP or verify patient split from this CSV
+archive,decoder archived per-object records,PASS,
+archive,3D archived scene metrics,PASS,
+archive,3D archive scope,INFO,Only six rows in this historical file; not evidence of a full multi-seed experiment
+archive,BLOCK_END,PASS,
+math,reproduction,PASS,2.760e-16
+math,trace,PASS,0.000e+00
+math,kernel_diagonal,PASS,6.596e-17
+math,reciprocal,PASS,4.532e-17
+math,kernel PSD,PASS,"{'dim': 2, 'degree': 1}"
+math,affine_unregularized,PASS,2.855e-16
+math,rotation_regularized,PASS,3.763e-16
+math,reflection_regularized,PASS,3.763e-16
+math,regularized_trace,PASS,1.480e-16
+math,variational,PASS,1.110e-16
+math,Mahalanobis,PASS,2.475e-16
+math,reproduction,PASS,9.575e-16
+math,trace,PASS,2.961e-16
+math,kernel_diagonal,PASS,8.731e-17
+math,reciprocal,PASS,4.965e-17
+math,kernel PSD,PASS,"{'dim': 2, 'degree': 2}"
+math,affine_unregularized,PASS,1.313e-15
+math,rotation_regularized,PASS,1.371e-15
+math,reflection_regularized,PASS,1.371e-15
+math,regularized_trace,PASS,0.000e+00
+math,variational,PASS,2.776e-16
+math,reproduction,PASS,1.132e-15
+math,trace,PASS,3.553e-16
+math,kernel_diagonal,PASS,1.169e-16
+math,reciprocal,PASS,4.532e-17
+math,kernel PSD,PASS,"{'dim': 2, 'degree': 3}"
+math,affine_unregularized,PASS,2.108e-15
+math,rotation_regularized,PASS,2.979e-15
+math,reflection_regularized,PASS,2.979e-15
+math,regularized_trace,PASS,1.776e-16
+math,variational,PASS,2.776e-17
+math,reproduction,PASS,2.061e-15
+math,trace,PASS,5.921e-16
+math,kernel_diagonal,PASS,1.395e-16
+math,reciprocal,PASS,3.511e-17
+math,kernel PSD,PASS,"{'dim': 2, 'degree': 4}"
+math,affine_unregularized,PASS,2.851e-15
+math,rotation_regularized,PASS,8.539e-15
+math,reflection_regularized,PASS,8.539e-15
+math,regularized_trace,PASS,3.553e-16
+math,variational,PASS,1.249e-16
+math,descriptor_similarity,PASS,2.312e-15
+math,descriptor_permutation,PASS,7.360e-16
+math,moments_similarity,PASS,9.522e-16
+math,descriptor_similarity,PASS,2.078e-15
+math,descriptor_permutation,PASS,1.105e-15
+math,moments_similarity,PASS,6.256e-16
+math,descriptor_similarity,PASS,4.825e-15
+math,descriptor_permutation,PASS,4.761e-15
+math,moments_similarity,PASS,1.491e-15
+math,descriptor_similarity,PASS,8.299e-15
+math,descriptor_permutation,PASS,1.117e-15
+math,moments_similarity,PASS,9.888e-16
+math,descriptor_similarity,PASS,3.325e-15
+math,descriptor_permutation,PASS,1.561e-15
+math,moments_similarity,PASS,2.275e-15
+math,descriptor_similarity,PASS,4.449e-15
+math,descriptor_permutation,PASS,3.242e-15
+math,moments_similarity,PASS,8.393e-15
+math,descriptor_similarity,PASS,3.326e-15
+math,descriptor_permutation,PASS,1.426e-14
+math,moments_similarity,PASS,1.046e-15
+math,descriptor_similarity,PASS,6.807e-15
+math,descriptor_permutation,PASS,2.480e-15
+math,moments_similarity,PASS,1.174e-15
+math,descriptor_similarity,PASS,2.114e-15
+math,descriptor_permutation,PASS,2.332e-15
+math,moments_similarity,PASS,8.991e-16
+math,descriptor_similarity,PASS,2.745e-15
+math,descriptor_permutation,PASS,1.583e-15
+math,moments_similarity,PASS,2.985e-15
+math,descriptor_similarity,PASS,3.601e-15
+math,descriptor_permutation,PASS,1.815e-15
+math,moments_similarity,PASS,5.028e-16
+math,descriptor_similarity,PASS,1.738e-15
+math,descriptor_permutation,PASS,6.028e-16
+math,moments_similarity,PASS,6.077e-16
+math,reproduction,PASS,5.830e-16
+math,trace,PASS,0.000e+00
+math,kernel_diagonal,PASS,1.031e-16
+math,reciprocal,PASS,5.363e-17
+math,kernel PSD,PASS,"{'dim': 3, 'degree': 1}"
+math,affine_unregularized,PASS,2.639e-16
+math,rotation_regularized,PASS,5.851e-16
+math,reflection_regularized,PASS,5.851e-16
+math,regularized_trace,PASS,1.110e-16
+math,variational,PASS,5.551e-17
+math,Mahalanobis,PASS,4.203e-16
+math,reproduction,PASS,5.130e-16
+math,trace,PASS,1.776e-16
+math,kernel_diagonal,PASS,1.740e-16
+math,reciprocal,PASS,4.054e-17
+math,kernel PSD,PASS,"{'dim': 3, 'degree': 2}"
+math,affine_unregularized,PASS,4.674e-16
+math,rotation_regularized,PASS,8.324e-16
+math,reflection_regularized,PASS,8.324e-16
+math,regularized_trace,PASS,1.776e-16
+math,variational,PASS,6.939e-18
+math,reproduction,PASS,1.130e-15
+math,trace,PASS,0.000e+00
+math,kernel_diagonal,PASS,9.625e-17
+math,reciprocal,PASS,2.027e-17
+math,kernel PSD,PASS,"{'dim': 3, 'degree': 3}"
+math,affine_unregularized,PASS,1.195e-15
+math,rotation_regularized,PASS,2.675e-15
+math,reflection_regularized,PASS,2.675e-15
+math,regularized_trace,PASS,0.000e+00
+math,variational,PASS,2.776e-17
+math,reproduction,PASS,2.039e-15
+math,trace,PASS,1.015e-15
+math,kernel_diagonal,PASS,1.225e-16
+math,reciprocal,PASS,4.965e-17
+math,kernel PSD,PASS,"{'dim': 3, 'degree': 4}"
+math,affine_unregularized,PASS,7.295e-15
+math,rotation_regularized,PASS,8.360e-15
+math,reflection_regularized,PASS,8.360e-15
+math,regularized_trace,PASS,8.122e-16
+math,variational,PASS,4.857e-17
+math,descriptor_similarity,PASS,2.183e-15
+math,descriptor_permutation,PASS,1.514e-15
+math,moments_similarity,PASS,5.776e-16
+math,descriptor_similarity,PASS,9.979e-16
+math,descriptor_permutation,PASS,1.000e-15
+math,moments_similarity,PASS,6.115e-16
+math,descriptor_similarity,PASS,1.813e-15
+math,descriptor_permutation,PASS,1.341e-15
+math,moments_similarity,PASS,5.925e-16
+math,descriptor_similarity,PASS,2.117e-15
+math,descriptor_permutation,PASS,1.320e-15
+math,moments_similarity,PASS,7.087e-16
+math,descriptor_similarity,PASS,3.752e-15
+math,descriptor_permutation,PASS,5.729e-15
+math,moments_similarity,PASS,5.878e-16
+math,descriptor_similarity,PASS,2.929e-15
+math,descriptor_permutation,PASS,2.910e-15
+math,moments_similarity,PASS,1.387e-15
+math,descriptor_similarity,PASS,5.130e-15
+math,descriptor_permutation,PASS,1.273e-15
+math,moments_similarity,PASS,1.136e-15
+math,descriptor_similarity,PASS,2.949e-15
+math,descriptor_permutation,PASS,2.683e-15
+math,moments_similarity,PASS,8.921e-16
+math,descriptor_similarity,PASS,2.296e-15
+math,descriptor_permutation,PASS,1.324e-15
+math,moments_similarity,PASS,6.729e-16
+math,descriptor_similarity,PASS,1.778e-15
+math,descriptor_permutation,PASS,2.059e-15
+math,moments_similarity,PASS,8.803e-16
+math,descriptor_similarity,PASS,3.499e-15
+math,descriptor_permutation,PASS,4.956e-15
+math,moments_similarity,PASS,7.556e-16
+math,descriptor_similarity,PASS,1.828e-15
+math,descriptor_permutation,PASS,1.922e-15
+math,moments_similarity,PASS,5.163e-16
+math,descriptor_similarity,PASS,3.021e-15
+math,descriptor_permutation,PASS,1.979e-15
+math,moments_similarity,PASS,1.191e-15
+math,descriptor_similarity,PASS,2.217e-15
+math,descriptor_permutation,PASS,8.698e-16
+math,moments_similarity,PASS,2.018e-15
+math,BLOCK_END,PASS,
+support,all configurations,PASS,6
+support,BLOCK_END,PASS,
